@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>WorldCast 26 · 世界杯预测中心 V2</title>
+  <title>足球预测大模型 · 2026世界杯实时预测</title>
+  <meta name="application-name" content="足球预测大模型" />
   <style>
     :root{--bg:#07111f;--panel:#0d1b2d;--panel2:#10243b;--line:#203751;--text:#f5f8fc;--muted:#91a6bd;--cyan:#3ce6c5;--blue:#4a8cff;--gold:#ffca63;--red:#ff6b7d;--radius:22px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0,#153f5b 0,transparent 32%),radial-gradient(circle at 0 30%,#132a4a 0,transparent 28%),var(--bg);color:var(--text);font:14px/1.5 Inter,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100vh}
@@ -49,9 +50,9 @@
 </head>
 <body>
 <div class="app">
-  <nav><div class="brand"><span class="mark">◈</span> WorldCast <span style="color:var(--cyan)">26</span></div><div class="nav-links"><button class="nav-item active" data-view="matchesView">比赛预测</button><button class="nav-item" data-view="bracketPage">全赛程图谱</button><button class="nav-item" data-view="teamsPage">球队数据库</button></div><div class="live"><span class="dot"></span> 数据截至 7月2日</div></nav>
+  <nav><div class="brand"><span class="mark">◈</span> 足球预测<span style="color:var(--cyan)">大模型</span></div><div class="nav-links"><button class="nav-item active" data-view="matchesView">比赛预测</button><button class="nav-item" data-view="bracketPage">全赛程图谱</button><button class="nav-item" data-view="teamsPage">球队数据库</button></div><div class="live"><span class="dot"></span> 数据截至 7月2日</div></nav>
   <section class="hero">
-    <div><div class="eyebrow">FIFA World Cup 2026 · Prediction Lab</div><h1>让每场比赛，<br>都有<i>数据答案</i></h1><p>基于球队强度、近期表现与赛场环境的演示性概率模型。查看预测比分、半全场路径与胜平负分布，再点进球队认识关键球员。</p><div class="hero-tags"><span>104 场完整赛程</span><span>时间轴每 15 秒直连</span><span>比赛状态每 30 秒直连</span></div></div>
+    <div><div class="eyebrow">足球预测大模型 · FIFA WORLD CUP 2026</div><h1>让每场比赛，<br>都有<i>数据答案</i></h1><p>基于球队强度、近期表现与赛场环境的演示性概率模型。查看预测比分、半全场路径与胜平负分布，再点进球队认识关键球员。</p><div class="hero-tags"><span>104 场完整赛程</span><span>时间轴每 15 秒直连</span><span>比赛状态每 30 秒直连</span></div></div>
     <div class="hero-stats"><div class="stat"><b>6</b><small>未来 72 小时比赛</small></div><div class="stat"><b>78.4%</b><small>模型平均信心</small></div><div class="stat"><b>12</b><small>参赛球队档案</small></div><div class="stat"><b>10K</b><small>每场模拟次数</small></div></div>
   </section>
   <div class="toolbar"><div class="tabs"><button class="tab active" data-filter="all">近期比赛</button><button class="tab" data-filter="today">今天</button><button class="tab" data-filter="tomorrow">明天</button><button class="tab" data-filter="afterTomorrow">后天</button></div><div class="toolbar-actions"><button class="score-trigger daily-trigger" id="dailyDoubleBtn" aria-haspopup="dialog"><span>✦</span>每日二串一</button><button class="score-trigger" id="scoreInsightsBtn" aria-haspopup="dialog"><span>▥</span>比分频次</button><button class="simulate" id="simulate">↻ 同步实时数据</button></div></div>
@@ -63,7 +64,7 @@
   <section class="extra-page" id="teamsPage"><div class="page-intro"><div><div class="eyebrow">Team Intelligence</div><h1>球队数据库</h1><p>本轮预测涉及的 12 支球队，点击卡片查看核心阵容。</p></div><div class="updated">12 支球队 · 按世界排名</div></div><div class="team-tools"><input class="team-search" id="teamSearch" type="search" placeholder="搜索球队名称…" aria-label="搜索球队名称"><span style="color:var(--muted);font-size:12px">攻 · 中 · 防模型评分</span></div><div class="library-grid" id="teamLibrary"></div></section>
   <aside class="model-note"><i>⚑</i><div><b>实时数据与预测说明</b><p>赛程、比分、名单、近期战绩和数据源已启用自动同步；胜平负概率及预测比分仍属于模型计算结果，不构成投注或财务建议。临场首发和球队官方公告优先于聚合数据。</p></div></aside>
   <section class="domestic-links"><div class="domestic-head"><h3>国内足球入口</h3><span>外部网站将在新窗口打开</span></div><div class="link-grid"><a class="cn-link" href="https://worldcup.cctv.com/" target="_blank" rel="noopener"><span>央视世界杯</span><small>直播与新闻 ↗</small></a><a class="cn-link" href="https://sports.cctv.com/" target="_blank" rel="noopener"><span>央视体育</span><small>权威资讯 ↗</small></a><a class="cn-link" href="https://www.dongqiudi.com/" target="_blank" rel="noopener"><span>懂球帝</span><small>赛事数据 ↗</small></a><a class="cn-link" href="https://www.zhibo8.com/" target="_blank" rel="noopener"><span>直播吧</span><small>赛程资讯 ↗</small></a></div></section>
-  <footer><span>WorldCast 26 · Live Edition</span><span>比分与比赛状态每 30 秒直连 · 直播时间轴每 15 秒直连 · 名单与伤停滚动更新 · 预测不构成投注建议</span></footer>
+  <footer><span>足球预测大模型 · 2026世界杯实时版</span><span>比分与比赛状态每 30 秒直连 · 直播时间轴每 15 秒直连 · 名单与伤停滚动更新 · 预测不构成投注建议</span></footer>
 </div>
 <dialog id="teamDialog"><div class="modal-head"><div class="team-title"><span class="flag" id="modalFlag"></span><div><h3 id="modalName"></h3><p id="modalSub"></p></div></div><button class="close" id="close">×</button></div><div class="modal-body"><div class="ratings" id="ratings"></div><h4 class="players-title">核心球员</h4><div class="players" id="players"></div></div></dialog>
 <dialog id="scoreDialog" class="score-dialog" aria-labelledby="scoreDialogTitle"><div class="modal-head"><div><div class="eyebrow">Scoreline Intelligence</div><h3 id="scoreDialogTitle">世界杯开赛至今比分频次</h3><p id="scoreDialogStatus">点击比分卡片查看统计及后续变化预测</p></div><button class="close" id="scoreDialogClose" aria-label="关闭比分频次弹窗">×</button></div><section class="score-overview" id="scoreOverview"><div class="score-overview-head"><div><h2>比分频次</h2></div><p>正在汇总赛果与后续预测…</p></div><div class="score-kpis"></div><div class="score-dist"></div></section><div class="score-dialog-hint">统计基于已完赛赛果；“后续预计”属于模型推演，并非实际赛果。</div></dialog>
