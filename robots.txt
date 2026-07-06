@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xiaozhangzzza-afk.github.io/worldcast-26-live/sitemap.xml

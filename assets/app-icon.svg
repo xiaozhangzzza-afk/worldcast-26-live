@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="足球预测大模型">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e3bb67"/><stop offset="1" stop-color="#39c98d"/></linearGradient></defs>
+  <rect width="512" height="512" rx="116" fill="#07110f"/>
+  <path d="M256 72 410 161v178L256 428 102 339V161Z" fill="none" stroke="url(#g)" stroke-width="28"/>
+  <circle cx="256" cy="256" r="86" fill="url(#g)"/>
+  <path d="m256 184 55 40-21 65h-68l-21-65Z" fill="#07110f"/>
+</svg>
