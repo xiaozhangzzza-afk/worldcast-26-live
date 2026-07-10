@@ -219,8 +219,8 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 .next-teams { display: flex; justify-content: space-between; gap: 14px; color: var(--text-muted-light); }
 .next-teams b { display: block; color: var(--text-light); font-size: 1.05rem; }
 .next-score { margin: 20px 0 6px; font-size: clamp(3rem, 7vw, 5rem); font-weight: 950; letter-spacing: -.08em; color: var(--gold); }
-.metric-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
-.metric-row article { padding: 14px; border-radius: 16px; background: rgba(255,255,255,.08); }
+.metric-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-top: 18px; }
+.metric-row article { padding: 14px; border-radius: 16px; background: rgba(255,255,255,.12); }
 .metric-row strong { display: block; font-size: 1.5rem; color: var(--text-light); }
 .metric-row small { color: var(--text-muted-light); }
 
@@ -313,6 +313,32 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 }
 .light-cards .tag, .block-light .favorite-chip { background: #e5ece8; color: var(--text-dark); }
 .match-card p, .insight-card p { color: var(--text-muted-light); line-height: 1.7; }
+.team-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.78);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.18);
+}
+.team-code {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 28px;
+  margin-right: 6px;
+  border-radius: 999px;
+  color: var(--text-dark);
+  background: var(--gold);
+  font-size: .78rem;
+  font-weight: 950;
+  vertical-align: middle;
+}
+.muted-line { color: var(--text-muted-light); }
+.block-light .muted-line, .block-paper .muted-line, .modal-panel .muted-line { color: var(--text-muted-dark); }
+.light-note { color: var(--text-muted-dark); line-height: 1.7; }
 
 .insight-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .insight-card {
@@ -523,6 +549,29 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 }
 .detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 16px; }
 .detail-card { padding: 16px; border-radius: 16px; background: var(--surface-light); }
+.timeline-card { margin-top: 14px; }
+.timeline-list {
+  display: grid;
+  gap: 10px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.timeline-list li {
+  display: grid;
+  grid-template-columns: 62px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--surface-light-card);
+  color: var(--text-dark);
+}
+.timeline-list time {
+  color: var(--green);
+  font-weight: 900;
+}
+.modal-note { color: var(--text-muted-dark); }
 .toast {
   position: fixed;
   left: 50%;

@@ -1,24 +1,54 @@
 (() => {
   "use strict";
-  const state = { stage:"all", query:"" };
-  function renderSchedule() {
+
+  const state = { stage: "all", query: "" };
+
+  function haystack(match) {
+    return [
+      match.stage,
+      match.stageSlug,
+      match.group,
+      match.venue,
+      match.homeCode,
+      match.awayCode,
+      match.homeName,
+      match.awayName,
+      FM.team(match.homeCode).nameEn,
+      FM.team(match.awayCode).nameEn
+    ].join(" ").toLowerCase();
+  }
+
+  function filteredMatches() {
     const query = state.query.trim().toLowerCase();
-    const matches = window.FM_DATA.matches.filter((item) => {
-      const stageOk = state.stage === "all" || item.stage === state.stage;
-      const haystack = [item.stageZh, item.stageEn, item.venue, item.home, item.away, FM.team(item.home).zh, FM.team(item.home).en, FM.team(item.away).zh, FM.team(item.away).en].join(" ").toLowerCase();
-      return stageOk && (!query || haystack.includes(query));
-    });
+    return FM.store().matches.filter((item) => {
+      const stageOk = state.stage === "all" || item.stageSlug === state.stage;
+      return stageOk && (!query || haystack(item).includes(query));
+    }).sort((a, b) => new Date(a.date) - new Date(b.date));
+  }
+
+  function renderSchedule() {
     const root = FM.$("#scheduleGrid");
     if (!root) return;
+    const s = FM.store();
+    if (s.loading && !s.matches.length) {
+      root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
+      return;
+    }
+    if (s.error && !s.matches.length) {
+      root.innerHTML = `<div class="empty-state">${FM.html(s.error)}</div>`;
+      return;
+    }
+    const matches = filteredMatches();
     root.innerHTML = matches.length ? matches.map((item) => `
-      <article class="schedule-card ${item.stage === "final" ? "final-card" : ""}">
-        <header><span>${FM.html(FM.stageName(item))}</span><time datetime="${item.date}">${FM.formatDate(item.date)}</time></header>
-        <h3>${FM.team(item.home).flag} ${FM.html(FM.teamName(item.home))} vs ${FM.team(item.away).flag} ${FM.html(FM.teamName(item.away))}</h3>
-        <p>场地：${FM.html(item.venue)}</p>
-        <p>状态：${FM.html(item.status)} · 预测：${FM.html(item.score)}</p>
+      <article class="schedule-card ${item.stageSlug === "final" ? "final-card" : ""}">
+        <header><span>${FM.html(FM.stageName(item))}${item.group ? ` · ${FM.html(item.group)}组` : ""}</span><time datetime="${FM.html(item.date)}">${FM.formatDate(item.date)}</time></header>
+        <h3>${FM.teamLogo(item.homeCode, item.homeLogo)} ${FM.html(item.homeName)} vs ${FM.teamLogo(item.awayCode, item.awayLogo)} ${FM.html(item.awayName)}</h3>
+        <p>场地：${FM.html(item.venue || "待官方确认")}</p>
+        <p>状态：${FM.html(item.statusText || "待更新")} ${item.displayClock ? `· ${FM.html(item.displayClock)}` : ""} · 比分/预测：${FM.html(FM.scoreFor(item))}</p>
       </article>
     `).join("") : `<div class="empty-state">没有找到相关赛程。</div>`;
   }
+
   function bind() {
     FM.$("#stageFilter")?.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-stage]");
@@ -32,6 +62,9 @@
       renderSchedule();
     });
   }
+
   document.addEventListener("DOMContentLoaded", () => { renderSchedule(); bind(); });
+  window.addEventListener("fm:data-ready", renderSchedule);
+  window.addEventListener("fm:data-updated", renderSchedule);
   window.addEventListener("fm:language", renderSchedule);
 })();
