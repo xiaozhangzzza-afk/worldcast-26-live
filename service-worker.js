@@ -1,9 +1,19 @@
-const CACHE_NAME = "football-model-v3.0.2";
+const CACHE_NAME = "football-model-v4.0.0";
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./assets/css/style.css?v=3.0.2",
-  "./assets/js/app.js?v=3.0.2",
+  "./predictions.html",
+  "./schedule.html",
+  "./teams.html",
+  "./about.html",
+  "./assets/css/style.css?v=4.0.0",
+  "./assets/js/data.js?v=4.0.0",
+  "./assets/js/common.js?v=4.0.0",
+  "./assets/js/home.js?v=4.0.0",
+  "./assets/js/predictions.js?v=4.0.0",
+  "./assets/js/schedule.js?v=4.0.0",
+  "./assets/js/teams.js?v=4.0.0",
+  "./assets/js/about.js?v=4.0.0",
   "./manifest.webmanifest",
   "./assets/app-icon.svg",
   "./assets/img/og-cover.svg"
@@ -28,30 +38,15 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET") return;
-
-  if (request.mode === "navigate") {
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put("./index.html", copy));
-          return response;
-        })
-        .catch(() => caches.match("./index.html"))
-    );
-    return;
-  }
-
   event.respondWith(
-    caches.match(request).then((cached) => {
-      const network = fetch(request).then((response) => {
-        if (response.ok) {
+    fetch(request)
+      .then((response) => {
+        if (response.ok && new URL(request.url).origin === self.location.origin) {
           const copy = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
         }
         return response;
-      }).catch(() => cached);
-      return cached || network;
-    })
+      })
+      .catch(() => caches.match(request).then((cached) => cached || caches.match("./index.html")))
   );
 });

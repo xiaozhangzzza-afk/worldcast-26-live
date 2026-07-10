@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="standard">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>2026世界杯球队数据库｜足球预测大模型</title>
+  <meta name="description" content="足球预测大模型球队数据库展示球队搜索、球队卡片、攻中防评分、核心球员、近期状态、风险标签和收藏功能。">
+  <meta name="keywords" content="世界杯球队数据库, 世界杯球队评分, 核心球员, 足球预测大模型">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0b1724">
+  <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/teams.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <meta property="og:title" content="2026世界杯球队数据库｜足球预测大模型">
+  <meta property="og:description" content="球队搜索、评分、核心球员、近期状态、风险标签和收藏功能。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/teams.html">
+  <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/css/style.css?v=4.0.0">
+</head>
+<body data-page="teams">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header" data-site-header></header>
+  <main id="main">
+    <section class="sub-hero">
+      <div class="section-shell">
+        <p class="eyebrow">Team Database</p>
+        <h1>2026世界杯球队数据库</h1>
+        <p>顶部保持深色品牌感，卡片区域切换到浅色数据区，减少视觉压迫。</p>
+      </div>
+    </section>
+
+    <section class="section-block block-light">
+      <div class="section-shell">
+        <div class="team-toolbar">
+          <label class="search-field"><span class="sr-only">搜索球队</span><input id="teamSearch" type="search" placeholder="搜索球队名称、英文或简称" aria-label="搜索球队名称、英文或简称"></label>
+          <aside class="favorite-panel"><strong>我的关注</strong><span id="favoriteHint">点击星标关注球队</span><div id="favoriteTeams" class="favorite-chips"></div></aside>
+        </div>
+        <div class="team-grid light-cards" id="teamGrid"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" data-site-footer></footer>
+  <div class="modal" id="teamModal" role="dialog" aria-modal="true" aria-labelledby="teamModalTitle" aria-hidden="true" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="关闭" data-close-modal>关闭</button>
+      <div id="teamModalContent"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/data.js?v=4.0.0" defer></script>
+  <script src="assets/js/common.js?v=4.0.0" defer></script>
+  <script src="assets/js/teams.js?v=4.0.0" defer></script>
+</body>
+</html>

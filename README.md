@@ -1,6 +1,6 @@
-# 足球预测大模型 V3.0
+# 足球预测大模型 V4.0
 
-一个可直接部署到 GitHub Pages 的纯静态世界杯预测数据产品原型。
+一个可直接部署到 GitHub Pages 的纯静态世界杯预测数据产品原型。V4.0 已从超长单页调整为轻量多页面结构。
 
 ## 项目定位
 
@@ -9,12 +9,22 @@
 - 所有预测只用于产品展示和数据表达，不构成投注、投资或财务建议。
 - 不提供盗版直播源，不嵌入未知直播 iframe。
 
-## 文件结构
+## 页面结构
 
 ```text
 index.html
+predictions.html
+schedule.html
+teams.html
+about.html
 assets/css/style.css
-assets/js/app.js
+assets/js/data.js
+assets/js/common.js
+assets/js/home.js
+assets/js/predictions.js
+assets/js/schedule.js
+assets/js/teams.js
+assets/js/about.js
 assets/img/og-cover.svg
 assets/app-icon.svg
 manifest.webmanifest
@@ -50,14 +60,12 @@ https://xiaozhangzzza-afk.github.io/worldcast-26-live/
 
 ## 后续接入真实 API 的位置
 
-在 `assets/js/app.js` 中，当前统一数据对象包括：
+在 `assets/js/data.js` 中，当前统一数据对象包括：
 
 - `teams`
 - `matches`
 - `scoreDistribution`
-- `modelInsights`
-- `watchLinks`
-- `tracks`
+- `insights`
 - `faq`
 
 后续可把 `teams` 和 `matches` 替换为真实 API 返回值，并保留现有渲染函数作为展示层。建议正式接入时拆出：

@@ -1,297 +1,106 @@
 <!doctype html>
-<!-- 足球预测大模型 V3.0 商业版。分享图当前使用 assets/img/og-cover.svg 占位，后续可替换为真实品牌视觉。 -->
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN" data-theme="standard">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>足球预测大模型｜2026世界杯赛程、比分预测与球队数据</title>
-  <meta name="description" content="足球预测大模型提供 2026 世界杯赛程、比赛预测、球队数据库、比分频次与模型观察，基于演示性数据模型展示胜平负概率和比分区间，不构成投注建议。">
-  <meta name="keywords" content="2026世界杯, 世界杯赛程, 世界杯预测, 比分预测, 足球预测大模型, 球队数据库">
+  <title>足球预测大模型｜2026世界杯数据预测平台</title>
+  <meta name="description" content="足球预测大模型首页提供 2026 世界杯焦点比赛、下一场焦点战、每日模型观察摘要和功能入口。当前为演示性数据产品，不构成投注建议。">
+  <meta name="keywords" content="2026世界杯, 足球预测大模型, 世界杯预测, 比分预测, 世界杯赛程">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#0b1f3a">
-  <meta name="application-name" content="足球预测大模型">
+  <meta name="theme-color" content="#0b1724">
   <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
-  <meta property="og:title" content="足球预测大模型｜2026世界杯赛程、比分预测与球队数据">
-  <meta property="og:description" content="2026 世界杯赛程、比赛预测、球队数据库、比分频次与每日模型观察。演示性数据模型展示，不构成投注建议。">
+  <meta property="og:title" content="足球预测大模型｜2026世界杯数据预测平台">
+  <meta property="og:description" content="首页摘要呈现焦点比赛、模型观察和赛程/球队/模型入口。演示数据，不构成投注建议。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="足球预测大模型｜2026世界杯赛程、比分预测与球队数据">
-  <meta name="twitter:description" content="用演示性数据模型查看世界杯赛程、比分区间、胜平负概率、球队数据库与模型观察。">
+  <meta name="twitter:title" content="足球预测大模型｜2026世界杯数据预测平台">
+  <meta name="twitter:description" content="2026 世界杯数据预测平台首页，提供焦点比赛与模型观察摘要。">
   <meta name="twitter:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
-  <link rel="preload" href="assets/css/style.css?v=3.0.2" as="style">
-  <link rel="stylesheet" href="assets/css/style.css?v=3.0.2">
+  <link rel="stylesheet" href="assets/css/style.css?v=4.0.0">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "足球预测大模型",
-    "url": "https://xiaozhangzzza-afk.github.io/worldcast-26-live/",
-    "description": "足球预测大模型提供 2026 世界杯赛程、比赛预测、球队数据库、比分频次与模型观察，基于演示性数据模型展示胜平负概率和比分区间，不构成投注建议。",
-    "inLanguage": ["zh-CN", "en"]
-  }
+  {"@context":"https://schema.org","@type":"WebSite","name":"足球预测大模型","url":"https://xiaozhangzzza-afk.github.io/worldcast-26-live/","description":"足球预测大模型提供 2026 世界杯焦点比赛、比赛预测、完整赛程、球队数据库和模型说明。","inLanguage":["zh-CN","en"]}
   </script>
 </head>
-<body>
+<body data-page="home">
   <a class="skip-link" href="#main">跳到主要内容</a>
-
-  <header class="site-header" id="top">
-    <nav class="nav-shell" aria-label="主要导航">
-      <a class="brand" href="#top" aria-label="足球预测大模型首页">
-        <span class="brand-mark" aria-hidden="true">FM</span>
-        <span><strong>足球预测大模型</strong><small>World Cup 2026 Model</small></span>
-      </a>
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开导航菜单" aria-expanded="false">菜单</button>
-      <div class="nav-menu" id="navMenu">
-        <a href="#hero" data-i18n="nav.home">首页</a>
-        <a href="#matches" data-i18n="nav.today">今日预测</a>
-        <a href="#schedule" data-i18n="nav.schedule">赛程</a>
-        <a href="#teams" data-i18n="nav.teams">球队</a>
-        <a href="#method" data-i18n="nav.method">模型说明</a>
-        <a href="#watch" data-i18n="nav.watch">观赛入口</a>
-      </div>
-      <div class="nav-tools">
-        <button class="tool-button" id="languageToggle" type="button" aria-label="Switch to English">中文</button>
-        <button class="tool-button" id="themeToggle" type="button" aria-label="切换主题">深色</button>
-        <span class="data-status" id="dataStatus" aria-live="polite">Demo 数据已加载</span>
-      </div>
-    </nav>
-  </header>
+  <header class="site-header" data-site-header></header>
 
   <main id="main">
-    <section class="hero section-shell" id="hero" aria-labelledby="heroTitle">
-      <div class="hero-copy">
-        <p class="eyebrow">2026 FIFA World Cup · Demo Intelligence</p>
-        <h1 id="heroTitle" data-i18n-html="hero.title">让每场比赛，<span>都有数据答案</span></h1>
-        <p class="hero-lead" data-i18n="hero.lead">基于球队强度、近期状态、进攻防守、赛程环境和演示模型，生成 2026 世界杯预测视图。</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#matches" data-i18n="hero.ctaPrimary">查看今日预测</a>
-          <a class="button secondary" href="#schedule" data-i18n="hero.ctaSecondary">打开完整赛程</a>
+    <section class="hero page-hero">
+      <div class="section-shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">World Cup 2026 · Demo Model</p>
+          <h1 data-zh="让世界杯预测，从一屏看懂" data-en="World Cup predictions, clear at a glance">让世界杯预测，从一屏看懂</h1>
+          <p class="hero-lead" data-zh="首页只保留关键摘要：下一场焦点战、今日比赛、模型观察和主要功能入口。完整内容已拆分到独立页面，浏览更轻。" data-en="The home page keeps only the essentials: next featured match, today’s matches, model watch and clear product entrances.">首页只保留关键摘要：下一场焦点战、今日比赛、模型观察和主要功能入口。完整内容已拆分到独立页面，浏览更轻。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="predictions.html" data-zh="查看全部预测" data-en="View predictions">查看全部预测</a>
+            <a class="button secondary" href="schedule.html" data-zh="打开完整赛程" data-en="Open schedule">打开完整赛程</a>
+          </div>
+          <p class="compliance-note">模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p>
         </div>
-        <p class="compliance-note" data-i18n="common.disclaimer">模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p>
-      </div>
-      <aside class="hero-panel" aria-label="核心数据仪表盘">
-        <div class="panel-glow" aria-hidden="true"></div>
-        <div class="model-badge">V3.0 · Demo Ready</div>
-        <h2 data-i18n="hero.nextMatch">下一场焦点战</h2>
-        <article class="next-match" id="nextMatchCard">
-          <div class="teams-line"><span>🇦🇷 阿根廷</span><strong>vs</strong><span>🇵🇹 葡萄牙</span></div>
-          <div class="score-pick">2-1</div>
-          <p>小组赛 · 今日 20:00 · 倒计时同步中</p>
-          <meter min="0" max="100" value="79">79%</meter>
-          <small>模型信心 79%</small>
-        </article>
-        <div class="metric-grid" aria-label="站点指标">
-          <article><span data-i18n="metric.fixtures">完整赛程</span><strong id="metricFixtures">104</strong><small>Demo</small></article>
-          <article><span data-i18n="metric.upcoming">未来 72 小时</span><strong id="metricUpcoming">6</strong><small data-i18n="metric.upcomingUnit">场焦点赛</small></article>
-          <article><span data-i18n="metric.confidence">平均模型信心</span><strong id="metricConfidence">78.4%</strong><small data-i18n="metric.demo">演示指标</small></article>
-          <article><span data-i18n="metric.teams">球队档案</span><strong id="metricTeams">48</strong><small data-i18n="metric.teamUnit">支球队</small></article>
-        </div>
-        <p class="last-updated"><span data-i18n="status.updated">最后更新</span> <time id="lastUpdated">本地时间同步中</time></p>
-      </aside>
-    </section>
-
-    <section class="content-section section-shell" id="matches" aria-labelledby="matchesTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Featured Matches</p>
-          <h2 id="matchesTitle" data-i18n="matches.title">今日焦点比赛</h2>
-          <p data-i18n="matches.subtitle">至少 3 场焦点赛，展示阶段、时间、球队、预测比分、胜平负概率和模型信心。</p>
-        </div>
-        <button class="button ghost" id="refreshButton" type="button" aria-live="polite">刷新 Demo 数据</button>
-      </div>
-      <div class="match-grid" id="matchGrid">
-        <article class="match-card fallback-card">
-          <header><span>小组赛</span><time>今日 20:00</time></header>
-          <div class="match-teams"><b>🇦🇷 阿根廷</b><strong>2-1</strong><b>🇵🇹 葡萄牙</b></div>
-          <div class="probability-row"><span style="--w:45%">主胜 45%</span><span style="--w:28%">平局 28%</span><span style="--w:27%">客胜 27%</span></div>
-          <p>模型信心 79% · 关键因素：进攻效率、定位球、赛程体能</p>
-          <button class="button small" type="button" disabled>查看详情</button>
-        </article>
-        <article class="match-card fallback-card">
-          <header><span>小组赛</span><time>今日 23:00</time></header>
-          <div class="match-teams"><b>🇫🇷 法国</b><strong>1-0</strong><b>🇺🇸 美国</b></div>
-          <div class="probability-row"><span style="--w:52%">主胜 52%</span><span style="--w:25%">平局 25%</span><span style="--w:23%">客胜 23%</span></div>
-          <p>模型信心 81% · 关键因素：防守稳定性、边路速度</p>
-          <button class="button small" type="button" disabled>查看详情</button>
-        </article>
-        <article class="match-card fallback-card">
-          <header><span>小组赛</span><time>明日 02:00</time></header>
-          <div class="match-teams"><b>🇧🇷 巴西</b><strong>2-0</strong><b>🇯🇵 日本</b></div>
-          <div class="probability-row"><span style="--w:58%">主胜 58%</span><span style="--w:24%">平局 24%</span><span style="--w:18%">客胜 18%</span></div>
-          <p>模型信心 82% · 关键因素：前场创造力、转换速度</p>
-          <button class="button small" type="button" disabled>查看详情</button>
-        </article>
-      </div>
-      <noscript><p class="compliance-note">JavaScript 未启用时，页面展示基础演示卡片。开启 JavaScript 后可使用筛选、弹窗和收藏功能。</p></noscript>
-    </section>
-
-    <section class="content-section section-shell" id="insights" aria-labelledby="insightsTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Daily Model Watch</p>
-          <h2 id="insightsTitle" data-i18n="insights.title">每日模型观察</h2>
-          <p data-i18n="insights.subtitle">弱化投注感，只展示模型视角、置信度、理由和风险边界。</p>
-        </div>
-      </div>
-      <div class="insight-grid" id="insightGrid"></div>
-    </section>
-
-    <section class="content-section section-shell" id="scores" aria-labelledby="scoresTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Scoreline Distribution</p>
-          <h2 id="scoresTitle" data-i18n="scores.title">比分频次与模型分布</h2>
-          <p data-i18n="scores.subtitle">以下为演示模型分布，不代表真实赛果。模型更偏向谨慎比分区间。</p>
-        </div>
-      </div>
-      <div class="score-layout" id="scoreDistribution"></div>
-    </section>
-
-    <section class="content-section section-shell" id="schedule" aria-labelledby="scheduleTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Schedule Map</p>
-          <h2 id="scheduleTitle" data-i18n="schedule.title">全赛程图谱</h2>
-          <p data-i18n="schedule.subtitle">筛选小组赛到决赛阶段，搜索中文、英文或球队简称。时间默认以北京时间展示。</p>
-        </div>
-      </div>
-      <div class="toolbar">
-        <div class="stage-filter" id="stageFilter" role="group" aria-label="赛程阶段筛选">
-          <button class="active" type="button" data-stage="all">全部</button>
-          <button type="button" data-stage="group">小组赛</button>
-          <button type="button" data-stage="r32">32强</button>
-          <button type="button" data-stage="r16">16强</button>
-          <button type="button" data-stage="qf">1/4决赛</button>
-          <button type="button" data-stage="sf">半决赛</button>
-          <button type="button" data-stage="final">决赛</button>
-        </div>
-        <label class="search-field">
-          <span class="sr-only">搜索赛程</span>
-          <input id="scheduleSearch" type="search" placeholder="搜索球队、阶段或场地" aria-label="搜索球队、阶段或场地">
-        </label>
-      </div>
-      <div class="schedule-grid" id="scheduleGrid"></div>
-    </section>
-
-    <section class="content-section section-shell" id="teams" aria-labelledby="teamsTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Team Database</p>
-          <h2 id="teamsTitle" data-i18n="teams.title">球队数据库</h2>
-          <p data-i18n="teams.subtitle">12 支示例球队档案，包含评分、近期状态、核心球员和风险标签。收藏会保存在本机。</p>
-        </div>
-        <label class="search-field compact-search">
-          <span class="sr-only">搜索球队</span>
-          <input id="teamSearch" type="search" placeholder="搜索球队名称或简称" aria-label="搜索球队名称或简称">
-        </label>
-      </div>
-      <aside class="favorite-panel">
-        <strong>我的关注</strong>
-        <span id="favoriteHint">点击星标关注球队</span>
-        <div id="favoriteTeams" class="favorite-chips"></div>
-      </aside>
-      <div class="team-grid" id="teamGrid"></div>
-    </section>
-
-    <section class="content-section section-shell" id="method" aria-labelledby="methodTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Model Method</p>
-          <h2 id="methodTitle" data-i18n="method.title">模型如何计算</h2>
-          <p data-i18n="method.subtitle">这是演示模型，不声称接入真实商业数据源，也不替代临场信息。</p>
-        </div>
-      </div>
-      <div class="method-grid">
-        <article><b>01</b><h3>球队基础强度</h3><p>综合攻中防评分、阵容深度与整体稳定性。</p></article>
-        <article><b>02</b><h3>近期状态</h3><p>参考近十场趋势、进失球区间和比赛节奏。</p></article>
-        <article><b>03</b><h3>攻防结构</h3><p>观察创造机会、压迫强度和防线抗压能力。</p></article>
-        <article><b>04</b><h3>赛程与场地因素</h3><p>考虑休息周期、阶段压力和比赛环境。</p></article>
-        <article><b>05</b><h3>比分分布模拟</h3><p>输出主比分、备选比分、胜平负概率和风险提示。</p></article>
-      </div>
-      <div class="boundary-card">
-        <h3>模型边界</h3>
-        <p>无法替代临场阵容、官方公告与实际赛果；不保证结果；不构成投注、投资或财务建议。</p>
+        <aside class="next-panel" aria-labelledby="nextTitle">
+          <span class="status-pill">Demo data ready</span>
+          <h2 id="nextTitle">下一场焦点战</h2>
+          <div id="nextMatchCard"></div>
+        </aside>
       </div>
     </section>
 
-    <section class="content-section section-shell" id="watch" aria-labelledby="watchTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Official & Trusted</p>
-          <h2 id="watchTitle" data-i18n="watch.title">正规观赛与赛事资讯入口</h2>
-          <p data-i18n="watch.subtitle">只保留正规平台或资讯入口。可用性取决于地区、版权和账号权限。</p>
+    <section class="section-block block-dark" aria-labelledby="homeMatchesTitle">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="section-index">01</span>
+          <div>
+            <h2 id="homeMatchesTitle">今日焦点比赛</h2>
+            <p>首页只展示 3 场摘要，完整筛选和详情放在预测中心。</p>
+          </div>
+          <a class="button compact" href="predictions.html">查看全部预测</a>
         </div>
+        <div class="match-grid compact-grid" id="homeMatchGrid"></div>
       </div>
-      <div class="watch-grid" id="watchLinks"></div>
     </section>
 
-    <section class="content-section section-shell music-section" id="music" aria-labelledby="musicTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Matchday Mood</p>
-          <h2 id="musicTitle" data-i18n="music.title">世界杯经典旋律</h2>
-          <p data-i18n="music.subtitle">按需展开，不自动播放，不加载重资源。</p>
+    <section class="section-block block-gradient" aria-labelledby="homeInsightsTitle">
+      <div class="section-shell">
+        <div class="section-heading">
+          <span class="section-index">02</span>
+          <div>
+            <h2 id="homeInsightsTitle">每日模型观察摘要</h2>
+            <p>以模型解释为主，不做博彩化表达。</p>
+          </div>
+          <a class="button compact light" href="predictions.html#model-watch">进入预测中心</a>
         </div>
-        <button class="button ghost" id="musicToggle" type="button" aria-expanded="false">展开歌单</button>
+        <div class="insight-strip" id="homeInsightGrid"></div>
       </div>
-      <div class="track-list" id="trackList" hidden></div>
     </section>
 
-    <section class="content-section section-shell" id="faq" aria-labelledby="faqTitle">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">FAQ</p>
-          <h2 id="faqTitle" data-i18n="faq.title">常见问题</h2>
+    <section class="section-block block-light" aria-labelledby="entryTitle">
+      <div class="section-shell">
+        <div class="section-heading dark-heading">
+          <span class="section-index">03</span>
+          <div>
+            <h2 id="entryTitle">选择你要看的数据层</h2>
+            <p>首页不再承载所有内容，按目的进入对应页面。</p>
+          </div>
+        </div>
+        <div class="entry-grid">
+          <a class="entry-card" href="predictions.html"><span>预测中心</span><strong>比分、概率、模型分布</strong><small>查看全部预测</small></a>
+          <a class="entry-card" href="schedule.html"><span>完整赛程</span><strong>小组赛到决赛图谱</strong><small>打开完整赛程</small></a>
+          <a class="entry-card" href="teams.html"><span>球队数据库</span><strong>评分、球员、近期状态</strong><small>浏览球队数据库</small></a>
+          <a class="entry-card" href="about.html"><span>模型说明</span><strong>算法逻辑与数据边界</strong><small>了解模型原理</small></a>
         </div>
       </div>
-      <div class="faq-list" id="faqList"></div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="section-shell footer-grid">
-      <div>
-        <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">FM</span><span><strong>足球预测大模型</strong><small>World Cup 2026 Model</small></span></a>
-        <p>一个纯静态、可部署在 GitHub Pages 的世界杯预测数据产品原型。</p>
-      </div>
-      <div>
-        <h2>合规说明</h2>
-        <p>模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p>
-      </div>
-      <div>
-        <h2>数据说明</h2>
-        <p>当前为 Demo data for product prototype。后续可替换为正式赛程、阵容、赛果和事件 API。</p>
-      </div>
-      <div>
-        <h2>最后更新</h2>
-        <time id="footerUpdated">本地时间同步中</time>
-        <p>GitHub Pages · Static V3.0</p>
-      </div>
-    </div>
-    <button class="back-top" id="backTop" type="button" aria-label="返回顶部">返回顶部</button>
-  </footer>
-
-  <div class="modal" id="matchModal" role="dialog" aria-modal="true" aria-labelledby="matchModalTitle" aria-hidden="true" hidden>
-    <div class="modal-backdrop" data-close-modal></div>
-    <section class="modal-panel" tabindex="-1">
-      <button class="modal-close" type="button" aria-label="关闭" data-close-modal>关闭</button>
-      <div id="matchModalContent"></div>
-    </section>
-  </div>
-
-  <div class="modal" id="teamModal" role="dialog" aria-modal="true" aria-labelledby="teamModalTitle" aria-hidden="true" hidden>
-    <div class="modal-backdrop" data-close-modal></div>
-    <section class="modal-panel" tabindex="-1">
-      <button class="modal-close" type="button" aria-label="关闭" data-close-modal>关闭</button>
-      <div id="teamModalContent"></div>
-    </section>
-  </div>
-
+  <footer class="site-footer" data-site-footer></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/app.js?v=3.0.2" defer></script>
+  <script src="assets/js/data.js?v=4.0.0" defer></script>
+  <script src="assets/js/common.js?v=4.0.0" defer></script>
+  <script src="assets/js/home.js?v=4.0.0" defer></script>
 </body>
 </html>
