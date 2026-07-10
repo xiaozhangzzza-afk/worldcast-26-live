@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/schedule.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=4.0.1">
+  <link rel="stylesheet" href="assets/css/style.css?v=4.1.0">
 </head>
 <body data-page="schedule">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -36,14 +36,15 @@
         <div class="schedule-filter-card">
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
             <button class="active" type="button" data-stage="all">全部</button>
-            <button type="button" data-stage="group">小组赛</button>
-            <button type="button" data-stage="r32">32强</button>
-            <button type="button" data-stage="r16">16强</button>
-            <button type="button" data-stage="qf">1/4决赛</button>
-            <button type="button" data-stage="sf">半决赛</button>
+            <button type="button" data-stage="group-stage">小组赛</button>
+            <button type="button" data-stage="round-of-32">32强</button>
+            <button type="button" data-stage="round-of-16">16强</button>
+            <button type="button" data-stage="quarterfinals">1/4决赛</button>
+            <button type="button" data-stage="semifinals">半决赛</button>
             <button type="button" data-stage="final">决赛</button>
           </div>
           <label class="search-field"><span class="sr-only">搜索球队</span><input id="scheduleSearch" type="search" placeholder="搜索球队、阶段或场地" aria-label="搜索球队、阶段或场地"></label>
+          <p class="light-note" id="scheduleCount">比赛总数：正在加载数据</p>
         </div>
         <div class="schedule-grid light-cards" id="scheduleGrid"></div>
       </div>
@@ -51,9 +52,11 @@
   </main>
   <footer class="site-footer" data-site-footer></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=4.0.1" defer></script>
-  <script src="assets/js/data-service.js?v=4.0.1" defer></script>
-  <script src="assets/js/common.js?v=4.0.1" defer></script>
-  <script src="assets/js/schedule.js?v=4.0.1" defer></script>
+  <script src="assets/js/data.js?v=4.1.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=4.1.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=4.1.0" defer></script>
+  <script src="assets/js/data-service.js?v=4.1.0" defer></script>
+  <script src="assets/js/common.js?v=4.1.0" defer></script>
+  <script src="assets/js/schedule.js?v=4.1.0" defer></script>
 </body>
 </html>

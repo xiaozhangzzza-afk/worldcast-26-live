@@ -8,7 +8,7 @@
   --surface-paper: #f6f1e8;
   --surface-light-card: #ffffff;
   --text-light: #f6f8f7;
-  --text-muted-light: #b9c8d2;
+  --text-muted-light: #d0dee5;
   --text-dark: #17232d;
   --text-muted-dark: #60717d;
   --gold: #f0c85a;
@@ -225,8 +225,8 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 .metric-row small { color: var(--text-muted-light); }
 
 .section-block { padding: clamp(44px, 7vw, 84px) 0; }
-.block-dark { color: var(--text-light); background: var(--bg-secondary); }
-.block-gradient { color: var(--text-light); background: linear-gradient(135deg, #17364a, #1c5d68 52%, #27765b); }
+.block-dark { color: var(--text-light); background: #123047; }
+.block-gradient { color: var(--text-light); background: linear-gradient(135deg, #1a4058, #246b78 52%, #2b7a60); }
 .block-light { color: var(--text-dark); background: var(--surface-light); }
 .block-paper { color: var(--text-dark); background: linear-gradient(180deg, var(--surface-paper), #f0f5f6); }
 .section-heading {
@@ -249,6 +249,7 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 }
 .section-heading h2 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.7rem); letter-spacing: -.04em; }
 .section-heading p { margin: 8px 0 0; max-width: 720px; color: var(--text-muted-light); line-height: 1.7; }
+.block-light .section-heading p, .block-paper .section-heading p { color: var(--text-muted-dark); }
 .dark-heading p { color: var(--text-muted-dark); }
 
 .match-grid, .insight-grid, .entry-grid, .team-grid, .watch-grid, .method-grid {
@@ -263,7 +264,7 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 }
 .match-card {
   padding: 20px;
-  background: var(--surface-raised);
+  background: #24536b;
   color: var(--text-light);
 }
 .match-card header, .schedule-card header, .insight-card header {
@@ -312,7 +313,9 @@ button:disabled { cursor: not-allowed; opacity: .6; }
   background: rgba(255,255,255,.12);
 }
 .light-cards .tag, .block-light .favorite-chip { background: #e5ece8; color: var(--text-dark); }
-.match-card p, .insight-card p { color: var(--text-muted-light); line-height: 1.7; }
+.match-card p, .insight-card p { color: #d6e4ea; line-height: 1.7; }
+.next-panel .muted-line, .block-dark .muted-line, .block-gradient .muted-line { color: #d6e4ea; }
+.filter-panel p, .schedule-filter-card p, .team-toolbar p { color: #d6e4ea; }
 .team-logo {
   width: 28px;
   height: 28px;

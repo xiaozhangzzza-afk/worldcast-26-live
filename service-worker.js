@@ -1,4 +1,4 @@
-const CACHE_NAME = "football-model-v4.0.1";
+const CACHE_NAME = "football-model-v4.1.0";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,8 @@ const CORE_ASSETS = [
   "./about.html",
   "./assets/css/style.css",
   "./assets/js/data.js",
+  "./assets/js/data-normalizer.js",
+  "./assets/js/prediction-service.js",
   "./assets/js/data-service.js",
   "./assets/js/common.js",
   "./assets/js/home.js",
@@ -70,6 +72,12 @@ async function networkFirst(request) {
   }
 }
 
+async function cacheFirst(request) {
+  const cached = await caches.match(normalizedRequest(request));
+  if (cached) return cached;
+  return networkFirst(request);
+}
+
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET") return;
@@ -78,5 +86,9 @@ self.addEventListener("fetch", (event) => {
     event.respondWith(fetch(request).catch(() => Response.error()));
     return;
   }
-  event.respondWith(networkFirst(request));
+  if (request.destination === "image" || request.destination === "font") {
+    event.respondWith(cacheFirst(request));
+  } else {
+    event.respondWith(networkFirst(request));
+  }
 });

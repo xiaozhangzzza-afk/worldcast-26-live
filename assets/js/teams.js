@@ -18,13 +18,14 @@
   }
 
   function rating(label, value) {
-    const n = Number.isFinite(Number(value)) ? Math.min(100, Math.max(0, Number(value))) : 0;
-    return `<div><span>${label}</span><i style="--w:${n}%"></i><b>${n || "—"}</b></div>`;
+    const valid = Number.isFinite(Number(value));
+    const n = valid ? Math.min(100, Math.max(0, Number(value))) : 0;
+    return `<div><span>${label}</span><i style="--w:${n}%"></i><b>${valid ? n : "暂无评分"}</b></div>`;
   }
 
   function playerText(players, limit = 2) {
     const list = Array.isArray(players) ? players.filter(Boolean) : [];
-    return list.length ? list.slice(0, limit).map(FM.html).join("、") : "球员数据待更新";
+    return list.length ? list.slice(0, limit).map((player) => FM.html(player.display || player.nameZh || player.nameEn || player)).join("、") : "阵容信息待更新";
   }
 
   function filteredTeams() {
@@ -34,7 +35,7 @@
       item.name,
       item.nameEn,
       item.group,
-      (item.players || []).join(" ")
+      (item.players || []).map((player) => player.display || player.nameZh || player.nameEn || player).join(" ")
     ].join(" ").toLowerCase().includes(query)).sort((a, b) => a.code.localeCompare(b.code));
   }
 
@@ -42,10 +43,10 @@
     const root = FM.$("#teamGrid");
     const s = FM.store();
     if (root) {
-      if (s.loading && !s.teams.length) {
+      if (s.status === "loading" && !s.teams.length) {
         root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
-      } else if (s.error && !s.teams.length) {
-        root.innerHTML = `<div class="empty-state">${FM.html(s.error)}</div>`;
+      } else if (s.status === "error" && !s.teams.length) {
+        root.innerHTML = `<div class="empty-state">数据暂时无法读取，请稍后刷新。</div>`;
       } else {
         const teams = filteredTeams();
         root.innerHTML = teams.length ? teams.map((item) => {
@@ -55,7 +56,7 @@
               <button class="favorite-button ${active ? "active" : ""}" type="button" data-favorite="${FM.html(item.code)}" aria-label="${active ? "取消关注" : "关注"} ${FM.html(item.name)}">★</button>
               <button class="team-title" type="button" data-open-team="${FM.html(item.code)}" aria-label="查看${FM.html(item.name)}详情">
                 ${FM.teamLogo(item.code, item.logo)}
-                <span><h3>${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h3><p>${FM.html(item.code)} · 小组 ${FM.html(item.group || "—")}</p></span>
+                <span><h3>${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h3><p>${FM.html(item.code)} · 小组 ${FM.html(item.group || "待分组")}</p></span>
               </button>
               <div class="rating-bars">${rating("进攻", item.attack)}${rating("中场", item.midfield)}${rating("防守", item.defense)}</div>
               <p>核心球员：${playerText(item.players, 2)}</p>
@@ -85,7 +86,7 @@
       <p class="eyebrow">TEAM ${FM.html(item.code)}</p>
       <h2 id="teamModalTitle">${FM.teamLogo(item.code, item.logo)} ${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h2>
       <div class="detail-grid">
-        <article class="detail-card"><h3>攻中防评分</h3><p>进攻 ${FM.html(item.attack)} · 中场 ${FM.html(item.midfield)} · 防守 ${FM.html(item.defense)}</p></article>
+        <article class="detail-card"><h3>攻中防评分</h3><p>进攻 ${Number.isFinite(item.attack) ? item.attack : "暂无评分"} · 中场 ${Number.isFinite(item.midfield) ? item.midfield : "暂无评分"} · 防守 ${Number.isFinite(item.defense) ? item.defense : "暂无评分"}</p></article>
         <article class="detail-card"><h3>核心球员</h3><p>${playerText(item.players, 12)}</p></article>
         <article class="detail-card"><h3>近期状态</h3><p>${(item.form || []).length ? item.form.map(FM.html).join(" · ") : "近期数据待更新"}</p></article>
         <article class="detail-card"><h3>风险标签</h3><p>${FM.html(item.risk)}</p></article>
@@ -120,5 +121,7 @@
   document.addEventListener("DOMContentLoaded", () => { renderTeams(); bind(); });
   window.addEventListener("fm:data-ready", renderTeams);
   window.addEventListener("fm:data-updated", renderTeams);
+  window.addEventListener("fm:data-error", renderTeams);
+  window.addEventListener("fm:data-loading", renderTeams);
   window.addEventListener("fm:language", renderTeams);
 })();

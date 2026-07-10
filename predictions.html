@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/predictions.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=4.0.1">
+  <link rel="stylesheet" href="assets/css/style.css?v=4.1.0">
 </head>
 <body data-page="predictions">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -46,11 +46,11 @@
           </div>
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
             <button class="active" type="button" data-stage="all">全部阶段</button>
-            <button type="button" data-stage="group">小组赛</button>
-            <button type="button" data-stage="r32">32强</button>
-            <button type="button" data-stage="r16">16强</button>
-            <button type="button" data-stage="qf">1/4决赛</button>
-            <button type="button" data-stage="sf">半决赛</button>
+            <button type="button" data-stage="group-stage">小组赛</button>
+            <button type="button" data-stage="round-of-32">32强</button>
+            <button type="button" data-stage="round-of-16">16强</button>
+            <button type="button" data-stage="quarterfinals">1/4决赛</button>
+            <button type="button" data-stage="semifinals">半决赛</button>
             <button type="button" data-stage="final">决赛</button>
           </div>
           <label class="search-field"><span class="sr-only">搜索比赛</span><input id="predictionSearch" type="search" placeholder="搜索球队、阶段或场地" aria-label="搜索球队、阶段或场地"></label>
@@ -88,9 +88,11 @@
     </section>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=4.0.1" defer></script>
-  <script src="assets/js/data-service.js?v=4.0.1" defer></script>
-  <script src="assets/js/common.js?v=4.0.1" defer></script>
-  <script src="assets/js/predictions.js?v=4.0.1" defer></script>
+  <script src="assets/js/data.js?v=4.1.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=4.1.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=4.1.0" defer></script>
+  <script src="assets/js/data-service.js?v=4.1.0" defer></script>
+  <script src="assets/js/common.js?v=4.1.0" defer></script>
+  <script src="assets/js/predictions.js?v=4.1.0" defer></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     language: "football-model-language",
     theme: "football-model-theme",
     favorites: "football-model-favorites",
-    cacheMigrated: "football-model-cache-migrated-v401"
+    cacheMigrated: "football-model-cache-migrated-v410"
   };
   const pages = [
     ["home", "index.html", "首页", "Home"],
@@ -30,7 +30,7 @@
   };
 
   function store() {
-    return window.FM_STORE || { matches: [], teams: [], loading: true, error: null, source: "", lastUpdated: null };
+    return window.FM_STORE || { status: "loading", source: null, sourceLabel: "", matches: [], teams: [], errors: [], lastUpdated: null, isSnapshot: false };
   }
 
   function html(value) {
@@ -44,7 +44,7 @@
       name: id || "待定",
       nameEn: id || "TBD",
       logo: "",
-      group: "—",
+      group: "待分组",
       attack: 0,
       midfield: 0,
       defense: 0,
@@ -235,17 +235,21 @@
 
   function dataStatusText() {
     const s = store();
-    if (s.loading && !s.matches.length) return state.language === "en" ? "Loading data" : "数据读取中";
-    if (s.error && s.source === "error") return state.language === "en" ? "Data error" : "数据加载失败";
-    if (s.error) return state.language === "en" ? "Snapshot data" : "最近快照";
-    return s.source ? `${s.source} · ${formatFull(s.lastUpdated)}` : (state.language === "en" ? "Ready" : "已同步");
+    if (s.status === "loading" && !s.matches.length) return state.language === "en" ? "Loading data" : "正在加载数据";
+    if (s.status === "error") return state.language === "en" ? "Data unavailable" : "数据暂不可用";
+    if (s.status === "snapshot" || s.isSnapshot) return state.language === "en" ? "Latest snapshot" : "最近数据快照";
+    if (s.source === "remote-with-scoreboard") return state.language === "en" ? "Remote + score status" : "远程数据 + 比分状态";
+    if (s.status === "ready") return state.language === "en" ? "Remote data updated" : "远程数据已更新";
+    return state.language === "en" ? "Preparing" : "准备中";
   }
 
   function updateDataStatus() {
     const el = $("#dataStatus");
     if (el) el.textContent = dataStatusText();
+    const hero = $("#heroStatus");
+    if (hero) hero.textContent = store().sourceLabel || dataStatusText();
     const footerTime = $("#footerUpdated");
-    if (footerTime) footerTime.textContent = formatFull(store().lastUpdated || new Date());
+    if (footerTime) footerTime.textContent = store().lastUpdated ? formatFull(store().lastUpdated) : "待更新";
   }
 
   function renderHeader() {
@@ -288,7 +292,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=4.1.0").catch(() => {});
       return;
     }
     try {
@@ -301,7 +305,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=4.1.0");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }
@@ -381,6 +385,8 @@
 
   window.addEventListener("fm:data-ready", updateDataStatus);
   window.addEventListener("fm:data-updated", updateDataStatus);
+  window.addEventListener("fm:data-loading", updateDataStatus);
+  window.addEventListener("fm:data-error", updateDataStatus);
   window.FM = {
     $, $$, html, state, STORAGE, safeGet, safeSet, store, team, teamName, teamLogo, stageName,
     formatDate, formatFull, countdown, normalize, matchCard, openMatch, showToast, scoreFor,

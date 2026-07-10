@@ -30,15 +30,17 @@
     const root = FM.$("#scheduleGrid");
     if (!root) return;
     const s = FM.store();
-    if (s.loading && !s.matches.length) {
+    if (s.status === "loading" && !s.matches.length) {
       root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
       return;
     }
-    if (s.error && !s.matches.length) {
-      root.innerHTML = `<div class="empty-state">${FM.html(s.error)}</div>`;
+    if (s.status === "error" && !s.matches.length) {
+      root.innerHTML = `<div class="empty-state">数据暂时无法读取，请稍后刷新。</div>`;
       return;
     }
     const matches = filteredMatches();
+    const count = FM.$("#scheduleCount");
+    if (count) count.textContent = s.status === "snapshot" ? `比赛总数：${s.matches.length} · 最近数据快照` : `比赛总数：${s.matches.length}`;
     root.innerHTML = matches.length ? matches.map((item) => `
       <article class="schedule-card ${item.stageSlug === "final" ? "final-card" : ""}">
         <header><span>${FM.html(FM.stageName(item))}${item.group ? ` · ${FM.html(item.group)}组` : ""}</span><time datetime="${FM.html(item.date)}">${FM.formatDate(item.date)}</time></header>
@@ -66,5 +68,7 @@
   document.addEventListener("DOMContentLoaded", () => { renderSchedule(); bind(); });
   window.addEventListener("fm:data-ready", renderSchedule);
   window.addEventListener("fm:data-updated", renderSchedule);
+  window.addEventListener("fm:data-error", renderSchedule);
+  window.addEventListener("fm:data-loading", renderSchedule);
   window.addEventListener("fm:language", renderSchedule);
 })();

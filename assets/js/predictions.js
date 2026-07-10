@@ -44,12 +44,12 @@
     const root = FM.$("#predictionGrid");
     if (!root) return;
     const s = FM.store();
-    if (s.loading && !s.matches.length) {
+    if (s.status === "loading" && !s.matches.length) {
       root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
       return;
     }
-    if (s.error && !s.matches.length) {
-      root.innerHTML = `<div class="empty-state">${FM.html(s.error)}</div>`;
+    if (s.status === "error" && !s.matches.length) {
+      root.innerHTML = `<div class="empty-state">数据暂时无法读取，请稍后刷新。</div>`;
       return;
     }
     const matches = filteredMatches();
@@ -115,5 +115,7 @@
   document.addEventListener("DOMContentLoaded", () => { renderAll(); bind(); });
   window.addEventListener("fm:data-ready", renderAll);
   window.addEventListener("fm:data-updated", renderAll);
+  window.addEventListener("fm:data-error", renderAll);
+  window.addEventListener("fm:data-loading", renderAll);
   window.addEventListener("fm:language", renderAll);
 })();

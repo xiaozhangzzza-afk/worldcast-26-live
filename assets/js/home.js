@@ -21,7 +21,7 @@
   }
 
   function averageConfidence(matches) {
-    const values = matches.map((item) => Number(item.confidence)).filter(Number.isFinite);
+    const values = matches.map((item) => item.confidence).filter((value) => value !== null && value !== "" && Number.isFinite(Number(value))).map(Number);
     if (!values.length) return "预测数据待更新";
     return `${(values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(1)}%`;
   }
@@ -39,12 +39,12 @@
     const root = FM.$("#nextMatchCard");
     if (!root) return;
     const s = FM.store();
-    if (s.loading && !s.matches.length) {
+    if (s.status === "loading" && !s.matches.length) {
       root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
       return;
     }
-    if (s.error && !s.matches.length) {
-      root.innerHTML = `<div class="empty-state">${FM.html(s.error)}</div>`;
+    if (s.status === "error" && !s.matches.length) {
+      root.innerHTML = `<div class="empty-state">数据暂时无法读取，静态说明页面仍可正常浏览</div>`;
       return;
     }
     const next = nextMatch();
@@ -78,7 +78,7 @@
     const root = FM.$("#homeMatchGrid");
     if (!root) return;
     const s = FM.store();
-    if (s.loading && !s.matches.length) {
+    if (s.status === "loading" && !s.matches.length) {
       root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
       return;
     }
@@ -109,5 +109,7 @@
   document.addEventListener("DOMContentLoaded", renderHome);
   window.addEventListener("fm:data-ready", renderHome);
   window.addEventListener("fm:data-updated", renderHome);
+  window.addEventListener("fm:data-error", renderHome);
+  window.addEventListener("fm:data-loading", renderHome);
   window.addEventListener("fm:language", renderHome);
 })();
