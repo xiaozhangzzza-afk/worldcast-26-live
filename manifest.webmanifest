@@ -1,14 +1,19 @@
 {
   "name": "足球预测大模型",
   "short_name": "足球预测",
-  "description": "2026世界杯赛程、比赛预测与球队数据。",
+  "description": "2026 世界杯赛程、比分预测、球队数据库与模型观察演示产品。",
+  "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#06100e",
-  "theme_color": "#07110f",
-  "lang": "zh-CN",
+  "background_color": "#06111f",
+  "theme_color": "#0b1f3a",
   "icons": [
-    {"src":"assets/app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+    {
+      "src": "assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
   ]
 }

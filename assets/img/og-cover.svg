@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">足球预测大模型</title>
+  <desc id="desc">2026 世界杯赛程、比分预测与球队数据分享图占位。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset=".58" stop-color="#0b1f3a"/>
+      <stop offset="1" stop-color="#06180f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".74" cy=".18" r=".62">
+      <stop offset="0" stop-color="#f7c948" stop-opacity=".42"/>
+      <stop offset=".52" stop-color="#33d69f" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#33d69f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="890" cy="315" r="148" fill="none" stroke="#f7c948" stroke-width="18" stroke-opacity=".34"/>
+  <circle cx="890" cy="315" r="86" fill="none" stroke="#33d69f" stroke-width="10" stroke-opacity=".42"/>
+  <text x="86" y="150" fill="#33d69f" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="700" letter-spacing="6">WORLD CUP 2026 MODEL</text>
+  <text x="82" y="270" fill="#ffffff" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="76" font-weight="900">足球预测大模型</text>
+  <text x="86" y="354" fill="#c7d4e5" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="32">赛程 · 比分预测 · 球队数据库 · 模型观察</text>
+  <rect x="86" y="430" width="332" height="66" rx="33" fill="#f7c948"/>
+  <text x="126" y="474" fill="#06111f" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="800">Demo 数据产品</text>
+</svg>
