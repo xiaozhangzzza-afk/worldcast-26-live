@@ -9,7 +9,7 @@
       predictedScore: match.predictedScore || "",
       alternativeScore: match.alternativeScore || "",
       probabilities: normalize(match.probabilities),
-      confidence: Number.isFinite(Number(match.confidence)) ? Number(match.confidence) : null,
+      confidence: match.confidence !== null && match.confidence !== "" && Number.isFinite(Number(match.confidence)) ? Number(match.confidence) : null,
       factors: Array.isArray(match.factors) ? match.factors : [],
       halfFull: match.halfFull || ""
     };

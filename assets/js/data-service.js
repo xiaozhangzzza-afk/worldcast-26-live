@@ -114,7 +114,7 @@
   }
 
   async function mergeDirectScoreboard() {
-    if (!STORE.matches.length) return false;
+    if (!STORE.matches.length || STORE.isSnapshot) return false;
     try {
       const start = compactDay(new Date(Date.now() - 86400000));
       const end = compactDay(new Date(Date.now() + 86400000));
