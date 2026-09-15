@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>世界杯比赛预测｜足球预测大模型</title>
-  <meta name="description" content="足球预测大模型预测中心展示全部比赛预测、日期和阶段筛选、比赛搜索、胜平负概率、比分预测、比分频次与模型观察。">
+  <title>五大联赛与世界杯比赛预测｜足球预测大模型</title>
+  <meta name="description" content="查看英超、西甲、德甲、意甲、法甲及世界杯比赛预测、实时比分、胜平负概率和比分区间。">
   <meta name="keywords" content="世界杯比赛预测, 胜平负概率, 比分预测, 足球预测大模型">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#0b1724">
@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/predictions.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=4.1.0">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.0.1">
 </head>
 <body data-page="predictions">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -26,8 +26,8 @@
     <section class="sub-hero">
       <div class="section-shell">
         <p class="eyebrow">Prediction Center</p>
-        <h1>世界杯比赛预测</h1>
-        <p>集中查看全部比赛预测、胜平负概率、比分区间、模型观察和比分分布。演示数据仅用于产品原型。</p>
+        <h1>五大联赛比赛预测</h1>
+        <p>覆盖五大联赛实时赛程与模型结果，世界杯作为独立专题保留。</p>
       </div>
     </section>
 
@@ -38,6 +38,12 @@
           <div><h2>全部比赛预测</h2><p>支持日期、阶段和球队搜索。</p></div>
         </div>
         <div class="filter-panel">
+          <div class="competition-filter" id="competitionFilter" role="group" aria-label="赛事筛选">
+            <button class="active" type="button" data-competition="top5">五大联赛</button>
+            <button type="button" data-competition="eng.1">英超</button><button type="button" data-competition="esp.1">西甲</button>
+            <button type="button" data-competition="ger.1">德甲</button><button type="button" data-competition="ita.1">意甲</button>
+            <button type="button" data-competition="fra.1">法甲</button><button type="button" data-competition="fifa.world">世界杯</button>
+          </div>
           <div class="stage-filter" id="dateFilter" role="group" aria-label="日期筛选">
             <button class="active" type="button" data-date="all">全部</button>
             <button type="button" data-date="today">今天</button>
@@ -46,6 +52,7 @@
           </div>
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
             <button class="active" type="button" data-stage="all">全部阶段</button>
+            <button type="button" data-stage="league">联赛</button>
             <button type="button" data-stage="group-stage">小组赛</button>
             <button type="button" data-stage="round-of-32">32强</button>
             <button type="button" data-stage="round-of-16">16强</button>
@@ -89,11 +96,12 @@
     </section>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-normalizer.js?v=4.1.0" defer></script>
-  <script src="assets/js/prediction-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/common.js?v=4.1.0" defer></script>
-  <script src="assets/js/predictions.js?v=4.1.0" defer></script>
+  <script src="assets/js/data.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/common.js?v=5.0.1" defer></script>
+  <script src="assets/js/predictions.js?v=5.0.1" defer></script>
 </body>
 </html>

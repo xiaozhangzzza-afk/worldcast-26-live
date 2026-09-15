@@ -2,7 +2,7 @@
   "use strict";
 
   const FAV_KEY = FM.STORAGE.favorites;
-  const state = { query: "", favorites: new Set(readFavorites()) };
+  const state = { competition: "top5", query: "", favorites: new Set(readFavorites()) };
 
   function readFavorites() {
     try {
@@ -18,7 +18,7 @@
   }
 
   function rating(label, value) {
-    const valid = Number.isFinite(Number(value));
+    const valid = value !== null && value !== "" && typeof value !== "undefined" && Number.isFinite(Number(value));
     const n = valid ? Math.min(100, Math.max(0, Number(value))) : 0;
     return `<div><span>${label}</span><i style="--w:${n}%"></i><b>${valid ? n : "暂无评分"}</b></div>`;
   }
@@ -30,7 +30,7 @@
 
   function filteredTeams() {
     const query = state.query.trim().toLowerCase();
-    return FM.store().teams.filter((item) => [
+    return FM.store().teams.filter((item) => (state.competition === "all" || (state.competition === "top5" ? item.competitionId !== "fifa.world" : item.competitionId === state.competition)) && [
       item.code,
       item.name,
       item.nameEn,
@@ -56,7 +56,7 @@
               <button class="favorite-button ${active ? "active" : ""}" type="button" data-favorite="${FM.html(item.code)}" aria-label="${active ? "取消关注" : "关注"} ${FM.html(item.name)}">★</button>
               <button class="team-title" type="button" data-open-team="${FM.html(item.code)}" aria-label="查看${FM.html(item.name)}详情">
                 ${FM.teamLogo(item.code, item.logo)}
-                <span><h3>${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h3><p>${FM.html(item.code)} · 小组 ${FM.html(item.group || "待分组")}</p></span>
+              <span><h3>${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h3><p>${FM.html(item.shortCode || item.code)} · ${FM.html(item.competitionName || item.group || "赛事待确认")}</p></span>
               </button>
               <div class="rating-bars">${rating("进攻", item.attack)}${rating("中场", item.midfield)}${rating("防守", item.defense)}</div>
               <p>核心球员：${playerText(item.players, 2)}</p>
@@ -100,6 +100,13 @@
   }
 
   function bind() {
+    FM.$("#competitionFilter")?.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-competition]");
+      if (!button) return;
+      state.competition = button.dataset.competition;
+      FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item === button));
+      renderTeams();
+    });
     FM.$("#teamSearch")?.addEventListener("input", (event) => {
       state.query = event.target.value;
       renderTeams();

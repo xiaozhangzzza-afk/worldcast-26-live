@@ -1,4 +1,4 @@
-const CACHE_NAME = "football-model-v4.1.0";
+const CACHE_NAME = "football-model-v5.0.1";
 const CORE_ASSETS = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const CORE_ASSETS = [
   "./assets/css/style.css",
   "./assets/js/data.js",
   "./assets/js/data-normalizer.js",
+  "./assets/js/league-normalizer.js",
   "./assets/js/prediction-service.js",
   "./assets/js/data-service.js",
   "./assets/js/common.js",
@@ -18,6 +19,7 @@ const CORE_ASSETS = [
   "./assets/js/teams.js",
   "./assets/js/about.js",
   "./assets/data/snapshot.json",
+  "./assets/data/leagues-snapshot.json",
   "./manifest.webmanifest",
   "./assets/app-icon.svg",
   "./assets/img/og-cover.svg"

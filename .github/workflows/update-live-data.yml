@@ -1,0 +1,40 @@
+name: Update football live data
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: worldcast-live-data
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Fetch World Cup archive data
+        run: node scripts/update-live.mjs
+      - name: Audit all teams and fixtures
+        run: node scripts/audit-live.mjs
+      - name: Refresh five-league fallback snapshot
+        run: node scripts/update-leagues.mjs
+      - name: Commit changed data
+        run: |
+          if git diff --quiet -- data/live.json assets/data/leagues-snapshot.json; then
+            echo "No live-data change"
+            exit 0
+          fi
+          git config user.name "worldcast-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live.json assets/data/leagues-snapshot.json
+          git commit -m "data: refresh football feeds"
+          git push

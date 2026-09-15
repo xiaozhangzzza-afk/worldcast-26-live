@@ -3,7 +3,7 @@
 
   function orderedMatches() {
     const now = Date.now();
-    return [...FM.store().matches].sort((a, b) => {
+    return FM.store().matches.filter((item) => item.competitionId !== "fifa.world").sort((a, b) => {
       const at = new Date(a.date).getTime();
       const bt = new Date(b.date).getTime();
       const aFuture = at >= now && !a.completed;
@@ -16,7 +16,7 @@
   function nextMatch() {
     const now = Date.now();
     return FM.store().matches
-      .filter((item) => !item.completed && new Date(item.date).getTime() >= now)
+      .filter((item) => item.competitionId !== "fifa.world" && !item.completed && new Date(item.date).getTime() >= now)
       .sort((a, b) => new Date(a.date) - new Date(b.date))[0] || null;
   }
 
@@ -50,10 +50,10 @@
     const next = nextMatch();
     const metrics = `
       <div class="metric-row">
-        <article><strong>${s.matches.length}</strong><small>比赛数量</small></article>
-        <article><strong>${s.teams.length}</strong><small>球队档案</small></article>
-        <article><strong>${future72(s.matches)}</strong><small>未来72小时</small></article>
-        <article><strong>${averageConfidence(s.matches)}</strong><small>平均模型信心</small></article>
+        <article><strong>${s.matches.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>五大联赛比赛</small></article>
+        <article><strong>${s.teams.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>俱乐部档案</small></article>
+        <article><strong>${future72(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>未来72小时</small></article>
+        <article><strong>${averageConfidence(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>平均模型信心</small></article>
       </div>
     `;
     if (!next) {
@@ -66,9 +66,9 @@
           <span><b>${FM.teamLogo(next.homeCode, next.homeLogo)} ${FM.html(next.homeName)}</b>主队</span>
           <span><b>${FM.teamLogo(next.awayCode, next.awayLogo)} ${FM.html(next.awayName)}</b>客队</span>
         </div>
-        <div class="next-score">${FM.html(FM.scoreFor(next))}</div>
-        <p>${FM.html(FM.stageName(next))} · ${FM.formatDate(next.date)} · ${FM.countdown(next.date)}</p>
-        <p class="muted-line">${FM.html(next.statusText || "未开赛")} ${next.displayClock ? `· ${FM.html(next.displayClock)}` : ""}</p>
+        <div class="next-score"><small class="score-label">${FM.html(FM.scoreKind(next))}</small>${FM.html(FM.scoreFor(next))}</div>
+        <p>${FM.html(FM.competitionName(next))} · ${FM.formatDate(next.date)} · ${FM.countdown(next.date)}</p>
+        <p class="muted-line">${FM.html(next.statusText || "未开赛")} ${next.live ? `· <span class="live-clock" data-live-clock="${FM.html(next.id)}">${FM.html(FM.liveClock(next))}</span>` : ""}</p>
         ${metrics}
       </article>
     `;
@@ -100,10 +100,23 @@
     `).join("");
   }
 
+  function renderWorldCupMini() {
+    const root = FM.$("#worldCupMini");
+    if (!root) return;
+    const matches = FM.store().matches
+      .filter((item) => item.competitionId === "fifa.world")
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 3);
+    root.innerHTML = matches.length
+      ? matches.map((item) => FM.matchCard(item, { compact: true })).join("")
+      : `<div class="empty-state">世界杯数据暂未载入。</div>`;
+  }
+
   function renderHome() {
     renderNext();
     renderMatches();
     renderInsights();
+    renderWorldCupMini();
   }
 
   document.addEventListener("DOMContentLoaded", renderHome);

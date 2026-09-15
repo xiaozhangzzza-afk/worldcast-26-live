@@ -1,11 +1,13 @@
 (() => {
   "use strict";
 
-  const state = { stage: "all", query: "" };
+  const state = { competition: new URLSearchParams(location.search).get("competition") || "top5", stage: "all", query: "" };
 
   function haystack(match) {
     return [
       match.stage,
+      match.competitionNameZh,
+      match.competitionNameEn,
       match.stageSlug,
       match.group,
       match.venue,
@@ -21,8 +23,9 @@
   function filteredMatches() {
     const query = state.query.trim().toLowerCase();
     return FM.store().matches.filter((item) => {
+      const competitionOk = state.competition === "all" || (state.competition === "top5" ? item.competitionId !== "fifa.world" : item.competitionId === state.competition);
       const stageOk = state.stage === "all" || item.stageSlug === state.stage;
-      return stageOk && (!query || haystack(item).includes(query));
+      return competitionOk && stageOk && (!query || haystack(item).includes(query));
     }).sort((a, b) => new Date(a.date) - new Date(b.date));
   }
 
@@ -40,18 +43,26 @@
     }
     const matches = filteredMatches();
     const count = FM.$("#scheduleCount");
-    if (count) count.textContent = s.status === "snapshot" ? `比赛总数：${s.matches.length} · 最近数据快照` : `比赛总数：${s.matches.length}`;
+    if (count) count.textContent = s.status === "snapshot" ? `当前筛选：${matches.length}场 · 最近数据快照` : `当前筛选：${matches.length}场`;
     root.innerHTML = matches.length ? matches.map((item) => `
       <article class="schedule-card ${item.stageSlug === "final" ? "final-card" : ""}">
-        <header><span>${FM.html(FM.stageName(item))}${item.group ? ` · ${FM.html(item.group)}组` : ""}</span><time datetime="${FM.html(item.date)}">${FM.formatDate(item.date)}</time></header>
+        <header><span>${FM.html(FM.competitionName(item))} · ${FM.html(FM.stageName(item))}${item.group ? ` · ${FM.html(item.group)}组` : ""}</span><time datetime="${FM.html(item.date)}">${FM.formatDate(item.date)}</time></header>
         <h3>${FM.teamLogo(item.homeCode, item.homeLogo)} ${FM.html(item.homeName)} vs ${FM.teamLogo(item.awayCode, item.awayLogo)} ${FM.html(item.awayName)}</h3>
         <p>场地：${FM.html(item.venue || "待官方确认")}</p>
-        <p>状态：${FM.html(item.statusText || "待更新")} ${item.displayClock ? `· ${FM.html(item.displayClock)}` : ""} · 比分/预测：${FM.html(FM.scoreFor(item))}</p>
+        <p>状态：${FM.html(item.statusText || "待更新")} ${item.live ? `· <span class="live-clock" data-live-clock="${FM.html(item.id)}">${FM.html(FM.liveClock(item))}</span>` : ""} · ${FM.html(FM.scoreKind(item))}：${FM.html(FM.scoreFor(item))}</p>
       </article>
     `).join("") : `<div class="empty-state">没有找到相关赛程。</div>`;
   }
 
   function bind() {
+    FM.$("#competitionFilter")?.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-competition]");
+      if (!button) return;
+      state.competition = button.dataset.competition;
+      FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item === button));
+      renderSchedule();
+    });
+    FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item.dataset.competition === state.competition));
     FM.$("#stageFilter")?.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-stage]");
       if (!button) return;

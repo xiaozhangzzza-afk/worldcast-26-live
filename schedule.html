@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>2026世界杯完整赛程｜足球预测大模型</title>
-  <meta name="description" content="查看 2026 世界杯完整赛程，小组赛到决赛筛选、球队搜索、开赛时间、场地、状态和淘汰赛阶段展示。">
+  <title>五大联赛实时赛程与世界杯专题｜足球预测大模型</title>
+  <meta name="description" content="查看英超、西甲、德甲、意甲、法甲实时赛程、开赛时间、场地与状态，并可切换世界杯专题。">
   <meta name="keywords" content="2026世界杯完整赛程, 世界杯赛程, 小组赛, 淘汰赛">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#0b1724">
@@ -17,7 +17,7 @@
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/schedule.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=4.1.0">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.0.1">
 </head>
 <body data-page="schedule">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -26,16 +26,23 @@
     <section class="sub-hero">
       <div class="section-shell">
         <p class="eyebrow">Schedule Map</p>
-        <h1>2026世界杯完整赛程</h1>
-        <p>赛程页使用浅色主内容区，筛选栏保持深色，长期查阅更舒服。</p>
+        <h1>五大联赛实时赛程</h1>
+        <p>按赛事切换英超、西甲、德甲、意甲、法甲；世界杯赛程收纳在专题筛选中。</p>
       </div>
     </section>
 
     <section class="section-block block-light">
       <div class="section-shell">
         <div class="schedule-filter-card">
+          <div class="competition-filter" id="competitionFilter" role="group" aria-label="赛事筛选">
+            <button class="active" type="button" data-competition="top5">五大联赛</button>
+            <button type="button" data-competition="eng.1">英超</button><button type="button" data-competition="esp.1">西甲</button>
+            <button type="button" data-competition="ger.1">德甲</button><button type="button" data-competition="ita.1">意甲</button>
+            <button type="button" data-competition="fra.1">法甲</button><button type="button" data-competition="fifa.world">世界杯</button>
+          </div>
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
             <button class="active" type="button" data-stage="all">全部</button>
+            <button type="button" data-stage="league">联赛</button>
             <button type="button" data-stage="group-stage">小组赛</button>
             <button type="button" data-stage="round-of-32">32强</button>
             <button type="button" data-stage="round-of-16">16强</button>
@@ -53,11 +60,12 @@
   </main>
   <footer class="site-footer" data-site-footer></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-normalizer.js?v=4.1.0" defer></script>
-  <script src="assets/js/prediction-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/common.js?v=4.1.0" defer></script>
-  <script src="assets/js/schedule.js?v=4.1.0" defer></script>
+  <script src="assets/js/data.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/common.js?v=5.0.1" defer></script>
+  <script src="assets/js/schedule.js?v=5.0.1" defer></script>
 </body>
 </html>

@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>足球预测大模型｜2026世界杯数据预测平台</title>
-  <meta name="description" content="足球预测大模型首页提供 2026 世界杯焦点比赛、下一场焦点战、每日模型观察摘要和功能入口。当前为演示性数据产品，不构成投注建议。">
-  <meta name="keywords" content="2026世界杯, 足球预测大模型, 世界杯预测, 比分预测, 世界杯赛程">
+  <title>足球预测大模型｜五大联赛实时比分与世界杯预测</title>
+  <meta name="description" content="足球预测大模型提供英超、西甲、德甲、意甲、法甲实时比分、近期赛程与模型预测，并保留世界杯专题数据。">
+  <meta name="keywords" content="五大联赛,实时比分,英超,西甲,德甲,意甲,法甲,世界杯,足球预测大模型">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#0b1724">
   <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/">
@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="足球预测大模型｜2026世界杯数据预测平台">
   <meta name="twitter:description" content="2026 世界杯数据预测平台首页，提供焦点比赛与模型观察摘要。">
   <meta name="twitter:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
-  <link rel="stylesheet" href="assets/css/style.css?v=4.1.0">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.0.1">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebSite","name":"足球预测大模型","url":"https://xiaozhangzzza-afk.github.io/worldcast-26-live/","description":"足球预测大模型提供 2026 世界杯焦点比赛、比赛预测、完整赛程、球队数据库和模型说明。","inLanguage":["zh-CN","en"]}
   </script>
@@ -33,9 +33,9 @@
     <section class="hero page-hero">
       <div class="section-shell hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">World Cup 2026 · Demo Model</p>
-          <h1 data-zh="让世界杯预测，从一屏看懂" data-en="World Cup predictions, clear at a glance">让世界杯预测，从一屏看懂</h1>
-          <p class="hero-lead" data-zh="首页只保留关键摘要：下一场焦点战、今日比赛、模型观察和主要功能入口。完整内容已拆分到独立页面，浏览更轻。" data-en="The home page keeps only the essentials: next featured match, today’s matches, model watch and clear product entrances.">首页只保留关键摘要：下一场焦点战、今日比赛、模型观察和主要功能入口。完整内容已拆分到独立页面，浏览更轻。</p>
+          <p class="eyebrow">Big Five Leagues · Live Data</p>
+          <h1 data-zh="五大联赛实时赛况，一屏掌握" data-en="Big Five league action, live at a glance">五大联赛实时赛况，一屏掌握</h1>
+          <p class="hero-lead" data-zh="覆盖英超、西甲、德甲、意甲和法甲，实时比分每 20 秒核验；世界杯已收纳为独立专题版块。" data-en="Premier League, LaLiga, Bundesliga, Serie A and Ligue 1 with 20-second live score checks, plus a compact World Cup section.">覆盖英超、西甲、德甲、意甲和法甲，实时比分每 20 秒核验；世界杯已收纳为独立专题版块。</p>
           <div class="hero-actions">
             <a class="button primary" href="predictions.html" data-zh="查看全部预测" data-en="View predictions">查看全部预测</a>
             <a class="button secondary" href="schedule.html" data-zh="打开完整赛程" data-en="Open schedule">打开完整赛程</a>
@@ -55,8 +55,8 @@
         <div class="section-heading">
           <span class="section-index">01</span>
           <div>
-            <h2 id="homeMatchesTitle">今日焦点比赛</h2>
-            <p>首页只展示 3 场摘要，完整筛选和详情放在预测中心。</p>
+            <h2 id="homeMatchesTitle">五大联赛焦点比赛</h2>
+            <p>优先展示最近和即将开赛的 3 场，比赛中自动更新比分与时间。</p>
           </div>
           <a class="button compact" href="predictions.html">查看全部预测</a>
         </div>
@@ -95,15 +95,33 @@
         </div>
       </div>
     </section>
+
+    <section class="world-cup-mini" aria-labelledby="worldCupMiniTitle">
+      <div class="section-shell world-cup-mini-shell">
+        <div class="mini-heading">
+          <div><span class="mini-kicker">世界杯专题</span><h2 id="worldCupMiniTitle">世界杯数据归档</h2><p>世界杯赛程、赛果与球队档案保留为独立小版块。</p></div>
+          <a class="button compact" href="schedule.html?competition=fifa.world">查看世界杯</a>
+        </div>
+        <div class="match-grid compact-grid" id="worldCupMini"></div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer" data-site-footer></footer>
+  <div class="modal" id="matchModal" role="dialog" aria-modal="true" aria-labelledby="matchModalTitle" aria-hidden="true" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" tabindex="-1">
+      <button class="modal-close" type="button" aria-label="关闭" data-close-modal>关闭</button>
+      <div id="matchModalContent"></div>
+    </section>
+  </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-normalizer.js?v=4.1.0" defer></script>
-  <script src="assets/js/prediction-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/data-service.js?v=4.1.0" defer></script>
-  <script src="assets/js/common.js?v=4.1.0" defer></script>
-  <script src="assets/js/home.js?v=4.1.0" defer></script>
+  <script src="assets/js/data.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.0.1" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/data-service.js?v=5.0.1" defer></script>
+  <script src="assets/js/common.js?v=5.0.1" defer></script>
+  <script src="assets/js/home.js?v=5.0.1" defer></script>
 </body>
 </html>

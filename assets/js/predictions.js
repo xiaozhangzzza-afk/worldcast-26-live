@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const state = { stage: "all", date: "all", query: "" };
+  const state = { competition: new URLSearchParams(location.search).get("competition") || "top5", stage: "all", date: "all", query: "" };
 
   function chinaDay(date) {
     return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
@@ -19,6 +19,8 @@
   function haystack(match) {
     return [
       match.stage,
+      match.competitionNameZh,
+      match.competitionNameEn,
       match.stageSlug,
       match.group,
       match.venue,
@@ -34,9 +36,10 @@
   function filteredMatches() {
     const query = state.query.trim().toLowerCase();
     return FM.store().matches.filter((item) => {
+      const competitionOk = state.competition === "all" || (state.competition === "top5" ? item.competitionId !== "fifa.world" : item.competitionId === state.competition);
       const stageOk = state.stage === "all" || item.stageSlug === state.stage;
       const dateOk = state.date === "all" || dateBucket(item) === state.date;
-      return stageOk && dateOk && (!query || haystack(item).includes(query));
+      return competitionOk && stageOk && dateOk && (!query || haystack(item).includes(query));
     }).sort((a, b) => new Date(a.date) - new Date(b.date));
   }
 
@@ -86,6 +89,14 @@
   }
 
   function bind() {
+    FM.$("#competitionFilter")?.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-competition]");
+      if (!button) return;
+      state.competition = button.dataset.competition;
+      FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item === button));
+      renderPredictions();
+    });
+    FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item.dataset.competition === state.competition));
     FM.$("#stageFilter")?.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-stage]");
       if (!button) return;
