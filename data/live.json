@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-04T07:20:14.713Z",
+  "updatedAt": "2026-09-15T15:37:02.227Z",
   "source": {
     "name": "ESPN public soccer data",
     "tournament": "FIFA World Cup",
@@ -25,7 +25,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.319Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "MEX",
       "away": "RSA",
@@ -196,7 +196,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "KOR",
       "away": "CZE",
@@ -303,7 +303,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "CAN",
       "away": "BIH",
@@ -458,7 +458,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "USA",
       "away": "PAR",
@@ -677,7 +677,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "QAT",
       "away": "SUI",
@@ -800,7 +800,7 @@
       "period": 2,
       "displayClock": "90'+25'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "BRA",
       "away": "MAR",
@@ -907,7 +907,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "HAI",
       "away": "SCO",
@@ -1030,7 +1030,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "AUS",
       "away": "TUR",
@@ -1121,7 +1121,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "GER",
       "away": "CUW",
@@ -1292,7 +1292,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "NED",
       "away": "JPN",
@@ -1447,7 +1447,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "CIV",
       "away": "ECU",
@@ -1570,7 +1570,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "SWE",
       "away": "TUN",
@@ -1725,7 +1725,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
       "progress": 100,
       "home": "ESP",
       "away": "CPV",
@@ -1800,7 +1800,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BEL",
       "away": "EGY",
@@ -1939,7 +1939,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "KSA",
       "away": "URU",
@@ -2030,7 +2030,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "IRN",
       "away": "NZL",
@@ -2153,7 +2153,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "FRA",
       "away": "SEN",
@@ -2260,7 +2260,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "IRQ",
       "away": "NOR",
@@ -2399,7 +2399,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ARG",
       "away": "ALG",
@@ -2490,7 +2490,7 @@
       "period": 2,
       "displayClock": "90'+14'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "AUT",
       "away": "JOR",
@@ -2612,7 +2612,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "POR",
       "away": "COD",
@@ -2751,7 +2751,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ENG",
       "away": "CRO",
@@ -2890,7 +2890,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "GHA",
       "away": "PAN",
@@ -2997,7 +2997,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "UZB",
       "away": "COL",
@@ -3136,7 +3136,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CZE",
       "away": "RSA",
@@ -3259,7 +3259,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SUI",
       "away": "BIH",
@@ -3446,7 +3446,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CAN",
       "away": "QAT",
@@ -3649,7 +3649,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "MEX",
       "away": "KOR",
@@ -3740,7 +3740,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "USA",
       "away": "AUS",
@@ -3927,7 +3927,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SCO",
       "away": "MAR",
@@ -4018,7 +4018,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BRA",
       "away": "HAI",
@@ -4173,7 +4173,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "TUR",
       "away": "PAR",
@@ -4280,7 +4280,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NED",
       "away": "SWE",
@@ -4467,7 +4467,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "GER",
       "away": "CIV",
@@ -4558,7 +4558,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ECU",
       "away": "CUW",
@@ -4697,7 +4697,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "TUN",
       "away": "JPN",
@@ -4804,7 +4804,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ESP",
       "away": "KSA",
@@ -4943,7 +4943,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BEL",
       "away": "IRN",
@@ -5034,7 +5034,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "URU",
       "away": "CPV",
@@ -5205,7 +5205,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NZL",
       "away": "EGY",
@@ -5360,7 +5360,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ARG",
       "away": "AUT",
@@ -5499,7 +5499,7 @@
       "period": 2,
       "displayClock": "90'+2'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "FRA",
       "away": "IRQ",
@@ -5606,7 +5606,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NOR",
       "away": "SEN",
@@ -5729,7 +5729,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "JOR",
       "away": "ALG",
@@ -5852,7 +5852,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "POR",
       "away": "UZB",
@@ -6007,7 +6007,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ENG",
       "away": "GHA",
@@ -6082,7 +6082,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "PAN",
       "away": "CRO",
@@ -6173,7 +6173,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "COL",
       "away": "COD",
@@ -6280,7 +6280,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BIH",
       "away": "QAT",
@@ -6419,7 +6419,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SUI",
       "away": "CAN",
@@ -6558,7 +6558,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "MAR",
       "away": "HAI",
@@ -6745,7 +6745,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SCO",
       "away": "BRA",
@@ -6884,7 +6884,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CZE",
       "away": "MEX",
@@ -6991,7 +6991,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "RSA",
       "away": "KOR",
@@ -7082,7 +7082,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CUW",
       "away": "CIV",
@@ -7205,7 +7205,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ECU",
       "away": "GER",
@@ -7289,7 +7289,7 @@
           "type": "yellow",
           "team": "GER",
           "side": "away",
-          "player": "Aleksandar Pavlovic",
+          "player": "Aleksandar Pavlović",
           "playerZh": "阿莱克萨恩德阿尔·普阿维洛维克",
           "assist": "",
           "assistZh": "",
@@ -7360,7 +7360,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "JPN",
       "away": "SWE",
@@ -7483,7 +7483,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "TUN",
       "away": "NED",
@@ -7590,7 +7590,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "PAR",
       "away": "AUS",
@@ -7665,7 +7665,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "TUR",
       "away": "USA",
@@ -7804,7 +7804,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NOR",
       "away": "FRA",
@@ -7959,7 +7959,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SEN",
       "away": "IRQ",
@@ -8162,7 +8162,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CPV",
       "away": "KSA",
@@ -8269,7 +8269,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "URU",
       "away": "ESP",
@@ -8408,7 +8408,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "EGY",
       "away": "IRN",
@@ -8595,7 +8595,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NZL",
       "away": "BEL",
@@ -8766,7 +8766,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CRO",
       "away": "GHA",
@@ -8889,7 +8889,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "PAN",
       "away": "ENG",
@@ -9012,7 +9012,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "COL",
       "away": "POR",
@@ -9071,7 +9071,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "COD",
       "away": "UZB",
@@ -9258,7 +9258,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ALG",
       "away": "AUT",
@@ -9413,7 +9413,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "JOR",
       "away": "ARG",
@@ -9568,7 +9568,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "RSA",
       "away": "CAN",
@@ -9659,7 +9659,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BRA",
       "away": "JPN",
@@ -9830,7 +9830,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "GER",
       "away": "PAR",
@@ -9969,7 +9969,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "NED",
       "away": "MAR",
@@ -10060,7 +10060,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "CIV",
       "away": "NOR",
@@ -10167,7 +10167,7 @@
       "period": 2,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "FRA",
       "away": "SWE",
@@ -10258,7 +10258,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "MEX",
       "away": "ECU",
@@ -10397,7 +10397,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ENG",
       "away": "COD",
@@ -10520,7 +10520,7 @@
       "period": 4,
       "displayClock": "120'+12'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "BEL",
       "away": "SEN",
@@ -10675,7 +10675,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "USA",
       "away": "BIH",
@@ -10782,7 +10782,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ESP",
       "away": "AUT",
@@ -10889,7 +10889,7 @@
       "period": 2,
       "displayClock": "90'+19'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "POR",
       "away": "CRO",
@@ -11028,7 +11028,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "SUI",
       "away": "ALG",
@@ -11135,7 +11135,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "AUS",
       "away": "EGY",
@@ -11242,7 +11242,7 @@
       "period": 4,
       "displayClock": "120'+3'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "ARG",
       "away": "CPV",
@@ -11397,7 +11397,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
       "progress": 100,
       "home": "COL",
       "away": "GHA",
@@ -11530,32 +11530,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+9'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "CAN",
       "away": "MAR",
       "homeName": "加拿大",
       "awayName": "摩洛哥",
       "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–2",
-      "alternativeScore": "0–1",
-      "scoreType": "预测比分",
+      "awayScore": 3,
+      "score": "0–3",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        19,
-        27,
-        54
+        40,
+        30,
+        30
       ],
       "halfTimeScore": "0–0",
       "halfFull": "平 / 负",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "NRG Stadium",
       "city": "Houston, Texas",
       "broadcast": [
@@ -11563,7 +11563,184 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49701885",
+          "minute": "20'",
+          "clock": 1159,
+          "period": 1,
+          "type": "yellow",
+          "team": "MAR",
+          "side": "away",
+          "player": "Redouane Halhal",
+          "playerZh": "雷德奥乌阿内·赫阿尔赫阿尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Redouane Halhal (Morocco) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702131",
+          "minute": "40'",
+          "clock": 2364,
+          "period": 1,
+          "type": "yellow",
+          "team": "MAR",
+          "side": "away",
+          "player": "Achraf Hakimi",
+          "playerZh": "阿什拉夫·哈基米",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Achraf Hakimi (Morocco) is shown the yellow card."
+        },
+        {
+          "id": "49702132",
+          "minute": "40'",
+          "clock": 2386,
+          "period": 1,
+          "type": "yellow",
+          "team": "CAN",
+          "side": "home",
+          "player": "Richie Laryea",
+          "playerZh": "里奇伊埃·拉尔伊埃阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Richie Laryea (Canada) is shown the yellow card."
+        },
+        {
+          "id": "49702184",
+          "minute": "43'",
+          "clock": 2569,
+          "period": 1,
+          "type": "yellow",
+          "team": "CAN",
+          "side": "home",
+          "player": "Jonathan David",
+          "playerZh": "乔纳森·戴维",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Jonathan David (Canada) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702201",
+          "minute": "45'",
+          "clock": 2648,
+          "period": 1,
+          "type": "yellow",
+          "team": "MAR",
+          "side": "away",
+          "player": "Azzedine Ounahi",
+          "playerZh": "阿兹泽德伊内·奥乌纳赫伊",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Azzedine Ounahi (Morocco) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702306",
+          "minute": "45'+6'",
+          "clock": 2700,
+          "period": 1,
+          "type": "yellow",
+          "team": "MAR",
+          "side": "away",
+          "player": "Bilal El Khannouss",
+          "playerZh": "布伊拉尔·埃尔·克赫阿恩诺乌斯斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Bilal El Khannouss (Morocco) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702396",
+          "minute": "49'",
+          "clock": 2910,
+          "period": 2,
+          "type": "yellow",
+          "team": "CAN",
+          "side": "home",
+          "player": "Luc de Fougerolles",
+          "playerZh": "卢克·德埃·弗奥乌格埃罗利埃斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Luc De Fougerolles (Canada) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702398",
+          "minute": "50'",
+          "clock": 2959,
+          "period": 2,
+          "type": "goal",
+          "team": "MAR",
+          "side": "away",
+          "player": "Azzedine Ounahi",
+          "playerZh": "阿兹泽德伊内·奥乌纳赫伊",
+          "assist": "Achraf Hakimi",
+          "assistZh": "阿什拉夫·哈基米",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Canada 0, Morocco 1. Azzedine Ounahi (Morocco) right footed shot from outside the box to the bottom right corner. Assisted by Achraf Hakimi following a set piece situation."
+        },
+        {
+          "id": "49702663",
+          "minute": "67'",
+          "clock": 4010,
+          "period": 2,
+          "type": "yellow",
+          "team": "CAN",
+          "side": "home",
+          "player": "Cyle Larin",
+          "playerZh": "拉林",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Cyle Larin (Canada) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49702813",
+          "minute": "82'",
+          "clock": 4880,
+          "period": 2,
+          "type": "goal",
+          "team": "MAR",
+          "side": "away",
+          "player": "Azzedine Ounahi",
+          "playerZh": "阿兹泽德伊内·奥乌纳赫伊",
+          "assist": "Brahim Díaz",
+          "assistZh": "卜拉欣·迪亚斯",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Canada 0, Morocco 2. Azzedine Ounahi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Brahim Díaz following a fast break."
+        },
+        {
+          "id": "49703081",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "MAR",
+          "side": "away",
+          "player": "Soufiane Rahimi",
+          "playerZh": "索乌弗伊阿内·拉赫伊米",
+          "assist": "Brahim Díaz",
+          "assistZh": "卜拉欣·迪亚斯",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break."
+        }
+      ]
     },
     {
       "id": "760503",
@@ -11572,32 +11749,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+11'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "PAR",
       "away": "FRA",
       "homeName": "巴拉圭",
       "awayName": "法国",
       "homeScore": 0,
-      "awayScore": 0,
-      "score": "0–2",
-      "alternativeScore": "0–1",
-      "scoreType": "预测比分",
+      "awayScore": 1,
+      "score": "0–1",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        5,
-        15,
-        80
+        40,
+        30,
+        30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "负 / 负",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, Pennsylvania",
       "broadcast": [
@@ -11605,7 +11782,72 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49707633",
+          "minute": "19'",
+          "clock": 1105,
+          "period": 1,
+          "type": "yellow",
+          "team": "FRA",
+          "side": "away",
+          "player": "Bradley Barcola",
+          "playerZh": "巴尔科拉",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Bradley Barcola (France) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49708338",
+          "minute": "70'",
+          "clock": 4156,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "away",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner."
+        },
+        {
+          "id": "49708448",
+          "minute": "81'",
+          "clock": 4849,
+          "period": 2,
+          "type": "yellow",
+          "team": "FRA",
+          "side": "away",
+          "player": "Manu Koné",
+          "playerZh": "马努·克奥内",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Manu Koné (France) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49708696",
+          "minute": "90'+7'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "FRA",
+          "side": "away",
+          "player": "Michael Olise",
+          "playerZh": "迈克尔·奥利塞",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Michael Olise (France) is shown the yellow card."
+        }
+      ]
     },
     {
       "id": "760504",
@@ -11614,32 +11856,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+11'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "BRA",
       "away": "NOR",
       "homeName": "巴西",
       "awayName": "挪威",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "2–1",
-      "alternativeScore": "1–0",
-      "scoreType": "预测比分",
+      "homeScore": 1,
+      "awayScore": 2,
+      "score": "1–2",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        53,
-        24,
-        23
+        40,
+        30,
+        30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "平 / 胜",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
       "broadcast": [
@@ -11647,41 +11889,106 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49719718",
+          "minute": "79'",
+          "clock": 4738,
+          "period": 2,
+          "type": "goal",
+          "team": "NOR",
+          "side": "away",
+          "player": "Erling Haaland",
+          "playerZh": "哈兰德",
+          "assist": "Andreas Schjelderup",
+          "assistZh": "阿恩德雷阿斯·施耶尔德埃鲁普",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Brazil 0, Norway 1. Erling Haaland (Norway) header from the centre of the box to the bottom right corner. Assisted by Andreas Schjelderup with a cross."
+        },
+        {
+          "id": "49719983",
+          "minute": "90'",
+          "clock": 5349,
+          "period": 2,
+          "type": "goal",
+          "team": "NOR",
+          "side": "away",
+          "player": "Erling Haaland",
+          "playerZh": "哈兰德",
+          "assist": "Andreas Schjelderup",
+          "assistZh": "阿恩德雷阿斯·施耶尔德埃鲁普",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Brazil 0, Norway 2. Erling Haaland (Norway) left footed shot from outside the box to the bottom right corner. Assisted by Andreas Schjelderup."
+        },
+        {
+          "id": "49720134",
+          "minute": "90'+6'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "BRA",
+          "side": "home",
+          "player": "Neymar",
+          "playerZh": "内马尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Neymar (Brazil) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49720160",
+          "minute": "90'+10'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "BRA",
+          "side": "home",
+          "player": "Neymar",
+          "playerZh": "内马尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner."
+        }
+      ]
     },
     {
       "id": "760505",
       "matchNo": 92,
-      "date": "2026-07-06T00:00Z",
+      "date": "2026-07-06T01:00Z",
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+12'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "MEX",
       "away": "ENG",
       "homeName": "墨西哥",
       "awayName": "英格兰",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "homeScore": 2,
+      "awayScore": 3,
+      "score": "2–3",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        32,
-        29,
-        39
+        40,
+        30,
+        30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "1–2",
+      "halfFull": "负 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Estadio Banorte",
       "city": "Mexico City",
       "broadcast": [
@@ -11689,7 +11996,200 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49722886",
+          "minute": "1'",
+          "clock": 56,
+          "period": 1,
+          "type": "yellow",
+          "team": "ENG",
+          "side": "away",
+          "player": "Declan Rice",
+          "playerZh": "德克兰·赖斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Declan Rice (England) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49723876",
+          "minute": "36'",
+          "clock": 2155,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆",
+          "assist": "Bukayo Saka",
+          "assistZh": "布卡约·萨卡",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Mexico 0, England 1. Jude Bellingham (England) header from very close range to the bottom left corner. Assisted by Bukayo Saka with a cross."
+        },
+        {
+          "id": "49723891",
+          "minute": "38'",
+          "clock": 2253,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆",
+          "assist": "Harry Kane",
+          "assistZh": "哈里·凯恩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Mexico 0, England 2. Jude Bellingham (England) right footed shot from very close range to the bottom left corner. Assisted by Harry Kane."
+        },
+        {
+          "id": "49723945",
+          "minute": "42'",
+          "clock": 2509,
+          "period": 1,
+          "type": "goal",
+          "team": "MEX",
+          "side": "home",
+          "player": "Julián Quiñones",
+          "playerZh": "基尼奥内斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Mexico 1, England 2. Julián Quiñones (Mexico) right footed shot from the centre of the box to the high centre of the goal following a set piece situation."
+        },
+        {
+          "id": "49724201",
+          "minute": "54'",
+          "clock": 3187,
+          "period": 2,
+          "type": "red",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jarell Quansah",
+          "playerZh": "哈雷利·库阿恩萨赫",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Jarell Quansah (England) is shown the red card."
+        },
+        {
+          "id": "49724230",
+          "minute": "60'",
+          "clock": 3590,
+          "period": 2,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Harry Kane",
+          "playerZh": "哈里·凯恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! Mexico 1, England 3. Harry Kane (England) converts the penalty with a right footed shot to the bottom left corner."
+        },
+        {
+          "id": "49724332",
+          "minute": "68'",
+          "clock": 4065,
+          "period": 2,
+          "type": "yellow",
+          "team": "ENG",
+          "side": "away",
+          "player": "Marc Guéhi",
+          "playerZh": "马尔克·古埃赫伊",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Marc Guéhi (England) is shown the yellow card."
+        },
+        {
+          "id": "49724333",
+          "minute": "69'",
+          "clock": 4114,
+          "period": 2,
+          "type": "goal",
+          "team": "MEX",
+          "side": "home",
+          "player": "Raúl Jiménez",
+          "playerZh": "劳尔·希门尼斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! Mexico 2, England 3. Raúl Jiménez (Mexico) converts the penalty with a right footed shot to the bottom left corner."
+        },
+        {
+          "id": "49724350",
+          "minute": "71'",
+          "clock": 4246,
+          "period": 2,
+          "type": "yellow",
+          "team": "MEX",
+          "side": "home",
+          "player": "Jorge Sánchez",
+          "playerZh": "若尔格埃·萨恩奇埃兹",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Jorge Sánchez (Mexico) is shown the yellow card."
+        },
+        {
+          "id": "49724356",
+          "minute": "72'",
+          "clock": 4280,
+          "period": 2,
+          "type": "yellow",
+          "team": "ENG",
+          "side": "away",
+          "player": "Nico O'Reilly",
+          "playerZh": "尼科·奥雷伊利伊",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Nico O'Reilly (England) is shown the yellow card."
+        },
+        {
+          "id": "49724695",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "MEX",
+          "side": "home",
+          "player": "Johan Vásquez",
+          "playerZh": "约翰·巴斯克斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Johan Vásquez (Mexico) is shown the yellow card."
+        },
+        {
+          "id": "49724696",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jordan Henderson",
+          "playerZh": "若尔德阿恩·赫埃恩德埃尔索恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Jordan Henderson (England) is shown the yellow card."
+        }
+      ]
     },
     {
       "id": "760506",
@@ -11698,32 +12198,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+9'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "POR",
       "away": "ESP",
       "homeName": "葡萄牙",
       "awayName": "西班牙",
       "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–2",
-      "alternativeScore": "0–1",
-      "scoreType": "预测比分",
+      "awayScore": 1,
+      "score": "0–1",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        24,
-        26,
-        50
+        40,
+        30,
+        30
       ],
       "halfTimeScore": "0–0",
       "halfFull": "平 / 负",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
       "broadcast": [
@@ -11731,7 +12231,72 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49726186",
+          "minute": "89'",
+          "clock": 5289,
+          "period": 2,
+          "type": "yellow",
+          "team": "POR",
+          "side": "home",
+          "player": "Bernardo Silva",
+          "playerZh": "贝尔纳多·席尔瓦",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49726216",
+          "minute": "90'+1'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "ESP",
+          "side": "away",
+          "player": "Mikel Merino",
+          "playerZh": "米克埃尔·梅里诺",
+          "assist": "Ferran Torres",
+          "assistZh": "弗埃尔拉恩·托尔雷斯",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Portugal 0, Spain 1. Mikel Merino (Spain) left footed shot from the centre of the box to the bottom left corner. Assisted by Ferran Torres with a through ball."
+        },
+        {
+          "id": "49726254",
+          "minute": "90'+4'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "POR",
+          "side": "home",
+          "player": "Renato Veiga",
+          "playerZh": "雷纳托·维伊格阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Renato Veiga (Portugal) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49726316",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "ESP",
+          "side": "away",
+          "player": "Ferran Torres",
+          "playerZh": "弗埃尔拉恩·托尔雷斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Ferran Torres (Spain) is shown the yellow card for a bad foul."
+        }
+      ]
     },
     {
       "id": "760507",
@@ -11740,32 +12305,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+4'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "USA",
       "away": "BEL",
       "homeName": "美国",
       "awayName": "比利时",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "homeScore": 1,
+      "awayScore": 4,
+      "score": "1–4",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        36,
-        28,
-        36
+        40,
+        30,
+        30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "1–2",
+      "halfFull": "负 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Lumen Field",
       "city": "Seattle, Washington",
       "broadcast": [
@@ -11773,7 +12338,120 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49729208",
+          "minute": "9'",
+          "clock": 516,
+          "period": 1,
+          "type": "goal",
+          "team": "BEL",
+          "side": "away",
+          "player": "Charles De Ketelaere",
+          "playerZh": "奇阿尔莱斯·德埃·克埃特拉埃雷",
+          "assist": "Nicolas Raskin",
+          "assistZh": "尼科拉斯·拉斯克伊恩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! USA 0, Belgium 1. Charles De Ketelaere (Belgium) right footed shot from very close range to the centre of the goal. Assisted by Nicolas Raskin."
+        },
+        {
+          "id": "49729493",
+          "minute": "31'",
+          "clock": 1831,
+          "period": 1,
+          "type": "goal",
+          "team": "USA",
+          "side": "home",
+          "player": "Malik Tillman",
+          "playerZh": "马利克·蒂利马恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! USA 1, Belgium 1. Malik Tillman (USA) from a free kick with a right footed shot to the high centre of the goal."
+        },
+        {
+          "id": "49729516",
+          "minute": "33'",
+          "clock": 1947,
+          "period": 1,
+          "type": "goal",
+          "team": "BEL",
+          "side": "away",
+          "player": "Charles De Ketelaere",
+          "playerZh": "奇阿尔莱斯·德埃·克埃特拉埃雷",
+          "assist": "Leandro Trossard",
+          "assistZh": "莱昂德罗·特罗萨德",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! USA 1, Belgium 2. Charles De Ketelaere (Belgium) header from very close range to the top right corner. Assisted by Leandro Trossard with a cross."
+        },
+        {
+          "id": "49729532",
+          "minute": "35'",
+          "clock": 2063,
+          "period": 1,
+          "type": "yellow",
+          "team": "USA",
+          "side": "home",
+          "player": "Weston McKennie",
+          "playerZh": "韦斯顿·麦肯尼",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Weston McKennie (USA) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49730052",
+          "minute": "57'",
+          "clock": 3395,
+          "period": 2,
+          "type": "goal",
+          "team": "BEL",
+          "side": "away",
+          "player": "Hans Vanaken",
+          "playerZh": "赫阿恩斯·瓦纳克埃恩",
+          "assist": "Charles De Ketelaere",
+          "assistZh": "奇阿尔莱斯·德埃·克埃特拉埃雷",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! USA 1, Belgium 3. Hans Vanaken (Belgium) right footed shot from outside the box to the bottom right corner. Assisted by Charles De Ketelaere."
+        },
+        {
+          "id": "49730244",
+          "minute": "69'",
+          "clock": 4089,
+          "period": 2,
+          "type": "yellow",
+          "team": "USA",
+          "side": "home",
+          "player": "Malik Tillman",
+          "playerZh": "马利克·蒂利马恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Malik Tillman (USA) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49730641",
+          "minute": "90'+3'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "BEL",
+          "side": "away",
+          "player": "Romelu Lukaku",
+          "playerZh": "卢卡库",
+          "assist": "Hans Vanaken",
+          "assistZh": "赫阿恩斯·瓦纳克埃恩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! USA 1, Belgium 4. Romelu Lukaku (Belgium) right footed shot from the left side of the box to the bottom right corner. Assisted by Hans Vanaken."
+        }
+      ]
     },
     {
       "id": "760509",
@@ -11782,32 +12460,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+11'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "ARG",
       "away": "EGY",
       "homeName": "阿根廷",
       "awayName": "埃及",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "2–0",
-      "alternativeScore": "3–0",
-      "scoreType": "预测比分",
+      "homeScore": 3,
+      "awayScore": 2,
+      "score": "3–2",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        70,
-        20,
-        10
+        40,
+        30,
+        30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "胜 / 胜",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "0–1",
+      "halfFull": "负 / 胜",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
       "broadcast": [
@@ -11815,7 +12493,152 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49730975",
+          "minute": "15'",
+          "clock": 845,
+          "period": 1,
+          "type": "goal",
+          "team": "EGY",
+          "side": "away",
+          "player": "Yasser Ibrahim",
+          "playerZh": "伊阿斯塞尔·伊布拉赫伊姆",
+          "assist": "Marawan Attia",
+          "assistZh": "马拉沃阿恩·阿特蒂阿",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 0, Egypt 1. Yasser Ibrahim (Egypt) header from the centre of the box to the bottom right corner. Assisted by Marwan Attia with a cross following a corner."
+        },
+        {
+          "id": "49731888",
+          "minute": "67'",
+          "clock": 4006,
+          "period": 2,
+          "type": "goal",
+          "team": "EGY",
+          "side": "away",
+          "player": "Mostafa Zico",
+          "playerZh": "莫斯塔弗阿·齐科",
+          "assist": "Haissem Hassan",
+          "assistZh": "赫阿伊斯塞姆·赫阿斯萨恩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break."
+        },
+        {
+          "id": "49732063",
+          "minute": "79'",
+          "clock": 4720,
+          "period": 2,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Cristian Romero",
+          "playerZh": "克里斯蒂安·罗梅罗",
+          "assist": "Lionel Messi",
+          "assistZh": "利昂内尔·梅西",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 1, Egypt 2. Cristian Romero (Argentina) header from the centre of the box to the top right corner. Assisted by Lionel Messi with a cross."
+        },
+        {
+          "id": "49732134",
+          "minute": "83'",
+          "clock": 4979,
+          "period": 2,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Lionel Messi",
+          "playerZh": "利昂内尔·梅西",
+          "assist": "Gonzalo Montiel",
+          "assistZh": "格奥恩扎洛·莫恩蒂埃尔",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 2, Egypt 2. Lionel Messi (Argentina) left footed shot from the centre of the box to the high centre of the goal. Assisted by Gonzalo Montiel."
+        },
+        {
+          "id": "49732266",
+          "minute": "90'+2'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯",
+          "assist": "Lautaro Martínez",
+          "assistZh": "劳塔罗·马丁内斯",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 3, Egypt 2. Enzo Fernández (Argentina) header from the centre of the box to the bottom right corner. Assisted by Lautaro Martínez with a cross following a fast break."
+        },
+        {
+          "id": "49732269",
+          "minute": "90'+3'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "EGY",
+          "side": "away",
+          "player": "Mostafa Shoubir",
+          "playerZh": "莫斯塔弗阿·什奥乌布伊尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Mostafa Shobeir (Egypt) is shown the yellow card."
+        },
+        {
+          "id": "49732271",
+          "minute": "90'+4'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "EGY",
+          "side": "away",
+          "player": "Hamdy Fathy",
+          "playerZh": "赫阿姆德伊·弗阿特伊",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Hamdi Fathy (Egypt) is shown the yellow card."
+        },
+        {
+          "id": "49732297",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "EGY",
+          "side": "away",
+          "player": "Marawan Attia",
+          "playerZh": "马拉沃阿恩·阿特蒂阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Marwan Attia (Egypt) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49732338",
+          "minute": "90'+12'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "EGY",
+          "side": "away",
+          "player": "Haissem Hassan",
+          "playerZh": "赫阿伊斯塞姆·赫阿斯萨恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Haissem Hassan (Egypt) is shown the yellow card."
+        }
+      ]
     },
     {
       "id": "760508",
@@ -11824,32 +12647,32 @@
       "stage": "16强",
       "stageSlug": "round-of-16",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
+      "status": "STATUS_FINAL_PEN",
+      "statusText": "Final Score - After Penalties",
+      "completed": true,
+      "period": 5,
+      "displayClock": "120'",
+      "clockSeconds": 7200,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
       "home": "SUI",
       "away": "COL",
       "homeName": "瑞士",
       "awayName": "哥伦比亚",
       "homeScore": 0,
       "awayScore": 0,
-      "score": "1–2",
-      "alternativeScore": "0–1",
-      "scoreType": "预测比分",
+      "score": "0–0",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
-        28,
+        40,
         30,
-        42
+        30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "平 / 负",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 平",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "BC Place",
       "city": "Vancouver",
       "broadcast": [
@@ -11857,7 +12680,88 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49733331",
+          "minute": "51'",
+          "clock": 3033,
+          "period": 2,
+          "type": "yellow",
+          "team": "SUI",
+          "side": "home",
+          "player": "Granit Xhaka",
+          "playerZh": "扎卡",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Granit Xhaka (Switzerland) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49733452",
+          "minute": "59'",
+          "clock": 3490,
+          "period": 2,
+          "type": "yellow",
+          "team": "SUI",
+          "side": "home",
+          "player": "Denis Zakaria",
+          "playerZh": "德埃尼斯·扎克阿里阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Denis Zakaria (Switzerland) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49733468",
+          "minute": "60'",
+          "clock": 3576,
+          "period": 2,
+          "type": "yellow",
+          "team": "COL",
+          "side": "away",
+          "player": "Luis Suárez",
+          "playerZh": "路易斯·苏亚雷斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Luis Suárez (Colombia) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49733961",
+          "minute": "95'",
+          "clock": 5646,
+          "period": 3,
+          "type": "yellow",
+          "team": "COL",
+          "side": "away",
+          "player": "Davinson Sánchez",
+          "playerZh": "达维森·桑切斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Davinson Sánchez (Colombia) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49734108",
+          "minute": "105'",
+          "clock": 6271,
+          "period": 3,
+          "type": "yellow",
+          "team": "SUI",
+          "side": "home",
+          "player": "Miro Muheim",
+          "playerZh": "米罗·穆赫埃伊姆",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Miro Muheim (Switzerland) is shown the yellow card for a bad foul."
+        }
+      ]
     },
     {
       "id": "760510",
@@ -11866,32 +12770,32 @@
       "stage": "四分之一决赛",
       "stageSlug": "quarterfinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "RD16 W1",
-      "away": "RD16 W2",
-      "homeName": "Round of 16 1 Winner",
-      "awayName": "Round of 16 2 Winner",
-      "homeScore": 0,
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+6'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "FRA",
+      "away": "MAR",
+      "homeName": "法国",
+      "awayName": "摩洛哥",
+      "homeScore": 2,
       "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "score": "2–0",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 胜",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
       "broadcast": [
@@ -11899,7 +12803,56 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49742002",
+          "minute": "60'",
+          "clock": 3558,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "assist": "Désiré Doué",
+          "assistZh": "德西雷·杜埃",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 1, Morocco 0. Kylian Mbappé (France) right footed shot from the left side of the box to the top right corner. Assisted by Désiré Doué."
+        },
+        {
+          "id": "49742032",
+          "minute": "63'",
+          "clock": 3755,
+          "period": 2,
+          "type": "yellow",
+          "team": "MAR",
+          "side": "away",
+          "player": "Issa Diop",
+          "playerZh": "伊斯萨·德伊奥普",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Issa Diop (Morocco) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49742073",
+          "minute": "66'",
+          "clock": 3921,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Ousmane Dembélé",
+          "playerZh": "奥斯曼·登贝莱",
+          "assist": "Kylian Mbappé",
+          "assistZh": "基利安·姆巴佩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 2, Morocco 0. Ousmane Dembélé (France) right footed shot from outside the box to the bottom right corner. Assisted by Kylian Mbappé."
+        }
+      ]
     },
     {
       "id": "760511",
@@ -11908,32 +12861,32 @@
       "stage": "四分之一决赛",
       "stageSlug": "quarterfinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "RD16 W5",
-      "away": "RD16 W6",
-      "homeName": "Round of 16 5 Winner",
-      "awayName": "Round of 16 6 Winner",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+7'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "ESP",
+      "away": "BEL",
+      "homeName": "西班牙",
+      "awayName": "比利时",
+      "homeScore": 2,
+      "awayScore": 1,
+      "score": "2–1",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "1–1",
+      "halfFull": "平 / 胜",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "SoFi Stadium",
       "city": "Inglewood, California",
       "broadcast": [
@@ -11941,7 +12894,120 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49747537",
+          "minute": "30'",
+          "clock": 1761,
+          "period": 1,
+          "type": "goal",
+          "team": "ESP",
+          "side": "home",
+          "player": "Fabián Ruiz",
+          "playerZh": "弗阿布伊阿恩·鲁伊兹",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Spain 1, Belgium 0. Fabián Ruiz (Spain) right footed shot from the centre of the box to the high centre of the goal."
+        },
+        {
+          "id": "49747686",
+          "minute": "41'",
+          "clock": 2411,
+          "period": 1,
+          "type": "goal",
+          "team": "BEL",
+          "side": "away",
+          "player": "Charles De Ketelaere",
+          "playerZh": "奇阿尔莱斯·德埃·克埃特拉埃雷",
+          "assist": "Timothy Castagne",
+          "assistZh": "蒂莫特伊·卡斯塔格内",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Spain 1, Belgium 1. Charles De Ketelaere (Belgium) header from the centre of the box to the centre of the goal. Assisted by Timothy Castagne with a cross."
+        },
+        {
+          "id": "49747715",
+          "minute": "43'",
+          "clock": 2552,
+          "period": 1,
+          "type": "yellow",
+          "team": "ESP",
+          "side": "home",
+          "player": "Pau Cubarsí",
+          "playerZh": "普阿乌·库布阿尔西",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Pau Cubarsí (Spain) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49748401",
+          "minute": "85'",
+          "clock": 5076,
+          "period": 2,
+          "type": "yellow",
+          "team": "BEL",
+          "side": "away",
+          "player": "Kevin De Bruyne",
+          "playerZh": "凯文·德布劳内",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Kevin De Bruyne (Belgium) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49748447",
+          "minute": "88'",
+          "clock": 5242,
+          "period": 2,
+          "type": "goal",
+          "team": "ESP",
+          "side": "home",
+          "player": "Mikel Merino",
+          "playerZh": "米克埃尔·梅里诺",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Spain 2, Belgium 1. Mikel Merino (Spain) left footed shot from very close range to the top left corner."
+        },
+        {
+          "id": "49748509",
+          "minute": "90'+3'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "ESP",
+          "side": "home",
+          "player": "Aymeric Laporte",
+          "playerZh": "拉波尔特",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Aymeric Laporte (Spain) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49748543",
+          "minute": "90'+5'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "BEL",
+          "side": "away",
+          "player": "Axel Witsel",
+          "playerZh": "阿克斯埃尔·沃伊特塞尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Axel Witsel (Belgium) is shown the yellow card for a bad foul."
+        }
+      ]
     },
     {
       "id": "760512",
@@ -11950,32 +13016,32 @@
       "stage": "四分之一决赛",
       "stageSlug": "quarterfinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "RD16 W3",
-      "away": "RD16 W4",
-      "homeName": "Round of 16 3 Winner",
-      "awayName": "Round of 16 4 Winner",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "status": "STATUS_FINAL_AET",
+      "statusText": "Final Score - After Extra Time",
+      "completed": true,
+      "period": 4,
+      "displayClock": "120'+2'",
+      "clockSeconds": 7200,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "NOR",
+      "away": "ENG",
+      "homeName": "挪威",
+      "awayName": "英格兰",
+      "homeScore": 1,
+      "awayScore": 2,
+      "score": "1–2",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "1–1",
+      "halfFull": "平 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "broadcast": [
@@ -11983,7 +13049,72 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49766335",
+          "minute": "36'",
+          "clock": 2101,
+          "period": 1,
+          "type": "goal",
+          "team": "NOR",
+          "side": "home",
+          "player": "Andreas Schjelderup",
+          "playerZh": "阿恩德雷阿斯·施耶尔德埃鲁普",
+          "assist": "Martin Ødegaard",
+          "assistZh": "马尔蒂恩·德埃格阿阿尔德",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard."
+        },
+        {
+          "id": "49766475",
+          "minute": "45'+2'",
+          "clock": 2700,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆",
+          "assist": "Anthony Gordon",
+          "assistZh": "阿恩特奥恩伊·格奥尔德奥恩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon."
+        },
+        {
+          "id": "49767779",
+          "minute": "93'",
+          "clock": 5554,
+          "period": 3,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner following a corner."
+        },
+        {
+          "id": "49768430",
+          "minute": "117'",
+          "clock": 6993,
+          "period": 4,
+          "type": "yellow",
+          "team": "NOR",
+          "side": "home",
+          "player": "Kristoffer Ajer",
+          "playerZh": "克里斯托弗弗埃尔·阿耶尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Kristoffer Ajer (Norway) is shown the yellow card."
+        }
+      ]
     },
     {
       "id": "760513",
@@ -11992,32 +13123,32 @@
       "stage": "四分之一决赛",
       "stageSlug": "quarterfinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "RD16 W7",
-      "away": "RD16 W8",
-      "homeName": "Round of 16 7 Winner",
-      "awayName": "Round of 16 8 Winner",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "status": "STATUS_FINAL_AET",
+      "statusText": "Final Score - After Extra Time",
+      "completed": true,
+      "period": 4,
+      "displayClock": "120'+4'",
+      "clockSeconds": 7200,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "ARG",
+      "away": "SUI",
+      "homeName": "阿根廷",
+      "awayName": "瑞士",
+      "homeScore": 3,
+      "awayScore": 1,
+      "score": "3–1",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "1–0",
+      "halfFull": "胜 / 胜",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "GEHA Field at Arrowhead Stadium",
       "city": "Kansas City, Missouri",
       "broadcast": [
@@ -12025,7 +13156,152 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49769783",
+          "minute": "10'",
+          "clock": 576,
+          "period": 1,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Alexis Mac Allister",
+          "playerZh": "亚历克西斯·麦卡利斯特",
+          "assist": "Lionel Messi",
+          "assistZh": "利昂内尔·梅西",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 1, Switzerland 0. Alexis Mac Allister (Argentina) header from the left side of the six yard box to the bottom right corner. Assisted by Lionel Messi with a cross following a corner."
+        },
+        {
+          "id": "49770712",
+          "minute": "44'",
+          "clock": 2611,
+          "period": 1,
+          "type": "yellow",
+          "team": "SUI",
+          "side": "away",
+          "player": "Breel Embolo",
+          "playerZh": "恩博洛",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Breel Embolo (Switzerland) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49771642",
+          "minute": "67'",
+          "clock": 4015,
+          "period": 2,
+          "type": "goal",
+          "team": "SUI",
+          "side": "away",
+          "player": "Dan Ndoye",
+          "playerZh": "德阿恩·恩德奥伊埃",
+          "assist": "Ricardo Rodríguez",
+          "assistZh": "里卡尔德奥·罗德里古埃兹",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 1, Switzerland 1. Dan Ndoye (Switzerland) right footed shot from a difficult angle on the left to the centre of the goal. Assisted by Ricardo Rodríguez with a through ball."
+        },
+        {
+          "id": "49771727",
+          "minute": "72'",
+          "clock": 4278,
+          "period": 2,
+          "type": "red",
+          "team": "SUI",
+          "side": "away",
+          "player": "Breel Embolo",
+          "playerZh": "恩博洛",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Second yellow card to Breel Embolo (Switzerland)."
+        },
+        {
+          "id": "49772402",
+          "minute": "97'",
+          "clock": 5766,
+          "period": 3,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "home",
+          "player": "Thiago Almada",
+          "playerZh": "特伊阿格奥·阿尔马德阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Thiago Almada (Argentina) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49772414",
+          "minute": "98'",
+          "clock": 5856,
+          "period": 3,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "home",
+          "player": "Lautaro Martínez",
+          "playerZh": "劳塔罗·马丁内斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Lautaro Martínez (Argentina) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49772661",
+          "minute": "112'",
+          "clock": 6701,
+          "period": 4,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Julián Álvarez",
+          "playerZh": "胡利安·阿尔瓦雷斯",
+          "assist": "José Manuel López",
+          "assistZh": "若塞·马努埃尔·洛普埃兹",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 2, Switzerland 1. Julián Alvarez (Argentina) right footed shot from outside the box to the top right corner. Assisted by José Manuel López."
+        },
+        {
+          "id": "49772671",
+          "minute": "114'",
+          "clock": 6825,
+          "period": 4,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "home",
+          "player": "José Manuel López",
+          "playerZh": "若塞·马努埃尔·洛普埃兹",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "José Manuel López (Argentina) is shown the yellow card."
+        },
+        {
+          "id": "49772761",
+          "minute": "120'+1'",
+          "clock": 7200,
+          "period": 4,
+          "type": "goal",
+          "team": "ARG",
+          "side": "home",
+          "player": "Lautaro Martínez",
+          "playerZh": "劳塔罗·马丁内斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Argentina 3, Switzerland 1. Lautaro Martínez (Argentina) right footed shot from the centre of the box to the bottom right corner following a fast break."
+        }
+      ]
     },
     {
       "id": "760514",
@@ -12034,32 +13310,32 @@
       "stage": "半决赛",
       "stageSlug": "semifinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "QFW1",
-      "away": "QFW2",
-      "homeName": "Quarterfinal 1 Winner",
-      "awayName": "Quarterfinal 2 Winner",
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+7'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "FRA",
+      "away": "ESP",
+      "homeName": "法国",
+      "awayName": "西班牙",
       "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "awayScore": 2,
+      "score": "0–2",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "0–1",
+      "halfFull": "负 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
       "broadcast": [
@@ -12067,7 +13343,88 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49792055",
+          "minute": "9'",
+          "clock": 502,
+          "period": 1,
+          "type": "yellow",
+          "team": "FRA",
+          "side": "home",
+          "player": "Adrien Rabiot",
+          "playerZh": "阿德里安·拉比奥",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Adrien Rabiot (France) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49792518",
+          "minute": "22'",
+          "clock": 1312,
+          "period": 1,
+          "type": "goal",
+          "team": "ESP",
+          "side": "away",
+          "player": "Mikel Oyarzabal",
+          "playerZh": "奥亚萨瓦尔",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner."
+        },
+        {
+          "id": "49792649",
+          "minute": "31'",
+          "clock": 1829,
+          "period": 1,
+          "type": "yellow",
+          "team": "ESP",
+          "side": "away",
+          "player": "Marc Cucurella",
+          "playerZh": "马尔克·库库雷利阿",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Marc Cucurella (Spain) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49793380",
+          "minute": "58'",
+          "clock": 3453,
+          "period": 2,
+          "type": "goal",
+          "team": "ESP",
+          "side": "away",
+          "player": "Pedro Porro",
+          "playerZh": "普埃德罗·普奥尔罗",
+          "assist": "Dani Olmo",
+          "assistZh": "德阿尼·奥尔莫",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 0, Spain 2. Pedro Porro (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Dani Olmo."
+        },
+        {
+          "id": "49793901",
+          "minute": "86'",
+          "clock": 5145,
+          "period": 2,
+          "type": "yellow",
+          "team": "FRA",
+          "side": "home",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Kylian Mbappé (France) is shown the yellow card for a bad foul."
+        }
+      ]
     },
     {
       "id": "760515",
@@ -12076,32 +13433,32 @@
       "stage": "半决赛",
       "stageSlug": "semifinals",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "QFW3",
-      "away": "QW4",
-      "homeName": "Quarterfinal 3 Winner",
-      "awayName": "Quarterfinal 4 Winner",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+12'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "ENG",
+      "away": "ARG",
+      "homeName": "英格兰",
+      "awayName": "阿根廷",
+      "homeScore": 1,
+      "awayScore": 2,
+      "score": "1–2",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
       "broadcast": [
@@ -12109,7 +13466,120 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49796710",
+          "minute": "37'",
+          "clock": 2209,
+          "period": 1,
+          "type": "yellow",
+          "team": "ENG",
+          "side": "home",
+          "player": "Elliot Anderson",
+          "playerZh": "埃利伊奥特·阿恩德埃尔索恩",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Elliot Anderson (England) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49796783",
+          "minute": "42'",
+          "clock": 2473,
+          "period": 1,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Lisandro Martínez",
+          "playerZh": "利桑德罗·马丁内斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49797058",
+          "minute": "51'",
+          "clock": 3046,
+          "period": 2,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Cristian Romero",
+          "playerZh": "克里斯蒂安·罗梅罗",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Cristian Romero (Argentina) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49797120",
+          "minute": "55'",
+          "clock": 3264,
+          "period": 2,
+          "type": "goal",
+          "team": "ENG",
+          "side": "home",
+          "player": "Anthony Gordon",
+          "playerZh": "阿恩特奥恩伊·格奥尔德奥恩",
+          "assist": "Morgan Rogers",
+          "assistZh": "莫尔格阿恩·罗格埃尔斯",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! England 1, Argentina 0. Anthony Gordon (England) right footed shot from very close range to the bottom left corner. Assisted by Morgan Rogers with a cross."
+        },
+        {
+          "id": "49797604",
+          "minute": "85'",
+          "clock": 5094,
+          "period": 2,
+          "type": "goal",
+          "team": "ARG",
+          "side": "away",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯",
+          "assist": "Lionel Messi",
+          "assistZh": "利昂内尔·梅西",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! England 1, Argentina 1. Enzo Fernández (Argentina) right footed shot from outside the box to the bottom left corner. Assisted by Lionel Messi following a corner."
+        },
+        {
+          "id": "49797667",
+          "minute": "90'+2'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "ARG",
+          "side": "away",
+          "player": "Lautaro Martínez",
+          "playerZh": "劳塔罗·马丁内斯",
+          "assist": "Lionel Messi",
+          "assistZh": "利昂内尔·梅西",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! England 1, Argentina 2. Lautaro Martínez (Argentina) header from very close range to the top left corner. Assisted by Lionel Messi with a cross."
+        },
+        {
+          "id": "49797670",
+          "minute": "90'+4'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Rodrigo De Paul",
+          "playerZh": "罗德里戈·德保罗",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Rodrigo De Paul (Argentina) is shown the yellow card."
+        }
+      ]
     },
     {
       "id": "760516",
@@ -12118,32 +13588,32 @@
       "stage": "三四名决赛",
       "stageSlug": "3rd-place-match",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "SF L1",
-      "away": "SF L2",
-      "homeName": "Semifinal 1 Loser",
-      "awayName": "Semifinal 2 Loser",
-      "homeScore": 0,
-      "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "status": "STATUS_FULL_TIME",
+      "statusText": "Full Time",
+      "completed": true,
+      "period": 2,
+      "displayClock": "90'+9'",
+      "clockSeconds": 5400,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "FRA",
+      "away": "ENG",
+      "homeName": "法国",
+      "awayName": "英格兰",
+      "homeScore": 4,
+      "awayScore": 6,
+      "score": "4–6",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
-      "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfTimeScore": "0–4",
+      "halfFull": "负 / 负",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
       "broadcast": [
@@ -12151,7 +13621,168 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49865115",
+          "minute": "3'",
+          "clock": 134,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Declan Rice",
+          "playerZh": "德克兰·赖斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box to the bottom right corner."
+        },
+        {
+          "id": "49865676",
+          "minute": "18'",
+          "clock": 1072,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Ezri Konsa",
+          "playerZh": "埃兹里·克奥恩萨",
+          "assist": "Declan Rice",
+          "assistZh": "德克兰·赖斯",
+          "goalKind": "头球",
+          "ownGoal": false,
+          "description": "Goal! France 0, England 2. Ezri Konsa (England) header from the centre of the box to the bottom right corner. Assisted by Declan Rice with a cross following a corner."
+        },
+        {
+          "id": "49866393",
+          "minute": "37'",
+          "clock": 2170,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡",
+          "assist": "Marcus Rashford",
+          "assistZh": "拉什福德",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 0, England 3. Bukayo Saka (England) left footed shot from the left side of the box to the high centre of the goal. Assisted by Marcus Rashford following a fast break."
+        },
+        {
+          "id": "49866797",
+          "minute": "45'+1'",
+          "clock": 2700,
+          "period": 1,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡",
+          "assist": "Eberechi Eze",
+          "assistZh": "埃布埃雷奇伊·埃泽",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 0, England 4. Bukayo Saka (England) left footed shot from the centre of the box to the bottom right corner. Assisted by Eberechi Eze with a through ball."
+        },
+        {
+          "id": "49867337",
+          "minute": "48'",
+          "clock": 2850,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "assist": "Michael Olise",
+          "assistZh": "迈克尔·奥利塞",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 1, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise with a through ball following a fast break."
+        },
+        {
+          "id": "49867589",
+          "minute": "54'",
+          "clock": 3219,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Bradley Barcola",
+          "playerZh": "巴尔科拉",
+          "assist": "Kylian Mbappé",
+          "assistZh": "基利安·姆巴佩",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 2, England 4. Bradley Barcola (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Kylian Mbappé with a through ball."
+        },
+        {
+          "id": "49867945",
+          "minute": "66'",
+          "clock": 3950,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Kylian Mbappé",
+          "playerZh": "基利安·姆巴佩",
+          "assist": "Michael Olise",
+          "assistZh": "迈克尔·奥利塞",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 3, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise."
+        },
+        {
+          "id": "49868711",
+          "minute": "87'",
+          "clock": 5201,
+          "period": 2,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Bukayo Saka",
+          "playerZh": "布卡约·萨卡",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "点球",
+          "ownGoal": false,
+          "description": "Goal! France 3, England 5. Bukayo Saka (England) converts the penalty with a left footed shot to the bottom right corner."
+        },
+        {
+          "id": "49869018",
+          "minute": "90'+6'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "FRA",
+          "side": "home",
+          "player": "Ousmane Dembélé",
+          "playerZh": "奥斯曼·登贝莱",
+          "assist": "Dayot Upamecano",
+          "assistZh": "达约·于帕梅卡诺",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 4, England 5. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Dayot Upamecano following a fast break."
+        },
+        {
+          "id": "49869058",
+          "minute": "90'+8'",
+          "clock": 5400,
+          "period": 2,
+          "type": "goal",
+          "team": "ENG",
+          "side": "away",
+          "player": "Jude Bellingham",
+          "playerZh": "裘德·贝林厄姆",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! France 4, England 6. Jude Bellingham (England) right footed shot from the centre of the box to the bottom right corner following a fast break."
+        }
+      ]
     },
     {
       "id": "760517",
@@ -12160,32 +13791,32 @@
       "stage": "决赛",
       "stageSlug": "final",
       "group": "",
-      "status": "STATUS_SCHEDULED",
-      "statusText": "Scheduled",
-      "completed": false,
-      "period": 0,
-      "displayClock": "0'",
-      "clockSeconds": 0,
-      "clockSnapshotAt": "2026-07-04T07:20:02.332Z",
-      "progress": 0,
-      "home": "SFW1",
-      "away": "SFW2",
-      "homeName": "Semifinal 1 Winner",
-      "awayName": "Semifinal 2 Winner",
-      "homeScore": 0,
+      "status": "STATUS_FINAL_AET",
+      "statusText": "Final Score - After Extra Time",
+      "completed": true,
+      "period": 4,
+      "displayClock": "120'+5'",
+      "clockSeconds": 7200,
+      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "progress": 100,
+      "home": "ESP",
+      "away": "ARG",
+      "homeName": "西班牙",
+      "awayName": "阿根廷",
+      "homeScore": 1,
       "awayScore": 0,
-      "score": "1–1",
-      "alternativeScore": "0–0",
-      "scoreType": "预测比分",
+      "score": "1–0",
+      "alternativeScore": "",
+      "scoreType": "赛果",
       "probabilities": [
         40,
         30,
         30
       ],
       "halfTimeScore": "0–0",
-      "halfFull": "平 / 平",
-      "halfFullType": "prediction",
-      "halfFullLabel": "半全场预测",
+      "halfFull": "平 / 胜",
+      "halfFullType": "actual",
+      "halfFullLabel": "半全场赛果",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
       "broadcast": [
@@ -12193,7 +13824,120 @@
         "Tele",
         "FOX One"
       ],
-      "timeline": []
+      "timeline": [
+        {
+          "id": "49879410",
+          "minute": "41'",
+          "clock": 2407,
+          "period": 1,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Lisandro Martínez",
+          "playerZh": "利桑德罗·马丁内斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Lisandro Martínez (Argentina) is shown the yellow card for a bad foul."
+        },
+        {
+          "id": "49879651",
+          "minute": "52'",
+          "clock": 3076,
+          "period": 2,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Leandro Paredes",
+          "playerZh": "莱阿恩德罗·普阿雷德埃斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Leandro Paredes (Argentina) is shown the yellow card."
+        },
+        {
+          "id": "49880051",
+          "minute": "82'",
+          "clock": 4918,
+          "period": 2,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Enzo Fernández (Argentina) is shown the yellow card."
+        },
+        {
+          "id": "49880220",
+          "minute": "90'+2'",
+          "clock": 5400,
+          "period": 2,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Cristian Romero",
+          "playerZh": "克里斯蒂安·罗梅罗",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Cristian Romero (Argentina) is shown the yellow card."
+        },
+        {
+          "id": "49880213",
+          "minute": "90'+3'",
+          "clock": 5400,
+          "period": 2,
+          "type": "red",
+          "team": "ARG",
+          "side": "away",
+          "player": "Enzo Fernández",
+          "playerZh": "恩佐·费尔南德斯",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Second yellow card to Enzo Fernández (Argentina) for a bad foul."
+        },
+        {
+          "id": "49880522",
+          "minute": "106'",
+          "clock": 6337,
+          "period": 4,
+          "type": "goal",
+          "team": "ESP",
+          "side": "home",
+          "player": "Ferran Torres",
+          "playerZh": "弗埃尔拉恩·托尔雷斯",
+          "assist": "Nico Williams",
+          "assistZh": "尼科·沃伊利伊阿姆斯",
+          "goalKind": "正常进球",
+          "ownGoal": false,
+          "description": "Goal! Spain 1, Argentina 0. Ferran Torres (Spain) left footed shot from the centre of the box to the high centre of the goal. Assisted by Nico Williams with a headed pass."
+        },
+        {
+          "id": "49880589",
+          "minute": "111'",
+          "clock": 6624,
+          "period": 4,
+          "type": "yellow",
+          "team": "ARG",
+          "side": "away",
+          "player": "Alexis Mac Allister",
+          "playerZh": "亚历克西斯·麦卡利斯特",
+          "assist": "",
+          "assistZh": "",
+          "goalKind": "",
+          "ownGoal": false,
+          "description": "Alexis Mac Allister (Argentina) is shown the yellow card for a bad foul."
+        }
+      ]
     }
   ],
   "teams": {
@@ -12213,7 +13957,7 @@
           "shortName": "G. Ochoa",
           "number": "13",
           "position": "门将",
-          "age": 40,
+          "age": 41,
           "injuries": []
         },
         {
@@ -12246,7 +13990,7 @@
           "shortName": "J. Gallardo",
           "number": "23",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -12400,7 +14144,7 @@
           "shortName": "O. Vargas",
           "number": "18",
           "position": "中场",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -12444,7 +14188,7 @@
           "shortName": "R. Alvarado",
           "number": "25",
           "position": "前锋",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -12494,6 +14238,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-06T01:00Z",
+          "opponent": "英格兰",
+          "score": "2-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-07-01T02:00Z",
           "opponent": "厄瓜多尔",
@@ -12556,13 +14307,6 @@
           "score": "0-0",
           "result": "D",
           "competition": ""
-        },
-        {
-          "date": "2026-02-26T02:00Z",
-          "opponent": "Iceland",
-          "score": "4-0",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -12615,7 +14359,7 @@
           "shortName": "A. Modiba",
           "number": "6",
           "position": "后卫",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -12725,7 +14469,7 @@
           "shortName": "T. Zwane",
           "number": "11",
           "position": "中场",
-          "age": 36,
+          "age": 37,
           "injuries": []
         },
         {
@@ -12780,7 +14524,7 @@
           "shortName": "K. Sebelebele",
           "number": "25",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -12791,7 +14535,7 @@
           "shortName": "L. Foster",
           "number": "9",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -12802,7 +14546,7 @@
           "shortName": "O. Appollis",
           "number": "7",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -12995,7 +14739,7 @@
           "shortName": "K. Moon-Hwan",
           "number": "15",
           "position": "后卫",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -13017,7 +14761,7 @@
           "shortName": "L. Tae-Seok",
           "number": "13",
           "position": "后卫",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -13050,7 +14794,7 @@
           "shortName": "L. Gi-Hyuk",
           "number": "3",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -13061,7 +14805,7 @@
           "shortName": "C. Wi-Je",
           "number": "14",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -13083,7 +14827,7 @@
           "shortName": "L. Jae-Sung",
           "number": "10",
           "position": "中场",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -13138,7 +14882,7 @@
           "shortName": "J. Castrop",
           "number": "23",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -13160,7 +14904,7 @@
           "shortName": "B. Jun-Ho",
           "number": "17",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -13171,7 +14915,7 @@
           "shortName": "S. Heung-Min",
           "number": "7",
           "position": "前锋",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -13342,7 +15086,7 @@
           "shortName": "L. Hornícek",
           "number": "23",
           "position": "门将",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -13364,7 +15108,7 @@
           "shortName": "V. Coufal",
           "number": "5",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -13375,7 +15119,7 @@
           "shortName": "J. Zelený",
           "number": "20",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -13419,7 +15163,7 @@
           "shortName": "D. Jurásek",
           "number": "14",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -13441,7 +15185,7 @@
           "shortName": "V. Darida",
           "number": "8",
           "position": "中场",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -13573,7 +15317,7 @@
           "shortName": "A. Hlozek",
           "number": "9",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -13876,7 +15620,7 @@
           "shortName": "N. Sigur",
           "number": "23",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -13971,6 +15715,13 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-04T17:00Z",
+          "opponent": "摩洛哥",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-06-28T19:00Z",
           "opponent": "南非",
           "score": "1-0",
@@ -14032,13 +15783,6 @@
           "score": "1-0",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-11-19T01:30Z",
-          "opponent": "Venezuela",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -14069,7 +15813,7 @@
           "shortName": "M. Zlomislic",
           "number": "22",
           "position": "门将",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -14113,7 +15857,7 @@
           "shortName": "D. Hadzikadunic",
           "number": "3",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -14135,7 +15879,7 @@
           "shortName": "S. Radeljic",
           "number": "21",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -14146,7 +15890,7 @@
           "shortName": "A. Dedic",
           "number": "7",
           "position": "后卫",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -14168,7 +15912,7 @@
           "shortName": "N. Celik",
           "number": "24",
           "position": "后卫",
-          "age": 19,
+          "age": 20,
           "injuries": []
         },
         {
@@ -14427,7 +16171,7 @@
           "shortName": "M. Freese",
           "number": "24",
           "position": "门将",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -14482,7 +16226,7 @@
           "shortName": "A. Robinson",
           "number": "5",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -14493,7 +16237,7 @@
           "shortName": "A. Trusty",
           "number": "6",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -14504,7 +16248,7 @@
           "shortName": "A. Freeman",
           "number": "16",
           "position": "后卫",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -14592,7 +16336,7 @@
           "shortName": "W. McKennie",
           "number": "8",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -14646,7 +16390,7 @@
           "nameZhSource": "auto",
           "shortName": "M. Arfsten",
           "number": "18",
-          "position": "中场",
+          "position": "后卫",
           "age": 25,
           "injuries": []
         },
@@ -14709,6 +16453,13 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-07T00:00Z",
+          "opponent": "比利时",
+          "score": "1-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-07-02T00:00Z",
           "opponent": "波黑",
           "score": "2-0",
@@ -14768,13 +16519,6 @@
           "date": "2025-11-19T00:00Z",
           "opponent": "乌拉圭",
           "score": "5-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T22:00Z",
-          "opponent": "巴拉圭",
-          "score": "2-1",
           "result": "W",
           "competition": ""
         }
@@ -14873,7 +16617,7 @@
           "shortName": "F. Balbuena",
           "number": "5",
           "position": "后卫",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -14895,7 +16639,7 @@
           "shortName": "J. Canale",
           "number": "13",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -14906,7 +16650,7 @@
           "shortName": "A. Maidana",
           "number": "26",
           "position": "后卫",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -14994,7 +16738,7 @@
           "shortName": "D. Bobadilla",
           "number": "16",
           "position": "中场",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -15060,7 +16804,7 @@
           "shortName": "I. Pitta",
           "number": "25",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -15071,12 +16815,19 @@
           "shortName": "R. Sosa",
           "number": "7",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-04T21:00Z",
+          "opponent": "法国",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-29T20:30Z",
           "opponent": "德国",
@@ -15139,13 +16890,6 @@
           "score": "1-2",
           "result": "L",
           "competition": ""
-        },
-        {
-          "date": "2025-10-14T11:00Z",
-          "opponent": "韩国",
-          "score": "0-2",
-          "result": "L",
-          "competition": ""
         }
       ]
     },
@@ -15198,7 +16942,7 @@
           "shortName": "P. Miguel",
           "number": "2",
           "position": "后卫",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -15220,7 +16964,7 @@
           "shortName": "B. Khoukhi",
           "number": "16",
           "position": "后卫",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -15242,7 +16986,7 @@
           "shortName": "H. Ahmed",
           "number": "14",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -15275,7 +17019,7 @@
           "shortName": "A. Al-Hussain",
           "number": "25",
           "position": "后卫",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -15352,7 +17096,7 @@
           "shortName": "Edmílson Junior",
           "number": "8",
           "position": "前锋",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -15374,7 +17118,7 @@
           "shortName": "A. Ali",
           "number": "19",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -15418,7 +17162,7 @@
           "shortName": "Y. Abdurisag",
           "number": "15",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -15567,7 +17311,7 @@
           "shortName": "R. Rodríguez",
           "number": "13",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -15600,7 +17344,7 @@
           "shortName": "M. Akanji",
           "number": "5",
           "position": "后卫",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -15633,7 +17377,7 @@
           "shortName": "A. Amenda",
           "number": "24",
           "position": "后卫",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -15721,7 +17465,7 @@
           "shortName": "R. Vargas",
           "number": "17",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -15732,7 +17476,7 @@
           "shortName": "A. Jashari",
           "number": "14",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -15816,6 +17560,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-12T01:00Z",
+          "opponent": "阿根廷",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-07T20:00Z",
+          "opponent": "哥伦比亚",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-03T03:00Z",
           "opponent": "阿尔及利亚",
           "score": "2-0",
@@ -15870,20 +17628,6 @@
           "score": "3-4",
           "result": "L",
           "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "Kosovo",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T19:45Z",
-          "opponent": "瑞典",
-          "score": "4-1",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -15903,7 +17647,7 @@
           "shortName": "Ederson",
           "number": "23",
           "position": "门将",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -15969,7 +17713,7 @@
           "shortName": "Danilo",
           "number": "13",
           "position": "后卫",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -16057,7 +17801,7 @@
           "shortName": "L. Paquetá",
           "number": "20",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -16068,7 +17812,7 @@
           "shortName": "Éderson",
           "number": "2",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -16112,7 +17856,7 @@
           "shortName": "Vinícius Júnior",
           "number": "7",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -16155,7 +17899,7 @@
           "nameZhSource": "auto",
           "shortName": "L. Henrique",
           "number": "21",
-          "position": "前锋",
+          "position": "中场",
           "age": 25,
           "injuries": []
         },
@@ -16167,7 +17911,7 @@
           "shortName": "Endrick",
           "number": "19",
           "position": "前锋",
-          "age": 19,
+          "age": 20,
           "injuries": []
         },
         {
@@ -16178,12 +17922,19 @@
           "shortName": "Rayan",
           "number": "26",
           "position": "前锋",
-          "age": 19,
+          "age": 20,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-05T20:00Z",
+          "opponent": "挪威",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-29T17:00Z",
           "opponent": "日本",
@@ -16245,13 +17996,6 @@
           "opponent": "突尼斯",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T16:00Z",
-          "opponent": "塞内加尔",
-          "score": "2-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -16404,7 +18148,7 @@
           "shortName": "S. Amrabat",
           "number": "4",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -16415,7 +18159,7 @@
           "shortName": "B. Díaz",
           "number": "10",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -16554,6 +18298,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-09T20:00Z",
+          "opponent": "法国",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-04T17:00Z",
+          "opponent": "加拿大",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-30T01:00Z",
           "opponent": "荷兰",
           "score": "1-1",
@@ -16606,20 +18364,6 @@
           "date": "2026-03-31T18:00Z",
           "opponent": "巴拉圭",
           "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T20:15Z",
-          "opponent": "厄瓜多尔",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-18T19:00Z",
-          "opponent": "塞内加尔",
-          "score": "3-0",
           "result": "W",
           "competition": ""
         }
@@ -16707,7 +18451,7 @@
           "shortName": "J. Duverne",
           "number": "22",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -16751,7 +18495,7 @@
           "shortName": "W. Paugain",
           "number": "24",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -16784,7 +18528,7 @@
           "shortName": "C. Sainté",
           "number": "6",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -16806,7 +18550,7 @@
           "shortName": "D. Simon",
           "number": "25",
           "position": "中场",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -16861,7 +18605,7 @@
           "shortName": "W. Isidor",
           "number": "18",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -16916,7 +18660,7 @@
           "shortName": "R. Providence",
           "number": "15",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         }
       ],
@@ -17186,7 +18930,7 @@
           "shortName": "L. Ferguson",
           "number": "19",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -17219,7 +18963,7 @@
           "shortName": "L. Shankland",
           "number": "20",
           "position": "前锋",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -17241,7 +18985,7 @@
           "shortName": "C. Adams",
           "number": "10",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -17263,7 +19007,7 @@
           "shortName": "R. Stewart",
           "number": "14",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -17401,7 +19145,7 @@
           "shortName": "P. Beach",
           "number": "18",
           "position": "门将",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -17467,7 +19211,7 @@
           "shortName": "J. Italiano",
           "number": "4",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -17511,7 +19255,7 @@
           "shortName": "L. Herrington",
           "number": "25",
           "position": "后卫",
-          "age": 18,
+          "age": 19,
           "injuries": []
         },
         {
@@ -17533,7 +19277,7 @@
           "shortName": "A. Mabil",
           "number": "11",
           "position": "中场",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -17544,7 +19288,7 @@
           "shortName": "A. Hrustic",
           "number": "10",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -17642,7 +19386,7 @@
           "nameZhSource": "auto",
           "shortName": "N. Velupillay",
           "number": "23",
-          "position": "中场",
+          "position": "前锋",
           "age": 25,
           "injuries": []
         },
@@ -17792,7 +19536,7 @@
           "shortName": "A. Bardakçi",
           "number": "14",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -17869,7 +19613,7 @@
           "shortName": "E. Elmali",
           "number": "13",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -17902,7 +19646,7 @@
           "shortName": "I. Kahveci",
           "number": "17",
           "position": "中场",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -17968,7 +19712,7 @@
           "shortName": "Y. Akgün",
           "number": "19",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -18183,7 +19927,7 @@
           "shortName": "W. Anton",
           "number": "3",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -18216,7 +19960,7 @@
           "shortName": "M. Thiaw",
           "number": "24",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -18309,12 +20053,12 @@
         },
         {
           "id": "359370",
-          "name": "Aleksandar Pavlovic",
+          "name": "Aleksandar Pavlović",
           "nameZh": "阿莱克萨恩德阿尔·普阿维洛维克",
           "nameZhSource": "auto",
-          "shortName": "A. Pavlovic",
+          "shortName": "A. Pavlović",
           "number": "5",
-          "position": "中场",
+          "position": "后卫",
           "age": 22,
           "injuries": []
         },
@@ -18359,7 +20103,7 @@
           "shortName": "D. Undav",
           "number": "26",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -18497,7 +20241,7 @@
           "shortName": "T. Doornbusch",
           "number": "26",
           "position": "门将",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -18541,7 +20285,7 @@
           "shortName": "S. Floranus",
           "number": "5",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -18585,7 +20329,7 @@
           "shortName": "S. Sambo",
           "number": "2",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -18595,7 +20339,7 @@
           "nameZhSource": "auto",
           "shortName": "L. Comenencia",
           "number": "8",
-          "position": "后卫",
+          "position": "中场",
           "age": 22,
           "injuries": []
         },
@@ -18618,7 +20362,7 @@
           "shortName": "L. Bacuna",
           "number": "10",
           "position": "中场",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -18629,7 +20373,7 @@
           "shortName": "J. Bacuna",
           "number": "7",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -18651,7 +20395,7 @@
           "shortName": "G. Roemeratoe",
           "number": "6",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -18672,8 +20416,8 @@
           "nameZhSource": "auto",
           "shortName": "A. Martha",
           "number": "15",
-          "position": "中场",
-          "age": 22,
+          "position": "后卫",
+          "age": 23,
           "injuries": []
         },
         {
@@ -18683,8 +20427,8 @@
           "nameZhSource": "auto",
           "shortName": "T. Noslin",
           "number": "13",
-          "position": "中场",
-          "age": 23,
+          "position": "后卫",
+          "age": 24,
           "injuries": []
         },
         {
@@ -18845,7 +20589,7 @@
           "shortName": "B. Verbruggen",
           "number": "1",
           "position": "门将",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -18867,7 +20611,7 @@
           "shortName": "V. van Dijk",
           "number": "4",
           "position": "后卫",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -18900,7 +20644,7 @@
           "shortName": "L. Geertruida",
           "number": "2",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -18988,7 +20732,7 @@
           "shortName": "T. Reijnders",
           "number": "14",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -19043,7 +20787,7 @@
           "shortName": "W. Weghorst",
           "number": "9",
           "position": "前锋",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -19108,7 +20852,7 @@
           "nameZhSource": "community",
           "shortName": "C. Summerville",
           "number": "24",
-          "position": "中场",
+          "position": "前锋",
           "age": 24,
           "injuries": []
         }
@@ -19203,7 +20947,7 @@
           "shortName": "K. Osako",
           "number": "12",
           "position": "门将",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -19214,7 +20958,7 @@
           "shortName": "Z. Suzuki",
           "number": "1",
           "position": "门将",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -19247,7 +20991,7 @@
           "shortName": "Y. Nagatomo",
           "number": "5",
           "position": "后卫",
-          "age": 39,
+          "age": 40,
           "injuries": []
         },
         {
@@ -19258,7 +21002,7 @@
           "shortName": "S. Taniguchi",
           "number": "3",
           "position": "后卫",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -19324,7 +21068,7 @@
           "shortName": "J. Suzuki",
           "number": "25",
           "position": "后卫",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -19346,7 +21090,7 @@
           "shortName": "D. Kamada",
           "number": "15",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -19368,7 +21112,7 @@
           "shortName": "A. Tanaka",
           "number": "7",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -19412,7 +21156,7 @@
           "shortName": "K. Ogawa",
           "number": "19",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -19434,7 +21178,7 @@
           "shortName": "K. Nakamura",
           "number": "13",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -19445,7 +21189,7 @@
           "shortName": "A. Ueda",
           "number": "18",
           "position": "前锋",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -19583,7 +21327,7 @@
           "shortName": "Y. Fofana",
           "number": "1",
           "position": "门将",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -19605,7 +21349,7 @@
           "shortName": "E. Ndicka",
           "number": "21",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -19704,7 +21448,7 @@
           "shortName": "J. Seri",
           "number": "4",
           "position": "中场",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -19736,7 +21480,7 @@
           "nameZhSource": "auto",
           "shortName": "P. Guiagon",
           "number": "25",
-          "position": "中场",
+          "position": "前锋",
           "age": 25,
           "injuries": []
         },
@@ -19780,8 +21524,8 @@
           "nameZhSource": "community",
           "shortName": "A. Diallo",
           "number": "15",
-          "position": "中场",
-          "age": 23,
+          "position": "前锋",
+          "age": 24,
           "injuries": []
         },
         {
@@ -19963,7 +21707,7 @@
           "shortName": "M. Ramírez",
           "number": "12",
           "position": "门将",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -20007,7 +21751,7 @@
           "shortName": "J. Porozo",
           "number": "25",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -20062,7 +21806,7 @@
           "shortName": "A. Franco",
           "number": "21",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -20073,7 +21817,7 @@
           "shortName": "J. Alcívar",
           "number": "5",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -20183,7 +21927,7 @@
           "shortName": "A. Valencia",
           "number": "8",
           "position": "前锋",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -20193,7 +21937,7 @@
           "nameZhSource": "auto",
           "shortName": "N. Angulo",
           "number": "20",
-          "position": "中场",
+          "position": "前锋",
           "age": 23,
           "injuries": []
         },
@@ -20321,7 +22065,7 @@
           "shortName": "V. Johansson",
           "number": "12",
           "position": "门将",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -20332,7 +22076,7 @@
           "shortName": "J. Widell Zetterström",
           "number": "1",
           "position": "门将",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -20353,7 +22097,7 @@
           "nameZhSource": "auto",
           "shortName": "E. Smith",
           "number": "20",
-          "position": "后卫",
+          "position": "中场",
           "age": 29,
           "injuries": []
         },
@@ -20365,7 +22109,7 @@
           "shortName": "V. Lindelöf",
           "number": "3",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -20563,7 +22307,7 @@
           "shortName": "B. Nygren",
           "number": "10",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -20585,7 +22329,7 @@
           "shortName": "A. Bernhardsson",
           "number": "21",
           "position": "前锋",
-          "age": 27,
+          "age": 28,
           "injuries": []
         }
       ],
@@ -20701,7 +22445,7 @@
           "shortName": "M. Chamakh",
           "number": "1",
           "position": "门将",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -20778,7 +22522,7 @@
           "shortName": "M. Neffati",
           "number": "23",
           "position": "后卫",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -20789,7 +22533,7 @@
           "shortName": "A. Arous",
           "number": "5",
           "position": "后卫",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -20899,7 +22643,7 @@
           "shortName": "S. Tounekti",
           "number": "26",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -21048,7 +22792,7 @@
           "shortName": "D. Raya",
           "number": "1",
           "position": "门将",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -21114,7 +22858,7 @@
           "shortName": "M. Cucurella",
           "number": "24",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -21125,7 +22869,7 @@
           "shortName": "P. Porro",
           "number": "12",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -21246,7 +22990,7 @@
           "shortName": "Á. Baena",
           "number": "15",
           "position": "中场",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -21257,7 +23001,7 @@
           "shortName": "Gavi",
           "number": "9",
           "position": "中场",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -21301,7 +23045,7 @@
           "shortName": "N. Williams",
           "number": "17",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -21312,7 +23056,7 @@
           "shortName": "L. Yamal",
           "number": "19",
           "position": "前锋",
-          "age": 18,
+          "age": 19,
           "injuries": []
         },
         {
@@ -21323,12 +23067,40 @@
           "shortName": "V. Muñoz",
           "number": "25",
           "position": "前锋",
-          "age": 22,
+          "age": 23,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-19T19:00Z",
+          "opponent": "阿根廷",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-14T19:00Z",
+          "opponent": "法国",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-10T19:00Z",
+          "opponent": "比利时",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-06T19:00Z",
+          "opponent": "葡萄牙",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-07-02T19:00Z",
           "opponent": "奥地利",
@@ -21369,34 +23141,6 @@
           "opponent": "伊拉克",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T19:00Z",
-          "opponent": "埃及",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T20:00Z",
-          "opponent": "Serbia",
-          "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "土耳其",
-          "score": "2-2",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T17:00Z",
-          "opponent": "Georgia",
-          "score": "4-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -21439,7 +23183,7 @@
           "shortName": "C. dos Santos",
           "number": "23",
           "position": "门将",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -21461,7 +23205,7 @@
           "shortName": "S. Moreira",
           "number": "22",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -21658,7 +23402,7 @@
           "nameZhSource": "auto",
           "shortName": "W. Semedo",
           "number": "17",
-          "position": "前锋",
+          "position": "中场",
           "age": 32,
           "injuries": []
         },
@@ -21698,6 +23442,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-03T22:00Z",
+          "opponent": "阿根廷",
+          "score": "2-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-27T00:00Z",
           "opponent": "沙特阿拉伯",
@@ -21760,13 +23511,6 @@
           "score": "3-0",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-10-08T13:00Z",
-          "opponent": "Libya",
-          "score": "3-3",
-          "result": "D",
-          "competition": ""
         }
       ]
     },
@@ -21797,7 +23541,7 @@
           "shortName": "S. Lammens",
           "number": "12",
           "position": "门将",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -21808,7 +23552,7 @@
           "shortName": "M. Penders",
           "number": "13",
           "position": "门将",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -21819,7 +23563,7 @@
           "shortName": "T. Meunier",
           "number": "15",
           "position": "后卫",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -21928,7 +23672,7 @@
           "nameZhSource": "auto",
           "shortName": "A. Witsel",
           "number": "6",
-          "position": "后卫",
+          "position": "中场",
           "age": 37,
           "injuries": []
         },
@@ -21951,7 +23695,7 @@
           "shortName": "H. Vanaken",
           "number": "20",
           "position": "中场",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -21973,7 +23717,7 @@
           "shortName": "A. Onana",
           "number": "24",
           "position": "中场",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -22050,7 +23794,7 @@
           "shortName": "D. Moreira",
           "number": "19",
           "position": "前锋",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -22067,6 +23811,20 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-10T19:00Z",
+          "opponent": "西班牙",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-07T00:00Z",
+          "opponent": "美国",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-07-01T20:00Z",
           "opponent": "塞内加尔",
@@ -22121,20 +23879,6 @@
           "opponent": "美国",
           "score": "5-2",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "Liechtenstein",
-          "score": "7-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T14:00Z",
-          "opponent": "Kazakhstan",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -22320,7 +24064,7 @@
           "shortName": "M. Saber",
           "number": "21",
           "position": "中场",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -22342,7 +24086,7 @@
           "shortName": "M. Attia",
           "number": "19",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -22352,7 +24096,7 @@
           "nameZhSource": "auto",
           "shortName": "M. Zico",
           "number": "11",
-          "position": "中场",
+          "position": "前锋",
           "age": 29,
           "injuries": []
         },
@@ -22385,7 +24129,7 @@
           "nameZhSource": "auto",
           "shortName": "Zizo",
           "number": "25",
-          "position": "前锋",
+          "position": "中场",
           "age": 30,
           "injuries": []
         },
@@ -22436,6 +24180,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-07T16:00Z",
+          "opponent": "阿根廷",
+          "score": "2-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-07-03T18:00Z",
           "opponent": "澳大利亚",
@@ -22497,13 +24248,6 @@
           "opponent": "Nigeria",
           "score": "0-0",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-14T17:00Z",
-          "opponent": "塞内加尔",
-          "score": "0-1",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -22590,7 +24334,7 @@
           "shortName": "S. Abdulhamid",
           "number": "12",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -22645,7 +24389,7 @@
           "shortName": "J. Thakri",
           "number": "25",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -22656,7 +24400,7 @@
           "shortName": "S. Al-Dawsari",
           "number": "10",
           "position": "中场",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -22689,7 +24433,7 @@
           "shortName": "A. Al-Khaibari",
           "number": "15",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -22744,7 +24488,7 @@
           "shortName": "M. Abu Al-Shamat",
           "number": "26",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -22799,7 +24543,7 @@
           "shortName": "A. Al-Hamdan",
           "number": "19",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         }
       ],
@@ -22915,7 +24659,7 @@
           "shortName": "S. Mele",
           "number": "12",
           "position": "门将",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -22970,7 +24714,7 @@
           "shortName": "J. Piquerez",
           "number": "22",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -23003,7 +24747,7 @@
           "shortName": "S. Cáceres",
           "number": "3",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -23014,7 +24758,7 @@
           "shortName": "E. Martínez",
           "number": "15",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -23047,7 +24791,7 @@
           "shortName": "F. Valverde",
           "number": "8",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -23091,7 +24835,7 @@
           "shortName": "R. Zalazar",
           "number": "26",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -23393,8 +25137,8 @@
           "nameZhSource": "auto",
           "shortName": "A. Jahanbakhsh",
           "number": "7",
-          "position": "中场",
-          "age": 32,
+          "position": "前锋",
+          "age": 33,
           "injuries": []
         },
         {
@@ -23416,7 +25160,7 @@
           "shortName": "M. Torabi",
           "number": "16",
           "position": "中场",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -23427,7 +25171,7 @@
           "shortName": "S. Ghoddos",
           "number": "14",
           "position": "中场",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -23438,7 +25182,7 @@
           "shortName": "R. Cheshmi",
           "number": "15",
           "position": "中场",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -23482,7 +25226,7 @@
           "shortName": "M. Taremi",
           "number": "9",
           "position": "前锋",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -23631,7 +25375,7 @@
           "shortName": "M. Crocombe",
           "number": "1",
           "position": "门将",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -23664,7 +25408,7 @@
           "shortName": "M. Boxall",
           "number": "5",
           "position": "后卫",
-          "age": 37,
+          "age": 38,
           "injuries": []
         },
         {
@@ -23719,7 +25463,7 @@
           "shortName": "C. Elliot",
           "number": "24",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -23840,7 +25584,7 @@
           "shortName": "L. Bayliss",
           "number": "25",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -23895,7 +25639,7 @@
           "shortName": "J. Randall",
           "number": "21",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -23906,7 +25650,7 @@
           "shortName": "B. Old",
           "number": "19",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         }
       ],
@@ -24033,7 +25777,7 @@
           "shortName": "L. Digne",
           "number": "3",
           "position": "后卫",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -24187,7 +25931,7 @@
           "shortName": "R. Cherki",
           "number": "24",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -24220,7 +25964,7 @@
           "shortName": "M. Thuram",
           "number": "9",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -24264,7 +26008,7 @@
           "shortName": "B. Barcola",
           "number": "12",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -24281,6 +26025,34 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-18T21:00Z",
+          "opponent": "英格兰",
+          "score": "4-6",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-14T19:00Z",
+          "opponent": "西班牙",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-09T20:00Z",
+          "opponent": "摩洛哥",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-04T21:00Z",
+          "opponent": "巴拉圭",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-30T21:00Z",
           "opponent": "瑞典",
@@ -24321,34 +26093,6 @@
           "opponent": "科特迪瓦",
           "score": "1-2",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-29T19:00Z",
-          "opponent": "哥伦比亚",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T20:00Z",
-          "opponent": "巴西",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-16T17:00Z",
-          "opponent": "Azerbaijan",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T19:45Z",
-          "opponent": "Ukraine",
-          "score": "4-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -24435,7 +26179,7 @@
           "shortName": "I. Jakobs",
           "number": "14",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -24457,7 +26201,7 @@
           "shortName": "M. Sarr",
           "number": "2",
           "position": "后卫",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -24534,7 +26278,7 @@
           "shortName": "P. Sarr",
           "number": "17",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -24599,7 +26343,7 @@
           "nameZhSource": "auto",
           "shortName": "I. Ndiaye",
           "number": "13",
-          "position": "中场",
+          "position": "前锋",
           "age": 26,
           "injuries": []
         },
@@ -24633,7 +26377,7 @@
           "shortName": "A. Diao",
           "number": "7",
           "position": "前锋",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -24650,6 +26394,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-01T20:00Z",
+          "opponent": "比利时",
+          "score": "2-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-26T19:00Z",
           "opponent": "伊拉克",
@@ -24712,13 +26463,6 @@
           "score": "1-0",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2026-01-09T16:00Z",
-          "opponent": "Mali",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -24760,7 +26504,7 @@
           "shortName": "A. Basil",
           "number": "22",
           "position": "门将",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -24771,7 +26515,7 @@
           "shortName": "F. Putros",
           "number": "26",
           "position": "后卫",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -24820,10 +26564,10 @@
         },
         {
           "id": "369408",
-          "name": "Ahmed Maknazi",
-          "nameZh": "阿赫梅德·马克纳齐",
+          "name": "Ahmed Hasan",
+          "nameZh": "阿赫梅德·赫阿萨恩",
           "nameZhSource": "auto",
-          "shortName": "A. Maknazi",
+          "shortName": "Ahmed Hasan",
           "number": "15",
           "position": "后卫",
           "age": 24,
@@ -24848,7 +26592,7 @@
           "shortName": "A. Hashim",
           "number": "5",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -24903,7 +26647,7 @@
           "shortName": "A. Al-Ammari",
           "number": "16",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -24924,7 +26668,7 @@
           "nameZhSource": "auto",
           "shortName": "M. Farji",
           "number": "21",
-          "position": "中场",
+          "position": "前锋",
           "age": 22,
           "injuries": []
         },
@@ -24963,13 +26707,13 @@
         },
         {
           "id": "274166",
-          "name": "Ali Yousif",
-          "nameZh": "阿利·伊奥乌西弗",
+          "name": "Hashim Ali",
+          "nameZh": "赫阿什伊姆·阿利",
           "nameZhSource": "auto",
-          "shortName": "A. Yousif",
+          "shortName": "H. Ali",
           "number": "13",
           "position": "前锋",
-          "age": 30,
+          "age": 26,
           "injuries": []
         },
         {
@@ -24991,7 +26735,7 @@
           "shortName": "A. Qasim",
           "number": "11",
           "position": "前锋",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -25002,7 +26746,7 @@
           "shortName": "Y. Amyn",
           "number": "7",
           "position": "前锋",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -25107,7 +26851,7 @@
           "shortName": "Ø. Nyland",
           "number": "1",
           "position": "门将",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -25118,7 +26862,7 @@
           "shortName": "E. Selvik",
           "number": "13",
           "position": "门将",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -25140,7 +26884,7 @@
           "shortName": "M. Holmgren Pedersen",
           "number": "16",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -25173,7 +26917,7 @@
           "shortName": "F. Bjørkan",
           "number": "15",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -25316,7 +27060,7 @@
           "shortName": "O. Bobb",
           "number": "22",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -25371,7 +27115,7 @@
           "shortName": "E. Haaland",
           "number": "9",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -25388,6 +27132,20 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-11T21:00Z",
+          "opponent": "英格兰",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-05T20:00Z",
+          "opponent": "巴西",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-30T17:00Z",
           "opponent": "科特迪瓦",
@@ -25443,20 +27201,6 @@
           "score": "1-2",
           "result": "L",
           "competition": ""
-        },
-        {
-          "date": "2025-11-16T19:45Z",
-          "opponent": "Italy",
-          "score": "4-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T17:00Z",
-          "opponent": "Estonia",
-          "score": "4-1",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -25469,6 +27213,28 @@
       "color": "74acdf",
       "players": [
         {
+          "id": "311743",
+          "name": "José Manuel López",
+          "nameZh": "若塞·马努埃尔·洛普埃兹",
+          "nameZhSource": "auto",
+          "shortName": "J. López",
+          "number": "21",
+          "position": "前锋",
+          "age": 25,
+          "injuries": []
+        },
+        {
+          "id": "323838",
+          "name": "Giuliano Simeone",
+          "nameZh": "格伊乌利阿诺·西梅奥内",
+          "nameZhSource": "auto",
+          "shortName": "G. Simeone",
+          "number": "17",
+          "position": "前锋",
+          "age": 23,
+          "injuries": []
+        },
+        {
           "id": "158626",
           "name": "Emiliano Martínez",
           "nameZh": "埃米利亚诺·马丁内斯",
@@ -25476,7 +27242,7 @@
           "shortName": "E. Martínez",
           "number": "23",
           "position": "门将",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -25531,7 +27297,7 @@
           "shortName": "N. Tagliafico",
           "number": "3",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -25565,6 +27331,17 @@
           "number": "6",
           "position": "后卫",
           "age": 28,
+          "injuries": []
+        },
+        {
+          "id": "233945",
+          "name": "Marcos Senesi",
+          "nameZh": "马尔科斯·塞内西",
+          "nameZhSource": "auto",
+          "shortName": "M. Senesi",
+          "number": "2",
+          "position": "后卫",
+          "age": 29,
           "injuries": []
         },
         {
@@ -25663,7 +27440,7 @@
           "shortName": "V. Barco",
           "number": "8",
           "position": "中场",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -25696,7 +27473,7 @@
           "shortName": "L. Martínez",
           "number": "22",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -25711,28 +27488,6 @@
           "injuries": []
         },
         {
-          "id": "311743",
-          "name": "José Manuel López",
-          "nameZh": "若塞·马努埃尔·洛普埃兹",
-          "nameZhSource": "auto",
-          "shortName": "J. López",
-          "number": "21",
-          "position": "前锋",
-          "age": 25,
-          "injuries": []
-        },
-        {
-          "id": "323838",
-          "name": "Giuliano Simeone",
-          "nameZh": "格伊乌利阿诺·西梅奥内",
-          "nameZhSource": "auto",
-          "shortName": "G. Simeone",
-          "number": "17",
-          "position": "前锋",
-          "age": 23,
-          "injuries": []
-        },
-        {
           "id": "337970",
           "name": "Nico Paz",
           "nameZh": "尼科·普阿兹",
@@ -25740,12 +27495,40 @@
           "shortName": "N. Paz",
           "number": "18",
           "position": "中场",
-          "age": 21,
+          "age": 22,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-19T19:00Z",
+          "opponent": "西班牙",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-15T19:00Z",
+          "opponent": "英格兰",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-12T01:00Z",
+          "opponent": "瑞士",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-07T16:00Z",
+          "opponent": "埃及",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-07-03T22:00Z",
           "opponent": "佛得角",
@@ -25785,34 +27568,6 @@
           "date": "2026-06-07T00:00Z",
           "opponent": "Honduras",
           "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T23:30Z",
-          "opponent": "Zambia",
-          "score": "5-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T23:15Z",
-          "opponent": "Mauritania",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T16:00Z",
-          "opponent": "Angola",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-15T00:10Z",
-          "opponent": "Puerto Rico",
-          "score": "6-0",
           "result": "W",
           "competition": ""
         }
@@ -26021,7 +27776,7 @@
           "shortName": "Y. Titraoui",
           "number": "24",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -26075,7 +27830,7 @@
           "nameZhSource": "auto",
           "shortName": "A. Boulbina",
           "number": "20",
-          "position": "中场",
+          "position": "前锋",
           "age": 23,
           "injuries": []
         },
@@ -26109,12 +27864,19 @@
           "shortName": "F. Ghedjemis",
           "number": "25",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-03T03:00Z",
+          "opponent": "瑞士",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-28T02:00Z",
           "opponent": "奥地利",
@@ -26175,13 +27937,6 @@
           "date": "2026-01-06T16:00Z",
           "opponent": "刚果（金）",
           "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-31T16:00Z",
-          "opponent": "Equatorial Guinea",
-          "score": "3-1",
           "result": "W",
           "competition": ""
         }
@@ -26247,7 +28002,7 @@
           "shortName": "P. Lienhart",
           "number": "15",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -26368,7 +28123,7 @@
           "shortName": "F. Grillitsch",
           "number": "10",
           "position": "中场",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -26467,7 +28222,7 @@
           "shortName": "S. Kalajdzic",
           "number": "14",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         }
       ],
@@ -26693,7 +28448,7 @@
           "shortName": "M. Abughoush",
           "number": "18",
           "position": "后卫",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -26704,7 +28459,7 @@
           "shortName": "A. Badawi",
           "number": "26",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -26715,7 +28470,7 @@
           "shortName": "R. Ayed",
           "number": "14",
           "position": "中场",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -26769,7 +28524,7 @@
           "nameZhSource": "auto",
           "shortName": "A. Jamous",
           "number": "6",
-          "position": "中场",
+          "position": "后卫",
           "age": 24,
           "injuries": []
         },
@@ -27018,7 +28773,7 @@
           "shortName": "G. Inácio",
           "number": "14",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -27040,7 +28795,7 @@
           "shortName": "R. Veiga",
           "number": "13",
           "position": "后卫",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -27051,7 +28806,7 @@
           "shortName": "B. Fernandes",
           "number": "8",
           "position": "中场",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -27073,7 +28828,7 @@
           "shortName": "B. Silva",
           "number": "10",
           "position": "中场",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -27106,7 +28861,7 @@
           "shortName": "M. Nunes",
           "number": "6",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -27212,6 +28967,13 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-06T19:00Z",
+          "opponent": "西班牙",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-07-02T23:00Z",
           "opponent": "克罗地亚",
           "score": "2-1",
@@ -27273,13 +29035,6 @@
           "score": "9-1",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-11-13T19:45Z",
-          "opponent": "Republic of Ireland",
-          "score": "0-2",
-          "result": "L",
-          "competition": ""
         }
       ]
     },
@@ -27299,7 +29054,7 @@
           "shortName": "L. Mpasi",
           "number": "1",
           "position": "门将",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -27310,7 +29065,7 @@
           "shortName": "T. Fayulu",
           "number": "16",
           "position": "门将",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -27343,7 +29098,7 @@
           "shortName": "C. Mbemba",
           "number": "22",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -27354,7 +29109,7 @@
           "shortName": "J. Kayembe",
           "number": "12",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -27398,7 +29153,7 @@
           "shortName": "G. Kalulu",
           "number": "24",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -27441,7 +29196,7 @@
           "nameZhSource": "auto",
           "shortName": "T. Bongonda",
           "number": "10",
-          "position": "中场",
+          "position": "前锋",
           "age": 30,
           "injuries": []
         },
@@ -27452,7 +29207,7 @@
           "nameZhSource": "auto",
           "shortName": "C. Pickel",
           "number": "18",
-          "position": "中场",
+          "position": "后卫",
           "age": 29,
           "injuries": []
         },
@@ -27464,7 +29219,7 @@
           "shortName": "S. Moutoussamy",
           "number": "8",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -27519,7 +29274,7 @@
           "shortName": "Y. Wissa",
           "number": "20",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -27530,7 +29285,7 @@
           "shortName": "S. Banza",
           "number": "23",
           "position": "前锋",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -27541,7 +29296,7 @@
           "shortName": "M. Elia",
           "number": "13",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -27580,6 +29335,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-01T16:00Z",
+          "opponent": "英格兰",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-27T23:30Z",
           "opponent": "乌兹别克斯坦",
@@ -27642,13 +29404,6 @@
           "score": "3-0",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-12-27T15:00Z",
-          "opponent": "塞内加尔",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
         }
       ]
     },
@@ -27658,7 +29413,7 @@
       "name": "英格兰",
       "nameEn": "England",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "color": "EA1F29",
+      "color": "FFFFFF",
       "players": [
         {
           "id": "159443",
@@ -27734,7 +29489,7 @@
           "shortName": "T. Chalobah",
           "number": "12",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -27756,7 +29511,7 @@
           "shortName": "M. Guéhi",
           "number": "6",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -27767,7 +29522,7 @@
           "shortName": "D. Spence",
           "number": "25",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -27843,8 +29598,8 @@
           "nameZhSource": "auto",
           "shortName": "M. Rogers",
           "number": "17",
-          "position": "前锋",
-          "age": 23,
+          "position": "中场",
+          "age": 24,
           "injuries": []
         },
         {
@@ -27877,7 +29632,7 @@
           "shortName": "H. Kane",
           "number": "9",
           "position": "前锋",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -27932,7 +29687,7 @@
           "shortName": "B. Saka",
           "number": "7",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -27949,6 +29704,34 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-18T21:00Z",
+          "opponent": "法国",
+          "score": "6-4",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-15T19:00Z",
+          "opponent": "阿根廷",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-11T21:00Z",
+          "opponent": "挪威",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-07-06T01:00Z",
+          "opponent": "墨西哥",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-07-01T16:00Z",
           "opponent": "刚果（金）",
@@ -27988,34 +29771,6 @@
           "date": "2026-06-06T20:00Z",
           "opponent": "新西兰",
           "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T18:45Z",
-          "opponent": "日本",
-          "score": "0-1",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T19:45Z",
-          "opponent": "乌拉圭",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-16T17:00Z",
-          "opponent": "Albania",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T19:45Z",
-          "opponent": "Serbia",
-          "score": "2-0",
           "result": "W",
           "competition": ""
         }
@@ -28092,7 +29847,7 @@
           "shortName": "M. Pongracic",
           "number": "3",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -28147,7 +29902,7 @@
           "shortName": "L. Modric",
           "number": "10",
           "position": "中场",
-          "age": 40,
+          "age": 41,
           "injuries": []
         },
         {
@@ -28213,7 +29968,7 @@
           "shortName": "L. Sucic",
           "number": "21",
           "position": "中场",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -28279,7 +30034,7 @@
           "shortName": "A. Budimir",
           "number": "11",
           "position": "前锋",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -28312,7 +30067,7 @@
           "shortName": "M. Pasalic",
           "number": "24",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         }
       ],
@@ -28428,7 +30183,7 @@
           "shortName": "B. Asare",
           "number": "16",
           "position": "门将",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -28483,7 +30238,7 @@
           "shortName": "G. Mensah",
           "number": "14",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -28593,7 +30348,7 @@
           "shortName": "J. Ayew",
           "number": "9",
           "position": "前锋",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -28688,6 +30443,13 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-07-04T01:30Z",
+          "opponent": "哥伦比亚",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-06-27T21:00Z",
           "opponent": "克罗地亚",
           "score": "1-2",
@@ -28748,13 +30510,6 @@
           "opponent": "日本",
           "score": "0-2",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-12T19:00Z",
-          "opponent": "Comoros",
-          "score": "1-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -28874,7 +30629,7 @@
           "shortName": "J. Gutiérrez",
           "number": "26",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -28884,7 +30639,7 @@
           "nameZhSource": "auto",
           "shortName": "J. Córdoba",
           "number": "3",
-          "position": "后卫",
+          "position": "前锋",
           "age": 27,
           "injuries": []
         },
@@ -29017,7 +30772,7 @@
           "shortName": "J. Fajardo",
           "number": "17",
           "position": "前锋",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -29177,7 +30932,7 @@
           "shortName": "R. Ashurmatov",
           "number": "5",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -29232,7 +30987,7 @@
           "shortName": "S. Nasrullaev",
           "number": "13",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -29265,7 +31020,7 @@
           "shortName": "B. Karimov",
           "number": "24",
           "position": "后卫",
-          "age": 18,
+          "age": 19,
           "injuries": []
         },
         {
@@ -29287,7 +31042,7 @@
           "shortName": "J. Masharipov",
           "number": "10",
           "position": "中场",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -29309,7 +31064,7 @@
           "shortName": "D. Khamdamov",
           "number": "17",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -29375,7 +31130,7 @@
           "shortName": "A. Abdullaev",
           "number": "18",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -29418,7 +31173,7 @@
           "nameZhSource": "auto",
           "shortName": "A. Amonov",
           "number": "20",
-          "position": "前锋",
+          "position": "后卫",
           "age": 28,
           "injuries": []
         }
@@ -29513,7 +31268,7 @@
           "shortName": "D. Ospina",
           "number": "1",
           "position": "门将",
-          "age": 37,
+          "age": 38,
           "injuries": []
         },
         {
@@ -29568,7 +31323,7 @@
           "shortName": "J. Mojica",
           "number": "17",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -29601,7 +31356,7 @@
           "shortName": "D. Machado",
           "number": "22",
           "position": "后卫",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -29634,7 +31389,7 @@
           "shortName": "J. Rodríguez",
           "number": "10",
           "position": "中场",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -29645,7 +31400,7 @@
           "shortName": "J. Portilla",
           "number": "15",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -29733,7 +31488,7 @@
           "shortName": "G. Puerta",
           "number": "14",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -29777,7 +31532,7 @@
           "shortName": "A. Gómez",
           "number": "26",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -29794,6 +31549,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-07-07T20:00Z",
+          "opponent": "瑞士",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
         {
           "date": "2026-07-04T01:30Z",
           "opponent": "加纳",
@@ -29856,194 +31618,201 @@
           "score": "3-0",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-11-16T00:30Z",
-          "opponent": "新西兰",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
         }
       ]
     }
   },
   "scoreSummary": {
-    "completedMatches": 88,
-    "futureMatches": 16,
-    "totalGoals": 257,
+    "completedMatches": 104,
+    "futureMatches": 0,
+    "totalGoals": 308,
     "distribution": [
       {
         "score": "1–1",
         "count": 12,
-        "share": 13.6,
-        "expectedAdditional": 6.5,
-        "projected": 18.5
+        "share": 11.5,
+        "expectedAdditional": 0,
+        "projected": 12
       },
       {
         "score": "2–1",
-        "count": 8,
-        "share": 9.1,
-        "expectedAdditional": 0.7,
-        "projected": 8.7
+        "count": 9,
+        "share": 8.7,
+        "expectedAdditional": 0,
+        "projected": 9
       },
       {
         "score": "0–0",
-        "count": 7,
-        "share": 8,
-        "expectedAdditional": 3.5,
-        "projected": 10.5
-      },
-      {
-        "score": "2–0",
-        "count": 7,
-        "share": 8,
-        "expectedAdditional": 0.7,
-        "projected": 7.7
+        "count": 8,
+        "share": 7.7,
+        "expectedAdditional": 0,
+        "projected": 8
       },
       {
         "score": "0–1",
-        "count": 6,
-        "share": 6.8,
-        "expectedAdditional": 1.4,
-        "projected": 7.4
+        "count": 8,
+        "share": 7.7,
+        "expectedAdditional": 0,
+        "projected": 8
+      },
+      {
+        "score": "2–0",
+        "count": 8,
+        "share": 7.7,
+        "expectedAdditional": 0,
+        "projected": 8
       },
       {
         "score": "1–0",
-        "count": 6,
-        "share": 6.8,
-        "expectedAdditional": 0.4,
-        "projected": 6.4
+        "count": 7,
+        "share": 6.7,
+        "expectedAdditional": 0,
+        "projected": 7
+      },
+      {
+        "score": "1–2",
+        "count": 5,
+        "share": 4.8,
+        "expectedAdditional": 0,
+        "projected": 5
       },
       {
         "score": "3–0",
         "count": 5,
-        "share": 5.7,
-        "expectedAdditional": 0.4,
-        "projected": 5.4
+        "share": 4.8,
+        "expectedAdditional": 0,
+        "projected": 5
+      },
+      {
+        "score": "3–1",
+        "count": 5,
+        "share": 4.8,
+        "expectedAdditional": 0,
+        "projected": 5
+      },
+      {
+        "score": "3–2",
+        "count": 5,
+        "share": 4.8,
+        "expectedAdditional": 0,
+        "projected": 5
       },
       {
         "score": "1–3",
         "count": 4,
-        "share": 4.5,
+        "share": 3.8,
         "expectedAdditional": 0,
-        "projected": 4
-      },
-      {
-        "score": "3–1",
-        "count": 4,
-        "share": 4.5,
-        "expectedAdditional": 0,
-        "projected": 4
-      },
-      {
-        "score": "3–2",
-        "count": 4,
-        "share": 4.5,
-        "expectedAdditional": 0,
-        "projected": 4
-      },
-      {
-        "score": "2–2",
-        "count": 3,
-        "share": 3.4,
-        "expectedAdditional": 0,
-        "projected": 3
-      },
-      {
-        "score": "1–2",
-        "count": 2,
-        "share": 2.3,
-        "expectedAdditional": 2,
         "projected": 4
       },
       {
         "score": "0–2",
-        "count": 2,
-        "share": 2.3,
-        "expectedAdditional": 0.7,
-        "projected": 2.7
+        "count": 3,
+        "share": 2.9,
+        "expectedAdditional": 0,
+        "projected": 3
       },
       {
         "score": "0–3",
-        "count": 2,
-        "share": 2.3,
+        "count": 3,
+        "share": 2.9,
         "expectedAdditional": 0,
-        "projected": 2
+        "projected": 3
       },
       {
         "score": "1–4",
-        "count": 2,
-        "share": 2.3,
+        "count": 3,
+        "share": 2.9,
         "expectedAdditional": 0,
-        "projected": 2
+        "projected": 3
+      },
+      {
+        "score": "2–2",
+        "count": 3,
+        "share": 2.9,
+        "expectedAdditional": 0,
+        "projected": 3
       },
       {
         "score": "4–1",
         "count": 2,
-        "share": 2.3,
+        "share": 1.9,
         "expectedAdditional": 0,
         "projected": 2
       },
       {
         "score": "4–2",
         "count": 2,
-        "share": 2.3,
+        "share": 1.9,
         "expectedAdditional": 0,
         "projected": 2
       },
       {
         "score": "5–0",
         "count": 2,
-        "share": 2.3,
+        "share": 1.9,
         "expectedAdditional": 0,
         "projected": 2
       },
       {
         "score": "5–1",
         "count": 2,
-        "share": 2.3,
+        "share": 1.9,
         "expectedAdditional": 0,
         "projected": 2
       },
       {
         "score": "0–4",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       },
       {
         "score": "1–5",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
+        "expectedAdditional": 0,
+        "projected": 1
+      },
+      {
+        "score": "2–3",
+        "count": 1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       },
       {
         "score": "3–3",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       },
       {
         "score": "4–0",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
+        "expectedAdditional": 0,
+        "projected": 1
+      },
+      {
+        "score": "4–6",
+        "count": 1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       },
       {
         "score": "6–0",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       },
       {
         "score": "7–1",
         "count": 1,
-        "share": 1.1,
+        "share": 1,
         "expectedAdditional": 0,
         "projected": 1
       }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-09-15T04:06:36.304Z",
+  "savedAt": "2026-09-15T15:37:02.899Z",
   "source": "ESPN public soccer data snapshot",
   "range": "20260907-20261009",
   "matches": [
@@ -35,7 +35,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -69,7 +69,7 @@
       "awayScore": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -103,7 +103,7 @@
       "awayScore": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -137,7 +137,7 @@
       "awayScore": 3,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -171,7 +171,7 @@
       "awayScore": 0,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -205,7 +205,7 @@
       "awayScore": 0,
       "displayClock": "90'+3'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -239,7 +239,7 @@
       "awayScore": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -273,7 +273,7 @@
       "awayScore": 5,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -307,7 +307,7 @@
       "awayScore": 1,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -341,7 +341,7 @@
       "awayScore": 1,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": []
     },
     {
@@ -375,7 +375,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.645Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -385,7 +385,7 @@
         41
       ],
       "confidence": 71,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -422,21 +422,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
-      "timeline": [],
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
-      "probabilities": [
-        48,
-        26,
-        26
-      ],
-      "confidence": 73,
-      "halfFull": "平 / 胜",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
+      "timeline": []
     },
     {
       "id": "401879274",
@@ -469,7 +456,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -479,7 +466,7 @@
         55
       ],
       "confidence": 76,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -516,7 +503,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -526,7 +513,7 @@
         22
       ],
       "confidence": 75,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -563,17 +550,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        60,
+        59,
         22,
-        18
+        19
       ],
       "confidence": 77,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -610,7 +597,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -620,7 +607,7 @@
         19
       ],
       "confidence": 76,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -657,7 +644,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -667,7 +654,7 @@
         45
       ],
       "confidence": 72,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -704,7 +691,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -714,7 +701,7 @@
         22
       ],
       "confidence": 75,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -751,7 +738,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
@@ -761,7 +748,7 @@
         11
       ],
       "confidence": 81,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -798,7 +785,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.517Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.646Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -808,7 +795,7 @@
         47
       ],
       "confidence": 73,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -845,7 +832,7 @@
       "awayScore": 1,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -879,7 +866,7 @@
       "awayScore": 3,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -913,7 +900,7 @@
       "awayScore": 0,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -947,7 +934,7 @@
       "awayScore": 1,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -981,7 +968,7 @@
       "awayScore": 2,
       "displayClock": "90'+3'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1015,7 +1002,7 @@
       "awayScore": 1,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1049,7 +1036,7 @@
       "awayScore": 1,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1083,7 +1070,7 @@
       "awayScore": 1,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1117,7 +1104,7 @@
       "awayScore": 4,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1151,7 +1138,7 @@
       "awayScore": 1,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1185,7 +1172,7 @@
       "awayScore": 3,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1219,7 +1206,7 @@
       "awayScore": 2,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -1253,21 +1240,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
-      "timeline": [],
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
-      "probabilities": [
-        43,
-        28,
-        29
-      ],
-      "confidence": 72,
-      "halfFull": "平 / 胜",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
+      "timeline": []
     },
     {
       "id": "401882876",
@@ -1300,21 +1274,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
-      "timeline": [],
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
-      "probabilities": [
-        51,
-        29,
-        20
-      ],
-      "confidence": 74,
-      "halfFull": "平 / 胜",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
+      "timeline": []
     },
     {
       "id": "401882872",
@@ -1347,17 +1308,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        9,
+        8,
         14,
-        77
+        78
       ],
       "confidence": 83,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1394,17 +1355,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        68,
+        69,
         19,
-        13
+        12
       ],
       "confidence": 80,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1441,17 +1402,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        38,
+        37,
         31,
-        31
+        32
       ],
       "confidence": 70,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1488,7 +1449,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
@@ -1498,7 +1459,7 @@
         4
       ],
       "confidence": 87,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1535,21 +1496,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
-      "timeline": [],
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
-      "probabilities": [
-        28,
-        27,
-        45
-      ],
-      "confidence": 72,
-      "halfFull": "平 / 负",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
+      "timeline": []
     },
     {
       "id": "401882874",
@@ -1582,17 +1530,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        55,
-        27,
-        18
+        57,
+        26,
+        17
       ],
       "confidence": 76,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1629,7 +1577,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -1639,7 +1587,7 @@
         49
       ],
       "confidence": 74,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1676,7 +1624,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -1686,7 +1634,7 @@
         21
       ],
       "confidence": 74,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1723,7 +1671,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -1733,7 +1681,7 @@
         29
       ],
       "confidence": 72,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1770,21 +1718,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
-      "timeline": [],
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        58,
-        24,
-        18
-      ],
-      "confidence": 77,
-      "halfFull": "平 / 胜",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
+      "timeline": []
     },
     {
       "id": "401882864",
@@ -1817,7 +1752,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -1827,7 +1762,7 @@
         24
       ],
       "confidence": 75,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1864,17 +1799,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
         9,
-        15,
-        76
+        14,
+        77
       ],
-      "confidence": 82,
-      "halfFull": "平 / 负",
+      "confidence": 83,
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1911,7 +1846,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -1921,7 +1856,7 @@
         24
       ],
       "confidence": 72,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -1958,7 +1893,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -1968,7 +1903,7 @@
         51
       ],
       "confidence": 74,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2005,7 +1940,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2015,7 +1950,7 @@
         37
       ],
       "confidence": 70,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2052,21 +1987,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
-      "timeline": [],
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        60,
-        22,
-        18
-      ],
-      "confidence": 77,
-      "halfFull": "平 / 胜",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
+      "timeline": []
     },
     {
       "id": "401882858",
@@ -2099,7 +2021,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2109,7 +2031,7 @@
         38
       ],
       "confidence": 70,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2146,7 +2068,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.713Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.716Z",
       "timeline": []
     },
     {
@@ -2180,7 +2102,7 @@
       "awayScore": 3,
       "displayClock": "90'+14'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.904Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2214,7 +2136,7 @@
       "awayScore": 0,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2248,7 +2170,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2282,7 +2204,7 @@
       "awayScore": 3,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2316,7 +2238,7 @@
       "awayScore": 0,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2350,7 +2272,7 @@
       "awayScore": 1,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2384,7 +2306,7 @@
       "awayScore": 1,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2418,7 +2340,7 @@
       "awayScore": 0,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2452,7 +2374,7 @@
       "awayScore": 2,
       "displayClock": "90'+3'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2486,17 +2408,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        86,
-        9,
+        88,
+        7,
         5
       ],
       "confidence": 86,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2533,7 +2455,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2543,7 +2465,7 @@
         42
       ],
       "confidence": 71,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2580,7 +2502,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2590,7 +2512,7 @@
         35
       ],
       "confidence": 71,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2627,7 +2549,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2661,7 +2583,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2671,7 +2593,7 @@
         34
       ],
       "confidence": 71,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2708,7 +2630,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -2718,7 +2640,7 @@
         34
       ],
       "confidence": 71,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2755,7 +2677,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -2765,7 +2687,7 @@
         29
       ],
       "confidence": 73,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2802,7 +2724,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -2812,7 +2734,7 @@
         27
       ],
       "confidence": 73,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2849,7 +2771,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -2859,7 +2781,7 @@
         56
       ],
       "confidence": 76,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -2896,7 +2818,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:35.905Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.781Z",
       "timeline": []
     },
     {
@@ -2930,7 +2852,7 @@
       "awayScore": 0,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -2964,7 +2886,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -2998,7 +2920,7 @@
       "awayScore": 4,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3032,7 +2954,7 @@
       "awayScore": 1,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3066,7 +2988,7 @@
       "awayScore": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3100,7 +3022,7 @@
       "awayScore": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3134,7 +3056,7 @@
       "awayScore": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3168,7 +3090,7 @@
       "awayScore": 0,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3202,7 +3124,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3236,7 +3158,7 @@
       "awayScore": 1,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3270,7 +3192,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3304,7 +3226,7 @@
       "awayScore": 3,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": []
     },
     {
@@ -3338,17 +3260,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
-        28,
-        39
+        32,
+        27,
+        41
       ],
-      "confidence": 70,
-      "halfFull": "平 / 负",
+      "confidence": 71,
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3385,17 +3307,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        49,
+        48,
         27,
-        24
+        25
       ],
-      "confidence": 74,
-      "halfFull": "平 / 胜",
+      "confidence": 73,
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3432,7 +3354,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
@@ -3442,7 +3364,7 @@
         28
       ],
       "confidence": 71,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3479,17 +3401,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        36,
+        35,
         28,
-        36
+        37
       ],
       "confidence": 70,
-      "halfFull": "平 / 平",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3526,21 +3448,8 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
-      "timeline": [],
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
-      "probabilities": [
-        27,
-        27,
-        46
-      ],
-      "confidence": 73,
-      "halfFull": "平 / 负",
-      "factors": [
-        "公开赛前数据换算",
-        "主客场与近期状态"
-      ]
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
+      "timeline": []
     },
     {
       "id": "401874934",
@@ -3573,7 +3482,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -3583,7 +3492,7 @@
         43
       ],
       "confidence": 72,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3620,7 +3529,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
@@ -3630,7 +3539,7 @@
         61
       ],
       "confidence": 78,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3667,17 +3576,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
-      "predictedScore": "1–1",
-      "alternativeScore": "0–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
+        30,
         31,
-        32,
-        37
+        39
       ],
       "confidence": 70,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3714,17 +3623,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        56,
+        55,
         25,
-        19
+        20
       ],
       "confidence": 76,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3761,7 +3670,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.099Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.841Z",
       "timeline": [],
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
@@ -3771,7 +3680,7 @@
         10
       ],
       "confidence": 81,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -3808,7 +3717,7 @@
       "awayScore": 0,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -3842,7 +3751,7 @@
       "awayScore": 1,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -3876,7 +3785,7 @@
       "awayScore": 0,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -3910,7 +3819,7 @@
       "awayScore": 0,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -3944,7 +3853,7 @@
       "awayScore": 2,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -3978,7 +3887,7 @@
       "awayScore": 0,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -4012,7 +3921,7 @@
       "awayScore": 0,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -4046,7 +3955,7 @@
       "awayScore": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -4080,7 +3989,7 @@
       "awayScore": 1,
       "displayClock": "90'+3'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     },
     {
@@ -4114,17 +4023,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        44,
-        26,
-        30
+        46,
+        25,
+        29
       ],
-      "confidence": 72,
-      "halfFull": "平 / 胜",
+      "confidence": 73,
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4161,7 +4070,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -4171,7 +4080,7 @@
         28
       ],
       "confidence": 73,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4208,7 +4117,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -4218,7 +4127,7 @@
         29
       ],
       "confidence": 72,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4255,17 +4164,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
+        35,
         28,
-        39
+        37
       ],
       "confidence": 70,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4302,7 +4211,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -4312,7 +4221,7 @@
         30
       ],
       "confidence": 72,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4349,7 +4258,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
@@ -4359,7 +4268,7 @@
         22
       ],
       "confidence": 75,
-      "halfFull": "平 / 胜",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4396,17 +4305,17 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        35,
+        36,
         27,
-        38
+        37
       ],
       "confidence": 70,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4443,7 +4352,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
@@ -4453,7 +4362,7 @@
         47
       ],
       "confidence": 73,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4490,7 +4399,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": [],
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
@@ -4500,7 +4409,7 @@
         65
       ],
       "confidence": 79,
-      "halfFull": "平 / 负",
+      "halfFull": "",
       "factors": [
         "公开赛前数据换算",
         "主客场与近期状态"
@@ -4537,7 +4446,7 @@
       "awayScore": null,
       "displayClock": "0'",
       "clockSeconds": 0,
-      "clockSnapshotAt": "2026-09-15T04:06:36.304Z",
+      "clockSnapshotAt": "2026-09-15T15:37:02.899Z",
       "timeline": []
     }
   ],
