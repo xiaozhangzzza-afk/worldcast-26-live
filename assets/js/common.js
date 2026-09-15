@@ -215,6 +215,7 @@
     const match = store().matches.find((item) => String(item.id) === String(matchId));
     const modal = $("#matchModal");
     if (!match || !modal) return;
+    modal.dataset.matchId = String(match.id);
     const probabilities = normalize(match.probabilities || match.probs);
     const probabilityText = probabilities ? `主胜 ${probabilities[0]}% · 平局 ${probabilities[1]}% · 客胜 ${probabilities[2]}%` : "预测数据待更新";
     $("#matchModalContent").innerHTML = `
@@ -327,7 +328,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.0.1").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.1.0").catch(() => {});
       return;
     }
     try {
@@ -340,20 +341,20 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.0.1");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.1.0");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }
   }
 
   function bindCommon() {
-    document.addEventListener("click", (event) => {
+    document.onclick = (event) => {
       const close = event.target.closest("[data-close-modal]");
       if (close) return closeModal(close.closest(".modal"));
       if (event.target.classList.contains("modal-backdrop")) return closeModal(event.target.closest(".modal"));
       const openMatchButton = event.target.closest("[data-open-match]");
       if (openMatchButton) return openMatch(openMatchButton.dataset.openMatch, openMatchButton);
-    });
+    };
     $("#menuToggle")?.addEventListener("click", () => {
       const menu = $("#navMenu");
       const open = menu.classList.toggle("open");
@@ -398,13 +399,13 @@
       }
     });
     $("#backTop")?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-    document.addEventListener("keydown", (event) => {
+    document.onkeydown = (event) => {
       if (event.key === "Escape") {
         closeModal($(".modal:not([hidden])"));
         $("#navMenu")?.classList.remove("open");
         document.body.classList.remove("nav-open");
       }
-    });
+    };
   }
 
   function initCommon() {
@@ -426,6 +427,10 @@
 
   window.addEventListener("fm:data-ready", updateDataStatus);
   window.addEventListener("fm:data-updated", updateDataStatus);
+  window.addEventListener("fm:data-updated", () => {
+    const modal = $("#matchModal");
+    if (modal && !modal.hidden && modal.dataset.matchId) openMatch(modal.dataset.matchId, state.lastFocus, true);
+  });
   window.addEventListener("fm:data-loading", updateDataStatus);
   window.addEventListener("fm:data-error", updateDataStatus);
   window.FM = {

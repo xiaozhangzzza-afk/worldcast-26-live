@@ -4,6 +4,7 @@
   function orderedMatches() {
     const now = Date.now();
     return FM.store().matches.filter((item) => item.competitionId !== "fifa.world").sort((a, b) => {
+      if (Boolean(a.live) !== Boolean(b.live)) return a.live ? -1 : 1;
       const at = new Date(a.date).getTime();
       const bt = new Date(b.date).getTime();
       const aFuture = at >= now && !a.completed;

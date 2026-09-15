@@ -23,7 +23,7 @@ function prediction(competition) {
   const total=raw.reduce((sum,value)=>sum+value,0), p=raw.map(value=>Math.round(value/total*100)); p[2]+=100-p.reduce((sum,value)=>sum+value,0);
   const [h,d,a]=p, score=h>=58?'2–0':a>=58?'0–2':h>=43?'2–1':a>=43?'1–2':d>=32?'1–1':'1–0';
   const alt={'2–0':'2–1','0–2':'1–2','2–1':'1–0','1–2':'0–1','1–1':'0–0','1–0':'2–1'}[score] || '1–1';
-  return { predictedScore:score, alternativeScore:alt, probabilities:p, confidence:Math.min(88,Math.round(58+Math.max(...p)*.32)), halfFull:`平 / ${h>a&&h>d?'胜':a>h&&a>d?'负':'平'}`, factors:['公开赛前数据换算','主客场与近期状态'] };
+  return { predictedScore:score, alternativeScore:alt, probabilities:p, confidence:Math.min(88,Math.round(58+Math.max(...p)*.32)), halfFull:'', factors:['公开赛前数据换算','主客场与近期状态'] };
 }
 
 const matches=[], teamMap=new Map();

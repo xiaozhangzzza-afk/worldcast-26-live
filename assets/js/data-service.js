@@ -184,7 +184,7 @@
     try {
       const data = await fetchJson(LEAGUE_SNAPSHOT_URL);
       if (!Array.isArray(data.matches) || !data.matches.length) throw new Error("快照为空");
-      return { matches: data.matches, teams: data.teams || [], savedAt: data.savedAt || data.updatedAt };
+      return { matches: data.matches.map(item => ({...item, halfFull: ""})), teams: data.teams || [], savedAt: data.savedAt || data.updatedAt };
     } catch {
       return readLastGood();
     }
@@ -202,12 +202,18 @@
       const leagueErrors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       const worldCup = await worldCupPromise;
       if (leagueParts.length) {
+        if (leagueErrors.length) {
+          const fallback = await loadLeagueSnapshot();
+          const missing = LEAGUES.filter((_, i) => results[i].status === "rejected").map(item => item.id);
+          leagueParts.push({matches: (fallback?.matches || STORE.matches).filter(item => missing.includes(item.competitionId)), teams: (fallback?.teams || STORE.teams).filter(item => missing.includes(item.competitionId))});
+        }
         STORE.liveUpdatedAt = new Date().toISOString();
         applyCombined(leagueParts, worldCup, {
           liveConnected: true,
           source: leagueParts.length === LEAGUES.length ? "multi-league-live" : "multi-league-partial"
         });
         STORE.errors = [...leagueErrors, ...(worldCup.error ? [worldCup.error] : [])];
+        if (leagueErrors.length) STORE.sourceLabel = `部分实时连接 · ${LEAGUES.length - leagueErrors.length}/5联赛在线 · 其余保留快照`;
         saveLastGood();
         markReady();
         if (manual) window.FM?.showToast?.(`同步完成：${STORE.matches.filter((item) => item.competitionId !== "fifa.world").length}场五大联赛比赛`);
@@ -296,7 +302,7 @@
       const successful = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
       if (!successful.length) throw new Error("五大联赛实时接口均未响应");
       successful.flatMap((item) => item.matches).forEach(mergeMatch);
-      STORE.teams = uniqueBy([...successful.flatMap((item) => item.teams), ...STORE.teams], "code");
+      STORE.teams = uniqueBy([...STORE.teams, ...successful.flatMap((item) => item.teams)], "code");
       STORE.liveUpdatedAt = new Date().toISOString();
       STORE.lastUpdated = STORE.liveUpdatedAt;
       STORE.liveConnected = true;
@@ -306,6 +312,7 @@
       const liveCount = STORE.matches.filter((item) => item.live).length;
       STORE.sourceLabel = liveCount ? `实时同步中 · ${liveCount}场进行中 · 20秒轮询` : "实时连接正常 · 当前无进行中比赛";
       STORE.errors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
+      if (successful.length < LEAGUES.length) STORE.sourceLabel = `部分实时连接 · ${successful.length}/5联赛在线 · 其余保留最近数据`;
       hydratePredictions();
       if (activeDetailId) await loadMatchDetails(activeDetailId, false);
       markReady();

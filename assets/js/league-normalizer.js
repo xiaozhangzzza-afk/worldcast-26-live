@@ -29,8 +29,8 @@
       predictedScore: primary,
       alternativeScore: alternatives[primary] || "1–1",
       confidence: Math.min(88, Math.round(58 + Math.max(home, draw, away) * .32)),
-      halfFull: `平 / ${result}`,
-      factors: ["公开赛前数据换算", "主客场与近期状态"]
+      halfFull: "",
+      factors: ["公开赛前赔率去除抽水后换算；非独立训练模型", "比分为概率阈值演示，半全场数据暂缺"]
     };
   }
 
