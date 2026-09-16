@@ -331,7 +331,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.1.1").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.2.1").catch(() => {});
       return;
     }
     try {
@@ -344,7 +344,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.1.1");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.2.1");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }

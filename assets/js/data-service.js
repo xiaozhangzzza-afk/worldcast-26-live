@@ -177,7 +177,15 @@
   }
 
   async function fetchLeague(meta, range) {
-    return LeagueNormalizer.normalizeFeed(await fetchJson(scoreboardUrl(meta, range)), meta);
+    try {
+      return LeagueNormalizer.normalizeFeed(await fetchJson(scoreboardUrl(meta, range)), meta);
+    } catch (rangeError) {
+      const days = [-1, 0, 1].map(offset => compactDay(new Date(Date.now() + offset * 86400000)));
+      const results = await Promise.allSettled(days.map(day => fetchJson(scoreboardUrl(meta, day))));
+      const feeds = results.filter(item => item.status === "fulfilled").map(item => LeagueNormalizer.normalizeFeed(item.value, meta));
+      if (feeds.length !== days.length) throw new Error(`单日数据不完整：${rangeError.message}`);
+      return {matches: uniqueBy(feeds.flatMap(item => item.matches), "id"), teams: uniqueBy(feeds.flatMap(item => item.teams), "code"), dailyFallback: true};
+    }
   }
 
   async function loadLeagueSnapshot() {
@@ -202,6 +210,11 @@
       const leagueErrors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       const worldCup = await worldCupPromise;
       if (leagueParts.length) {
+        const dailyFallback = leagueParts.some(item => item.dailyFallback);
+        if (dailyFallback) {
+          const snapshot = await loadLeagueSnapshot();
+          if (snapshot) leagueParts.unshift(snapshot);
+        }
         if (leagueErrors.length) {
           const fallback = await loadLeagueSnapshot();
           const missing = LEAGUES.filter((_, i) => results[i].status === "rejected").map(item => item.id);
@@ -214,6 +227,7 @@
         });
         STORE.errors = [...leagueErrors, ...(worldCup.error ? [worldCup.error] : [])];
         if (leagueErrors.length) STORE.sourceLabel = `部分实时连接 · ${LEAGUES.length - leagueErrors.length}/5联赛在线 · 其余保留快照`;
+        else if (dailyFallback) STORE.sourceLabel = "近三日实时核验 · 远期赛程使用最近快照";
         saveLastGood();
         markReady();
         if (manual) window.FM?.showToast?.(`同步完成：${STORE.matches.filter((item) => item.competitionId !== "fifa.world").length}场五大联赛比赛`);
@@ -313,6 +327,7 @@
       STORE.sourceLabel = liveCount ? `实时同步中 · ${liveCount}场进行中 · 20秒轮询` : "实时连接正常 · 当前无进行中比赛";
       STORE.errors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       if (successful.length < LEAGUES.length) STORE.sourceLabel = `部分实时连接 · ${successful.length}/5联赛在线 · 其余保留最近数据`;
+      else if (successful.some(item => item.dailyFallback)) STORE.sourceLabel = "近三日实时核验 · 远期赛程使用最近快照";
       hydratePredictions();
       if (activeDetailId) await loadMatchDetails(activeDetailId, false);
       markReady();

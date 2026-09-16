@@ -13,7 +13,7 @@
     const now = new Date();
     if (chinaDay(d) === chinaDay(now)) return "today";
     if (chinaDay(d) === chinaDay(new Date(Date.now() + 86400000))) return "tomorrow";
-    return "later";
+    return d.getTime() > now.getTime() ? "later" : "past";
   }
 
   function haystack(match) {
