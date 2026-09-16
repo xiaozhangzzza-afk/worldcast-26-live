@@ -2,7 +2,8 @@
   "use strict";
 
   const FAV_KEY = FM.STORAGE.favorites;
-  const state = { competition: "top5", query: "", favorites: new Set(readFavorites()) };
+  const requestedCompetition = new URLSearchParams(location.search).get("competition");
+  const state = { competition: ["eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "fifa.world"].includes(requestedCompetition) ? requestedCompetition : "top5", query: "", favorites: new Set(readFavorites()) };
 
   function readFavorites() {
     try {
@@ -40,6 +41,7 @@
   }
 
   function renderTeams() {
+    FM.$$("#competitionFilter button").forEach(button => { const selected = button.dataset.competition === state.competition; button.classList.toggle("active", selected); button.setAttribute("aria-pressed", String(selected)); });
     const root = FM.$("#teamGrid");
     const s = FM.store();
     if (root) {

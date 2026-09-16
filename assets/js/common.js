@@ -85,12 +85,15 @@
 
   function liveClock(match) {
     if (!match?.live) return match?.displayClock || "";
+    if (/HALFTIME|BREAK|SUSPENDED|DELAY|PENALT/i.test(match.status || "")) return match.displayClock || match.statusText || "中场休息";
+    if (match.clockSeconds == null || match.clockSeconds === "") return match.displayClock || "进行中";
     const base = Number(match.clockSeconds);
     const snapshot = new Date(match.clockSnapshotAt || store().liveUpdatedAt || 0).getTime();
     if (!Number.isFinite(base) || !Number.isFinite(snapshot)) return match.displayClock || "进行中";
-    const seconds = Math.max(0, base + Math.floor((Date.now() - snapshot) / 1000));
-    const capped = Math.min(seconds, 90 * 60 + 59);
-    return `${Math.floor(capped / 60)}:${String(capped % 60).padStart(2, "0")}`;
+    const elapsed = Math.max(0, Math.floor((Date.now() - snapshot) / 1000));
+    if (elapsed > 60) return `${match.displayClock || Math.floor(base / 60) + "′"} · 等待同步`;
+    const seconds = Math.max(0, base + elapsed);
+    return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
   }
 
   function formatDate(value) {
@@ -328,7 +331,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.1.0").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.1.1").catch(() => {});
       return;
     }
     try {
@@ -341,7 +344,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.1.0");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.1.1");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }

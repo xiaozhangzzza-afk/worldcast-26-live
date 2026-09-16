@@ -1,4 +1,4 @@
-# 足球预测大模型 V5.0.1
+# 足球预测大模型 V5.1.1
 
 纯 HTML、CSS、JavaScript 的足球数据站，可直接部署到 GitHub Pages。V5.0 以英超、西甲、德甲、意甲、法甲为主内容，世界杯收纳为独立专题，并增强实时比分、事件时间轴和离线快照。
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 <https://xiaozhangzzza-afk.github.io/worldcast-26-live/>
 
-发布新版本时同步更新 `service-worker.js` 的 `CACHE_NAME` 和 HTML 资源版本号（当前为 `5.0.1`）。首次打开新版本会执行一次旧缓存迁移；如仍看到旧页面，可使用强制刷新或在地址后添加 `?v=5.0.1`。
+发布新版本时同步更新 `service-worker.js` 的 `CACHE_NAME` 和 HTML 资源版本号（当前为 `5.1.1`）。首次打开新版本会执行一次旧缓存迁移；如仍看到旧页面，可使用强制刷新或在地址后添加 `?v=5.1.1`。
 
 ## 后续替换数据源
 
