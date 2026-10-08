@@ -4,6 +4,7 @@
   let active = 'top5', query = '', target, selection = 0;
   const t = (zh,en) => FM.state.language === 'en' ? en : zh;
   const leagues = () => FM.store().competitions.filter(item=>!item.compact);
+  const selected = (m,id) => id==='all'||(id==='top5'?m.category==='domestic':id==='europe'?m.category==='europe':m.id===id);
   const cell = value => value == null ? t('待确认','Pending') : FM.html(value);
   function entries(payload) {
     const output=[];
@@ -23,7 +24,7 @@
   }
   function draw() {
     if(!target || document.body.dataset.page!=='schedule')return;
-    const list=leagues().filter(m=>active==='top5'||active==='all'||m.id===active);
+    const list=leagues().filter(m=>selected(m,active));
     target.innerHTML=list.map(meta=>{const data=cache.get(meta.id);const title=FM.state.language==='en'?meta.nameEn:meta.shortZh;
       if(!data)return `<section class="standings-section"><h2>${FM.html(title)}</h2><p>${t('积分榜加载中…','Loading standings…')}</p></section>`;
       if(data.error)return `<section class="standings-section"><h2>${FM.html(title)}</h2><p>${t('积分源暂不可用，点击顶部同步重试。','Standings unavailable. Use Sync to retry.')}</p></section>`;
@@ -35,7 +36,7 @@
   async function render(root,competition,search='') {
     target=root;active=competition;query=search;
     if(competition==='fifa.world')return;
-    draw();await Promise.allSettled(leagues().filter(m=>competition==='top5'||competition==='all'||m.id===competition).map(m=>load(m.id)));
+    draw();await Promise.allSettled(leagues().filter(m=>selected(m,competition)).map(m=>load(m.id)));
     if(active!=='fifa.world')draw();
   }
   function upcomingMarkup(matches) {return matches.map(m=>`<article class="club-fixture"><time>${FM.formatFull(m.date)}</time><p>${FM.html(FM_NAMES.team({nameEn:m.homeNameEn,name:m.homeName},FM.state.language))} <small>${t('主','H')}</small> <span class="versus">vs</span> ${FM.html(FM_NAMES.team({nameEn:m.awayNameEn,name:m.awayName},FM.state.language))} <small>${t('客','A')}</small></p><button class="fixture-link" data-club-match="${FM.html(m.id)}">${t('比赛详情','Details')}</button></article>`).join('');}

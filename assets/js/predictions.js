@@ -36,14 +36,16 @@
   function filteredMatches() {
     const query = state.query.trim().toLowerCase();
     return FM.store().matches.filter((item) => {
-      const competitionOk = state.competition === "all" || (state.competition === "top5" ? item.competitionId !== "fifa.world" : item.competitionId === state.competition);
-      const stageOk = state.stage === "all" || item.stageSlug === state.stage;
+      const competitionOk = FM.inCompetition(item,state.competition);
+      const stageOk = state.stage === "all" || (state.stage==='knockout' ? item.isCup&&!['league-phase','group-stage'].includes(item.stageSlug) : item.stageSlug === state.stage);
       const dateOk = state.date === "all" || dateBucket(item) === state.date;
       return competitionOk && stageOk && dateOk && (!query || haystack(item).includes(query));
     }).sort((a, b) => new Date(a.date) - new Date(b.date));
   }
 
   function renderPredictions() {
+    const european=state.competition==='europe'||FM.store().competitions.find(c=>c.id===state.competition)?.category==='europe';
+    FM.$$('#stageFilter button').forEach(b=>{const key=b.dataset.stage;b.hidden=key!=='all'&&(state.competition==='top5'||FM.store().competitions.find(c=>c.id===state.competition)?.category==='domestic'?key!=='league':european?['league','group-stage','round-of-32','third-place'].includes(key):['league','league-phase','knockout'].includes(key));});
     const root = FM.$("#predictionGrid");
     if (!root) return;
     const s = FM.store();
@@ -62,15 +64,29 @@
   function renderScores() {
     const root = FM.$("#scoreDistribution");
     if (!root) return;
-    const source = window.FM_DATA?.scoreDistribution || [];
-    const max = Math.max(...source.map((item) => item[1]), 1);
-    root.innerHTML = source.map(([score, weight, tag, note]) => `
+    const selected=FM.store().matches.filter(m=>FM.inCompetition(m,state.competition));
+    const data=FM_ANALYTICS.distribution(selected);
+    const max = Math.max(...data.rows.map(item=>item.count),1);
+    root.innerHTML = data.rows.map(({score,count,share}) => `
       <article class="score-card">
-        <strong class="score-name">${FM.html(score)}</strong>
-        <div><div class="score-meter"><i style="width:${Math.max(8, Math.round(weight / max * 100))}%"></i></div><p>${FM.html(tag)} · ${FM.html(note)}</p></div>
-        <b>${weight}%</b>
+        <strong class="score-name">${FM.html(FM_NAMES.score(score))}</strong>
+        <div><div class="score-meter"><i style="width:${Math.round(count / max * 100)}%"></i></div><p>${count} ${FM.state.language==='en'?'completed matches':'场已完赛'} · ${share}%</p></div>
+        <b>${count}</b>
       </article>
-    `).join("") + `<p class="light-note">以上为模型分布展示；真实赛果以赛后数据源为准。</p>`;
+    `).join("") + `<p class="history-note">${FM.state.language==='en'?'Official-score sample':'正式比分样本'}：${data.total} ${FM.state.language==='en'?'matches; home score first. Only the currently loaded schedule is covered, not the whole season.':'场；主队比分在前。统计所选联赛当前已载入的赛程，非全赛季统计。'} ${data.total?FM.formatDate(data.start)+' — '+FM.formatDate(data.end):''}</p>`;
+    renderHistory();
+  }
+
+  function renderHistory(){
+    const root=FM.$('#predictionHistory');if(!root)return;
+    const en=FM.state.language==='en',t=(zh,eng)=>en?eng:zh,h=window.FM_HISTORY;
+    if(!h||h.loading){root.innerHTML=`<p>${t('预测档案读取中…','Loading prediction archive…')}</p>`;return;}
+    if(h.error){root.innerHTML=`<p>${t('预测档案暂不可用，请同步后重试。','Prediction archive unavailable; retry after sync.')}</p>`;return;}
+    const records=h.records.filter(r=>FM.inCompetition(r,state.competition));
+    const settled=FM_ANALYTICS.results(records,FM.store().matches),n=settled.length;
+    const rate=key=>n?(settled.filter(r=>r[key]).length/n*100).toFixed(1)+'%':t('等待赛果','Awaiting results');
+    const byId=new Map(settled.map(r=>[r.id,r]));
+    const opened=root.querySelector('details')?.open;root.innerHTML=`<details class="prediction-comparison" ${opened?'open':''}><summary>${t('预测 vs 实际','Prediction vs actual')} · ${n} ${t('场已结算','settled')} · ${t('胜平负','Result')} ${rate('win')}<span>${t('展开对比','View comparison')}</span></summary><div class="history-metrics"><article><strong>${n}</strong><small>${t('已结算样本','Settled samples')} · ${records.length} ${t('条赛前记录','pre-match records')}</small></article><article><strong>${rate('win')}</strong><small>${t('胜平负命中率','Result accuracy')}</small></article><article><strong>${rate('exact')}</strong><small>${t('主比分命中率','Exact-score accuracy')} · ${t('主/备选任一命中','Primary or alternative hit')} ${rate('alternative')}</small></article></div><p class="history-note">${t('从本版发布开始保存赛前预测，开赛后锁定；已结束比赛不补录。统计为赔率换算与规则演示的实际表现，不是模型信心百分比。半全场暂无可结算的赛前样本。','Records begin with this release and freeze at kickoff; completed matches are not backfilled. Results measure the odds/rule demonstration, not the confidence percentage. No settled HT/FT sample yet.')}</p><div class="history-rows"><table><thead><tr><th>${t('比赛','Match')}</th><th>${t('记录时间','Recorded')}</th><th>${t('主/备选比分','Primary / alternative')}</th><th>${t('赛果','Result')}</th></tr></thead><tbody>${[...records].sort((a,b)=>Number(byId.has(b.id))-Number(byId.has(a.id))||new Date(b.date)-new Date(a.date)).slice(0,12).map(r=>{const s=byId.get(r.id);return `<tr><td>${FM.html(FM_NAMES.team({nameEn:r.homeName},FM.state.language))} vs ${FM.html(FM_NAMES.team({nameEn:r.awayName},FM.state.language))}</td><td>${FM.formatFull(r.capturedAt)}</td><td>${FM.html(FM_NAMES.score(r.predictedScore))} / ${FM.html(FM_NAMES.score(r.alternativeScore))}</td><td>${s?FM.html(FM_NAMES.score(`${s.result.homeScore}-${s.result.awayScore}`))+' · '+(s.exact?t('主比分一致','Exact score matched'):s.alternative?t('备选比分一致','Alternative matched'):t('比分不一致','Score differed')):r.excludedReason?t('90分钟比分待确认，未计入','90-minute result unconfirmed; excluded'):t('待结算','Pending')}</td></tr>`;}).join('')}</tbody></table></div>${records.length?'':`<p>${t('当前尚无有效赛前记录，等待数据源提供预测字段。','No valid pre-match records yet; awaiting source predictions.')}</p>`}</details>`;
   }
 
   function renderInsights() {
@@ -93,8 +109,10 @@
       const button = event.target.closest("button[data-competition]");
       if (!button) return;
       state.competition = button.dataset.competition;
+      state.stage = 'all';
+      FM.$$('#stageFilter button').forEach(b=>b.classList.toggle('active',b.dataset.stage==='all'));
       FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item === button));
-      renderPredictions();
+      renderAll();
     });
     FM.$$("#competitionFilter button").forEach((item) => item.classList.toggle("active", item.dataset.competition === state.competition));
     FM.$("#stageFilter")?.addEventListener("click", (event) => {
@@ -129,4 +147,5 @@
   window.addEventListener("fm:data-error", renderAll);
   window.addEventListener("fm:data-loading", renderAll);
   window.addEventListener("fm:language", renderAll);
+  window.addEventListener("fm:history-ready", renderHistory);
 })();

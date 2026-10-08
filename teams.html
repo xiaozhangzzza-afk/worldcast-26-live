@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>五大联赛俱乐部与世界杯球队数据库｜足球预测大模型</title>
+  <title>联赛与欧战俱乐部及世界杯球队数据库｜足球预测大模型</title>
   <meta name="description" content="浏览英超、西甲、德甲、意甲、法甲俱乐部和世界杯国家队资料、近期状态与收藏功能。">
   <meta name="keywords" content="世界杯球队数据库, 世界杯球队评分, 核心球员, 足球预测大模型">
   <meta name="robots" content="index,follow,max-image-preview:large">
@@ -11,16 +11,17 @@
   <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/teams.html">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/img/football.svg" type="image/svg+xml">
-  <meta property="og:title" content="五大联赛俱乐部与世界杯球队数据库｜足球预测大模型">
+  <meta property="og:title" content="联赛与欧战俱乐部及世界杯球队数据库｜足球预测大模型">
   <meta property="og:description" content="浏览英超、西甲、德甲、意甲、法甲俱乐部和世界杯国家队资料、近期状态与收藏功能。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/teams.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/layers.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/refined.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/standings.css?v=5.3.2">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/layers.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/refined.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/standings.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/analytics.css?v=5.5.0">
 </head>
 <body data-page="teams">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -30,7 +31,7 @@
       <div class="section-shell">
         <p class="eyebrow">Team Database</p>
         <h1>俱乐部与国家队数据库</h1>
-        <p>覆盖五大联赛俱乐部，世界杯国家队保留在独立筛选中。</p>
+        <p>覆盖五大联赛与欧战参赛俱乐部，按赛事展示资料；世界杯国家队保留在独立筛选中。</p>
       </div>
     </section>
 
@@ -38,6 +39,8 @@
       <div class="section-shell">
         <div class="team-toolbar">
           <div class="competition-filter" id="competitionFilter" role="group" aria-label="赛事筛选">
+            <button type="button" data-competition="europe">欧洲俱乐部赛事</button>
+            <button type="button" data-competition="uefa.champions">欧冠</button><button type="button" data-competition="uefa.europa">欧联杯</button><button type="button" data-competition="uefa.europa.conf">欧协联</button>
             <button class="active" type="button" data-competition="top5">五大联赛</button>
             <button type="button" data-competition="eng.1">英超</button><button type="button" data-competition="esp.1">西甲</button>
             <button type="button" data-competition="ger.1">德甲</button><button type="button" data-competition="ita.1">意甲</button>
@@ -59,16 +62,19 @@
     </section>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/league-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/prediction-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/player-names.js?v=5.3.2" defer></script>
-  <script src="assets/js/external-picks.js?v=5.3.2" defer></script>
-  <script src="assets/js/names.js?v=5.3.2" defer></script>
-  <script src="assets/js/common.js?v=5.3.2" defer></script>
-  <script src="assets/js/teams.js?v=5.3.2" defer></script>
-  <script src="assets/js/layers.js?v=5.3.2" defer></script>
+  <script src="assets/js/data.js?v=5.5.0" defer></script>
+  <script src="assets/js/competitions.js?v=5.5.0" defer></script>
+  <script src="assets/js/analytics.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/player-names.js?v=5.5.0" defer></script>
+  <script src="assets/js/external-picks.js?v=5.5.0" defer></script>
+  <script src="assets/js/names.js?v=5.5.0" defer></script>
+  <script src="assets/js/common.js?v=5.5.0" defer></script>
+  <script src="assets/js/music.js?v=5.5.0" defer></script>
+  <script src="assets/js/teams.js?v=5.5.0" defer></script>
+  <script src="assets/js/layers.js?v=5.5.0" defer></script>
 </body>
 </html>

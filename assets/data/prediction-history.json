@@ -1,0 +1,2790 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-10-08T08:18:29.349Z",
+  "records": [
+    {
+      "id": "401884781",
+      "competitionId": "ger.1",
+      "date": "2026-10-09T18:30:00.000Z",
+      "homeCode": "ger.1:124",
+      "awayCode": "ger.1:137",
+      "homeName": "Borussia Dortmund",
+      "awayName": "Werder Bremen",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        70,
+        18,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401876447",
+      "competitionId": "fra.1",
+      "date": "2026-10-09T18:45:00.000Z",
+      "homeCode": "fra.1:175",
+      "awayCode": "fra.1:167",
+      "homeName": "Lens",
+      "awayName": "Lyon",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        40,
+        25,
+        35
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882851",
+      "competitionId": "esp.1",
+      "date": "2026-10-09T19:00:00.000Z",
+      "homeCode": "esp.1:99",
+      "awayCode": "esp.1:88",
+      "homeName": "Málaga",
+      "awayName": "Espanyol",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        35,
+        30,
+        35
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879268",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T11:30:00.000Z",
+      "homeCode": "eng.1:359",
+      "awayCode": "eng.1:357",
+      "homeName": "Arsenal",
+      "awayName": "Leeds United",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        69,
+        19,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401882849",
+      "competitionId": "esp.1",
+      "date": "2026-10-10T12:00:00.000Z",
+      "homeCode": "esp.1:101",
+      "awayCode": "esp.1:93",
+      "homeName": "Rayo Vallecano",
+      "awayName": "Athletic Club",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        35,
+        28,
+        37
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874947",
+      "competitionId": "ita.1",
+      "date": "2026-10-10T13:00:00.000Z",
+      "homeCode": "ita.1:3263",
+      "awayCode": "ita.1:109",
+      "homeName": "Genoa",
+      "awayName": "Fiorentina",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        30,
+        29,
+        41
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884775",
+      "competitionId": "ger.1",
+      "date": "2026-10-10T13:30:00.000Z",
+      "homeCode": "ger.1:598",
+      "awayCode": "ger.1:10388",
+      "homeName": "1. FC Union Berlin",
+      "awayName": "SV Elversberg",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        40,
+        25,
+        35
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401884777",
+      "competitionId": "ger.1",
+      "date": "2026-10-10T13:30:00.000Z",
+      "homeCode": "ger.1:3841",
+      "awayCode": "ger.1:132",
+      "homeName": "FC Augsburg",
+      "awayName": "Bayern Munich",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        10,
+        12,
+        78
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884776",
+      "competitionId": "ger.1",
+      "date": "2026-10-10T13:30:00.000Z",
+      "homeCode": "ger.1:2950",
+      "awayCode": "ger.1:131",
+      "homeName": "Mainz",
+      "awayName": "Bayer Leverkusen",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        32,
+        25,
+        43
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884773",
+      "competitionId": "ger.1",
+      "date": "2026-10-10T13:30:00.000Z",
+      "homeCode": "ger.1:3307",
+      "awayCode": "ger.1:134",
+      "homeName": "SC Paderborn 07",
+      "awayName": "VfB Stuttgart",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        20,
+        20,
+        60
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878776",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T14:00:00.000Z",
+      "homeCode": "eng.1:362",
+      "awayCode": "eng.1:337",
+      "homeName": "Aston Villa",
+      "awayName": "Brentford",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        36,
+        27,
+        37
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878775",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T14:00:00.000Z",
+      "homeCode": "eng.1:363",
+      "awayCode": "eng.1:349",
+      "homeName": "Chelsea",
+      "awayName": "AFC Bournemouth",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        56,
+        23,
+        21
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879265",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T14:00:00.000Z",
+      "homeCode": "eng.1:373",
+      "awayCode": "eng.1:370",
+      "homeName": "Ipswich Town",
+      "awayName": "Fulham",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        33,
+        27,
+        40
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878772",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T14:00:00.000Z",
+      "homeCode": "eng.1:366",
+      "awayCode": "eng.1:331",
+      "homeName": "Sunderland",
+      "awayName": "Brighton & Hove Albion",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        32,
+        27,
+        41
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882856",
+      "competitionId": "esp.1",
+      "date": "2026-10-10T14:15:00.000Z",
+      "homeCode": "esp.1:96",
+      "awayCode": "esp.1:1068",
+      "homeName": "Alavés",
+      "awayName": "Atlético Madrid",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        23,
+        25,
+        52
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876446",
+      "competitionId": "fra.1",
+      "date": "2026-10-10T15:15:00.000Z",
+      "homeCode": "fra.1:166",
+      "awayCode": "fra.1:3236",
+      "homeName": "Lille",
+      "awayName": "Le Havre AC",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        66,
+        19,
+        15
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401875021",
+      "competitionId": "ita.1",
+      "date": "2026-10-10T16:00:00.000Z",
+      "homeCode": "ita.1:110",
+      "awayCode": "ita.1:115",
+      "homeName": "Internazionale",
+      "awayName": "Parma",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        82,
+        12,
+        6
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878773",
+      "competitionId": "eng.1",
+      "date": "2026-10-10T16:30:00.000Z",
+      "homeCode": "eng.1:360",
+      "awayCode": "eng.1:367",
+      "homeName": "Manchester United",
+      "awayName": "Tottenham Hotspur",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        56,
+        22,
+        22
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401882853",
+      "competitionId": "esp.1",
+      "date": "2026-10-10T16:30:00.000Z",
+      "homeCode": "esp.1:83",
+      "awayCode": "esp.1:2922",
+      "homeName": "Barcelona",
+      "awayName": "Getafe",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        89,
+        7,
+        4
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884780",
+      "competitionId": "ger.1",
+      "date": "2026-10-10T16:30:00.000Z",
+      "homeCode": "ger.1:11420",
+      "awayCode": "ger.1:125",
+      "homeName": "RB Leipzig",
+      "awayName": "Eintracht Frankfurt",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        60,
+        20,
+        20
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874754",
+      "competitionId": "ita.1",
+      "date": "2026-10-10T18:45:00.000Z",
+      "homeCode": "ita.1:114",
+      "awayCode": "ita.1:4057",
+      "homeName": "Napoli",
+      "awayName": "Frosinone",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        65,
+        20,
+        15
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876444",
+      "competitionId": "fra.1",
+      "date": "2026-10-10T18:45:00.000Z",
+      "homeCode": "fra.1:174",
+      "awayCode": "fra.1:179",
+      "homeName": "AS Monaco",
+      "awayName": "Toulouse",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        59,
+        22,
+        19
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876448",
+      "competitionId": "fra.1",
+      "date": "2026-10-10T18:45:00.000Z",
+      "homeCode": "fra.1:6997",
+      "awayCode": "fra.1:7868",
+      "homeName": "Brest",
+      "awayName": "Angers",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        48,
+        26,
+        26
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876445",
+      "competitionId": "fra.1",
+      "date": "2026-10-10T18:45:00.000Z",
+      "homeCode": "fra.1:273",
+      "awayCode": "fra.1:6851",
+      "homeName": "Lorient",
+      "awayName": "Paris FC",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        29,
+        28,
+        43
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876442",
+      "competitionId": "fra.1",
+      "date": "2026-10-10T18:45:00.000Z",
+      "homeCode": "fra.1:160",
+      "awayCode": "fra.1:2697",
+      "homeName": "Paris Saint-Germain",
+      "awayName": "Le Mans",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        88,
+        7,
+        5
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882848",
+      "competitionId": "esp.1",
+      "date": "2026-10-10T19:00:00.000Z",
+      "homeCode": "esp.1:86",
+      "awayCode": "esp.1:102",
+      "homeName": "Real Madrid",
+      "awayName": "Villarreal",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        70,
+        16,
+        14
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401874940",
+      "competitionId": "ita.1",
+      "date": "2026-10-11T10:30:00.000Z",
+      "homeCode": "ita.1:2572",
+      "awayCode": "ita.1:104",
+      "homeName": "Como",
+      "awayName": "AS Roma",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        37,
+        27,
+        36
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882854",
+      "competitionId": "esp.1",
+      "date": "2026-10-11T12:00:00.000Z",
+      "homeCode": "esp.1:3751",
+      "awayCode": "esp.1:85",
+      "homeName": "Elche",
+      "awayName": "Celta Vigo",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        29,
+        37
+      ],
+      "capturedAt": "2026-10-08T15:44:59.178Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401879266",
+      "competitionId": "eng.1",
+      "date": "2026-10-11T13:00:00.000Z",
+      "homeCode": "eng.1:384",
+      "awayCode": "eng.1:393",
+      "homeName": "Crystal Palace",
+      "awayName": "Nottingham Forest",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        36,
+        28,
+        36
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878774",
+      "competitionId": "eng.1",
+      "date": "2026-10-11T13:00:00.000Z",
+      "homeCode": "eng.1:306",
+      "awayCode": "eng.1:368",
+      "homeName": "Hull City",
+      "awayName": "Everton",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        26,
+        27,
+        47
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401874951",
+      "competitionId": "ita.1",
+      "date": "2026-10-11T13:00:00.000Z",
+      "homeCode": "ita.1:112",
+      "awayCode": "ita.1:4007",
+      "homeName": "Lazio",
+      "awayName": "Monza",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        60,
+        23,
+        17
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401874776",
+      "competitionId": "ita.1",
+      "date": "2026-10-11T13:00:00.000Z",
+      "homeCode": "ita.1:113",
+      "awayCode": "ita.1:107",
+      "homeName": "Lecce",
+      "awayName": "Bologna",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        22,
+        29,
+        49
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876443",
+      "competitionId": "fra.1",
+      "date": "2026-10-11T13:00:00.000Z",
+      "homeCode": "fra.1:2502",
+      "awayCode": "fra.1:180",
+      "homeName": "Nice",
+      "awayName": "Strasbourg",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        41,
+        27,
+        32
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884774",
+      "competitionId": "ger.1",
+      "date": "2026-10-11T13:30:00.000Z",
+      "homeCode": "ger.1:122",
+      "awayCode": "ger.1:268",
+      "homeName": "FC Cologne",
+      "awayName": "Borussia Mönchengladbach",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        46,
+        24,
+        30
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401882847",
+      "competitionId": "esp.1",
+      "date": "2026-10-11T14:15:00.000Z",
+      "homeCode": "esp.1:89",
+      "awayCode": "esp.1:90",
+      "homeName": "Real Sociedad",
+      "awayName": "Deportivo",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        58,
+        24,
+        18
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876441",
+      "competitionId": "fra.1",
+      "date": "2026-10-11T15:15:00.000Z",
+      "homeCode": "fra.1:169",
+      "awayCode": "fra.1:172",
+      "homeName": "Stade Rennais",
+      "awayName": "AJ Auxerre",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        66,
+        19,
+        15
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401879264",
+      "competitionId": "eng.1",
+      "date": "2026-10-11T15:30:00.000Z",
+      "homeCode": "eng.1:364",
+      "awayCode": "eng.1:382",
+      "homeName": "Liverpool",
+      "awayName": "Manchester City",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        36,
+        26,
+        38
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401884778",
+      "competitionId": "ger.1",
+      "date": "2026-10-11T15:30:00.000Z",
+      "homeCode": "ger.1:126",
+      "awayCode": "ger.1:133",
+      "homeName": "SC Freiburg",
+      "awayName": "Schalke 04",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        57,
+        24,
+        19
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874789",
+      "competitionId": "ita.1",
+      "date": "2026-10-11T16:00:00.000Z",
+      "homeCode": "ita.1:3997",
+      "awayCode": "ita.1:103",
+      "homeName": "Sassuolo",
+      "awayName": "AC Milan",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        23,
+        25,
+        52
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882855",
+      "competitionId": "esp.1",
+      "date": "2026-10-11T16:30:00.000Z",
+      "homeCode": "esp.1:244",
+      "awayCode": "esp.1:97",
+      "homeName": "Real Betis",
+      "awayName": "Osasuna",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        62,
+        22,
+        16
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874764",
+      "competitionId": "ita.1",
+      "date": "2026-10-11T18:45:00.000Z",
+      "homeCode": "ita.1:2925",
+      "awayCode": "ita.1:111",
+      "homeName": "Cagliari",
+      "awayName": "Juventus",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        16,
+        24,
+        60
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876440",
+      "competitionId": "fra.1",
+      "date": "2026-10-11T18:45:00.000Z",
+      "homeCode": "fra.1:170",
+      "awayCode": "fra.1:176",
+      "homeName": "Troyes",
+      "awayName": "Marseille",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        26,
+        25,
+        49
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882850",
+      "competitionId": "esp.1",
+      "date": "2026-10-11T19:00:00.000Z",
+      "homeCode": "esp.1:87",
+      "awayCode": "esp.1:94",
+      "homeName": "Racing Santander",
+      "awayName": "Valencia",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        42,
+        27,
+        31
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401875005",
+      "competitionId": "ita.1",
+      "date": "2026-10-12T16:30:00.000Z",
+      "homeCode": "ita.1:105",
+      "awayCode": "ita.1:17530",
+      "homeName": "Atalanta",
+      "awayName": "Venezia",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        59,
+        23,
+        18
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874763",
+      "competitionId": "ita.1",
+      "date": "2026-10-12T18:45:00.000Z",
+      "homeCode": "ita.1:239",
+      "awayCode": "ita.1:118",
+      "homeName": "Torino",
+      "awayName": "Udinese",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        41,
+        29,
+        30
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879267",
+      "competitionId": "eng.1",
+      "date": "2026-10-12T19:00:00.000Z",
+      "homeCode": "eng.1:388",
+      "awayCode": "eng.1:361",
+      "homeName": "Coventry City",
+      "awayName": "Newcastle United",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        28,
+        26,
+        46
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401882852",
+      "competitionId": "esp.1",
+      "date": "2026-10-12T19:00:00.000Z",
+      "homeCode": "esp.1:1538",
+      "awayCode": "esp.1:243",
+      "homeName": "Levante",
+      "awayName": "Sevilla",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        35,
+        29,
+        36
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false
+    },
+    {
+      "id": "401915418",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T16:45:00.000Z",
+      "homeCode": "uefa.champions:175",
+      "awayCode": "uefa.champions:2250",
+      "homeName": "Lens",
+      "awayName": "Sporting CP",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        38,
+        25,
+        37
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915436",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T16:45:00.000Z",
+      "homeCode": "uefa.champions:21922",
+      "awayCode": "uefa.champions:494",
+      "homeName": "Sabah FK",
+      "awayName": "Slavia Prague",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        27,
+        26,
+        47
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915417",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:359",
+      "awayCode": "uefa.champions:166",
+      "homeName": "Arsenal",
+      "awayName": "Lille",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        75,
+        16,
+        9
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915412",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:1068",
+      "awayCode": "uefa.champions:360",
+      "homeName": "Atlético Madrid",
+      "awayName": "Manchester United",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        43,
+        25,
+        32
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915435",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:432",
+      "awayCode": "uefa.champions:83",
+      "homeName": "Galatasaray",
+      "awayName": "Barcelona",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        13,
+        14,
+        73
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915413",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:110",
+      "awayCode": "uefa.champions:570",
+      "homeName": "Internazionale",
+      "awayName": "Club Brugge",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        74,
+        16,
+        10
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915434",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:11420",
+      "awayCode": "uefa.champions:148",
+      "homeName": "RB Leipzig",
+      "awayName": "PSV Eindhoven",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        47,
+        23,
+        30
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915411",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:510",
+      "awayCode": "uefa.champions:132",
+      "homeName": "Viking FK",
+      "awayName": "Bayern Munich",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        6,
+        8,
+        86
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915410",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-13T19:00:00.000Z",
+      "homeCode": "uefa.champions:102",
+      "awayCode": "uefa.champions:114",
+      "homeName": "Villarreal",
+      "awayName": "Napoli",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        43,
+        26,
+        31
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915416",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T16:45:00.000Z",
+      "homeCode": "uefa.champions:142",
+      "awayCode": "uefa.champions:2572",
+      "homeName": "Feyenoord Rotterdam",
+      "awayName": "Como",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        27,
+        23,
+        50
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915415",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T16:45:00.000Z",
+      "homeCode": "uefa.champions:4411",
+      "awayCode": "uefa.champions:364",
+      "homeName": "LASK Linz",
+      "awayName": "Liverpool",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        9,
+        14,
+        77
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915414",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:104",
+      "awayCode": "uefa.champions:86",
+      "homeName": "AS Roma",
+      "awayName": "Real Madrid",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        26,
+        24,
+        50
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915409",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:362",
+      "awayCode": "uefa.champions:436",
+      "homeName": "Aston Villa",
+      "awayName": "Fenerbahce",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        56,
+        24,
+        20
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915393",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:2980",
+      "awayCode": "uefa.champions:124",
+      "homeName": "Bodo/Glimt",
+      "awayName": "Borussia Dortmund",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        30,
+        24,
+        46
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915407",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:382",
+      "awayCode": "uefa.champions:160",
+      "homeName": "Manchester City",
+      "awayName": "Paris Saint-Germain",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        41,
+        24,
+        35
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915408",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:244",
+      "awayCode": "uefa.champions:437",
+      "homeName": "Real Betis",
+      "awayName": "FC Porto",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        44,
+        26,
+        30
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915406",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:493",
+      "awayCode": "uefa.champions:887",
+      "homeName": "Shakhtar Donetsk",
+      "awayName": "AEK Athens",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        36,
+        27,
+        37
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915405",
+      "competitionId": "uefa.champions",
+      "date": "2026-10-14T19:00:00.000Z",
+      "homeCode": "uefa.champions:521",
+      "awayCode": "uefa.champions:134",
+      "homeName": "Slovan Bratislava",
+      "awayName": "VfB Stuttgart",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        12,
+        16,
+        72
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915573",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:140",
+      "awayCode": "uefa.europa:13083",
+      "homeName": "AZ Alkmaar",
+      "awayName": "Hapoel Be'er",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        72,
+        16,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915576",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:2990",
+      "awayCode": "uefa.europa:131",
+      "homeName": "Lech Poznan",
+      "awayName": "Bayer Leverkusen",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        21,
+        22,
+        57
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915566",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:167",
+      "awayCode": "uefa.europa:384",
+      "homeName": "Lyon",
+      "awayName": "Crystal Palace",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        44,
+        26,
+        30
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915577",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:3362",
+      "awayCode": "uefa.europa:617",
+      "homeName": "NK Celje",
+      "awayName": "Omonia Nicosia",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        38,
+        27,
+        35
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915568",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:2790",
+      "awayCode": "uefa.europa:103",
+      "homeName": "RB Salzburg",
+      "awayName": "AC Milan",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        24,
+        24,
+        52
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915567",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:433",
+      "awayCode": "uefa.europa:987",
+      "homeName": "Sparta Prague",
+      "awayName": "Lillestrom",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        69,
+        19,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915575",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:21615",
+      "awayCode": "uefa.europa:366",
+      "homeName": "Torreense",
+      "awayName": "Sunderland",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        14,
+        19,
+        67
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915574",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa:5807",
+      "awayCode": "uefa.europa:89",
+      "homeName": "Union St.-Gilloise",
+      "awayName": "Real Sociedad",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        41,
+        27,
+        32
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915855",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:10834",
+      "awayCode": "uefa.europa.conf:174",
+      "homeName": "CSKA Sofia",
+      "awayName": "AS Monaco",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        17,
+        21,
+        62
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915854",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:8089",
+      "awayCode": "uefa.europa.conf:2922",
+      "homeName": "CSU Craiova",
+      "awayName": "Getafe",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        32,
+        30,
+        38
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915748",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:7672",
+      "awayCode": "uefa.europa.conf:2290",
+      "homeName": "FC Lugano",
+      "awayName": "Red Star Belgrade",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        26,
+        40
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915861",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:489",
+      "awayCode": "uefa.europa.conf:139",
+      "homeName": "Hajduk Split",
+      "awayName": "Ajax Amsterdam",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        16,
+        19,
+        65
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915860",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:3611",
+      "awayCode": "uefa.europa.conf:7853",
+      "homeName": "KAA Gent",
+      "awayName": "AGF",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        56,
+        23,
+        21
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915858",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:8169",
+      "awayCode": "uefa.europa.conf:997",
+      "homeName": "KuPS Kuopio",
+      "awayName": "Trabzonspor",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        16,
+        21,
+        63
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915857",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:20301",
+      "awayCode": "uefa.europa.conf:20703",
+      "homeName": "Mjällby AIF",
+      "awayName": "Inter D'Escaldes",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        70,
+        19,
+        11
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915856",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:443",
+      "awayCode": "uefa.europa.conf:20710",
+      "homeName": "Panathinaikos",
+      "awayName": "Borac Banja Luka",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        70,
+        18,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915747",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T16:45:00.000Z",
+      "homeCode": "uefa.europa.conf:19246",
+      "awayCode": "uefa.europa.conf:2528",
+      "homeName": "Riga FC",
+      "awayName": "Kairat Almaty",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        49,
+        27,
+        24
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915571",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:349",
+      "awayCode": "uefa.europa:3746",
+      "homeName": "AFC Bournemouth",
+      "awayName": "SK Sturm Graz",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        79,
+        13,
+        8
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915562",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:1929",
+      "awayCode": "uefa.europa:256",
+      "homeName": "Benfica",
+      "awayName": "Celtic",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        75,
+        16,
+        9
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915560",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:85",
+      "awayCode": "uefa.europa:111",
+      "homeName": "Celta Vigo",
+      "awayName": "Juventus",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        27,
+        27,
+        46
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915549",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:597",
+      "awayCode": "uefa.europa:441",
+      "homeName": "Dinamo Zagreb",
+      "awayName": "Anderlecht",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        50,
+        26,
+        24
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915564",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:622",
+      "awayCode": "uefa.europa:11706",
+      "homeName": "Ferencvaros",
+      "awayName": "Viktoria Plzen",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        49,
+        24,
+        27
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915561",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:11505",
+      "awayCode": "uefa.europa:20024",
+      "homeName": "Jagiellonia Bialystok",
+      "awayName": "Ararat-Armenia",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        67,
+        20,
+        13
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915550",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:176",
+      "awayCode": "uefa.europa:435",
+      "homeName": "Marseille",
+      "awayName": "Olympiacos",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        44,
+        26,
+        30
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915565",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:147",
+      "awayCode": "uefa.europa:490",
+      "homeName": "NEC Nijmegen",
+      "awayName": "Levski Sofia",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        51,
+        25,
+        24
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915572",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:169",
+      "awayCode": "uefa.europa:1010",
+      "homeName": "Stade Rennais",
+      "awayName": "OFI Crete",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        75,
+        16,
+        9
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915563",
+      "competitionId": "uefa.europa",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa:7911",
+      "awayCode": "uefa.europa:1895",
+      "homeName": "TSG Hoffenheim",
+      "awayName": "Besiktas",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        48,
+        24,
+        28
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915746",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:105",
+      "awayCode": "uefa.europa.conf:22281",
+      "homeName": "Atalanta",
+      "awayName": "Pafos",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        63,
+        21,
+        16
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915853",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:331",
+      "awayCode": "uefa.europa.conf:20028",
+      "homeName": "Brighton & Hove Albion",
+      "awayName": "Kauno Zalgiris",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        91,
+        6,
+        3
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915852",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:909",
+      "awayCode": "uefa.europa.conf:2994",
+      "homeName": "F.C. København",
+      "awayName": "Braga",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        40,
+        29,
+        31
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915851",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:152",
+      "awayCode": "uefa.europa.conf:3024",
+      "homeName": "FC Twente",
+      "awayName": "FC Thun",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        77,
+        14,
+        9
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915850",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:262",
+      "awayCode": "uefa.europa.conf:3101",
+      "homeName": "Heart of Midlothian",
+      "awayName": "FC Nordsjælland",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        26,
+        40
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915848",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:126",
+      "awayCode": "uefa.europa.conf:7922",
+      "homeName": "SC Freiburg",
+      "awayName": "Jablonec",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        69,
+        19,
+        12
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915849",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:936",
+      "awayCode": "uefa.europa.conf:20025",
+      "homeName": "Sint-Truidense",
+      "awayName": "Iberia 1999",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        67,
+        19,
+        14
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401915847",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-10-15T19:00:00.000Z",
+      "homeCode": "uefa.europa.conf:620",
+      "awayCode": "uefa.europa.conf:17856",
+      "homeName": "SK Brann",
+      "awayName": "Lincoln Red Imps",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        82,
+        12,
+        6
+      ],
+      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true
+    },
+    {
+      "id": "401884770",
+      "competitionId": "ger.1",
+      "date": "2026-10-16T18:30:00.000Z",
+      "homeCode": "ger.1:125",
+      "awayCode": "ger.1:122",
+      "homeName": "Eintracht Frankfurt",
+      "awayName": "FC Cologne",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        48,
+        24,
+        28
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874959",
+      "competitionId": "ita.1",
+      "date": "2026-10-16T18:45:00.000Z",
+      "homeCode": "ita.1:4057",
+      "awayCode": "ita.1:3997",
+      "homeName": "Frosinone",
+      "awayName": "Sassuolo",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        39,
+        27,
+        34
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876437",
+      "competitionId": "fra.1",
+      "date": "2026-10-16T18:45:00.000Z",
+      "homeCode": "fra.1:2697",
+      "awayCode": "fra.1:179",
+      "homeName": "Le Mans",
+      "awayName": "Toulouse",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        31,
+        28,
+        41
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882844",
+      "competitionId": "esp.1",
+      "date": "2026-10-16T19:00:00.000Z",
+      "homeCode": "esp.1:90",
+      "awayCode": "esp.1:1538",
+      "homeName": "Deportivo",
+      "awayName": "Levante",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        45,
+        28,
+        27
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878771",
+      "competitionId": "eng.1",
+      "date": "2026-10-17T11:30:00.000Z",
+      "homeCode": "eng.1:368",
+      "awayCode": "eng.1:363",
+      "homeName": "Everton",
+      "awayName": "Chelsea",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        25,
+        41
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882843",
+      "competitionId": "esp.1",
+      "date": "2026-10-17T12:00:00.000Z",
+      "homeCode": "esp.1:88",
+      "awayCode": "esp.1:1068",
+      "homeName": "Espanyol",
+      "awayName": "Atlético Madrid",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        24,
+        26,
+        50
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874760",
+      "competitionId": "ita.1",
+      "date": "2026-10-17T13:00:00.000Z",
+      "homeCode": "ita.1:17530",
+      "awayCode": "ita.1:114",
+      "homeName": "Venezia",
+      "awayName": "Napoli",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        22,
+        24,
+        54
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884769",
+      "competitionId": "ger.1",
+      "date": "2026-10-17T13:30:00.000Z",
+      "homeCode": "ger.1:598",
+      "awayCode": "ger.1:124",
+      "homeName": "1. FC Union Berlin",
+      "awayName": "Borussia Dortmund",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        22,
+        23,
+        55
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884765",
+      "competitionId": "ger.1",
+      "date": "2026-10-17T13:30:00.000Z",
+      "homeCode": "ger.1:133",
+      "awayCode": "ger.1:2950",
+      "homeName": "Schalke 04",
+      "awayName": "Mainz",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        33,
+        27,
+        40
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884764",
+      "competitionId": "ger.1",
+      "date": "2026-10-17T13:30:00.000Z",
+      "homeCode": "ger.1:10388",
+      "awayCode": "ger.1:3841",
+      "homeName": "SV Elversberg",
+      "awayName": "FC Augsburg",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        38,
+        25,
+        37
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401884766",
+      "competitionId": "ger.1",
+      "date": "2026-10-17T13:30:00.000Z",
+      "homeCode": "ger.1:137",
+      "awayCode": "ger.1:3307",
+      "homeName": "Werder Bremen",
+      "awayName": "SC Paderborn 07",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        51,
+        24,
+        25
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879262",
+      "competitionId": "eng.1",
+      "date": "2026-10-17T14:00:00.000Z",
+      "homeCode": "eng.1:337",
+      "awayCode": "eng.1:364",
+      "homeName": "Brentford",
+      "awayName": "Liverpool",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        26,
+        40
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878770",
+      "competitionId": "eng.1",
+      "date": "2026-10-17T14:00:00.000Z",
+      "homeCode": "eng.1:370",
+      "awayCode": "eng.1:306",
+      "homeName": "Fulham",
+      "awayName": "Hull City",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        57,
+        23,
+        20
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879259",
+      "competitionId": "eng.1",
+      "date": "2026-10-17T14:00:00.000Z",
+      "homeCode": "eng.1:382",
+      "awayCode": "eng.1:373",
+      "homeName": "Manchester City",
+      "awayName": "Ipswich Town",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        76,
+        14,
+        10
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882837",
+      "competitionId": "esp.1",
+      "date": "2026-10-17T14:15:00.000Z",
+      "homeCode": "esp.1:102",
+      "awayCode": "esp.1:3751",
+      "homeName": "Villarreal",
+      "awayName": "Elche",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        64,
+        20,
+        16
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876432",
+      "competitionId": "fra.1",
+      "date": "2026-10-17T15:15:00.000Z",
+      "homeCode": "fra.1:180",
+      "awayCode": "fra.1:160",
+      "homeName": "Strasbourg",
+      "awayName": "Paris Saint-Germain",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        16,
+        18,
+        66
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874953",
+      "competitionId": "ita.1",
+      "date": "2026-10-17T16:00:00.000Z",
+      "homeCode": "ita.1:107",
+      "awayCode": "ita.1:110",
+      "homeName": "Bologna",
+      "awayName": "Internazionale",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        19,
+        24,
+        57
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879258",
+      "competitionId": "eng.1",
+      "date": "2026-10-17T16:30:00.000Z",
+      "homeCode": "eng.1:361",
+      "awayCode": "eng.1:362",
+      "homeName": "Newcastle United",
+      "awayName": "Aston Villa",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        46,
+        25,
+        29
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882846",
+      "competitionId": "esp.1",
+      "date": "2026-10-17T16:30:00.000Z",
+      "homeCode": "esp.1:244",
+      "awayCode": "esp.1:83",
+      "homeName": "Real Betis",
+      "awayName": "Barcelona",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        15,
+        18,
+        67
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874935",
+      "competitionId": "ita.1",
+      "date": "2026-10-17T18:45:00.000Z",
+      "homeCode": "ita.1:104",
+      "awayCode": "ita.1:3263",
+      "homeName": "AS Roma",
+      "awayName": "Genoa",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        69,
+        18,
+        13
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876436",
+      "competitionId": "fra.1",
+      "date": "2026-10-17T18:45:00.000Z",
+      "homeCode": "fra.1:166",
+      "awayCode": "fra.1:6997",
+      "homeName": "Lille",
+      "awayName": "Brest",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        59,
+        23,
+        18
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876431",
+      "competitionId": "fra.1",
+      "date": "2026-10-17T18:45:00.000Z",
+      "homeCode": "fra.1:170",
+      "awayCode": "fra.1:175",
+      "homeName": "Troyes",
+      "awayName": "Lens",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        24,
+        24,
+        52
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882838",
+      "competitionId": "esp.1",
+      "date": "2026-10-17T19:00:00.000Z",
+      "homeCode": "esp.1:94",
+      "awayCode": "esp.1:93",
+      "homeName": "Valencia",
+      "awayName": "Athletic Club",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        27,
+        28,
+        45
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874771",
+      "competitionId": "ita.1",
+      "date": "2026-10-18T10:30:00.000Z",
+      "homeCode": "ita.1:118",
+      "awayCode": "ita.1:113",
+      "homeName": "Udinese",
+      "awayName": "Lecce",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        49,
+        27,
+        24
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882840",
+      "competitionId": "esp.1",
+      "date": "2026-10-18T12:00:00.000Z",
+      "homeCode": "esp.1:97",
+      "awayCode": "esp.1:87",
+      "homeName": "Osasuna",
+      "awayName": "Racing Santander",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        50,
+        27,
+        23
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879263",
+      "competitionId": "eng.1",
+      "date": "2026-10-18T13:00:00.000Z",
+      "homeCode": "eng.1:349",
+      "awayCode": "eng.1:366",
+      "homeName": "AFC Bournemouth",
+      "awayName": "Sunderland",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        47,
+        27,
+        26
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879261",
+      "competitionId": "eng.1",
+      "date": "2026-10-18T13:00:00.000Z",
+      "homeCode": "eng.1:331",
+      "awayCode": "eng.1:384",
+      "homeName": "Brighton & Hove Albion",
+      "awayName": "Crystal Palace",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        58,
+        22,
+        20
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879260",
+      "competitionId": "eng.1",
+      "date": "2026-10-18T13:00:00.000Z",
+      "homeCode": "eng.1:357",
+      "awayCode": "eng.1:360",
+      "homeName": "Leeds United",
+      "awayName": "Manchester United",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        26,
+        40
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874774",
+      "competitionId": "ita.1",
+      "date": "2026-10-18T13:00:00.000Z",
+      "homeCode": "ita.1:109",
+      "awayCode": "ita.1:2572",
+      "homeName": "Fiorentina",
+      "awayName": "Como",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        29,
+        26,
+        45
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876439",
+      "competitionId": "fra.1",
+      "date": "2026-10-18T13:00:00.000Z",
+      "homeCode": "fra.1:7868",
+      "awayCode": "fra.1:176",
+      "homeName": "Angers",
+      "awayName": "Marseille",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        30,
+        26,
+        44
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882845",
+      "competitionId": "esp.1",
+      "date": "2026-10-18T14:15:00.000Z",
+      "homeCode": "esp.1:85",
+      "awayCode": "esp.1:96",
+      "homeName": "Celta Vigo",
+      "awayName": "Alavés",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        47,
+        28,
+        25
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876438",
+      "competitionId": "fra.1",
+      "date": "2026-10-18T15:15:00.000Z",
+      "homeCode": "fra.1:3236",
+      "awayCode": "fra.1:172",
+      "homeName": "Le Havre AC",
+      "awayName": "AJ Auxerre",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        39,
+        28,
+        33
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876435",
+      "competitionId": "fra.1",
+      "date": "2026-10-18T15:15:00.000Z",
+      "homeCode": "fra.1:273",
+      "awayCode": "fra.1:174",
+      "homeName": "Lorient",
+      "awayName": "AS Monaco",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        28,
+        28,
+        44
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401878769",
+      "competitionId": "eng.1",
+      "date": "2026-10-18T15:30:00.000Z",
+      "homeCode": "eng.1:393",
+      "awayCode": "eng.1:359",
+      "homeName": "Nottingham Forest",
+      "awayName": "Arsenal",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        16,
+        25,
+        59
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874978",
+      "competitionId": "ita.1",
+      "date": "2026-10-18T16:00:00.000Z",
+      "homeCode": "ita.1:103",
+      "awayCode": "ita.1:105",
+      "homeName": "AC Milan",
+      "awayName": "Atalanta",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        49,
+        26,
+        25
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882841",
+      "competitionId": "esp.1",
+      "date": "2026-10-18T16:30:00.000Z",
+      "homeCode": "esp.1:99",
+      "awayCode": "esp.1:89",
+      "homeName": "Málaga",
+      "awayName": "Real Sociedad",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        30,
+        27,
+        43
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874765",
+      "competitionId": "ita.1",
+      "date": "2026-10-18T18:45:00.000Z",
+      "homeCode": "ita.1:111",
+      "awayCode": "ita.1:112",
+      "homeName": "Juventus",
+      "awayName": "Lazio",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        57,
+        25,
+        18
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401876434",
+      "competitionId": "fra.1",
+      "date": "2026-10-18T18:45:00.000Z",
+      "homeCode": "fra.1:167",
+      "awayCode": "fra.1:2502",
+      "homeName": "Lyon",
+      "awayName": "Nice",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        57,
+        23,
+        20
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882839",
+      "competitionId": "esp.1",
+      "date": "2026-10-18T19:00:00.000Z",
+      "homeCode": "esp.1:86",
+      "awayCode": "esp.1:243",
+      "homeName": "Real Madrid",
+      "awayName": "Sevilla",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        74,
+        16,
+        10
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874762",
+      "competitionId": "ita.1",
+      "date": "2026-10-19T16:30:00.000Z",
+      "homeCode": "ita.1:4007",
+      "awayCode": "ita.1:2925",
+      "homeName": "Monza",
+      "awayName": "Cagliari",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
+      "probabilities": [
+        43,
+        29,
+        28
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401874784",
+      "competitionId": "ita.1",
+      "date": "2026-10-19T18:45:00.000Z",
+      "homeCode": "ita.1:115",
+      "awayCode": "ita.1:239",
+      "homeName": "Parma",
+      "awayName": "Torino",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        31,
+        31,
+        38
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401879257",
+      "competitionId": "eng.1",
+      "date": "2026-10-19T19:00:00.000Z",
+      "homeCode": "eng.1:367",
+      "awayCode": "eng.1:388",
+      "homeName": "Tottenham Hotspur",
+      "awayName": "Coventry City",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        63,
+        21,
+        16
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    },
+    {
+      "id": "401882842",
+      "competitionId": "esp.1",
+      "date": "2026-10-19T19:00:00.000Z",
+      "homeCode": "esp.1:2922",
+      "awayCode": "esp.1:101",
+      "homeName": "Getafe",
+      "awayName": "Rayo Vallecano",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        33,
+        30,
+        37
+      ],
+      "capturedAt": "2026-10-08T08:18:29.349Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules"
+    }
+  ],
+  "updatedAt": "2026-10-08T15:44:59.179Z"
+}

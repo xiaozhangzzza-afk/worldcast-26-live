@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>五大联赛实时赛程与世界杯专题｜足球预测大模型</title>
-  <meta name="description" content="查看英超、西甲、德甲、意甲、法甲实时赛程、开赛时间、场地与状态，并可切换世界杯专题。">
+  <title>联赛与欧战实时赛程及世界杯专题｜足球预测大模型</title>
+  <meta name="description" content="查看英超、西甲、德甲、意甲、法甲与三项欧战实时赛程、开赛时间、场地与状态，并可切换世界杯专题。">
   <meta name="keywords" content="2026世界杯完整赛程, 世界杯赛程, 小组赛, 淘汰赛">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#f5f5f7">
   <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/schedule.html">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/img/football.svg" type="image/svg+xml">
-  <meta property="og:title" content="五大联赛实时赛程与世界杯专题｜足球预测大模型">
-  <meta property="og:description" content="查看英超、西甲、德甲、意甲、法甲实时赛程、开赛时间、场地与状态，并可切换世界杯专题。">
+  <meta property="og:title" content="联赛与欧战实时赛程及世界杯专题｜足球预测大模型">
+  <meta property="og:description" content="查看英超、西甲、德甲、意甲、法甲与三项欧战实时赛程、开赛时间、场地与状态，并可切换世界杯专题。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/schedule.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/layers.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/refined.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/standings.css?v=5.3.2">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/layers.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/refined.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/standings.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/analytics.css?v=5.5.0">
 </head>
 <body data-page="schedule">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -29,8 +30,8 @@
     <section class="sub-hero">
       <div class="section-shell">
         <p class="eyebrow">Schedule Map</p>
-        <h1>联赛积分与球队赛程</h1>
-        <p>查看联赛积分，点击球队展开未来比赛；世界杯保留赛程查询。</p>
+        <h1>联赛积分与欧战赛程</h1>
+        <p>联赛点击球队查看未来比赛；欧战可切换赛程、联赛阶段积分与淘汰赛。世界杯独立归档。</p>
       </div>
     </section>
 
@@ -38,12 +39,16 @@
       <div class="section-shell">
         <div class="schedule-filter-card">
           <div class="competition-filter" id="competitionFilter" role="group" aria-label="赛事筛选">
+            <button type="button" data-competition="europe">欧洲俱乐部赛事</button>
+            <button type="button" data-competition="uefa.champions">欧冠</button><button type="button" data-competition="uefa.europa">欧联杯</button><button type="button" data-competition="uefa.europa.conf">欧协联</button>
             <button class="active" type="button" data-competition="top5">五大联赛</button>
             <button type="button" data-competition="eng.1">英超</button><button type="button" data-competition="esp.1">西甲</button>
             <button type="button" data-competition="ger.1">德甲</button><button type="button" data-competition="ita.1">意甲</button>
             <button type="button" data-competition="fra.1">法甲</button><button type="button" data-competition="fifa.world">世界杯</button>
           </div>
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
+            <button type="button" data-stage="league-phase">欧战联赛阶段</button>
+            <button type="button" data-stage="knockout">欧战淘汰赛</button>
             <button class="active" type="button" data-stage="all">全部</button>
             <button type="button" data-stage="league">联赛</button>
             <button type="button" data-stage="group-stage">小组赛</button>
@@ -63,17 +68,20 @@
   </main>
   <footer class="site-footer" data-site-footer></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/league-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/prediction-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/player-names.js?v=5.3.2" defer></script>
-  <script src="assets/js/external-picks.js?v=5.3.2" defer></script>
-  <script src="assets/js/names.js?v=5.3.2" defer></script>
-  <script src="assets/js/common.js?v=5.3.2" defer></script>
-  <script src="assets/js/standings.js?v=5.3.2" defer></script>
-  <script src="assets/js/schedule.js?v=5.3.2" defer></script>
-  <script src="assets/js/layers.js?v=5.3.2" defer></script>
+  <script src="assets/js/data.js?v=5.5.0" defer></script>
+  <script src="assets/js/competitions.js?v=5.5.0" defer></script>
+  <script src="assets/js/analytics.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/player-names.js?v=5.5.0" defer></script>
+  <script src="assets/js/external-picks.js?v=5.5.0" defer></script>
+  <script src="assets/js/names.js?v=5.5.0" defer></script>
+  <script src="assets/js/common.js?v=5.5.0" defer></script>
+  <script src="assets/js/music.js?v=5.5.0" defer></script>
+  <script src="assets/js/standings.js?v=5.5.0" defer></script>
+  <script src="assets/js/schedule.js?v=5.5.0" defer></script>
+  <script src="assets/js/layers.js?v=5.5.0" defer></script>
 </body>
 </html>

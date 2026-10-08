@@ -5,7 +5,7 @@
     language: "football-model-language",
     theme: "football-model-theme",
     favorites: "football-model-favorites",
-    cacheMigrated: "football-model-cache-migrated-v532"
+    cacheMigrated: "football-model-cache-migrated-v550"
   };
   const pages = [
     ["home", "index.html", "首页", "Home"],
@@ -66,6 +66,12 @@
   function nameFor(match, side) {
     const known = store().teams.find(t => t.code === match[side + "Code"]);
     return window.FM_NAMES.team({nameEn: match[side + "NameEn"] || known?.nameEn || match[side + "Name"], name: known?.name || match[side + "Name"], nameZh: known?.nameZh}, state.language);
+  }
+
+  function inCompetition(item,selection){
+    if(selection==='all')return true;
+    const meta=store().competitions.find(c=>c.id===item.competitionId);
+    return selection==='top5'?meta?.category==='domestic':selection==='europe'?meta?.category==='europe':item.competitionId===selection;
   }
 
   function teamLogo(code, fallbackLogo = "") {
@@ -183,6 +189,20 @@
     return Number.isFinite(match?.confidence) ? `${match.confidence}%` : "预测数据待更新";
   }
 
+  function freshnessLine(match){
+    const meta=store().freshness?.[match.competitionId],fresh=window.FM_ANALYTICS?.freshness(meta,match.live),en=state.language==='en';
+    const labels=en?{fresh:'Recently checked',partial:'Partly using snapshot',stale:'Awaiting fresh data',snapshot:'Using snapshot',unknown:'Awaiting verification',archive:'Archived results'}:{fresh:'最近核验',partial:'部分赛程使用快照',stale:'数据核验已超时',snapshot:'当前使用快照',unknown:'等待数据核验',archive:'归档赛果'};
+    return `<p class="freshness-line" data-state="${fresh?.state||'unknown'}">${labels[fresh?.state||'unknown']} ${meta?.lastSuccessAt?formatDate(meta.lastSuccessAt):''}</p>`;
+  }
+
+  function cupSummary(match){
+    if(!match.isCup)return '';
+    const en=state.language==='en';
+    if(!match.completed&&!match.live)return `<p class="freshness-line">${en?'Prediction covers 90 minutes, excluding extra time and shootout.':'预测按90分钟口径，不含加时和点球决胜。'}</p>`;
+    const scope=match.scoreScope==='regulation'?(en?'90-minute score':'90分钟比分'):match.extraTime?(en?'Score after extra time':'加时后比分'):(en?'Provider final score':'数据源最终比分');
+    return `<p class="freshness-line">${scope}${match.penalties?` · ${en?'Shootout':'点球决胜'} ${html(`${match.homePenalties??'待确认'}-${match.awayPenalties??'待确认'}`)}`:''}${match.winnerCode?` · ${en?'Match winner':'本场胜方'} ${html(teamName(match.winnerCode))}`:''}</p>`;
+  }
+
   function matchCard(match, options = {}) {
     if (!match) return "";
     const factors = Array.isArray(match.factors) ? match.factors : [];
@@ -196,7 +216,9 @@
         </div>
         ${probabilityMarkup(match)}
         <p class="match-status-line">${html(match.statusText || "状态待更新")}${match.live ? ` · <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : ""}</p>
-        <p>${state.language === "en" ? "Confidence" : "模型信心"} ${html(confidenceText(match))} · ${state.language === "en" ? "Alt" : "备选比分"} ${html(match.alternativeScore || match.altScore || "预测数据待更新")}</p>
+        ${freshnessLine(match)}
+        ${cupSummary(match)}
+        <p>${state.language === "en" ? "Model indicator (not accuracy)" : "模型参考值（非命中率）"} ${html(confidenceText(match))} · ${state.language === "en" ? "Alt" : "备选比分"} ${html(match.alternativeScore || match.altScore || "预测数据待更新")}</p>
         ${options.compact ? "" : `<div class="tag-row">${factors.map((item) => `<span class="tag">${html(item)}</span>`).join("")}</div>`}
         ${options.noButton ? "" : `<div class="hero-actions"><button class="button compact" type="button" data-open-match="${html(match.id)}">${state.language === "en" ? "Details" : "查看详情"}</button></div>`}
       </article>
@@ -207,8 +229,9 @@
     const items = Array.isArray(match.timeline) ? match.timeline : [];
     if (!items.length) return `<p class="muted-line">暂无实时事件；以官方赛况与赛后数据为准。</p>`;
     return `
+      <details open><summary>${state.language==='en'?'All match events':'完整比赛事件'} · ${items.length}</summary>
       <ol class="timeline-list">
-        ${items.slice(0, 14).map((item) => {
+        ${items.map((item) => {
           const type = item.type === "goal" ? "进球" : item.type === "yellow" ? "黄牌" : item.type === "red" ? "红牌" : "事件";
           const player = FM_NAMES.player({nameEn:item.player || item.playerEn, nameZh:item.playerZh}, state.language);
           const assist = item.assist || item.assistZh ? FM_NAMES.player({nameEn:item.assist || item.assistEn, nameZh:item.assistZh}, state.language) : "";
@@ -217,6 +240,7 @@
           return `<li><time>${html(item.minute || item.displayClock || "")}</time><span>${html(type)}：${html(player)}${goalKind}${assistText}</span></li>`;
         }).join("")}
       </ol>
+      </details>
     `;
   }
 
@@ -231,16 +255,18 @@
       <p class="eyebrow">${html(competitionName(match))} · ${html(stageName(match))} · MATCH ${html(match.matchNo || match.id)}</p>
       <h2 id="matchModalTitle">${teamLogo(match.homeCode, match.homeLogo)} ${html(nameFor(match, "home"))} vs ${teamLogo(match.awayCode, match.awayLogo)} ${html(nameFor(match, "away"))}</h2>
       <div class="detail-grid">
+        ${match.isCup?`<article class="detail-card"><h3>${state.language==='en'?'Cup result scope':'杯赛比分口径'}</h3>${cupSummary(match)}<p>${state.language==='en'?'Advancement':'晋级说明'}：${html(match.advancementText||(state.language==='en'?'Awaiting explicit source confirmation':'等待数据源明确确认，不按单场胜负推断'))}</p>${match.aggregateHomeScore!=null&&match.aggregateAwayScore!=null?`<p>总比分 ${html(`${match.aggregateHomeScore}-${match.aggregateAwayScore}`)}</p>`:''}</article>`:''}
         <article class="detail-card"><h3>${html(scoreKind(match))}</h3><p>${html(scoreFor(match))} · 备选预测：${html(match.alternativeScore || "预测数据待更新")}</p></article>
         <article class="detail-card"><h3>胜平负概率</h3><p>${html(probabilityText)}</p></article>
         <article class="detail-card"><h3>${state.language === 'en' ? 'External HT/FT reference' : '半全场 · 外部参考'}</h3>${window.FM_EXTERNAL_PICKS?.markup(match) || '<p>预测数据待更新</p>'}</article>
-        <article class="detail-card"><h3>模型信心</h3><p>${html(confidenceText(match))}</p></article>
+        <article class="detail-card"><h3>模型参考值（非命中率）</h3><p>${html(confidenceText(match))}</p></article>
         <article class="detail-card"><h3>比赛状态</h3><p>${html(match.statusText || "待更新")} ${match.live ? `· <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : match.displayClock ? `· ${html(match.displayClock)}` : ""}</p></article>
         <article class="detail-card"><h3>场地</h3><p>${html(match.venue || "待官方确认")}</p></article>
       </div>
       <section class="detail-card timeline-card">
         <h3>实时/赛后时间轴</h3>
         ${timelineMarkup(match)}
+        ${freshnessLine(match)}
       </section>
       <p class="compliance-note modal-note">模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p>
     `;
@@ -295,6 +321,10 @@
     if (hero) hero.textContent = store().sourceLabel || dataStatusText();
     const footerTime = $("#footerUpdated");
     if (footerTime) footerTime.textContent = store().liveUpdatedAt || store().lastUpdated ? formatFull(store().liveUpdatedAt || store().lastUpdated) : "待更新";
+    const header=$("[data-site-header]");
+    if(header){let panel=$('#dataFreshness');if(!panel){panel=document.createElement('details');panel.id='dataFreshness';panel.className='data-freshness section-shell';header.after(panel);}const open=panel.open,en=state.language==='en',t=(zh,eng)=>en?eng:zh;
+      panel.innerHTML=`<summary>${t('数据新鲜度 · 查看核验与来源时间','Data freshness · View checks and source times')}</summary>${(store().competitions||[]).map(c=>{const meta=store().freshness?.[c.id],f=window.FM_ANALYTICS?.freshness(meta);return `<p><strong>${html(en?c.nameEn:c.shortZh)}</strong> · ${t('最近请求','Latest request')}：${meta?.checkedAt?formatFull(meta.checkedAt):t('待请求','Pending')}<br>${t('数据源更新时间','Source updated')}：${meta?.sourceUpdatedAt?formatFull(meta.sourceUpdatedAt):t('源未提供，核验时间不等于源更新时间','Not supplied; request time is not source update time')}<br>${t('状态','Status')}：${({fresh:t('最近核验成功','Recently verified'),partial:t('部分数据使用快照','Partly cached'),stale:t('核验超时，请同步','Verification overdue; sync'),snapshot:t('请求失败，保留最近数据','Request failed; keeping snapshot'),archive:t('归档数据','Archive'),unknown:t('等待核验','Pending')})[f?.state||'unknown']}${meta?.snapshotRecordedAt?' · '+t('快照保存于','Snapshot saved')+' '+formatFull(meta.snapshotRecordedAt):''}</p>`;}).join('')}`;panel.open=open;
+    }
   }
 
   function renderHeader() {
@@ -302,7 +332,7 @@
     if (!root) return;
     root.innerHTML = `
       <nav class="nav-shell" aria-label="主要导航">
-        <a class="brand" href="index.html" aria-label="足球预测大模型首页"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a>
+        <a class="brand" href="index.html" aria-label="足球预测大模型首页"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>联赛 · 欧战 · 世界杯</small></span></a>
         <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开导航菜单" aria-expanded="false">菜单</button>
         <div class="nav-menu" id="navMenu">${pages.map(([key, href, zh, en]) => `<a class="${state.page === key ? "active" : ""}" href="${href}" data-zh="${zh}" data-en="${en}">${state.language === "en" ? en : zh}</a>`).join("")}</div>
         <div class="nav-tools">
@@ -320,7 +350,7 @@
     if (!root) return;
     root.innerHTML = `
       <div class="section-shell footer-grid">
-        <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a><p>用清晰的数据表达，帮助球迷理解赛程、球队和比赛变量。</p><div class="footer-links">${pages.map(([, href, zh]) => `<a href="${href}">${zh}</a>`).join("")}</div></div>
+        <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>联赛 · 欧战 · 世界杯</small></span></a><p>用清晰的数据表达，帮助球迷理解赛程、球队和比赛变量。</p><div class="footer-links">${pages.map(([, href, zh]) => `<a href="${href}">${zh}</a>`).join("")}</div></div>
         <div><h2>合规说明</h2><p>模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p></div>
         <div><h2>实时核验时间</h2><p><time id="footerUpdated">${store().liveUpdatedAt || store().lastUpdated ? formatFull(store().liveUpdatedAt || store().lastUpdated) : "待更新"}</time></p><button class="back-top" id="backTop" type="button" aria-label="返回顶部">返回顶部</button></div>
       </div>
@@ -337,7 +367,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.3.2").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.5.0").catch(() => {});
       return;
     }
     try {
@@ -350,7 +380,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.3.2");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.5.0");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }
@@ -398,7 +428,7 @@
         button.disabled = true;
         button.textContent = "同步中";
       }
-      try { await window.FM_DATA_SERVICE?.loadData(true); }
+      try { await Promise.allSettled([window.FM_DATA_SERVICE?.loadData(true),window.FM_HISTORY?.load?.()]); }
       finally {
         if (button) {
           button.disabled = false;
@@ -446,7 +476,7 @@
   window.FM = {
     $, $$, html, state, STORAGE, safeGet, safeSet, store, team, teamName, teamLogo, stageName,
     formatDate, formatFull, countdown, normalize, matchCard, openMatch, showToast, scoreFor,
-    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus, nameFor
+    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus, nameFor, inCompetition
   };
   document.addEventListener("DOMContentLoaded", initCommon);
 })();

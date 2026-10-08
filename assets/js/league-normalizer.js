@@ -117,16 +117,28 @@
     const awayCode = `${meta.id}:${away.team.id}`;
     const homeScore = live || completed ? finite(home.score?.value ?? home.score) : null;
     const awayScore = live || completed ? finite(away.score?.value ?? away.score) : null;
+    const status=event.status||competition.status||{};
+    const period=finite(status.period),clock=finite(status.clock);
+    const homePenalties=finite(home.shootoutScore?.value??home.shootoutScore),awayPenalties=finite(away.shootoutScore?.value??away.shootoutScore);
+    const penalties=homePenalties!==null&&awayPenalties!==null||/PEN/i.test(status.type?.name||'');
+    const extraTime=Boolean(period===3||period===4||period===5||clock>=7200||/EXTRA|OVERTIME/i.test(status.type?.name||''));
+    const isCup=meta.kind==='cup';
+    const stageSlug=isCup?(event.season?.slug||'cup'): 'league';
+    const stages={'league-phase':'联赛阶段','group-stage':'小组赛','round-of-16':'16强','quarterfinals':'四分之一决赛','semifinals':'半决赛',final:'决赛','knockout-phase-play-offs':'淘汰赛附加赛',qualifying:'资格赛','qualifying-round':'资格赛'};
+    const goals=(competition.details||[]).filter(p=>p.scoringPlay&&!p.shootout);
+    const canCount=completed&&goals.length===homeScore+awayScore&&goals.length>0&&goals.every(p=>!p.ownGoal&&!/own goal/i.test(p.text||'')&&p.period?.number&&[String(home.team.id),String(away.team.id)].includes(String(p.team?.id)));
+    const regGoals=canCount?goals.filter(p=>p.period.number<=2):null;
+    const scoreScope=!isCup||stageSlug==='league-phase'||(!extraTime&&!penalties&&period===2)?'regulation':extraTime?'after-extra-time':'unknown';
     return {
       id: String(event.id),
       matchNo: null,
       competitionId: meta.id,
       competitionNameZh: meta.nameZh,
       competitionNameEn: meta.nameEn,
-      stageSlug: "league",
-      stageZh: "联赛",
-      stageEn: "League",
-      stage: "联赛",
+      stageSlug,
+      stageZh: isCup?stages[stageSlug]||'杯赛':'联赛',
+      stageEn: isCup?stageSlug.replaceAll('-',' '):'League',
+      stage: isCup?stages[stageSlug]||'杯赛':'联赛',
       group: "",
       date,
       timezone: "UTC",
@@ -151,6 +163,12 @@
       live,
       homeScore,
       awayScore,
+      isCup,extraTime,penalties,homePenalties,awayPenalties,scoreScope,
+      regulationHomeScore:regGoals?regGoals.filter(p=>String(p.team.id)===String(home.team.id)).length:null,
+      regulationAwayScore:regGoals?regGoals.filter(p=>String(p.team.id)===String(away.team.id)).length:null,
+      winnerCode:completed?(home.winner?homeCode:away.winner?awayCode:null):null,
+      aggregateHomeScore:finite(home.aggregateScore),aggregateAwayScore:finite(away.aggregateScore),
+      advancementText:(competition.notes||[]).map(n=>n.text||'').find(text=>/advance|aggregate|qualif/i.test(text))||'',
       displayClock: event.status?.displayClock || competition.status?.displayClock || "",
       clockSeconds: finite(event.status?.clock ?? competition.status?.clock),
       clockSnapshotAt: new Date().toISOString(),

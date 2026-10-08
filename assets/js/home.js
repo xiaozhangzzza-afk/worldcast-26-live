@@ -51,10 +51,10 @@
     const next = nextMatch();
     const metrics = `
       <div class="metric-row">
-        <article><strong>${s.matches.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>五大联赛比赛</small></article>
-        <article><strong>${s.teams.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>俱乐部档案</small></article>
+        <article><strong>${s.matches.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>联赛与欧战比赛</small></article>
+        <article><strong>${new Set(s.teams.filter(t=>t.competitionId!=='fifa.world').map(t=>t.code.split(':').at(-1))).size}</strong><small>俱乐部 · 去重</small></article>
         <article><strong>${future72(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>未来72小时</small></article>
-        <article><strong>${averageConfidence(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>平均模型信心</small></article>
+        <article><strong>${averageConfidence(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>平均模型参考值 · 非命中率</small></article>
       </div>
     `;
     if (!next) {

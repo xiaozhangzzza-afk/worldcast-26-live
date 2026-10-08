@@ -12,14 +12,7 @@
   const Normalizer = window.FM_NORMALIZER;
   const LeagueNormalizer = window.FM_LEAGUE_NORMALIZER;
 
-  const COMPETITIONS = [
-    { id: "eng.1", nameZh: "英格兰足球超级联赛", shortZh: "英超", nameEn: "Premier League", region: "英格兰", icon: "🏴" },
-    { id: "esp.1", nameZh: "西班牙足球甲级联赛", shortZh: "西甲", nameEn: "LaLiga", region: "西班牙", icon: "🇪🇸" },
-    { id: "ger.1", nameZh: "德国足球甲级联赛", shortZh: "德甲", nameEn: "Bundesliga", region: "德国", icon: "🇩🇪" },
-    { id: "ita.1", nameZh: "意大利足球甲级联赛", shortZh: "意甲", nameEn: "Serie A", region: "意大利", icon: "🇮🇹" },
-    { id: "fra.1", nameZh: "法国足球甲级联赛", shortZh: "法甲", nameEn: "Ligue 1", region: "法国", icon: "🇫🇷" },
-    { id: "fifa.world", nameZh: "国际足联世界杯", shortZh: "世界杯", nameEn: "FIFA World Cup", region: "国际", icon: "🌍", compact: true }
-  ];
+  const COMPETITIONS = window.FM_COMPETITIONS;
   const LEAGUES = COMPETITIONS.filter((item) => !item.compact);
 
   const STORE = window.FM_STORE = window.FM_STORE || {};
@@ -38,6 +31,7 @@
     isSnapshot: Boolean(STORE.isSnapshot),
     liveConnected: false
   });
+  STORE.freshness = STORE.freshness || {};
 
   let syncing = false;
   let liveSyncing = false;
@@ -50,7 +44,7 @@
       lastUpdated: STORE.lastUpdated, liveUpdatedAt: STORE.liveUpdatedAt,
       lastLiveAttempt: STORE.lastLiveAttempt, matches: STORE.matches, teams: STORE.teams,
       competitions: STORE.competitions, predictions: STORE.predictions, errors: STORE.errors,
-      isSnapshot: STORE.isSnapshot, liveConnected: STORE.liveConnected
+      isSnapshot: STORE.isSnapshot, liveConnected: STORE.liveConnected, freshness: STORE.freshness
     };
   }
 
@@ -162,7 +156,7 @@
     const leagueCount = new Set(leagueMatches.map((item) => item.competitionId)).size;
     STORE.sourceLabel = options.snapshot
       ? "实时源暂不可用 · 正在展示最近数据"
-      : `实时连接正常 · ${leagueCount}个联赛 · 20秒轮询`;
+      : `实时连接正常 · ${leagueCount}项赛事 · 20秒核验`;
     hydratePredictions();
   }
 
@@ -191,8 +185,16 @@
     return {
       matches: uniqueBy(feeds.flatMap(item => item.matches), "id"),
       teams: uniqueBy(feeds.flatMap(item => item.teams), "code"),
-      partialMonths: feeds.length !== months.length
+      partialMonths: feeds.length !== months.length,
+      checkedAt: new Date().toISOString(),
+      sourceUpdatedAt: results.filter(r=>r.status==='fulfilled').flatMap(r=>[r.value.lastUpdated,r.value.updatedAt,...(r.value.events||[]).map(e=>e.lastUpdated)]).filter(t=>t&&Number.isFinite(new Date(t).getTime())).sort((a,b)=>new Date(b)-new Date(a))[0]||null
     };
+  }
+
+  function recordChecks(results){
+    results.forEach((r,i)=>{const id=LEAGUES[i].id,old=STORE.freshness[id]||{};
+      STORE.freshness[id]=r.status==='fulfilled'?{...old,checkedAt:r.value.checkedAt,lastSuccessAt:r.value.checkedAt,sourceUpdatedAt:r.value.sourceUpdatedAt,mode:r.value.partialMonths?'partial':'live',error:null}:{...old,checkedAt:new Date().toISOString(),mode:'snapshot',error:r.reason?.message||'Request failed'};
+    });
   }
 
   async function loadLeagueSnapshot() {
@@ -210,14 +212,17 @@
   async function loadData(manual = false) {
     if (syncing) return STORE;
     syncing = true;
+    const before=new Map(STORE.matches.map(m=>[String(m.id),JSON.stringify([m.date,m.status,m.homeScore,m.awayScore])]));
     markLoading();
     STORE.lastLiveAttempt = new Date().toISOString();
     const worldCupPromise = loadWorldCup();
     try {
       const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(8, 24))));
+      recordChecks(results);
       const leagueParts = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
       const leagueErrors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       const worldCup = await worldCupPromise;
+      STORE.freshness['fifa.world']={checkedAt:new Date().toISOString(),sourceUpdatedAt:worldCup.updatedAt||null,mode:'archive'};
       if (leagueParts.length) {
         const partialMonths = leagueParts.some(item => item.partialMonths);
         if (partialMonths) {
@@ -232,16 +237,17 @@
         STORE.liveUpdatedAt = new Date().toISOString();
         applyCombined(leagueParts, worldCup, {
           liveConnected: true,
-          source: leagueParts.length === LEAGUES.length ? "multi-league-live" : "multi-league-partial"
+          source: !leagueErrors.length&&!partialMonths ? "multi-league-live" : "multi-league-partial"
         });
         STORE.errors = [...leagueErrors, ...(worldCup.error ? [worldCup.error] : [])];
-        if (leagueErrors.length) STORE.sourceLabel = `部分实时连接 · ${LEAGUES.length - leagueErrors.length}/5联赛在线 · 其余保留快照`;
+        if (leagueErrors.length) STORE.sourceLabel = `部分实时连接 · ${LEAGUES.length - leagueErrors.length}/${LEAGUES.length}项赛事在线 · 其余保留快照`;
         else if (partialMonths) STORE.sourceLabel = "部分月份已核验 · 缺失赛程使用最近快照";
         saveLastGood();
         markReady();
-        if (manual) window.FM?.showToast?.(`同步完成：${STORE.matches.filter((item) => item.competitionId !== "fifa.world").length}场五大联赛比赛`);
+        if (manual) {const changed=STORE.matches.filter(m=>before.get(String(m.id))!==JSON.stringify([m.date,m.status,m.homeScore,m.awayScore])).length;window.FM?.showToast?.(`核验完成 · ${changed?changed+'场赛程/赛况有变化':'赛程与赛况无变化'} · ${leagueErrors.length?'部分数据源不可用':LEAGUES.length+'项赛事已响应'}`);}
       } else {
         const fallback = await loadLeagueSnapshot();
+        LEAGUES.forEach(meta=>{STORE.freshness[meta.id]={...STORE.freshness[meta.id],snapshotRecordedAt:fallback?.savedAt||null};});
         if (!fallback?.matches?.length && !worldCup.matches.length) throw new Error("实时源与本地快照均不可用");
         applyCombined(fallback ? [{ matches: fallback.matches, teams: fallback.teams || [] }] : [], worldCup, {
           snapshot: true, source: "snapshot", lastUpdated: fallback?.savedAt || worldCup.updatedAt || null
@@ -301,6 +307,7 @@
       const normalized = LeagueNormalizer.normalizeEvent({
         id: match.id,
         date: competition.date || match.date,
+        season:{slug:match.stageSlug},
         status: competition.status,
         competitions: [{ ...competition, details: summary?.keyEvents || competition.details || [] }]
       }, meta);
@@ -322,8 +329,9 @@
     STORE.lastLiveAttempt = new Date().toISOString();
     try {
       const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(0, 0))));
+      recordChecks(results);
       const successful = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
-      if (!successful.length) throw new Error("五大联赛实时接口均未响应");
+      if (!successful.length) throw new Error("俱乐部赛事实时接口均未响应");
       successful.flatMap((item) => item.matches).forEach(mergeMatch);
       STORE.teams = uniqueBy([...STORE.teams, ...successful.flatMap((item) => item.teams)], "code");
       STORE.liveUpdatedAt = new Date().toISOString();
@@ -335,7 +343,7 @@
       const liveCount = STORE.matches.filter((item) => item.live).length;
       STORE.sourceLabel = liveCount ? `实时同步中 · ${liveCount}场进行中 · 20秒轮询` : "实时连接正常 · 当前无进行中比赛";
       STORE.errors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
-      if (successful.length < LEAGUES.length) STORE.sourceLabel = `部分实时连接 · ${successful.length}/5联赛在线 · 其余保留最近数据`;
+      if (successful.length < LEAGUES.length) STORE.sourceLabel = `部分实时连接 · ${successful.length}/${LEAGUES.length}项赛事在线 · 其余保留最近数据`;
       else if (successful.some(item => item.dailyFallback)) STORE.sourceLabel = "近三日实时核验 · 远期赛程使用最近快照";
       hydratePredictions();
       if (activeDetailId) await loadMatchDetails(activeDetailId, false);

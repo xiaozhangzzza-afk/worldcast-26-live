@@ -1,5 +1,11 @@
-const CACHE_NAME = "football-model-v5.3.2";
+const CACHE_NAME = "football-model-v5.5.0";
 const CORE_ASSETS = [
+  "./assets/js/music.js",
+  "./assets/data/music.json",
+  "./assets/js/competitions.js",
+  "./assets/js/analytics.js",
+  "./assets/css/analytics.css",
+  "./assets/data/prediction-history.json",
   "./assets/js/external-picks.js",
   "./assets/css/standings.css",
   "./assets/js/names.js",

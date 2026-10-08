@@ -3,7 +3,7 @@
 
   const FAV_KEY = FM.STORAGE.favorites;
   const requestedCompetition = new URLSearchParams(location.search).get("competition");
-  const state = { competition: ["eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "fifa.world"].includes(requestedCompetition) ? requestedCompetition : "top5", query: "", favorites: new Set(readFavorites()) };
+  const state = { competition: ["eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "uefa.champions", "uefa.europa", "uefa.europa.conf", "europe", "fifa.world"].includes(requestedCompetition) ? requestedCompetition : "top5", query: "", favorites: new Set(readFavorites()) };
 
   function readFavorites() {
     try {
@@ -31,10 +31,11 @@
 
   function filteredTeams() {
     const query = state.query.trim().toLowerCase();
-    return FM.store().teams.filter((item) => (state.competition === "all" || (state.competition === "top5" ? item.competitionId !== "fifa.world" : item.competitionId === state.competition)) && [
+    return FM.store().teams.filter((item) => FM.inCompetition(item,state.competition) && [
       item.code,
       item.name,
       item.nameEn,
+      FM.teamName(item.code),
       item.group,
       (item.players || []).map((player) => player.display || player.nameZh || player.nameEn || player).join(" ")
     ].join(" ").toLowerCase().includes(query)).sort((a, b) => a.code.localeCompare(b.code));

@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>五大联赛与世界杯比赛预测｜足球预测大模型</title>
-  <meta name="description" content="查看英超、西甲、德甲、意甲、法甲及世界杯比赛预测、实时比分、胜平负概率和比分区间。">
+  <title>联赛与欧战比赛预测｜足球预测大模型</title>
+  <meta name="description" content="查看五大联赛、欧冠、欧联杯、欧协联及世界杯比赛预测、实时比分、胜平负概率和比分区间。">
   <meta name="keywords" content="世界杯比赛预测, 胜平负概率, 比分预测, 足球预测大模型">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#f5f5f7">
   <link rel="canonical" href="https://xiaozhangzzza-afk.github.io/worldcast-26-live/predictions.html">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/img/football.svg" type="image/svg+xml">
-  <meta property="og:title" content="五大联赛与世界杯比赛预测｜足球预测大模型">
-  <meta property="og:description" content="查看英超、西甲、德甲、意甲、法甲及世界杯比赛预测、实时比分、胜平负概率和比分区间。">
+  <meta property="og:title" content="联赛与欧战比赛预测｜足球预测大模型">
+  <meta property="og:description" content="查看五大联赛、欧冠、欧联杯、欧协联及世界杯比赛预测、实时比分、胜平负概率和比分区间。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/predictions.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/layers.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/refined.css?v=5.3.2">
-  <link rel="stylesheet" href="assets/css/standings.css?v=5.3.2">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/layers.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/refined.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/standings.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/analytics.css?v=5.5.0">
 </head>
 <body data-page="predictions">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -29,8 +30,8 @@
     <section class="sub-hero">
       <div class="section-shell">
         <p class="eyebrow">Prediction Center</p>
-        <h1>五大联赛比赛预测</h1>
-        <p>覆盖五大联赛实时赛程与模型结果，世界杯作为独立专题保留。</p>
+        <h1>联赛与欧战比赛预测</h1>
+        <p>五大联赛与三项欧战统一预测；杯赛以90分钟为预测口径，加时、点球与晋级另列。世界杯独立归档。</p>
       </div>
     </section>
 
@@ -42,6 +43,8 @@
         </div>
         <div class="filter-panel">
           <div class="competition-filter" id="competitionFilter" role="group" aria-label="赛事筛选">
+            <button type="button" data-competition="europe">欧洲俱乐部赛事</button>
+            <button type="button" data-competition="uefa.champions">欧冠</button><button type="button" data-competition="uefa.europa">欧联杯</button><button type="button" data-competition="uefa.europa.conf">欧协联</button>
             <button class="active" type="button" data-competition="top5">五大联赛</button>
             <button type="button" data-competition="eng.1">英超</button><button type="button" data-competition="esp.1">西甲</button>
             <button type="button" data-competition="ger.1">德甲</button><button type="button" data-competition="ita.1">意甲</button>
@@ -54,6 +57,8 @@
             <button type="button" data-date="later">后续</button>
           </div>
           <div class="stage-filter" id="stageFilter" role="group" aria-label="阶段筛选">
+            <button type="button" data-stage="league-phase">欧战联赛阶段</button>
+            <button type="button" data-stage="knockout">欧战淘汰赛</button>
             <button class="active" type="button" data-stage="all">全部阶段</button>
             <button type="button" data-stage="league">联赛</button>
             <button type="button" data-stage="group-stage">小组赛</button>
@@ -66,6 +71,7 @@
           </div>
           <label class="search-field"><span class="sr-only">搜索比赛</span><input id="predictionSearch" type="search" placeholder="搜索球队、阶段或场地" aria-label="搜索球队、阶段或场地"></label>
         </div>
+        <div id="predictionHistory" aria-live="polite"></div>
         <div class="match-grid" id="predictionGrid"></div>
       </div>
     </section>
@@ -74,7 +80,7 @@
       <div class="section-shell">
         <div class="section-heading dark-heading">
           <span class="section-index">02</span>
-          <div><h2 id="scoreTitle">比分频次与模型分布</h2><p>浅色数据区块使用深色文字，降低长时间浏览疲劳。</p></div>
+          <div><h2 id="scoreTitle">真实比分频次与预测成绩</h2><p>按所选联赛统计已完赛比分，并核对开赛前保存的预测。</p></div>
         </div>
         <div class="score-layout" id="scoreDistribution"></div>
       </div>
@@ -99,16 +105,19 @@
     </section>
   </div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/league-normalizer.js?v=5.3.2" defer></script>
-  <script src="assets/js/prediction-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/data-service.js?v=5.3.2" defer></script>
-  <script src="assets/js/player-names.js?v=5.3.2" defer></script>
-  <script src="assets/js/external-picks.js?v=5.3.2" defer></script>
-  <script src="assets/js/names.js?v=5.3.2" defer></script>
-  <script src="assets/js/common.js?v=5.3.2" defer></script>
-  <script src="assets/js/predictions.js?v=5.3.2" defer></script>
-  <script src="assets/js/layers.js?v=5.3.2" defer></script>
+  <script src="assets/js/data.js?v=5.5.0" defer></script>
+  <script src="assets/js/competitions.js?v=5.5.0" defer></script>
+  <script src="assets/js/analytics.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.5.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/data-service.js?v=5.5.0" defer></script>
+  <script src="assets/js/player-names.js?v=5.5.0" defer></script>
+  <script src="assets/js/external-picks.js?v=5.5.0" defer></script>
+  <script src="assets/js/names.js?v=5.5.0" defer></script>
+  <script src="assets/js/common.js?v=5.5.0" defer></script>
+  <script src="assets/js/music.js?v=5.5.0" defer></script>
+  <script src="assets/js/predictions.js?v=5.5.0" defer></script>
+  <script src="assets/js/layers.js?v=5.5.0" defer></script>
 </body>
 </html>
