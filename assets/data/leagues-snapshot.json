@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-08T11:19:12.444Z",
+  "savedAt": "2026-10-08T15:46:32.880Z",
   "source": "ESPN public soccer data snapshot",
   "months": [
     "202609",
@@ -1299,8 +1299,8 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        55,
-        23,
+        56,
+        22,
         22
       ],
       "confidence": 76,
@@ -1394,8 +1394,8 @@
       "alternativeScore": "0–1",
       "probabilities": [
         26,
-        28,
-        46
+        27,
+        47
       ],
       "confidence": 73,
       "halfFull": "",
@@ -1487,11 +1487,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        29,
-        27,
-        44
+        28,
+        26,
+        46
       ],
-      "confidence": 72,
+      "confidence": 73,
       "halfFull": "",
       "factors": [
         "公开赛前概率换算；非独立训练模型",
@@ -5218,11 +5218,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        71,
+        70,
         16,
-        13
+        14
       ],
-      "confidence": 81,
+      "confidence": 80,
       "halfFull": "",
       "factors": [
         "公开赛前概率换算；非独立训练模型",
@@ -5265,9 +5265,9 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        35,
+        34,
         29,
-        36
+        37
       ],
       "confidence": 70,
       "halfFull": "",
@@ -5453,9 +5453,9 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        36,
+        35,
         29,
-        35
+        36
       ],
       "confidence": 70,
       "halfFull": "",
@@ -8622,9 +8622,9 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        69,
+        70,
         18,
-        13
+        12
       ],
       "confidence": 80,
       "halfFull": "",
@@ -8669,9 +8669,9 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        41,
+        40,
         25,
-        34
+        35
       ],
       "confidence": 71,
       "halfFull": "",
@@ -8938,9 +8938,9 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47,
+        46,
         24,
-        29
+        30
       ],
       "confidence": 73,
       "halfFull": "",
@@ -12142,8 +12142,8 @@
       "alternativeScore": "2–1",
       "probabilities": [
         60,
-        24,
-        16
+        23,
+        17
       ],
       "confidence": 77,
       "halfFull": "",
@@ -16180,9 +16180,9 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        65,
+        66,
         19,
-        16
+        15
       ],
       "confidence": 79,
       "halfFull": "",
