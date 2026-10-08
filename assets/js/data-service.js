@@ -5,7 +5,7 @@
   const WORLD_CUP_URL = "https://raw.githubusercontent.com/xiaozhangzzza-afk/worldcast-26/main/data/live.json";
   const WORLD_CUP_SNAPSHOT_URL = "assets/data/snapshot.json";
   const LEAGUE_SNAPSHOT_URL = "assets/data/leagues-snapshot.json";
-  const FULL_REFRESH_INTERVAL = 15 * 60 * 1000;
+  const FULL_REFRESH_INTERVAL = 5 * 60 * 1000;
   const LIVE_REFRESH_INTERVAL = 20 * 1000;
   const LAST_GOOD_KEY = "football-model-last-good-v500";
   const Normalizer = window.FM_NORMALIZER;
@@ -87,16 +87,18 @@
     }
   }
 
-  function compactDay(date) {
-    return date.toISOString().slice(0, 10).replaceAll("-", "");
+  function monthRange(daysBefore, daysAfter) {
+    const start = new Date(Date.now() - daysBefore * 86400000);
+    const end = new Date(Date.now() + daysAfter * 86400000);
+    const months = [];
+    for (let date = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), 1)); date <= end; date.setUTCMonth(date.getUTCMonth() + 1)) {
+      months.push(date.toISOString().slice(0, 7).replace("-", ""));
+    }
+    return months;
   }
 
-  function dateRange(daysBefore, daysAfter) {
-    return `${compactDay(new Date(Date.now() - daysBefore * 86400000))}-${compactDay(new Date(Date.now() + daysAfter * 86400000))}`;
-  }
-
-  function scoreboardUrl(meta, range) {
-    return `${ESPN_BASE}/${meta.id}/scoreboard?dates=${range}&limit=1000`;
+  function scoreboardUrl(meta, month) {
+    return `${ESPN_BASE}/${meta.id}/scoreboard?dates=${month}&limit=1000`;
   }
 
   function uniqueBy(items, key) {
@@ -176,25 +178,26 @@
     }
   }
 
-  async function fetchLeague(meta, range) {
-    try {
-      return LeagueNormalizer.normalizeFeed(await fetchJson(scoreboardUrl(meta, range)), meta);
-    } catch (rangeError) {
-      const days = [-1, 0, 1].map(offset => compactDay(new Date(Date.now() + offset * 86400000)));
-      const results = await Promise.allSettled(days.map(day => fetchJson(scoreboardUrl(meta, day))));
-      const feeds = results.filter(item => item.status === "fulfilled").map(item => LeagueNormalizer.normalizeFeed(item.value, meta));
-      if (feeds.length !== days.length) throw new Error(`单日数据不完整：${rangeError.message}`);
-      return {matches: uniqueBy(feeds.flatMap(item => item.matches), "id"), teams: uniqueBy(feeds.flatMap(item => item.teams), "code"), dailyFallback: true};
-    }
+  async function fetchLeague(meta, months) {
+    const results = await Promise.allSettled(months.map(month => fetchJson(scoreboardUrl(meta, month))));
+    const feeds = results.filter(item => item.status === "fulfilled").map(item => LeagueNormalizer.normalizeFeed(item.value, meta));
+    if (!feeds.length) throw new Error(`按月赛程请求失败：${results[0]?.reason?.message || "数据源未响应"}`);
+    return {
+      matches: uniqueBy(feeds.flatMap(item => item.matches), "id"),
+      teams: uniqueBy(feeds.flatMap(item => item.teams), "code"),
+      partialMonths: feeds.length !== months.length
+    };
   }
 
   async function loadLeagueSnapshot() {
+    const recent = readLastGood();
     try {
       const data = await fetchJson(LEAGUE_SNAPSHOT_URL);
       if (!Array.isArray(data.matches) || !data.matches.length) throw new Error("快照为空");
-      return { matches: data.matches.map(item => ({...item, halfFull: ""})), teams: data.teams || [], savedAt: data.savedAt || data.updatedAt };
+      const published = { matches: data.matches.map(item => ({...item, halfFull: ""})), teams: data.teams || [], savedAt: data.savedAt || data.updatedAt };
+      return recent && new Date(recent.savedAt).getTime() > new Date(published.savedAt).getTime() ? recent : published;
     } catch {
-      return readLastGood();
+      return recent;
     }
   }
 
@@ -205,13 +208,13 @@
     STORE.lastLiveAttempt = new Date().toISOString();
     const worldCupPromise = loadWorldCup();
     try {
-      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, dateRange(8, 24))));
+      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(8, 24))));
       const leagueParts = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
       const leagueErrors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       const worldCup = await worldCupPromise;
       if (leagueParts.length) {
-        const dailyFallback = leagueParts.some(item => item.dailyFallback);
-        if (dailyFallback) {
+        const partialMonths = leagueParts.some(item => item.partialMonths);
+        if (partialMonths) {
           const snapshot = await loadLeagueSnapshot();
           if (snapshot) leagueParts.unshift(snapshot);
         }
@@ -227,7 +230,7 @@
         });
         STORE.errors = [...leagueErrors, ...(worldCup.error ? [worldCup.error] : [])];
         if (leagueErrors.length) STORE.sourceLabel = `部分实时连接 · ${LEAGUES.length - leagueErrors.length}/5联赛在线 · 其余保留快照`;
-        else if (dailyFallback) STORE.sourceLabel = "近三日实时核验 · 远期赛程使用最近快照";
+        else if (partialMonths) STORE.sourceLabel = "部分月份已核验 · 缺失赛程使用最近快照";
         saveLastGood();
         markReady();
         if (manual) window.FM?.showToast?.(`同步完成：${STORE.matches.filter((item) => item.competitionId !== "fifa.world").length}场五大联赛比赛`);
@@ -312,7 +315,7 @@
     liveSyncing = true;
     STORE.lastLiveAttempt = new Date().toISOString();
     try {
-      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, dateRange(1, 1))));
+      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(0, 0))));
       const successful = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
       if (!successful.length) throw new Error("五大联赛实时接口均未响应");
       successful.flatMap((item) => item.matches).forEach(mergeMatch);
