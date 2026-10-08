@@ -13,12 +13,12 @@
   function renderPair() {
     const root = document.querySelector('#pairContent');
     if (!root) return;
-    const matches = candidates();
+    const matches = mode === 'half' ? FM.store().matches.filter(m=>window.FM_EXTERNAL_PICKS?.get(m)).sort((a,b)=>new Date(a.date)-new Date(b.date)).slice(0,2) : candidates();
     root.innerHTML = `<p class="pair-eyebrow">${t('未来72小时 · 两场组合观察','Next 72 hours · Two-match selection')}</p><h2 id="pairTitle">${t('每日二串一建议','Daily two-match picks')}</h2><p>${t('按已提供的赛前概率筛选；主客队与比赛时间如下。','Selected from available pre-match probabilities.')}</p><div class="pair-tabs" role="group" aria-label="${t('建议类型','Pick type')}">${modes.map((key,i)=>`<button type="button" data-pair-mode="${key}" aria-pressed="${key===mode}">${labels()[i]}</button>`).join('')}</div><div class="pair-grid">${matches.map((m,i)=> {
-      const best = m.probabilities.indexOf(Math.max(...m.probabilities));
-      const value = mode === 'result' ? `${[t('主胜','Home win'),t('平局','Draw'),t('客胜','Away win')][best]} · ${m.probabilities[best]}%` : mode === 'score' ? m.predictedScore || t('比分待更新','Score pending') : t('暂无经核验的半全场预测','Verified half/full prediction unavailable');
-      return `<article><span class="pair-eyebrow">0${i+1} · ${FM.html(FM.competitionName(m))}</span><p>${FM.formatFull(m.date)}</p><h3>${FM.teamLogo(m.homeCode,m.homeLogo)} ${FM.html(m.homeName)} <small>${t('主队','Home')}</small></h3><h3>${FM.teamLogo(m.awayCode,m.awayLogo)} ${FM.html(m.awayName)} <small>${t('客队','Away')}</small></h3><strong class="pair-pick">${FM.html(value)}</strong><button type="button" data-pair-match="${FM.html(m.id)}">${t('查看比赛详情','Match details')}</button></article>`;
-    }).join('')}</div>${matches.length<2?`<p class="empty-state">${t('当前不足两场有预测数据的未开赛比赛，暂不组成二串一。','Not enough eligible upcoming matches for a pair.')}</p>`:''}<p class="pair-note">${t('胜平负概率来自公开赛前数据换算，比分为演示推算；组合命中率未经校准。模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。','Probabilities derive from public pre-match data; scores are illustrative. Combined accuracy is not calibrated. Model demonstration, not betting or financial advice.')}</p><button type="button" class="button primary" data-pair-next>${t('切换下一种建议','Next pick type')}</button>`;
+      const best = (m.probabilities || []).indexOf(Math.max(...(m.probabilities || [])));
+      const value = mode === 'result' ? `${[t('主胜','Home win'),t('平局','Draw'),t('客胜','Away win')][best]} · ${m.probabilities[best]}%` : mode === 'score' ? m.predictedScore || t('比分待更新','Score pending') : window.FM_EXTERNAL_PICKS.label(m,FM.state.language);
+      return `<article><span class="pair-eyebrow">0${i+1} · ${FM.html(FM.competitionName(m))}</span><p>${FM.formatFull(m.date)}</p><h3>${FM.teamLogo(m.homeCode,m.homeLogo)} ${FM.html(FM.nameFor(m, "home"))} <small>${t('主队','Home')}</small></h3><h3>${FM.teamLogo(m.awayCode,m.awayLogo)} ${FM.html(FM.nameFor(m, "away"))} <small>${t('客队','Away')}</small></h3><strong class="pair-pick">${FM.html(value)}</strong>${mode === "half" ? window.FM_EXTERNAL_PICKS.markup(m) : ""}<button type="button" data-pair-match="${FM.html(m.id)}">${t('查看比赛详情','Match details')}</button></article>`;
+    }).join('')}</div>${matches.length<2?`<p class="empty-state">${t('当前不足两场有预测数据的未开赛比赛，暂不组成二串一。','Not enough eligible upcoming matches for a pair.')}</p>`:''}${mode==='half'&&!matches.length?window.FM_EXTERNAL_PICKS.markup(null):''}<p class="pair-note">${t('胜平负概率来自公开赛前数据换算，比分为演示推算；半全场为已匹配场次的外部参考。来源概率不等于命中率，不保证准确。模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。','Result probabilities derive from public pre-match data; scores are illustrative; HT/FT references are matched external picks. Source probabilities are not accuracy rates. No accuracy guarantee. Model demonstration, not betting or financial advice.')}</p><button type="button" class="button primary" data-pair-next>${t('切换下一种建议','Next pick type')}</button>`;
   }
   function openPair() { const dialog=document.querySelector('#pairDialog'); returnFocus=document.activeElement; renderPair(); if(!dialog.open) dialog.showModal(); }
   function renderLeagues() {
@@ -35,7 +35,7 @@
       const modal=document.createElement('div'); modal.className='modal'; modal.id='matchModal'; modal.hidden=true; modal.setAttribute('role','dialog'); modal.setAttribute('aria-modal','true'); modal.setAttribute('aria-labelledby','matchModalTitle'); modal.setAttribute('aria-hidden','true'); modal.innerHTML='<div class="modal-backdrop" data-close-modal></div><section class="modal-panel" tabindex="-1"><button type="button" class="modal-close" aria-label="关闭" data-close-modal>关闭</button><div id="matchModalContent"></div></section>'; document.body.append(modal);
     }
     document.body.classList.add('layer-layout');
-    const sections=[...document.querySelectorAll('main > section')].filter(section=>!section.classList.contains('hero')&&!section.classList.contains('page-hero'));
+    const sections=[...document.querySelectorAll('main > section')].filter(section=>!section.classList.contains('hero')&&!section.classList.contains('page-hero')&&!section.classList.contains('sub-hero'));
     sections.forEach((section,i)=>{
       const title=section.querySelector('h2'); if(!title) return;
       const details=document.createElement('details'); details.className='content-layer'; details.open=i===0;

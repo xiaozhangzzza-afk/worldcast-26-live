@@ -64,8 +64,8 @@
     root.innerHTML = `
       <article class="next-match-card">
         <div class="next-teams">
-          <span><b>${FM.teamLogo(next.homeCode, next.homeLogo)} ${FM.html(next.homeName)}</b>主队</span>
-          <span><b>${FM.teamLogo(next.awayCode, next.awayLogo)} ${FM.html(next.awayName)}</b>客队</span>
+          <span><b>${FM.teamLogo(next.homeCode, next.homeLogo)} ${FM.html(FM.nameFor(next, "home"))}</b>主队</span>
+          <span><b>${FM.teamLogo(next.awayCode, next.awayLogo)} ${FM.html(FM.nameFor(next, "away"))}</b>客队</span>
         </div>
         <div class="next-score"><small class="score-label">${FM.html(FM.scoreKind(next))}</small>${FM.html(FM.scoreFor(next))}</div>
         <p>${FM.html(FM.competitionName(next))} · ${FM.formatDate(next.date)} · ${FM.countdown(next.date)}</p>

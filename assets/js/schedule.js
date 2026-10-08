@@ -33,6 +33,10 @@
   function renderSchedule() {
     const root = FM.$("#scheduleGrid");
     if (!root) return;
+    const isWorldCup = state.competition === "fifa.world";
+    for (const selector of ["#stageFilter", ".schedule-status"]) { const el=FM.$(selector);if(el)el.hidden=!isWorldCup; }
+    if (!isWorldCup) { window.FM_STANDINGS?.render(root,state.competition,state.query);return; }
+    window.FM_STANDINGS?.render(root,"fifa.world",state.query);
     const s = FM.store();
     if (s.status === "loading" && !s.matches.length) {
       root.innerHTML = `<div class="empty-state">数据读取中…</div>`;
@@ -54,7 +58,7 @@
     root.innerHTML = matches.length ? [...groups].map(([day,items]) => `<section class="schedule-day"><h2>${FM.html(day)}</h2><div>${items.map(item => {
       const played = item.live || item.completed;
       const time = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",hour:"2-digit",minute:"2-digit",hour12:false}).format(new Date(item.date));
-      return `<article class="schedule-card"><div class="fixture-row"><div class="fixture-time"><time datetime="${FM.html(item.date)}">${time}</time><small>北京时间</small></div><div class="fixture-teams"><div class="fixture-team">${FM.teamLogo(item.homeCode,item.homeLogo)}<span>${FM.html(item.homeName)}</span><small>主队</small><b>${played ? FM.html(item.homeScore ?? "待确认") : ""}</b></div><div class="fixture-team">${FM.teamLogo(item.awayCode,item.awayLogo)}<span>${FM.html(item.awayName)}</span><small>客队</small><b>${played ? FM.html(item.awayScore ?? "待确认") : ""}</b></div></div><div class="fixture-state ${item.live ? "live" : ""}"><span>${FM.html(item.statusText || "未开赛")} ${item.live ? `<span data-live-clock="${FM.html(item.id)}">${FM.html(FM.liveClock(item))}</span>` : ""}</span><button class="fixture-link" type="button" data-open-match="${FM.html(item.id)}" aria-label="查看 ${FM.html(item.homeName)} 对 ${FM.html(item.awayName)} 详情">比赛详情 ↗</button></div></div><div class="fixture-bottom"><span>${FM.html(FM.competitionName(item))} · ${FM.html(FM.stageName(item))}</span><span>${FM.html(item.venue || "场地待确认")}</span></div></article>`;
+      return `<article class="schedule-card"><div class="fixture-row"><div class="fixture-time"><time datetime="${FM.html(item.date)}">${time}</time><small>北京时间</small></div><div class="fixture-teams"><div class="fixture-team">${FM.teamLogo(item.homeCode,item.homeLogo)}<span>${FM.html(FM.nameFor(item, "home"))}</span><small>主队</small><b>${played ? FM.html(item.homeScore ?? "待确认") : ""}</b></div><div class="fixture-team">${FM.teamLogo(item.awayCode,item.awayLogo)}<span>${FM.html(FM.nameFor(item, "away"))}</span><small>客队</small><b>${played ? FM.html(item.awayScore ?? "待确认") : ""}</b></div></div><div class="fixture-state ${item.live ? "live" : ""}"><span>${FM.html(item.statusText || "未开赛")} ${item.live ? `<span data-live-clock="${FM.html(item.id)}">${FM.html(FM.liveClock(item))}</span>` : ""}</span><button class="fixture-link" type="button" data-open-match="${FM.html(item.id)}" aria-label="查看 ${FM.html(FM.nameFor(item, "home"))} 对 ${FM.html(FM.nameFor(item, "away"))} 详情">比赛详情 ↗</button></div></div><div class="fixture-bottom"><span>${FM.html(FM.competitionName(item))} · ${FM.html(FM.stageName(item))}</span><span>${FM.html(item.venue || "场地待确认")}</span></div></article>`;
     }).join("")}</div></section>`).join("") : '<div class="empty-state">当前筛选暂无比赛，可切换“全部”或其他赛事。</div>';
   }
 

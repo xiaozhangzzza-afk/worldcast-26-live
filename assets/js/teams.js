@@ -26,7 +26,7 @@
 
   function playerText(players, limit = 2) {
     const list = Array.isArray(players) ? players.filter(Boolean) : [];
-    return list.length ? list.slice(0, limit).map((player) => FM.html(player.display || player.nameZh || player.nameEn || player)).join("、") : "阵容信息待更新";
+    return list.length ? list.slice(0, limit).map((player) => FM.html(FM_NAMES.player(player, FM.state.language))).join("、") : "阵容信息待更新";
   }
 
   function filteredTeams() {
@@ -55,10 +55,10 @@
           const active = state.favorites.has(item.code);
           return `
             <article class="team-card">
-              <button class="favorite-button ${active ? "active" : ""}" type="button" data-favorite="${FM.html(item.code)}" aria-label="${active ? "取消关注" : "关注"} ${FM.html(item.name)}">★</button>
-              <button class="team-title" type="button" data-open-team="${FM.html(item.code)}" aria-label="查看${FM.html(item.name)}详情">
+              <button class="favorite-button ${active ? "active" : ""}" type="button" data-favorite="${FM.html(item.code)}" aria-label="${active ? "取消关注" : "关注"} ${FM.html(FM.teamName(item.code))}">★</button>
+              <button class="team-title" type="button" data-open-team="${FM.html(item.code)}" aria-label="查看${FM.html(FM.teamName(item.code))}详情">
                 ${FM.teamLogo(item.code, item.logo)}
-              <span><h3>${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h3><p>${FM.html(item.shortCode || item.code)} · ${FM.html(item.competitionName || item.group || "赛事待确认")}</p></span>
+              <span><h3>${FM.html(FM.teamName(item.code))}</h3><p>${FM.html(item.shortCode || item.code)} · ${FM.html(item.competitionName || item.group || "赛事待确认")}</p></span>
               </button>
               <div class="rating-bars">${rating("进攻", item.attack)}${rating("中场", item.midfield)}${rating("防守", item.defense)}</div>
               <p>核心球员：${playerText(item.players, 2)}</p>
@@ -86,7 +86,7 @@
     if (!modal) return;
     FM.$("#teamModalContent").innerHTML = `
       <p class="eyebrow">TEAM ${FM.html(item.code)}</p>
-      <h2 id="teamModalTitle">${FM.teamLogo(item.code, item.logo)} ${FM.html(FM.state.language === "en" ? item.nameEn : item.name)}</h2>
+      <h2 id="teamModalTitle">${FM.teamLogo(item.code, item.logo)} ${FM.html(FM.teamName(item.code))}</h2>
       <div class="detail-grid">
         <article class="detail-card"><h3>攻中防评分</h3><p>进攻 ${Number.isFinite(item.attack) ? item.attack : "暂无评分"} · 中场 ${Number.isFinite(item.midfield) ? item.midfield : "暂无评分"} · 防守 ${Number.isFinite(item.defense) ? item.defense : "暂无评分"}</p></article>
         <article class="detail-card"><h3>核心球员</h3><p>${playerText(item.players, 12)}</p></article>
@@ -94,6 +94,7 @@
         <article class="detail-card"><h3>风险标签</h3><p>${FM.html(item.risk)}</p></article>
       </div>
     `;
+    modal.dataset.teamCode = code;
     modal.hidden = false;
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
@@ -132,5 +133,5 @@
   window.addEventListener("fm:data-updated", renderTeams);
   window.addEventListener("fm:data-error", renderTeams);
   window.addEventListener("fm:data-loading", renderTeams);
-  window.addEventListener("fm:language", renderTeams);
+  window.addEventListener("fm:language", () => { renderTeams(); const m=FM.$("#teamModal");if(m&&!m.hidden)openTeam(m.dataset.teamCode,FM.state.lastFocus); });
 })();

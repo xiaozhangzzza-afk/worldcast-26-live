@@ -34,6 +34,7 @@
   }
 
   function html(value) {
+    if (/^\d+\s*[-–—:]\s*\d+$/.test(String(value ?? ""))) value = window.FM_NAMES.score(value);
     return String(value ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
   }
 
@@ -59,7 +60,12 @@
 
   function teamName(code) {
     const item = team(code);
-    return state.language === "en" ? (item.nameEn || item.name || item.code) : (item.name || item.nameEn || item.code);
+    return window.FM_NAMES.team(item, state.language);
+  }
+
+  function nameFor(match, side) {
+    const known = store().teams.find(t => t.code === match[side + "Code"]);
+    return window.FM_NAMES.team({nameEn: match[side + "NameEn"] || known?.nameEn || match[side + "Name"], name: known?.name || match[side + "Name"], nameZh: known?.nameZh}, state.language);
   }
 
   function teamLogo(code, fallbackLogo = "") {
@@ -184,9 +190,9 @@
       <article class="match-card">
         <header><span>${html(competitionName(match))} · ${html(stageName(match))}</span><time datetime="${html(match.date)}">${formatDate(match.date)}</time></header>
         <div class="match-teams">
-          <b>${teamLogo(match.homeCode || match.home, match.homeLogo)} ${html(match.homeName || teamName(match.homeCode || match.home))}</b>
+          <b>${teamLogo(match.homeCode || match.home, match.homeLogo)} ${html(nameFor(match, "home"))}</b>
           <strong><small class="score-label">${html(scoreKind(match))}</small>${html(scoreFor(match))}</strong>
-          <b>${teamLogo(match.awayCode || match.away, match.awayLogo)} ${html(match.awayName || teamName(match.awayCode || match.away))}</b>
+          <b>${teamLogo(match.awayCode || match.away, match.awayLogo)} ${html(nameFor(match, "away"))}</b>
         </div>
         ${probabilityMarkup(match)}
         <p class="match-status-line">${html(match.statusText || "状态待更新")}${match.live ? ` · <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : ""}</p>
@@ -204,8 +210,8 @@
       <ol class="timeline-list">
         ${items.slice(0, 14).map((item) => {
           const type = item.type === "goal" ? "进球" : item.type === "yellow" ? "黄牌" : item.type === "red" ? "红牌" : "事件";
-          const player = item.playerZh || item.player || "球员待核验";
-          const assist = item.assistZh || item.assist || "";
+          const player = FM_NAMES.player({nameEn:item.player || item.playerEn, nameZh:item.playerZh}, state.language);
+          const assist = item.assist || item.assistZh ? FM_NAMES.player({nameEn:item.assist || item.assistEn, nameZh:item.assistZh}, state.language) : "";
           const assistText = item.type === "goal" && assist ? `，助攻：${html(assist)}` : "";
           const goalKind = item.type === "goal" && item.goalKind ? `（${html(item.goalKind)}）` : "";
           return `<li><time>${html(item.minute || item.displayClock || "")}</time><span>${html(type)}：${html(player)}${goalKind}${assistText}</span></li>`;
@@ -223,11 +229,11 @@
     const probabilityText = probabilities ? `主胜 ${probabilities[0]}% · 平局 ${probabilities[1]}% · 客胜 ${probabilities[2]}%` : "预测数据待更新";
     $("#matchModalContent").innerHTML = `
       <p class="eyebrow">${html(competitionName(match))} · ${html(stageName(match))} · MATCH ${html(match.matchNo || match.id)}</p>
-      <h2 id="matchModalTitle">${teamLogo(match.homeCode, match.homeLogo)} ${html(match.homeName)} vs ${teamLogo(match.awayCode, match.awayLogo)} ${html(match.awayName)}</h2>
+      <h2 id="matchModalTitle">${teamLogo(match.homeCode, match.homeLogo)} ${html(nameFor(match, "home"))} vs ${teamLogo(match.awayCode, match.awayLogo)} ${html(nameFor(match, "away"))}</h2>
       <div class="detail-grid">
         <article class="detail-card"><h3>${html(scoreKind(match))}</h3><p>${html(scoreFor(match))} · 备选预测：${html(match.alternativeScore || "预测数据待更新")}</p></article>
         <article class="detail-card"><h3>胜平负概率</h3><p>${html(probabilityText)}</p></article>
-        <article class="detail-card"><h3>半全场</h3><p>${html(match.halfFull || "预测数据待更新")}</p></article>
+        <article class="detail-card"><h3>${state.language === 'en' ? 'External HT/FT reference' : '半全场 · 外部参考'}</h3>${window.FM_EXTERNAL_PICKS?.markup(match) || '<p>预测数据待更新</p>'}</article>
         <article class="detail-card"><h3>模型信心</h3><p>${html(confidenceText(match))}</p></article>
         <article class="detail-card"><h3>比赛状态</h3><p>${html(match.statusText || "待更新")} ${match.live ? `· <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : match.displayClock ? `· ${html(match.displayClock)}` : ""}</p></article>
         <article class="detail-card"><h3>场地</h3><p>${html(match.venue || "待官方确认")}</p></article>
@@ -296,7 +302,7 @@
     if (!root) return;
     root.innerHTML = `
       <nav class="nav-shell" aria-label="主要导航">
-        <a class="brand" href="index.html" aria-label="足球预测大模型首页"><span class="brand-mark" aria-hidden="true">FM</span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a>
+        <a class="brand" href="index.html" aria-label="足球预测大模型首页"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a>
         <button class="menu-toggle" id="menuToggle" type="button" aria-label="打开导航菜单" aria-expanded="false">菜单</button>
         <div class="nav-menu" id="navMenu">${pages.map(([key, href, zh, en]) => `<a class="${state.page === key ? "active" : ""}" href="${href}" data-zh="${zh}" data-en="${en}">${state.language === "en" ? en : zh}</a>`).join("")}</div>
         <div class="nav-tools">
@@ -314,7 +320,7 @@
     if (!root) return;
     root.innerHTML = `
       <div class="section-shell footer-grid">
-        <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">FM</span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a><p>用清晰的数据表达，帮助球迷理解赛程、球队和比赛变量。</p><div class="footer-links">${pages.map(([, href, zh]) => `<a href="${href}">${zh}</a>`).join("")}</div></div>
+        <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>五大联赛 · 世界杯</small></span></a><p>用清晰的数据表达，帮助球迷理解赛程、球队和比赛变量。</p><div class="footer-links">${pages.map(([, href, zh]) => `<a href="${href}">${zh}</a>`).join("")}</div></div>
         <div><h2>合规说明</h2><p>模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p></div>
         <div><h2>实时核验时间</h2><p><time id="footerUpdated">${store().liveUpdatedAt || store().lastUpdated ? formatFull(store().liveUpdatedAt || store().lastUpdated) : "待更新"}</time></p><button class="back-top" id="backTop" type="button" aria-label="返回顶部">返回顶部</button></div>
       </div>
@@ -331,7 +337,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.2.1").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.3.0").catch(() => {});
       return;
     }
     try {
@@ -344,7 +350,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.2.1");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.3.0");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }
@@ -428,6 +434,7 @@
     }, 1000);
   }
 
+  window.addEventListener("fm:language", () => {const m=$("#matchModal");if(m && !m.hidden && m.dataset.matchId)openMatch(m.dataset.matchId, state.lastFocus, true);});
   window.addEventListener("fm:data-ready", updateDataStatus);
   window.addEventListener("fm:data-updated", updateDataStatus);
   window.addEventListener("fm:data-updated", () => {
@@ -439,7 +446,7 @@
   window.FM = {
     $, $$, html, state, STORAGE, safeGet, safeSet, store, team, teamName, teamLogo, stageName,
     formatDate, formatFull, countdown, normalize, matchCard, openMatch, showToast, scoreFor,
-    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus
+    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus, nameFor
   };
   document.addEventListener("DOMContentLoaded", initCommon);
 })();
