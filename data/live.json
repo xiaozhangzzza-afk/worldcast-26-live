@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T15:37:02.227Z",
+  "updatedAt": "2026-10-08T08:05:33.341Z",
   "source": {
     "name": "ESPN public soccer data",
     "tournament": "FIFA World Cup",
@@ -10,7 +10,7 @@
       "https://github.com/cshandsome-top/worldcup2026"
     ]
   },
-  "refreshPolicy": "Every 5 minutes during the tournament via GitHub Actions",
+  "refreshPolicy": "World Cup archive on manual request; league snapshot checked every 5 minutes",
   "fixtures": [
     {
       "id": "760415",
@@ -25,7 +25,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "MEX",
       "away": "RSA",
@@ -196,7 +196,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "KOR",
       "away": "CZE",
@@ -303,7 +303,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "CAN",
       "away": "BIH",
@@ -458,7 +458,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "USA",
       "away": "PAR",
@@ -677,7 +677,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "QAT",
       "away": "SUI",
@@ -800,7 +800,7 @@
       "period": 2,
       "displayClock": "90'+25'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "BRA",
       "away": "MAR",
@@ -907,7 +907,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "HAI",
       "away": "SCO",
@@ -1030,7 +1030,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "AUS",
       "away": "TUR",
@@ -1121,7 +1121,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "GER",
       "away": "CUW",
@@ -1292,7 +1292,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.605Z",
       "progress": 100,
       "home": "NED",
       "away": "JPN",
@@ -1447,7 +1447,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CIV",
       "away": "ECU",
@@ -1570,7 +1570,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SWE",
       "away": "TUN",
@@ -1725,7 +1725,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.926Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ESP",
       "away": "CPV",
@@ -1800,7 +1800,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BEL",
       "away": "EGY",
@@ -1939,7 +1939,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "KSA",
       "away": "URU",
@@ -2030,7 +2030,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "IRN",
       "away": "NZL",
@@ -2153,7 +2153,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "SEN",
@@ -2260,7 +2260,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "IRQ",
       "away": "NOR",
@@ -2399,7 +2399,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ARG",
       "away": "ALG",
@@ -2490,7 +2490,7 @@
       "period": 2,
       "displayClock": "90'+14'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "AUT",
       "away": "JOR",
@@ -2612,7 +2612,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "POR",
       "away": "COD",
@@ -2751,7 +2751,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ENG",
       "away": "CRO",
@@ -2890,7 +2890,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "GHA",
       "away": "PAN",
@@ -2997,7 +2997,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "UZB",
       "away": "COL",
@@ -3136,7 +3136,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CZE",
       "away": "RSA",
@@ -3259,7 +3259,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SUI",
       "away": "BIH",
@@ -3446,7 +3446,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CAN",
       "away": "QAT",
@@ -3649,7 +3649,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "MEX",
       "away": "KOR",
@@ -3740,7 +3740,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "USA",
       "away": "AUS",
@@ -3927,7 +3927,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SCO",
       "away": "MAR",
@@ -4018,7 +4018,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BRA",
       "away": "HAI",
@@ -4173,7 +4173,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "TUR",
       "away": "PAR",
@@ -4280,7 +4280,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NED",
       "away": "SWE",
@@ -4467,7 +4467,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "GER",
       "away": "CIV",
@@ -4558,7 +4558,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ECU",
       "away": "CUW",
@@ -4697,7 +4697,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "TUN",
       "away": "JPN",
@@ -4804,7 +4804,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ESP",
       "away": "KSA",
@@ -4943,7 +4943,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BEL",
       "away": "IRN",
@@ -5034,7 +5034,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "URU",
       "away": "CPV",
@@ -5205,7 +5205,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NZL",
       "away": "EGY",
@@ -5360,7 +5360,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ARG",
       "away": "AUT",
@@ -5499,7 +5499,7 @@
       "period": 2,
       "displayClock": "90'+2'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "IRQ",
@@ -5606,7 +5606,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NOR",
       "away": "SEN",
@@ -5729,7 +5729,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "JOR",
       "away": "ALG",
@@ -5852,7 +5852,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "POR",
       "away": "UZB",
@@ -6007,7 +6007,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ENG",
       "away": "GHA",
@@ -6082,7 +6082,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "PAN",
       "away": "CRO",
@@ -6173,7 +6173,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "COL",
       "away": "COD",
@@ -6280,7 +6280,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BIH",
       "away": "QAT",
@@ -6419,7 +6419,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SUI",
       "away": "CAN",
@@ -6558,7 +6558,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "MAR",
       "away": "HAI",
@@ -6745,7 +6745,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SCO",
       "away": "BRA",
@@ -6884,7 +6884,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CZE",
       "away": "MEX",
@@ -6991,7 +6991,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "RSA",
       "away": "KOR",
@@ -7082,7 +7082,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CUW",
       "away": "CIV",
@@ -7205,7 +7205,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ECU",
       "away": "GER",
@@ -7289,7 +7289,7 @@
           "type": "yellow",
           "team": "GER",
           "side": "away",
-          "player": "Aleksandar Pavlović",
+          "player": "Aleksandar Pavlovic",
           "playerZh": "阿莱克萨恩德阿尔·普阿维洛维克",
           "assist": "",
           "assistZh": "",
@@ -7360,7 +7360,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "JPN",
       "away": "SWE",
@@ -7483,7 +7483,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "TUN",
       "away": "NED",
@@ -7590,7 +7590,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "PAR",
       "away": "AUS",
@@ -7665,7 +7665,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "TUR",
       "away": "USA",
@@ -7804,7 +7804,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NOR",
       "away": "FRA",
@@ -7959,7 +7959,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SEN",
       "away": "IRQ",
@@ -8162,7 +8162,7 @@
       "period": 2,
       "displayClock": "90'+5'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CPV",
       "away": "KSA",
@@ -8269,7 +8269,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "URU",
       "away": "ESP",
@@ -8408,7 +8408,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "EGY",
       "away": "IRN",
@@ -8595,7 +8595,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NZL",
       "away": "BEL",
@@ -8766,7 +8766,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CRO",
       "away": "GHA",
@@ -8889,7 +8889,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "PAN",
       "away": "ENG",
@@ -9012,7 +9012,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "COL",
       "away": "POR",
@@ -9071,7 +9071,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "COD",
       "away": "UZB",
@@ -9258,7 +9258,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ALG",
       "away": "AUT",
@@ -9413,7 +9413,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "JOR",
       "away": "ARG",
@@ -9568,7 +9568,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "RSA",
       "away": "CAN",
@@ -9659,7 +9659,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BRA",
       "away": "JPN",
@@ -9830,7 +9830,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "GER",
       "away": "PAR",
@@ -9969,7 +9969,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NED",
       "away": "MAR",
@@ -10060,7 +10060,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CIV",
       "away": "NOR",
@@ -10167,7 +10167,7 @@
       "period": 2,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "SWE",
@@ -10258,7 +10258,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "MEX",
       "away": "ECU",
@@ -10397,7 +10397,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ENG",
       "away": "COD",
@@ -10520,7 +10520,7 @@
       "period": 4,
       "displayClock": "120'+12'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BEL",
       "away": "SEN",
@@ -10675,7 +10675,7 @@
       "period": 2,
       "displayClock": "90'+10'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "USA",
       "away": "BIH",
@@ -10782,7 +10782,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ESP",
       "away": "AUT",
@@ -10889,7 +10889,7 @@
       "period": 2,
       "displayClock": "90'+19'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "POR",
       "away": "CRO",
@@ -11028,7 +11028,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SUI",
       "away": "ALG",
@@ -11135,7 +11135,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "AUS",
       "away": "EGY",
@@ -11242,7 +11242,7 @@
       "period": 4,
       "displayClock": "120'+3'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ARG",
       "away": "CPV",
@@ -11397,7 +11397,7 @@
       "period": 2,
       "displayClock": "90'+8'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "COL",
       "away": "GHA",
@@ -11536,7 +11536,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "CAN",
       "away": "MAR",
@@ -11755,7 +11755,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "PAR",
       "away": "FRA",
@@ -11862,7 +11862,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "BRA",
       "away": "NOR",
@@ -11969,7 +11969,7 @@
       "period": 2,
       "displayClock": "90'+12'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "MEX",
       "away": "ENG",
@@ -12204,7 +12204,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "POR",
       "away": "ESP",
@@ -12311,7 +12311,7 @@
       "period": 2,
       "displayClock": "90'+4'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "USA",
       "away": "BEL",
@@ -12466,7 +12466,7 @@
       "period": 2,
       "displayClock": "90'+11'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ARG",
       "away": "EGY",
@@ -12653,7 +12653,7 @@
       "period": 5,
       "displayClock": "120'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "SUI",
       "away": "COL",
@@ -12776,7 +12776,7 @@
       "period": 2,
       "displayClock": "90'+6'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "MAR",
@@ -12867,7 +12867,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ESP",
       "away": "BEL",
@@ -13022,7 +13022,7 @@
       "period": 4,
       "displayClock": "120'+2'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "NOR",
       "away": "ENG",
@@ -13129,7 +13129,7 @@
       "period": 4,
       "displayClock": "120'+4'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ARG",
       "away": "SUI",
@@ -13316,7 +13316,7 @@
       "period": 2,
       "displayClock": "90'+7'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "ESP",
@@ -13439,7 +13439,7 @@
       "period": 2,
       "displayClock": "90'+12'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ENG",
       "away": "ARG",
@@ -13594,7 +13594,7 @@
       "period": 2,
       "displayClock": "90'+9'",
       "clockSeconds": 5400,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "FRA",
       "away": "ENG",
@@ -13797,7 +13797,7 @@
       "period": 4,
       "displayClock": "120'+5'",
       "clockSeconds": 7200,
-      "clockSnapshotAt": "2026-09-15T15:37:00.927Z",
+      "clockSnapshotAt": "2026-10-08T08:05:28.606Z",
       "progress": 100,
       "home": "ESP",
       "away": "ARG",
@@ -14132,8 +14132,8 @@
           "nameZhSource": "auto",
           "shortName": "B. Gutiérrez",
           "number": "26",
-          "position": "后卫",
-          "age": 19,
+          "position": "中场",
+          "age": 23,
           "injuries": []
         },
         {
@@ -14239,6 +14239,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T02:00Z",
+          "opponent": "美国",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-30T01:00Z",
+          "opponent": "Peru",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T01:00Z",
+          "opponent": "哥伦比亚",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-06T01:00Z",
           "opponent": "英格兰",
           "score": "2-3",
@@ -14285,27 +14306,6 @@
           "opponent": "澳大利亚",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-05-23T02:00Z",
-          "opponent": "加纳",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-04-01T01:00Z",
-          "opponent": "比利时",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-29T01:00Z",
-          "opponent": "葡萄牙",
-          "score": "0-0",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -14370,7 +14370,7 @@
           "shortName": "N. Sibisi",
           "number": "19",
           "position": "后卫",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -14458,7 +14458,7 @@
           "shortName": "M. Mbokazi",
           "number": "14",
           "position": "后卫",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -14579,7 +14579,7 @@
           "shortName": "T. Moremi",
           "number": "8",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -14607,6 +14607,27 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-04T18:00Z",
+          "opponent": "埃及",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-30T16:00Z",
+          "opponent": "Eritrea",
+          "score": "5-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T13:00Z",
+          "opponent": "Guinea",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-28T19:00Z",
           "opponent": "加拿大",
@@ -14655,27 +14676,6 @@
           "score": "1-2",
           "result": "L",
           "competition": ""
-        },
-        {
-          "date": "2026-03-27T17:00Z",
-          "opponent": "巴拿马",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-04T19:00Z",
-          "opponent": "Cameroon",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-29T16:00Z",
-          "opponent": "Zimbabwe",
-          "score": "3-2",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -14695,7 +14695,7 @@
           "shortName": "K. Seung-Gyu",
           "number": "1",
           "position": "门将",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -14706,7 +14706,7 @@
           "shortName": "J. Hyeon-Woo",
           "number": "21",
           "position": "门将",
-          "age": 34,
+          "age": 35,
           "injuries": []
         },
         {
@@ -14750,7 +14750,7 @@
           "shortName": "K. Tae-Hyeon",
           "number": "5",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -14849,7 +14849,7 @@
           "shortName": "L. Dong-Gyeong",
           "number": "26",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -14871,7 +14871,7 @@
           "shortName": "H. In-Beom",
           "number": "6",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -14977,6 +14977,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T11:00Z",
+          "opponent": "乌兹别克斯坦",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T11:00Z",
+          "opponent": "Venezuela",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T11:00Z",
+          "opponent": "乌拉圭",
+          "score": "1-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T11:00Z",
+          "opponent": "厄瓜多尔",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-25T01:00Z",
           "opponent": "南非",
           "score": "0-1",
@@ -15016,34 +15044,6 @@
           "opponent": "奥地利",
           "score": "0-1",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-28T14:00Z",
-          "opponent": "科特迪瓦",
-          "score": "0-4",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T11:00Z",
-          "opponent": "加纳",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T11:00Z",
-          "opponent": "Bolivia",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T11:00Z",
-          "opponent": "巴拉圭",
-          "score": "2-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -15346,6 +15346,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "英格兰",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T18:45Z",
+          "opponent": "西班牙",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "英格兰",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:45Z",
+          "opponent": "克罗地亚",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-06-25T01:00Z",
           "opponent": "墨西哥",
           "score": "0-3",
@@ -15385,34 +15413,6 @@
           "opponent": "Denmark",
           "score": "2-2",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T19:45Z",
-          "opponent": "Republic of Ireland",
-          "score": "2-2",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-17T19:45Z",
-          "opponent": "Gibraltar",
-          "score": "6-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T17:00Z",
-          "opponent": "San Marino",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-12T16:00Z",
-          "opponent": "Faroe Islands",
-          "score": "1-2",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -15509,8 +15509,8 @@
           "nameZhSource": "auto",
           "shortName": "A. Jones",
           "number": "3",
-          "position": "后卫",
-          "age": 28,
+          "position": "中场",
+          "age": 29,
           "injuries": []
         },
         {
@@ -15521,7 +15521,7 @@
           "shortName": "A. Johnston",
           "number": "2",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -15642,7 +15642,7 @@
           "shortName": "L. Millar",
           "number": "11",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -15664,7 +15664,7 @@
           "shortName": "J. Nelson",
           "number": "26",
           "position": "前锋",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -15714,6 +15714,20 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-03T18:00Z",
+          "opponent": "Peru",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T23:00Z",
+          "opponent": "Chile",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-07-04T17:00Z",
           "opponent": "摩洛哥",
@@ -15769,20 +15783,6 @@
           "score": "0-0",
           "result": "D",
           "competition": ""
-        },
-        {
-          "date": "2026-03-28T17:00Z",
-          "opponent": "Iceland",
-          "score": "2-2",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-18T03:00Z",
-          "opponent": "Guatemala",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
         }
       ]
     },
@@ -15824,7 +15824,7 @@
           "shortName": "M. Jurkas",
           "number": "12",
           "position": "门将",
-          "age": 18,
+          "age": 19,
           "injuries": []
         },
         {
@@ -16077,12 +16077,40 @@
           "shortName": "K. Alajbegovic",
           "number": "19",
           "position": "前锋",
-          "age": 18,
+          "age": 19,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-05T18:45Z",
+          "opponent": "Poland",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T18:45Z",
+          "opponent": "瑞典",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T18:45Z",
+          "opponent": "Romania",
+          "score": "4-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T18:45Z",
+          "opponent": "Poland",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
         {
           "date": "2026-07-02T00:00Z",
           "opponent": "美国",
@@ -16123,34 +16151,6 @@
           "opponent": "North Macedonia",
           "score": "0-0",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T18:45Z",
-          "opponent": "Italy",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T19:45Z",
-          "opponent": "Wales",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "奥地利",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T19:45Z",
-          "opponent": "Romania",
-          "score": "3-1",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -16215,7 +16215,7 @@
           "shortName": "T. Ream",
           "number": "13",
           "position": "后卫",
-          "age": 38,
+          "age": 39,
           "injuries": []
         },
         {
@@ -16325,7 +16325,7 @@
           "shortName": "C. Pulisic",
           "number": "10",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -16453,6 +16453,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T02:00Z",
+          "opponent": "墨西哥",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-30T00:00Z",
+          "opponent": "Chile",
+          "score": "4-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T20:30Z",
+          "opponent": "Peru",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-07T00:00Z",
           "opponent": "比利时",
           "score": "1-4",
@@ -16498,27 +16519,6 @@
           "date": "2026-05-31T19:30Z",
           "opponent": "塞内加尔",
           "score": "3-2",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T23:00Z",
-          "opponent": "葡萄牙",
-          "score": "0-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-28T19:30Z",
-          "opponent": "比利时",
-          "score": "2-5",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-19T00:00Z",
-          "opponent": "乌拉圭",
-          "score": "5-1",
           "result": "W",
           "competition": ""
         }
@@ -16760,7 +16760,7 @@
           "shortName": "G. Caballero",
           "number": "24",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -16822,6 +16822,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-03T00:00Z",
+          "opponent": "哥伦比亚",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T20:30Z",
+          "opponent": "Bolivia",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-04T21:00Z",
           "opponent": "法国",
           "score": "0-1",
@@ -16875,20 +16889,6 @@
           "opponent": "Greece",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-19T01:30Z",
-          "opponent": "墨西哥",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T22:00Z",
-          "opponent": "美国",
-          "score": "1-2",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -17052,7 +17052,7 @@
           "shortName": "K. Boudiaf",
           "number": "12",
           "position": "中场",
-          "age": 35,
+          "age": 36,
           "injuries": []
         },
         {
@@ -17173,7 +17173,7 @@
           "shortName": "A. Al-Ganehi",
           "number": "17",
           "position": "前锋",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -17190,6 +17190,34 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-03T16:00Z",
+          "opponent": "沙特阿拉伯",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-30T17:30Z",
+          "opponent": "United Arab Emirates",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T15:00Z",
+          "opponent": "Yemen",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:00Z",
+          "opponent": "Bahrain",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-24T19:00Z",
           "opponent": "波黑",
@@ -17230,34 +17258,6 @@
           "opponent": "Zimbabwe",
           "score": "1-2",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T17:00Z",
-          "opponent": "United Arab Emirates",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-08T15:00Z",
-          "opponent": "Oman",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-09-07T15:15Z",
-          "opponent": "Russia",
-          "score": "1-4",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-09-03T15:15Z",
-          "opponent": "Bahrain",
-          "score": "2-2",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -17333,7 +17333,7 @@
           "shortName": "N. Elvedi",
           "number": "4",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -17399,7 +17399,7 @@
           "shortName": "G. Xhaka",
           "number": "10",
           "position": "中场",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -17560,6 +17560,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "North Macedonia",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T18:45Z",
+          "opponent": "Slovenia",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "苏格兰",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:45Z",
+          "opponent": "North Macedonia",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-12T01:00Z",
           "opponent": "阿根廷",
           "score": "1-3",
@@ -17600,34 +17628,6 @@
           "score": "1-1",
           "result": "D",
           "competition": ""
-        },
-        {
-          "date": "2026-06-06T19:00Z",
-          "opponent": "澳大利亚",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-05-31T13:00Z",
-          "opponent": "约旦",
-          "score": "4-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T16:00Z",
-          "opponent": "挪威",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T19:45Z",
-          "opponent": "德国",
-          "score": "3-4",
-          "result": "L",
-          "competition": ""
         }
       ]
     },
@@ -17658,7 +17658,7 @@
           "shortName": "A. Becker",
           "number": "1",
           "position": "门将",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -17929,6 +17929,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-03T14:00Z",
+          "opponent": "India",
+          "score": "4-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T10:00Z",
+          "opponent": "澳大利亚",
+          "score": "4-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T10:00Z",
+          "opponent": "澳大利亚",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-05T20:00Z",
           "opponent": "挪威",
           "score": "1-2",
@@ -17975,27 +17996,6 @@
           "opponent": "巴拿马",
           "score": "6-2",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-04-01T00:00Z",
-          "opponent": "克罗地亚",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T20:00Z",
-          "opponent": "法国",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:30Z",
-          "opponent": "突尼斯",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -18137,7 +18137,7 @@
           "shortName": "Y. Belammari",
           "number": "19",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -18214,7 +18214,7 @@
           "shortName": "A. Bouaddi",
           "number": "6",
           "position": "中场",
-          "age": 18,
+          "age": 19,
           "injuries": []
         },
         {
@@ -18225,7 +18225,7 @@
           "shortName": "S. El Mourabet",
           "number": "15",
           "position": "中场",
-          "age": 20,
+          "age": 21,
           "injuries": []
         },
         {
@@ -18298,6 +18298,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:00Z",
+          "opponent": "Mali",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T13:00Z",
+          "opponent": "Lesotho",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T19:00Z",
+          "opponent": "Gabon",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-09T20:00Z",
           "opponent": "法国",
           "score": "0-2",
@@ -18344,27 +18365,6 @@
           "opponent": "挪威",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-02T17:00Z",
-          "opponent": "Madagascar",
-          "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-05-26T11:00Z",
-          "opponent": "Burundi",
-          "score": "5-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T18:00Z",
-          "opponent": "巴拉圭",
-          "score": "2-1",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -18649,7 +18649,7 @@
           "shortName": "J. Casimir",
           "number": "21",
           "position": "前锋",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -18666,6 +18666,34 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-05T00:00Z",
+          "opponent": "哥斯达黎加",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T00:00Z",
+          "opponent": "Dominican Republic",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T23:00Z",
+          "opponent": "哥斯达黎加",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T00:20Z",
+          "opponent": "Trinidad and Tobago",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-24T22:00Z",
           "opponent": "摩洛哥",
@@ -18706,34 +18734,6 @@
           "opponent": "Iceland",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-29T00:00Z",
-          "opponent": "突尼斯",
-          "score": "0-1",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-19T01:00Z",
-          "opponent": "Nicaragua",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T02:00Z",
-          "opponent": "哥斯达黎加",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T00:00Z",
-          "opponent": "Honduras",
-          "score": "0-3",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -18809,7 +18809,7 @@
           "shortName": "J. Souttar",
           "number": "15",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -18974,7 +18974,7 @@
           "shortName": "L. Dykes",
           "number": "9",
           "position": "前锋",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -19029,12 +19029,40 @@
           "shortName": "F. Curtis",
           "number": "25",
           "position": "前锋",
-          "age": 19,
+          "age": 20,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "Slovenia",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T18:45Z",
+          "opponent": "North Macedonia",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "瑞士",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T13:00Z",
+          "opponent": "Slovenia",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
         {
           "date": "2026-06-24T22:00Z",
           "opponent": "巴西",
@@ -19075,34 +19103,6 @@
           "opponent": "科特迪瓦",
           "score": "0-1",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-28T17:00Z",
-          "opponent": "日本",
-          "score": "0-1",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "Denmark",
-          "score": "4-2",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T19:45Z",
-          "opponent": "Greece",
-          "score": "2-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-12T16:00Z",
-          "opponent": "Belarus",
-          "score": "2-1",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -19405,6 +19405,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-29T10:00Z",
+          "opponent": "巴西",
+          "score": "2-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T10:00Z",
+          "opponent": "巴西",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-03T18:00Z",
           "opponent": "埃及",
           "score": "1-1",
@@ -19458,20 +19472,6 @@
           "opponent": "Cameroon",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-19T01:30Z",
-          "opponent": "哥伦比亚",
-          "score": "0-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T02:30Z",
-          "opponent": "Venezuela",
-          "score": "0-1",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -19558,7 +19558,7 @@
           "shortName": "F. Kadioglu",
           "number": "20",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -19774,6 +19774,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-05T18:45Z",
+          "opponent": "Italy",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T18:45Z",
+          "opponent": "比利时",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T18:45Z",
+          "opponent": "Italy",
+          "score": "1-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T18:45Z",
+          "opponent": "法国",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-06-26T02:00Z",
           "opponent": "美国",
           "score": "3-2",
@@ -19812,34 +19840,6 @@
           "date": "2026-03-31T18:45Z",
           "opponent": "Kosovo",
           "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T17:00Z",
-          "opponent": "Romania",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "西班牙",
-          "score": "2-2",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T17:00Z",
-          "opponent": "Bulgaria",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T18:45Z",
-          "opponent": "Georgia",
-          "score": "4-1",
           "result": "W",
           "competition": ""
         }
@@ -19883,7 +19883,7 @@
           "shortName": "A. Nübel",
           "number": "21",
           "position": "门将",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -20053,12 +20053,12 @@
         },
         {
           "id": "359370",
-          "name": "Aleksandar Pavlović",
+          "name": "Aleksandar Pavlovic",
           "nameZh": "阿莱克萨恩德阿尔·普阿维洛维克",
           "nameZhSource": "auto",
-          "shortName": "A. Pavlović",
+          "shortName": "A. Pavlovic",
           "number": "5",
-          "position": "后卫",
+          "position": "中场",
           "age": 22,
           "injuries": []
         },
@@ -20143,6 +20143,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:45Z",
+          "opponent": "Greece",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T18:45Z",
+          "opponent": "Serbia",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T18:45Z",
+          "opponent": "Greece",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:45Z",
+          "opponent": "荷兰",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-29T20:30Z",
           "opponent": "巴拉圭",
           "score": "1-1",
@@ -20181,34 +20209,6 @@
           "date": "2026-05-31T18:45Z",
           "opponent": "Finland",
           "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-30T18:45Z",
-          "opponent": "加纳",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T19:45Z",
-          "opponent": "瑞士",
-          "score": "4-3",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-17T19:45Z",
-          "opponent": "Slovakia",
-          "score": "6-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T19:45Z",
-          "opponent": "Luxembourg",
-          "score": "2-0",
           "result": "W",
           "competition": ""
         }
@@ -20450,7 +20450,7 @@
           "shortName": "B. Kuwas",
           "number": "17",
           "position": "前锋",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -20472,7 +20472,7 @@
           "shortName": "K. Gorré",
           "number": "14",
           "position": "前锋",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -20512,6 +20512,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T22:00Z",
+          "opponent": "Trinidad and Tobago",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T22:00Z",
+          "opponent": "Trinidad and Tobago",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T00:00Z",
+          "opponent": "Nicaragua",
+          "score": "6-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T02:00Z",
+          "opponent": "哥斯达黎加",
+          "score": "4-3",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-25T20:00Z",
           "opponent": "科特迪瓦",
           "score": "0-2",
@@ -20550,13 +20578,6 @@
           "date": "2026-03-31T09:10Z",
           "opponent": "澳大利亚",
           "score": "1-5",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T06:00Z",
-          "opponent": "China",
-          "score": "0-2",
           "result": "L",
           "competition": ""
         }
@@ -20860,6 +20881,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:45Z",
+          "opponent": "Serbia",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T18:45Z",
+          "opponent": "Greece",
+          "score": "2-2",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T16:00Z",
+          "opponent": "Serbia",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:45Z",
+          "opponent": "德国",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-30T01:00Z",
           "opponent": "摩洛哥",
           "score": "1-1",
@@ -20899,34 +20948,6 @@
           "opponent": "阿尔及利亚",
           "score": "0-1",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T18:45Z",
-          "opponent": "厄瓜多尔",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T19:45Z",
-          "opponent": "挪威",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-17T19:45Z",
-          "opponent": "Lithuania",
-          "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T19:45Z",
-          "opponent": "Poland",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -21229,6 +21250,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-28T10:25Z",
+          "opponent": "Venezuela",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T10:05Z",
+          "opponent": "乌拉圭",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-29T17:00Z",
           "opponent": "巴西",
           "score": "1-2",
@@ -21281,20 +21316,6 @@
           "date": "2025-11-18T10:15Z",
           "opponent": "Bolivia",
           "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T10:20Z",
-          "opponent": "加纳",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T10:30Z",
-          "opponent": "巴西",
-          "score": "3-2",
           "result": "W",
           "competition": ""
         }
@@ -21598,6 +21619,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-03T19:00Z",
+          "opponent": "Cameroon",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T19:00Z",
+          "opponent": "Somalia",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T19:00Z",
+          "opponent": "加纳",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-30T17:00Z",
           "opponent": "挪威",
           "score": "1-2",
@@ -21643,27 +21685,6 @@
           "date": "2026-03-28T14:00Z",
           "opponent": "韩国",
           "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-10T19:00Z",
-          "opponent": "埃及",
-          "score": "2-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-06T19:00Z",
-          "opponent": "Burkina Faso",
-          "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-31T19:00Z",
-          "opponent": "Gabon",
-          "score": "3-2",
           "result": "W",
           "competition": ""
         }
@@ -21915,8 +21936,8 @@
           "nameZhSource": "auto",
           "shortName": "K. Rodríguez",
           "number": "11",
-          "position": "前锋",
-          "age": 26,
+          "position": "后卫",
+          "age": 20,
           "injuries": []
         },
         {
@@ -21966,6 +21987,13 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-09-24T11:00Z",
+          "opponent": "韩国",
+          "score": "0-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-07-01T02:00Z",
           "opponent": "墨西哥",
@@ -22027,13 +22055,6 @@
           "opponent": "新西兰",
           "score": "2-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T00:30Z",
-          "opponent": "加拿大",
-          "score": "0-0",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -22175,7 +22196,7 @@
           "shortName": "K. Sema",
           "number": "13",
           "position": "中场",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -22208,7 +22229,7 @@
           "shortName": "Y. Ayari",
           "number": "18",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -22274,7 +22295,7 @@
           "shortName": "A. Isak",
           "number": "9",
           "position": "前锋",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -22336,6 +22357,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-05T18:45Z",
+          "opponent": "Romania",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T18:45Z",
+          "opponent": "波黑",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T18:45Z",
+          "opponent": "Poland",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T18:45Z",
+          "opponent": "Romania",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-30T21:00Z",
           "opponent": "法国",
           "score": "0-3",
@@ -22374,34 +22423,6 @@
           "date": "2026-06-01T17:00Z",
           "opponent": "挪威",
           "score": "1-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T18:45Z",
-          "opponent": "Poland",
-          "score": "3-2",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T19:45Z",
-          "opponent": "Ukraine",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "Slovenia",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T19:45Z",
-          "opponent": "瑞士",
-          "score": "1-4",
           "result": "L",
           "competition": ""
         }
@@ -22698,12 +22719,26 @@
           "shortName": "R. Elloumi",
           "number": "18",
           "position": "前锋",
-          "age": 18,
+          "age": 19,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-09-28T19:00Z",
+          "opponent": "Botswana",
+          "score": "2-2",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T19:00Z",
+          "opponent": "Uganda",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
         {
           "date": "2026-06-25T23:00Z",
           "opponent": "荷兰",
@@ -22758,20 +22793,6 @@
           "opponent": "Mali",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-30T16:00Z",
-          "opponent": "Tanzania",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-27T20:00Z",
-          "opponent": "Nigeria",
-          "score": "2-3",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -22847,7 +22868,7 @@
           "shortName": "A. Grimaldo",
           "number": "3",
           "position": "后卫",
-          "age": 30,
+          "age": 31,
           "injuries": []
         },
         {
@@ -23074,6 +23095,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "克罗地亚",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T18:45Z",
+          "opponent": "捷克",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "克罗地亚",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:45Z",
+          "opponent": "英格兰",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-19T19:00Z",
           "opponent": "阿根廷",
           "score": "1-0",
@@ -23113,34 +23162,6 @@
           "opponent": "乌拉圭",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-21T16:00Z",
-          "opponent": "沙特阿拉伯",
-          "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-15T16:00Z",
-          "opponent": "佛得角",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-09T02:00Z",
-          "opponent": "Peru",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-04T19:00Z",
-          "opponent": "伊拉克",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -23249,7 +23270,7 @@
           "shortName": "S. Lopes Cabral",
           "number": "13",
           "position": "后卫",
-          "age": 23,
+          "age": 24,
           "injuries": []
         },
         {
@@ -23443,6 +23464,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-29T16:00Z",
+          "opponent": "Rwanda",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T19:00Z",
+          "opponent": "Mali",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-07-03T22:00Z",
           "opponent": "阿根廷",
           "score": "2-3",
@@ -23496,20 +23531,6 @@
           "opponent": "埃及",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T16:00Z",
-          "opponent": "伊朗",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-13T16:00Z",
-          "opponent": "Eswatini",
-          "score": "3-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -23750,7 +23771,7 @@
           "shortName": "D. Lukébakio",
           "number": "14",
           "position": "前锋",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -23812,6 +23833,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-05T18:45Z",
+          "opponent": "法国",
+          "score": "1-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T18:45Z",
+          "opponent": "土耳其",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T18:45Z",
+          "opponent": "法国",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T18:45Z",
+          "opponent": "Italy",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-10T19:00Z",
           "opponent": "西班牙",
           "score": "1-2",
@@ -23851,34 +23900,6 @@
           "opponent": "埃及",
           "score": "1-1",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-06T13:00Z",
-          "opponent": "突尼斯",
-          "score": "5-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-02T16:00Z",
-          "opponent": "克罗地亚",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-04-01T01:00Z",
-          "opponent": "墨西哥",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-28T19:30Z",
-          "opponent": "美国",
-          "score": "5-2",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -24031,7 +24052,7 @@
           "shortName": "H. Fathy",
           "number": "14",
           "position": "中场",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -24107,8 +24128,8 @@
           "nameZhSource": "auto",
           "shortName": "Trézéguet",
           "number": "7",
-          "position": "前锋",
-          "age": 31,
+          "position": "中场",
+          "age": 32,
           "injuries": []
         },
         {
@@ -24181,6 +24202,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:00Z",
+          "opponent": "南非",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T13:00Z",
+          "opponent": "South Sudan",
+          "score": "5-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T19:00Z",
+          "opponent": "Angola",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-07T16:00Z",
           "opponent": "阿根廷",
           "score": "2-3",
@@ -24227,27 +24269,6 @@
           "opponent": "Russia",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T19:00Z",
-          "opponent": "西班牙",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T17:30Z",
-          "opponent": "沙特阿拉伯",
-          "score": "4-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-17T16:00Z",
-          "opponent": "Nigeria",
-          "score": "0-0",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -24301,7 +24322,7 @@
           "shortName": "H. Kadish",
           "number": "14",
           "position": "后卫",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -24367,7 +24388,7 @@
           "shortName": "N. Boushal",
           "number": "13",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -24378,7 +24399,7 @@
           "shortName": "A. Majrashi",
           "number": "2",
           "position": "后卫",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -24411,7 +24432,7 @@
           "shortName": "M. Kanno",
           "number": "23",
           "position": "中场",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -24550,6 +24571,41 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:00Z",
+          "opponent": "United Arab Emirates",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T16:00Z",
+          "opponent": "卡塔尔",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T17:30Z",
+          "opponent": "伊拉克",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:00Z",
+          "opponent": "Oman",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-23T18:00Z",
+          "opponent": "Kuwait",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-06-27T00:00Z",
           "opponent": "佛得角",
           "score": "0-0",
@@ -24581,41 +24637,6 @@
           "date": "2026-06-05T23:00Z",
           "opponent": "Puerto Rico",
           "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-05-30T23:30Z",
-          "opponent": "厄瓜多尔",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T16:00Z",
-          "opponent": "Serbia",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T17:30Z",
-          "opponent": "埃及",
-          "score": "0-4",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T16:30Z",
-          "opponent": "阿尔及利亚",
-          "score": "0-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T16:30Z",
-          "opponent": "科特迪瓦",
-          "score": "1-0",
           "result": "W",
           "competition": ""
         }
@@ -24879,7 +24900,7 @@
           "shortName": "R. Aguirre",
           "number": "19",
           "position": "前锋",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -24890,7 +24911,7 @@
           "shortName": "A. Canobbio",
           "number": "14",
           "position": "前锋",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -24918,6 +24939,20 @@
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-09-28T11:00Z",
+          "opponent": "韩国",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T10:05Z",
+          "opponent": "日本",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-06-27T00:00Z",
           "opponent": "西班牙",
@@ -24973,20 +25008,6 @@
           "score": "2-1",
           "result": "W",
           "competition": ""
-        },
-        {
-          "date": "2025-10-10T12:45Z",
-          "opponent": "Dominican Republic",
-          "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-09-09T23:30Z",
-          "opponent": "Chile",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
         }
       ]
     },
@@ -25017,7 +25038,7 @@
           "shortName": "A. Beiranvand",
           "number": "1",
           "position": "门将",
-          "age": 33,
+          "age": 34,
           "injuries": []
         },
         {
@@ -25072,7 +25093,7 @@
           "shortName": "M. Mohammadi",
           "number": "5",
           "position": "后卫",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -25149,7 +25170,7 @@
           "shortName": "S. Ezatolahi",
           "number": "6",
           "position": "中场",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -25204,7 +25225,7 @@
           "shortName": "M. Ghorbani",
           "number": "21",
           "position": "中场",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -25288,6 +25309,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-29T16:00Z",
+          "opponent": "Russia",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T14:00Z",
+          "opponent": "乌兹别克斯坦",
+          "score": "1-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-06-27T03:00Z",
           "opponent": "埃及",
           "score": "1-1",
@@ -25341,20 +25376,6 @@
           "opponent": "乌兹别克斯坦",
           "score": "0-0",
           "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T16:00Z",
-          "opponent": "佛得角",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T15:00Z",
-          "opponent": "Tanzania",
-          "score": "2-0",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -25452,7 +25473,7 @@
           "shortName": "L. Cacace",
           "number": "13",
           "position": "后卫",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -25485,7 +25506,7 @@
           "shortName": "F. Surman",
           "number": "16",
           "position": "后卫",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -25657,6 +25678,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-27T11:35Z",
+          "opponent": "China",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T09:30Z",
+          "opponent": "Palestine",
+          "score": "2-2",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-27T03:00Z",
           "opponent": "比利时",
           "score": "1-5",
@@ -25710,20 +25745,6 @@
           "opponent": "厄瓜多尔",
           "score": "0-2",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-16T00:30Z",
-          "opponent": "哥伦比亚",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T16:00Z",
-          "opponent": "挪威",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -25821,7 +25842,7 @@
           "shortName": "T. Hernández",
           "number": "19",
           "position": "后卫",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -26026,6 +26047,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-05T18:45Z",
+          "opponent": "比利时",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-02T18:45Z",
+          "opponent": "Italy",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T18:45Z",
+          "opponent": "比利时",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T18:45Z",
+          "opponent": "土耳其",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-18T21:00Z",
           "opponent": "英格兰",
           "score": "4-6",
@@ -26065,34 +26114,6 @@
           "opponent": "挪威",
           "score": "4-1",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-22T21:00Z",
-          "opponent": "伊拉克",
-          "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-16T19:00Z",
-          "opponent": "塞内加尔",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-08T19:10Z",
-          "opponent": "Northern Ireland",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-04T19:10Z",
-          "opponent": "科特迪瓦",
-          "score": "1-2",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -26200,7 +26221,7 @@
           "nameZhSource": "auto",
           "shortName": "M. Sarr",
           "number": "2",
-          "position": "后卫",
+          "position": "前锋",
           "age": 21,
           "injuries": []
         },
@@ -26234,7 +26255,7 @@
           "shortName": "I. Gueye",
           "number": "5",
           "position": "中场",
-          "age": 36,
+          "age": 37,
           "injuries": []
         },
         {
@@ -26395,6 +26416,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T13:00Z",
+          "opponent": "Comoros",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T13:00Z",
+          "opponent": "Ethiopia",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T13:00Z",
+          "opponent": "Mozambique",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-01T20:00Z",
           "opponent": "比利时",
           "score": "2-3",
@@ -26440,27 +26482,6 @@
           "date": "2026-03-31T19:00Z",
           "opponent": "Gambia",
           "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-28T16:00Z",
-          "opponent": "Peru",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-18T19:00Z",
-          "opponent": "摩洛哥",
-          "score": "0-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-14T17:00Z",
-          "opponent": "埃及",
-          "score": "1-0",
           "result": "W",
           "competition": ""
         }
@@ -26570,7 +26591,7 @@
           "shortName": "Ahmed Hasan",
           "number": "15",
           "position": "后卫",
-          "age": 24,
+          "age": 25,
           "injuries": []
         },
         {
@@ -26764,6 +26785,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-29T17:30Z",
+          "opponent": "沙特阿拉伯",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T15:55Z",
+          "opponent": "Kuwait",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-23T14:30Z",
+          "opponent": "Oman",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-26T19:00Z",
           "opponent": "塞内加尔",
           "score": "0-5",
@@ -26810,27 +26852,6 @@
           "opponent": "Bolivia",
           "score": "2-1",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T16:00Z",
-          "opponent": "United Arab Emirates",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-13T16:00Z",
-          "opponent": "United Arab Emirates",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T18:45Z",
-          "opponent": "沙特阿拉伯",
-          "score": "0-0",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -27133,6 +27154,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:45Z",
+          "opponent": "葡萄牙",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T18:45Z",
+          "opponent": "Wales",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T18:45Z",
+          "opponent": "葡萄牙",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:45Z",
+          "opponent": "Denmark",
+          "score": "3-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-11T21:00Z",
           "opponent": "英格兰",
           "score": "1-2",
@@ -27172,34 +27221,6 @@
           "opponent": "伊拉克",
           "score": "4-1",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-07T19:00Z",
-          "opponent": "摩洛哥",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-01T17:00Z",
-          "opponent": "瑞典",
-          "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T16:00Z",
-          "opponent": "瑞士",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T19:45Z",
-          "opponent": "荷兰",
-          "score": "1-2",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -27396,7 +27417,7 @@
           "shortName": "E. Palacios",
           "number": "14",
           "position": "中场",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -27502,6 +27523,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T00:00Z",
+          "opponent": "Burkina Faso",
+          "score": "7-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T00:00Z",
+          "opponent": "Bolivia",
+          "score": "4-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-19T19:00Z",
           "opponent": "西班牙",
           "score": "0-1",
@@ -27554,20 +27589,6 @@
           "date": "2026-06-17T01:00Z",
           "opponent": "阿尔及利亚",
           "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-10T01:00Z",
-          "opponent": "Iceland",
-          "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-07T00:00Z",
-          "opponent": "Honduras",
-          "score": "2-0",
           "result": "W",
           "competition": ""
         }
@@ -27743,7 +27764,7 @@
           "shortName": "H. Boudaoui",
           "number": "14",
           "position": "中场",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -27871,6 +27892,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-29T13:00Z",
+          "opponent": "Burundi",
+          "score": "2-2",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-25T19:00Z",
+          "opponent": "Zambia",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-03T03:00Z",
           "opponent": "瑞士",
           "score": "0-2",
@@ -27923,20 +27958,6 @@
           "date": "2026-03-27T19:30Z",
           "opponent": "Guatemala",
           "score": "7-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-10T16:00Z",
-          "opponent": "Nigeria",
-          "score": "0-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-06T16:00Z",
-          "opponent": "刚果（金）",
-          "score": "1-0",
           "result": "W",
           "competition": ""
         }
@@ -28046,7 +28067,7 @@
           "shortName": "K. Danso",
           "number": "3",
           "position": "后卫",
-          "age": 27,
+          "age": 28,
           "injuries": []
         },
         {
@@ -28145,7 +28166,7 @@
           "shortName": "X. Schlager",
           "number": "4",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -28229,6 +28250,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T16:00Z",
+          "opponent": "Kosovo",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T18:45Z",
+          "opponent": "Republic of Ireland",
+          "score": "2-2",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T16:00Z",
+          "opponent": "Kosovo",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:45Z",
+          "opponent": "Israel",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-02T19:00Z",
           "opponent": "西班牙",
           "score": "0-3",
@@ -28268,34 +28317,6 @@
           "opponent": "韩国",
           "score": "1-0",
           "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-27T17:00Z",
-          "opponent": "加纳",
-          "score": "5-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T19:45Z",
-          "opponent": "波黑",
-          "score": "1-1",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-15T17:00Z",
-          "opponent": "Cyprus",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-12T18:45Z",
-          "opponent": "Romania",
-          "score": "0-1",
-          "result": "L",
           "competition": ""
         }
       ]
@@ -28536,7 +28557,7 @@
           "shortName": "M. Al-Mardi",
           "number": "13",
           "position": "前锋",
-          "age": 32,
+          "age": 33,
           "injuries": []
         },
         {
@@ -28598,6 +28619,20 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T17:00Z",
+          "opponent": "Venezuela",
+          "score": "0-0",
+          "result": "D",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T17:00Z",
+          "opponent": "Syria",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-28T02:00Z",
           "opponent": "阿根廷",
           "score": "1-3",
@@ -28652,20 +28687,6 @@
           "score": "0-0",
           "result": "D",
           "competition": ""
-        },
-        {
-          "date": "2025-11-14T16:45Z",
-          "opponent": "突尼斯",
-          "score": "2-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-10-14T17:00Z",
-          "opponent": "Albania",
-          "score": "2-4",
-          "result": "L",
-          "competition": ""
         }
       ]
     },
@@ -28707,7 +28728,7 @@
           "shortName": "D. Costa",
           "number": "1",
           "position": "门将",
-          "age": 26,
+          "age": 27,
           "injuries": []
         },
         {
@@ -28872,7 +28893,7 @@
           "shortName": "J. Neves",
           "number": "15",
           "position": "中场",
-          "age": 21,
+          "age": 22,
           "injuries": []
         },
         {
@@ -28967,6 +28988,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-04T18:45Z",
+          "opponent": "挪威",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T18:45Z",
+          "opponent": "Denmark",
+          "score": "4-2",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T18:45Z",
+          "opponent": "挪威",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T18:45Z",
+          "opponent": "Wales",
+          "score": "1-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-06T19:00Z",
           "opponent": "西班牙",
           "score": "0-1",
@@ -29005,34 +29054,6 @@
           "date": "2026-06-10T19:45Z",
           "opponent": "Nigeria",
           "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-06T17:45Z",
-          "opponent": "Chile",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-31T23:00Z",
-          "opponent": "美国",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-29T01:00Z",
-          "opponent": "墨西哥",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-16T14:00Z",
-          "opponent": "Armenia",
-          "score": "9-1",
           "result": "W",
           "competition": ""
         }
@@ -29336,6 +29357,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-02T13:00Z",
+          "opponent": "Uganda",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-28T16:00Z",
+          "opponent": "Zimbabwe",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T16:00Z",
+          "opponent": "Equatorial Guinea",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-01T16:00Z",
           "opponent": "英格兰",
           "score": "1-2",
@@ -29381,27 +29423,6 @@
           "date": "2026-03-31T21:00Z",
           "opponent": "Jamaica",
           "score": "1-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-25T22:00Z",
-          "opponent": "Bermuda",
-          "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-06T16:00Z",
-          "opponent": "阿尔及利亚",
-          "score": "0-1",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-12-30T19:00Z",
-          "opponent": "Botswana",
-          "score": "3-0",
           "result": "W",
           "competition": ""
         }
@@ -29705,6 +29726,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "捷克",
+          "score": "3-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T16:00Z",
+          "opponent": "克罗地亚",
+          "score": "7-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "捷克",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:45Z",
+          "opponent": "西班牙",
+          "score": "2-3",
+          "result": "L",
+          "competition": ""
+        },
+        {
           "date": "2026-07-18T21:00Z",
           "opponent": "法国",
           "score": "6-4",
@@ -29743,34 +29792,6 @@
           "date": "2026-06-27T21:00Z",
           "opponent": "巴拿马",
           "score": "2-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-23T20:00Z",
-          "opponent": "加纳",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-17T20:00Z",
-          "opponent": "克罗地亚",
-          "score": "4-2",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-10T21:00Z",
-          "opponent": "哥斯达黎加",
-          "score": "3-0",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-06-06T20:00Z",
-          "opponent": "新西兰",
-          "score": "1-0",
           "result": "W",
           "competition": ""
         }
@@ -29825,7 +29846,7 @@
           "shortName": "D. Caleta-Car",
           "number": "5",
           "position": "后卫",
-          "age": 29,
+          "age": 30,
           "injuries": []
         },
         {
@@ -29935,7 +29956,7 @@
           "shortName": "N. Vlasic",
           "number": "13",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -30074,6 +30095,34 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T18:45Z",
+          "opponent": "西班牙",
+          "score": "1-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T16:00Z",
+          "opponent": "英格兰",
+          "score": "0-7",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-29T18:45Z",
+          "opponent": "西班牙",
+          "score": "1-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-26T18:45Z",
+          "opponent": "捷克",
+          "score": "2-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
           "date": "2026-07-02T23:00Z",
           "opponent": "葡萄牙",
           "score": "1-2",
@@ -30113,34 +30162,6 @@
           "opponent": "比利时",
           "score": "0-2",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-04-01T00:00Z",
-          "opponent": "巴西",
-          "score": "1-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T23:30Z",
-          "opponent": "哥伦比亚",
-          "score": "2-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-17T19:45Z",
-          "opponent": "Montenegro",
-          "score": "3-2",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T19:45Z",
-          "opponent": "Faroe Islands",
-          "score": "3-1",
-          "result": "W",
           "competition": ""
         }
       ]
@@ -30436,12 +30457,26 @@
           "shortName": "P. Adu",
           "number": "25",
           "position": "前锋",
-          "age": 22,
+          "age": 23,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-09-29T16:00Z",
+          "opponent": "Gambia",
+          "score": "2-4",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T19:00Z",
+          "opponent": "科特迪瓦",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
         {
           "date": "2026-07-04T01:30Z",
           "opponent": "哥伦比亚",
@@ -30495,20 +30530,6 @@
           "date": "2026-03-27T17:00Z",
           "opponent": "奥地利",
           "score": "1-5",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T11:00Z",
-          "opponent": "韩国",
-          "score": "0-1",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T10:20Z",
-          "opponent": "日本",
-          "score": "0-2",
           "result": "L",
           "competition": ""
         }
@@ -30639,8 +30660,8 @@
           "nameZhSource": "auto",
           "shortName": "J. Córdoba",
           "number": "3",
-          "position": "前锋",
-          "age": 27,
+          "position": "后卫",
+          "age": 25,
           "injuries": []
         },
         {
@@ -30812,6 +30833,13 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-09-25T14:00Z",
+          "opponent": "India",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-06-27T21:00Z",
           "opponent": "英格兰",
           "score": "0-2",
@@ -30872,13 +30900,6 @@
           "opponent": "墨西哥",
           "score": "0-1",
           "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-18T21:00Z",
-          "opponent": "Bolivia",
-          "score": "1-1",
-          "result": "D",
           "competition": ""
         }
       ]
@@ -31119,7 +31140,7 @@
           "shortName": "A. Fayzullaev",
           "number": "22",
           "position": "中场",
-          "age": 22,
+          "age": 23,
           "injuries": []
         },
         {
@@ -31173,13 +31194,34 @@
           "nameZhSource": "auto",
           "shortName": "A. Amonov",
           "number": "20",
-          "position": "后卫",
+          "position": "前锋",
           "age": 28,
           "injuries": []
         }
       ],
       "injuries": [],
       "recent": [
+        {
+          "date": "2026-10-06T11:00Z",
+          "opponent": "韩国",
+          "score": "0-2",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-01T14:00Z",
+          "opponent": "Syria",
+          "score": "4-1",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-24T14:00Z",
+          "opponent": "伊朗",
+          "score": "3-1",
+          "result": "W",
+          "competition": ""
+        },
         {
           "date": "2026-06-27T23:30Z",
           "opponent": "刚果（金）",
@@ -31226,27 +31268,6 @@
           "date": "2026-03-27T14:00Z",
           "opponent": "Gabon",
           "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-01-26T13:30Z",
-          "opponent": "China",
-          "score": "2-2",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-18T16:00Z",
-          "opponent": "伊朗",
-          "score": "0-0",
-          "result": "D",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-14T16:00Z",
-          "opponent": "埃及",
-          "score": "2-0",
           "result": "W",
           "competition": ""
         }
@@ -31301,7 +31322,7 @@
           "shortName": "D. Muñoz",
           "number": "2",
           "position": "后卫",
-          "age": 30,
+          "age": 20,
           "injuries": []
         },
         {
@@ -31334,7 +31355,7 @@
           "shortName": "Y. Mina",
           "number": "13",
           "position": "后卫",
-          "age": 31,
+          "age": 32,
           "injuries": []
         },
         {
@@ -31444,7 +31465,7 @@
           "shortName": "J. Arias",
           "number": "11",
           "position": "中场",
-          "age": 28,
+          "age": 29,
           "injuries": []
         },
         {
@@ -31477,7 +31498,7 @@
           "shortName": "K. Castaño",
           "number": "5",
           "position": "中场",
-          "age": 25,
+          "age": 26,
           "injuries": []
         },
         {
@@ -31498,8 +31519,8 @@
           "nameZhSource": "auto",
           "shortName": "J. Córdoba",
           "number": "9",
-          "position": "前锋",
-          "age": 33,
+          "position": "中场",
+          "age": 26,
           "injuries": []
         },
         {
@@ -31550,6 +31571,27 @@
       "injuries": [],
       "recent": [
         {
+          "date": "2026-10-06T23:45Z",
+          "opponent": "Peru",
+          "score": "2-0",
+          "result": "W",
+          "competition": ""
+        },
+        {
+          "date": "2026-10-03T00:00Z",
+          "opponent": "巴拉圭",
+          "score": "0-1",
+          "result": "L",
+          "competition": ""
+        },
+        {
+          "date": "2026-09-27T01:00Z",
+          "opponent": "墨西哥",
+          "score": "1-1",
+          "result": "D",
+          "competition": ""
+        },
+        {
           "date": "2026-07-07T20:00Z",
           "opponent": "瑞士",
           "score": "0-0",
@@ -31595,27 +31637,6 @@
           "date": "2026-06-01T23:00Z",
           "opponent": "哥斯达黎加",
           "score": "3-1",
-          "result": "W",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-29T19:00Z",
-          "opponent": "法国",
-          "score": "1-3",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2026-03-26T23:30Z",
-          "opponent": "克罗地亚",
-          "score": "1-2",
-          "result": "L",
-          "competition": ""
-        },
-        {
-          "date": "2025-11-19T01:30Z",
-          "opponent": "澳大利亚",
-          "score": "3-0",
           "result": "W",
           "competition": ""
         }

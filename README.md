@@ -1,4 +1,4 @@
-# 足球预测大模型 V5.3.1
+# 足球预测大模型 V5.3.2
 
 纯 HTML、CSS、JavaScript 的足球数据站，可直接部署到 GitHub Pages。V5.0 以英超、西甲、德甲、意甲、法甲为主内容，世界杯收纳为独立专题，并增强实时比分、事件时间轴和离线快照。
 
@@ -24,7 +24,7 @@
 
 五大联赛实时源：`https://site.web.api.espn.com/apis/site/v2/sports/soccer/{league}/scoreboard`
 
-联赛标识：`eng.1`、`esp.1`、`ger.1`、`ita.1`、`fra.1`。世界杯专题源：`https://raw.githubusercontent.com/xiaozhangzzza-afk/worldcast-26/main/data/live.json`
+联赛标识：`eng.1`、`esp.1`、`ger.1`、`ita.1`、`fra.1`。世界杯专题优先读取本站 `data/live.json`，失败时使用旧仓库远程数据及发布快照。
 
 实时源失败时比较发布快照和浏览器最近成功数据的时间，优先使用较新的版本；状态栏会明确显示实时、部分可用、快照或失败，不生成虚假赛程。
 
@@ -44,7 +44,7 @@ python -m http.server 8000
 
 <https://xiaozhangzzza-afk.github.io/worldcast-26-live/>
 
-发布新版本时同步更新 `service-worker.js` 的 `CACHE_NAME` 和 HTML 资源版本号（当前为 `5.3.1`）。首次打开新版本会执行一次旧缓存迁移；如仍看到旧页面，可使用强制刷新或在地址后添加 `?v=5.3.1`。
+发布新版本时同步更新 `service-worker.js` 的 `CACHE_NAME` 和 HTML 资源版本号（当前为 `5.3.2`）。首次打开新版本会执行一次旧缓存迁移；如仍看到旧页面，可使用强制刷新或在地址后添加 `?v=5.3.2`。
 
 ## 后续替换数据源
 

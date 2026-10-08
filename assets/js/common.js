@@ -5,7 +5,7 @@
     language: "football-model-language",
     theme: "football-model-theme",
     favorites: "football-model-favorites",
-    cacheMigrated: "football-model-cache-migrated-v531"
+    cacheMigrated: "football-model-cache-migrated-v532"
   };
   const pages = [
     ["home", "index.html", "首页", "Home"],
@@ -337,7 +337,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.3.1").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.3.2").catch(() => {});
       return;
     }
     try {
@@ -350,7 +350,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.3.1");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.3.2");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }

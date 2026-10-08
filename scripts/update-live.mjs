@@ -5,8 +5,9 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA_URL = 'https://site.web.api.espn.com/apis/site/v2/sports/soccer';
 const TOURNAMENT = 'fifa.world';
-const TOURNAMENT_RANGE = '20260611-20260719';
-const HISTORY_RANGE = '20250101-20260719';
+const TOURNAMENT_MONTHS = ['202606', '202607'];
+const HISTORY_YEAR = '2026';
+const previousData = await fs.readFile(path.join(root, 'data', 'live.json'), 'utf8').then(JSON.parse).catch(() => ({}));
 
 const zh = {
   ARG:'阿根廷',ALG:'阿尔及利亚',AUS:'澳大利亚',AUT:'奥地利',BEL:'比利时',BIH:'波黑',BRA:'巴西',CAN:'加拿大',CPV:'佛得角',COL:'哥伦比亚',CRC:'哥斯达黎加',CRO:'克罗地亚',CUW:'库拉索',CZE:'捷克',COD:'刚果（金）',CIV:'科特迪瓦',ECU:'厄瓜多尔',EGY:'埃及',ENG:'英格兰',FRA:'法国',GER:'德国',GHA:'加纳',HAI:'海地',IRN:'伊朗',IRQ:'伊拉克',JPN:'日本',JOR:'约旦',KOR:'韩国',MEX:'墨西哥',MAR:'摩洛哥',NED:'荷兰',NZL:'新西兰',NOR:'挪威',PAN:'巴拿马',PAR:'巴拉圭',POR:'葡萄牙',QAT:'卡塔尔',KSA:'沙特阿拉伯',SCO:'苏格兰',SEN:'塞内加尔',RSA:'南非',ESP:'西班牙',SUI:'瑞士',SWE:'瑞典',TUN:'突尼斯',TUR:'土耳其',USA:'美国',UZB:'乌兹别克斯坦',URU:'乌拉圭'
@@ -18,7 +19,7 @@ async function getJson(url, retries = 3) {
   let error;
   for (let i = 0; i < retries; i++) {
     try {
-      const response = await fetch(url, { headers: { 'user-agent': 'WorldCast26/1.0' } });
+      const response = await fetch(url, { headers: { 'user-agent': 'WorldCast26/1.0' }, signal:AbortSignal.timeout(10000) });
       if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
       return await response.json();
     } catch (e) {
@@ -236,8 +237,8 @@ async function concurrentMap(items, limit, worker) {
 }
 
 await loadCommunityPlayerNames();
-const scoreboard = await getJson(`${DATA_URL}/${TOURNAMENT}/scoreboard?dates=${TOURNAMENT_RANGE}&limit=200`);
-const sortedEvents = [...(scoreboard.events || [])].sort((a, b) => new Date(a.date) - new Date(b.date));
+const scoreboards = await Promise.all(TOURNAMENT_MONTHS.map(month => getJson(`${DATA_URL}/${TOURNAMENT}/scoreboard?dates=${month}&limit=200`)));
+const sortedEvents = [...new Map(scoreboards.flatMap(feed => feed.events || []).map(event => [event.id, event])).values()].sort((a, b) => new Date(a.date) - new Date(b.date));
 const fixtures = sortedEvents.map((event, index) => normalizeEvent(event, index + 1));
 const timelineEvents = sortedEvents.filter(event => ['in','post'].includes(event.status?.type?.state));
 const timelineData = await concurrentMap(timelineEvents, 8, async event => {
@@ -245,7 +246,8 @@ const timelineData = await concurrentMap(timelineEvents, 8, async event => {
   return { id:event.id, timeline:normalizeTimeline(summary, event) };
 });
 const timelineById = new Map(timelineData.filter(item => item && !item.error).map(item => [item.id, item.timeline]));
-for (const fixture of fixtures) fixture.timeline = timelineById.get(fixture.id) || [];
+const previousFixtures = new Map((previousData.fixtures || []).map(fixture => [String(fixture.id), fixture]));
+for (const fixture of fixtures) fixture.timeline = timelineById.get(fixture.id) || previousFixtures.get(String(fixture.id))?.timeline || [];
 const teamIndex = new Map();
 for (const event of sortedEvents) {
   for (const competitor of event.competitions?.[0]?.competitors || []) {
@@ -256,18 +258,22 @@ for (const event of sortedEvents) {
 
 const teamList = [...teamIndex.values()];
 const details = await concurrentMap(teamList, 6, async team => {
-  const [roster, schedule] = await Promise.all([
+  const prior = previousData.teams?.[team.code] || {};
+  const [rosterResult, scheduleResult] = await Promise.allSettled([
     getJson(`${DATA_URL}/${TOURNAMENT}/teams/${team.id}/roster`),
-    getJson(`${DATA_URL}/all/teams/${team.id}/schedule?dates=${HISTORY_RANGE}`)
+    getJson(`${DATA_URL}/all/teams/${team.id}/schedule?dates=${HISTORY_YEAR}`)
   ]);
-  const players = (roster.athletes || []).map(a => ({
+  const athletes = rosterResult.status === 'fulfilled' ? rosterResult.value.athletes || [] : [];
+  const players = athletes.length ? athletes.map(a => ({
     id:a.id, name:a.displayName, nameZh:chinesePlayerName(a.displayName), nameZhSource:chinesePlayerNameSource(a.displayName), shortName:a.shortName, number:a.jersey || '', position:positionZh[a.position?.displayName] || a.position?.displayName || '球员', age:a.age || null,
     injuries:(a.injuries || []).map(i => ({ status:i.status || i.type?.description || '伤情待确认', detail:i.details || i.detail || i.description || '', date:i.date || '' }))
-  }));
-  return { ...team, players, injuries:players.flatMap(p => p.injuries.map(i => ({ player:p.name, ...i }))), recent:recentForTeam(schedule, team.code) };
+  })) : prior.players || [];
+  const fetchedRecent = scheduleResult.status === 'fulfilled' ? recentForTeam(scheduleResult.value, team.code) : [];
+  const recent = fetchedRecent.length >= (prior.recent?.length || 0) ? fetchedRecent : prior.recent || fetchedRecent;
+  return { ...team, players, injuries:players.flatMap(p => (p.injuries || []).map(i => ({ player:p.name, ...i }))), recent };
 });
 
-const teams = Object.fromEntries(teamList.map((team, index) => [team.code, details[index]?.error ? { ...team, players:[], injuries:[], recent:[], fetchError:details[index].error } : details[index]]));
+const teams = Object.fromEntries(teamList.map((team, index) => [team.code, details[index]?.error ? { ...team, ...(previousData.teams?.[team.code] || {}), fetchError:details[index].error } : details[index]]));
 function buildScoreSummary(items) {
   const completed = items.filter(f => f.completed), future = items.filter(f => !f.completed && f.halfFullType === 'prediction'), counts = new Map(), additions = new Map();
   for (const fixture of completed) counts.set(fixture.score, (counts.get(fixture.score) || 0) + 1);
@@ -288,7 +294,7 @@ const output = {
   schemaVersion:1,
   updatedAt:new Date().toISOString(),
   source:{ name:'ESPN public soccer data', tournament:'FIFA World Cup', url:'https://www.espn.com/soccer/league/_/name/fifa.world', playerNameReferences:['https://github.com/cairongquan/world_cup_2026','https://github.com/cshandsome-top/worldcup2026'] },
-  refreshPolicy:'Every 5 minutes during the tournament via GitHub Actions',
+  refreshPolicy:'World Cup archive on manual request; league snapshot checked every 5 minutes',
   fixtures,
   teams,
   scoreSummary:buildScoreSummary(fixtures)

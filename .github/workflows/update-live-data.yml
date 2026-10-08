@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+    inputs:
+      refresh_world_cup_archive:
+        description: Refresh the completed World Cup archive
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -22,6 +27,7 @@ jobs:
         with:
           node-version: '24'
       - name: Fetch World Cup archive data
+        if: github.event_name == 'workflow_dispatch' && inputs.refresh_world_cup_archive
         run: node scripts/update-live.mjs
       - name: Audit all teams and fixtures
         run: node scripts/audit-live.mjs

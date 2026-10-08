@@ -2,7 +2,8 @@
   "use strict";
 
   const ESPN_BASE = "https://site.web.api.espn.com/apis/site/v2/sports/soccer";
-  const WORLD_CUP_URL = "https://raw.githubusercontent.com/xiaozhangzzza-afk/worldcast-26/main/data/live.json";
+  const WORLD_CUP_URL = "data/live.json";
+  const WORLD_CUP_REMOTE_URL = "https://raw.githubusercontent.com/xiaozhangzzza-afk/worldcast-26/main/data/live.json";
   const WORLD_CUP_SNAPSHOT_URL = "assets/data/snapshot.json";
   const LEAGUE_SNAPSHOT_URL = "assets/data/leagues-snapshot.json";
   const FULL_REFRESH_INTERVAL = 5 * 60 * 1000;
@@ -168,12 +169,17 @@
   async function loadWorldCup() {
     try {
       return decorateWorldCup(await fetchJson(WORLD_CUP_URL));
-    } catch (remoteError) {
+    } catch (localError) {
       try {
-        const snapshot = decorateWorldCup(await fetchJson(WORLD_CUP_SNAPSHOT_URL));
-        return { ...snapshot, snapshot: true, error: `世界杯远程源：${remoteError.message}` };
-      } catch (snapshotError) {
-        return { matches: [], teams: [], error: `世界杯数据：${remoteError.message}；快照：${snapshotError.message}` };
+        const remote = decorateWorldCup(await fetchJson(WORLD_CUP_REMOTE_URL));
+        return { ...remote, snapshot: true, error: `世界杯本站数据：${localError.message}` };
+      } catch (remoteError) {
+        try {
+          const snapshot = decorateWorldCup(await fetchJson(WORLD_CUP_SNAPSHOT_URL));
+          return { ...snapshot, snapshot: true, error: `世界杯本站数据：${localError.message}；远程源：${remoteError.message}` };
+        } catch (snapshotError) {
+          return { matches: [], teams: [], error: `世界杯本站数据：${localError.message}；远程源：${remoteError.message}；快照：${snapshotError.message}` };
+        }
       }
     }
   }
@@ -353,7 +359,7 @@
   }
 
   window.FM_DATA_SERVICE = {
-    ESPN_BASE, WORLD_CUP_URL, WORLD_CUP_SNAPSHOT_URL, LEAGUE_SNAPSHOT_URL,
+    ESPN_BASE, WORLD_CUP_URL, WORLD_CUP_REMOTE_URL, WORLD_CUP_SNAPSHOT_URL, LEAGUE_SNAPSHOT_URL,
     COMPETITIONS, fetchJson, loadData, refreshLiveScores, loadMatchDetails, setActiveDetail
   };
 
