@@ -31,6 +31,8 @@ jobs:
         run: node scripts/update-live.mjs
       - name: Audit all teams and fixtures
         run: node scripts/audit-live.mjs
+      - name: Verify prediction accounting
+        run: node scripts/test-analytics.mjs
       - name: Refresh club competition snapshot and prediction archive
         run: node scripts/update-leagues.mjs
       - name: Commit changed data

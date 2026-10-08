@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+await import('../assets/js/analytics.js');
+const a=globalThis.FM_ANALYTICS,m={id:'1',date:'2026-10-10T12:00:00Z',homeCode:'eng.1:1',awayCode:'eng.1:2',competitionId:'eng.1',predictedScore:'2–1',alternativeScore:'1–0',probabilities:[60,25,15]};
+const records=a.capture([], [m], '2026-10-09T12:00:00Z');assert.equal(records.length,1);
+const final={...m,completed:true,homeScore:2,awayScore:1,predictedScore:'0–3',probabilities:[5,5,90]};
+const frozen=a.capture(records,[final],'2026-10-10T15:00:00Z');assert.equal(frozen[0].predictedScore,'2–1');assert.deepEqual(frozen[0].probabilities,[60,25,15]);assert.equal(a.capture([],[final],'2026-10-10T15:00:00Z').length,0);
+const results=a.results(frozen,[final]);assert.equal(results.length,1);assert.equal(results[0].win,true);assert.equal(results[0].exact,true);
+const distribution=a.distribution([final,final,{...final,id:'2',homeScore:null}]);assert.equal(distribution.total,1);assert.equal(distribution.rows[0].count,1);assert.equal(distribution.rows[0].share,100);
+assert.equal(a.freshness({mode:'live',lastSuccessAt:'2026-10-10T12:00:00Z'},true,new Date('2026-10-10T12:02:00Z').getTime()).state,'stale');
+assert.equal(a.freshness({mode:'snapshot',lastSuccessAt:new Date().toISOString()}).state,'snapshot');
+const cup={...final,isCup:true,scoreScope:'after-extra-time',homeScore:1,awayScore:1};assert.equal(a.evaluationResult(cup),null);assert.deepEqual(a.evaluationResult({...cup,regulationHomeScore:0,regulationAwayScore:0}),{homeScore:0,awayScore:0});
+console.log('PASS: prediction freeze, no backfill, official scores, duplicates, source freshness, cup regulation-time exclusion');
