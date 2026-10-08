@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-08T17:54:50.115Z",
+  "savedAt": "2026-10-08T22:57:29.733Z",
   "source": "ESPN public club competition snapshot",
   "months": [
     "202609",
@@ -13824,8 +13824,8 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        70,
-        16,
+        69,
+        17,
         14
       ],
       "confidence": 80,
@@ -14200,9 +14200,9 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        42,
+        41,
         27,
-        31
+        32
       ],
       "confidence": 71,
       "factors": [
@@ -14389,8 +14389,8 @@
       "alternativeScore": "1–0",
       "probabilities": [
         45,
-        28,
-        27
+        27,
+        28
       ],
       "confidence": 72,
       "factors": [
@@ -23114,11 +23114,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        70,
-        18,
+        71,
+        17,
         12
       ],
-      "confidence": 80,
+      "confidence": 81,
       "factors": [
         "公开赛前赔率去除抽水后换算；非独立训练模型",
         "比分为概率阈值演示，半全场数据暂缺"
@@ -23961,8 +23961,8 @@
       "alternativeScore": "1–0",
       "probabilities": [
         48,
-        24,
-        28
+        23,
+        29
       ],
       "confidence": 73,
       "factors": [
@@ -32778,11 +32778,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        16,
+        15,
         24,
-        60
+        61
       ],
-      "confidence": 77,
+      "confidence": 78,
       "factors": [
         "公开赛前赔率去除抽水后换算；非独立训练模型",
         "比分为概率阈值演示，半全场数据暂缺"
@@ -42241,8 +42241,8 @@
       "alternativeScore": "2–1",
       "probabilities": [
         40,
-        25,
-        35
+        26,
+        34
       ],
       "confidence": 71,
       "factors": [
@@ -42992,9 +42992,9 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        26,
         25,
-        49
+        24,
+        51
       ],
       "confidence": 74,
       "factors": [
@@ -50364,9 +50364,9 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        43,
+        45,
         25,
-        32
+        30
       ],
       "confidence": 72,
       "factors": [
@@ -60645,9 +60645,9 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        56,
+        57,
         23,
-        21
+        20
       ],
       "confidence": 76,
       "factors": [
@@ -61285,11 +61285,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        69,
-        19,
-        12
+        71,
+        18,
+        11
       ],
-      "confidence": 80,
+      "confidence": 81,
       "factors": [
         "公开赛前赔率去除抽水后换算；非独立训练模型",
         "比分为概率阈值演示，半全场数据暂缺"
