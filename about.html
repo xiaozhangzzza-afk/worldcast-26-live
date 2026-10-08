@@ -17,11 +17,12 @@
   <meta property="og:url" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/about.html">
   <meta property="og:image" content="https://xiaozhangzzza-afk.github.io/worldcast-26-live/assets/img/og-cover.svg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/css/style.css?v=5.5.0">
-  <link rel="stylesheet" href="assets/css/layers.css?v=5.5.0">
-  <link rel="stylesheet" href="assets/css/refined.css?v=5.5.0">
-  <link rel="stylesheet" href="assets/css/standings.css?v=5.5.0">
-  <link rel="stylesheet" href="assets/css/analytics.css?v=5.5.0">
+  <link rel="stylesheet" href="assets/css/style.css?v=5.6.0">
+  <link rel="stylesheet" href="assets/css/layers.css?v=5.6.0">
+  <link rel="stylesheet" href="assets/css/refined.css?v=5.6.0">
+  <link rel="stylesheet" href="assets/css/standings.css?v=5.6.0">
+  <link rel="stylesheet" href="assets/css/analytics.css?v=5.6.0">
+  <link rel="stylesheet" href="assets/css/product.css?v=5.6.0">
 </head>
 <body data-page="about">
   <a class="skip-link" href="#main">跳到主要内容</a>
@@ -39,15 +40,16 @@
       <div class="section-shell">
         <div class="section-heading dark-heading">
           <span class="section-index">01</span>
-          <div><h2>模型如何计算</h2><p>五个步骤解释模型思路，不声称使用真实商业数据源。</p></div>
+          <div><h2>模型如何计算</h2><p>公开概率与本地统计参考分开标识；不承诺准确率。</p></div>
         </div>
         <div class="method-grid readable">
-          <article><b>01</b><h3>球队基础强度</h3><p>综合攻中防评分、阵容深度与整体稳定性。</p></article>
-          <article><b>02</b><h3>近期状态</h3><p>参考近十场趋势、进失球区间和比赛节奏。</p></article>
-          <article><b>03</b><h3>攻防结构</h3><p>观察机会创造、压迫强度和防线抗压。</p></article>
-          <article><b>04</b><h3>赛程与场地</h3><p>考虑休息周期、阶段压力和比赛环境。</p></article>
-          <article><b>05</b><h3>比分分布模拟</h3><p>输出主比分、备选比分、胜平负概率和风险提示。</p></article>
+          <article><b>01</b><h3>真实赛程</h3><p>所有对阵与开赛时间来自公开接口或固定快照，不生成演示对阵。</p></article>
+          <article><b>02</b><h3>公开概率参考</h3><p>接口存在赛前赔率时，去除抽水后换算胜平负；对应比分仍是阈值规则演示。</p></article>
+          <article><b>03</b><h3>本地统计补充</h3><p>缺少公开预测时，使用真实已完赛进失球估计泊松强度；球队至少3场、赛事至少20场样本。</p></article>
+          <article><b>04</b><h3>半全场联合分布</h3><p>假设上下半场各50%进球强度且独立，计算9种联合结果，不把两个单独概率直接相乘。</p></article>
+          <article><b>05</b><h3>冻结与验证</h3><p>赛前保存主/备选比分、概率、模型版本及半全场分布；开赛后锁定，不补录旧比赛。</p></article>
         </div>
+        <article id="statistical-model" class="paper-card"><h3>免费本地泊松模型与边界</h3><p>本项目独立实现统计基线，参考开源方法，不抓取付费或未授权的专家预测。主客队取最近最多8场有效90分钟赛果，以6场均值强度进行收缩，结合赛事主客场平均进球估计强度；单队强度限制在0.15至4之间以避免小样本极端结果。进球矩阵计算0至12球，忽略极小尾部后重新归一。未拟合Dixon–Coles相关参数，未使用射门xG、阵容或伤停，也未完成历史准确率校准。跨赛事样本可能不适用于某些杯赛；样本不足时不输出。</p><p>半全场显示的是本地统计参考，不是外部专家预测；概率不等于命中率。模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p><p><a href="https://github.com/luisgomezordoniez/poisson-football" target="_blank" rel="noopener noreferrer">开源方法参考（MIT） ↗</a> · <a href="https://arxiv.org/abs/2105.09881" target="_blank" rel="noopener noreferrer">进球泊松模型研究 ↗</a> · <a href="https://www.espn.com/soccer/scoreboard" target="_blank" rel="noopener noreferrer">完赛数据来源 ESPN ↗</a></p></article>
       </div>
     </section>
 
@@ -59,7 +61,7 @@
         </article>
         <article class="paper-card">
           <h2>数据来源说明</h2>
-          <p>五大联赛、欧冠、欧联杯与欧协联的赛程及比分由公开接口读取，每20秒核验比分、每5分钟同步完整赛程。核验时间不等于数据源更新时间，接口可能延迟。世界杯使用固定归档。预测来自公开概率换算及比分规则演示，并非独立训练模型。赛前档案开赛后锁定，不补录已完赛比赛；杯赛预测按90分钟结算，缺少90分钟赛果时不计入成绩。远程不可用时明确标示最近快照。</p>
+          <p>五大联赛、欧冠、欧联杯与欧协联的赛程及比分由公开接口读取，每20秒核验比分、每5分钟同步完整赛程。核验时间不等于数据源更新时间，接口可能延迟。世界杯使用固定归档。预测优先使用公开概率换算与比分规则；缺失时在样本充分的真实赛程上提供本地泊松统计基线，半全场为该基线的联合分布，非外部专家预测或已校准命中率。赛前档案开赛后锁定，不补录已完赛比赛；杯赛预测按90分钟结算，缺少90分钟赛果时不计入成绩。远程不可用时明确标示最近快照。</p>
         </article>
         <article class="paper-card">
           <h2>合规声明</h2>
@@ -80,19 +82,22 @@
   </main>
   <footer class="site-footer" data-site-footer></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="assets/js/data.js?v=5.5.0" defer></script>
-  <script src="assets/js/competitions.js?v=5.5.0" defer></script>
-  <script src="assets/js/analytics.js?v=5.5.0" defer></script>
-  <script src="assets/js/data-normalizer.js?v=5.5.0" defer></script>
-  <script src="assets/js/league-normalizer.js?v=5.5.0" defer></script>
-  <script src="assets/js/prediction-service.js?v=5.5.0" defer></script>
-  <script src="assets/js/data-service.js?v=5.5.0" defer></script>
-  <script src="assets/js/player-names.js?v=5.5.0" defer></script>
-  <script src="assets/js/external-picks.js?v=5.5.0" defer></script>
-  <script src="assets/js/names.js?v=5.5.0" defer></script>
-  <script src="assets/js/common.js?v=5.5.0" defer></script>
-  <script src="assets/js/music.js?v=5.5.0" defer></script>
-  <script src="assets/js/about.js?v=5.5.0" defer></script>
-  <script src="assets/js/layers.js?v=5.5.0" defer></script>
+  <script src="assets/js/data.js?v=5.6.0" defer></script>
+  <script src="assets/js/competitions.js?v=5.6.0" defer></script>
+  <script src="assets/js/analytics.js?v=5.6.0" defer></script>
+  <script src="assets/js/stat-model.js?v=5.6.0" defer></script>
+  <script src="assets/js/data-normalizer.js?v=5.6.0" defer></script>
+  <script src="assets/js/league-normalizer.js?v=5.6.0" defer></script>
+  <script src="assets/js/prediction-service.js?v=5.6.0" defer></script>
+  <script src="assets/js/data-service.js?v=5.6.0" defer></script>
+  <script src="assets/js/player-names.js?v=5.6.0" defer></script>
+  <script src="assets/js/external-picks.js?v=5.6.0" defer></script>
+  <script src="assets/js/names.js?v=5.6.0" defer></script>
+  <script src="assets/js/common.js?v=5.6.0" defer></script>
+  <script src="assets/js/favorites.js?v=5.6.0" defer></script>
+  <script src="assets/js/quality.js?v=5.6.0" defer></script>
+  <script src="assets/js/music.js?v=5.6.0" defer></script>
+  <script src="assets/js/about.js?v=5.6.0" defer></script>
+  <script src="assets/js/layers.js?v=5.6.0" defer></script>
 </body>
 </html>

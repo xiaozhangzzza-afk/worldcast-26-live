@@ -3,6 +3,7 @@
 
   function orderedMatches() {
     const now = Date.now();
+    const favorite=code=>window.FM_FAVORITES?.has(code);
     return FM.store().matches.filter((item) => item.competitionId !== "fifa.world").sort((a, b) => {
       if (Boolean(a.live) !== Boolean(b.live)) return a.live ? -1 : 1;
       const at = new Date(a.date).getTime();
@@ -10,6 +11,7 @@
       const aFuture = at >= now && !a.completed;
       const bFuture = bt >= now && !b.completed;
       if (aFuture !== bFuture) return aFuture ? -1 : 1;
+      if(aFuture&&bFuture){const af=favorite(a.homeCode)||favorite(a.awayCode),bf=favorite(b.homeCode)||favorite(b.awayCode);if(af!==bf)return af?-1:1;}
       return Math.abs(at - now) - Math.abs(bt - now);
     });
   }
@@ -23,7 +25,7 @@
 
   function averageConfidence(matches) {
     const values = matches.map((item) => item.confidence).filter((value) => value !== null && value !== "" && Number.isFinite(Number(value))).map(Number);
-    if (!values.length) return "预测数据待更新";
+    if (!values.length) return "未提供信心指标";
     return `${(values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(1)}%`;
   }
 
@@ -114,13 +116,26 @@
   }
 
   function renderHome() {
+    renderMyTeams();
     renderNext();
     renderMatches();
     renderInsights();
     renderWorldCupMini();
   }
 
+  function renderMyTeams(){
+    const root=FM.$('#myTeams');if(!root||!window.FM_FAVORITES)return;
+    const en=FM.state.language==='en',t=(zh,eng)=>en?eng:zh,s=FM.store(),teams=FM_FAVORITES.teams(s);
+    if(!teams.length){root.innerHTML=`<p class="history-note">${t('关注球队后，这里会显示下一场、近期赛果和可读取的积分变化。','Follow clubs to see their next fixture, recent results and available standings changes.')} <a href="teams.html">${t('选择球队','Choose clubs')} ↗</a></p>`;return;}
+    root.innerHTML=teams.slice(0,6).map(team=>{const matches=FM_FAVORITES.matches(s,team.code),next=matches.filter(m=>m.live||!m.completed&&new Date(m.date)>new Date()).sort((a,b)=>Number(b.live)-Number(a.live)||new Date(a.date)-new Date(b.date))[0],recent=matches.filter(m=>m.completed).sort((a,b)=>new Date(b.date)-new Date(a.date)).slice(0,3);
+      return `<article class="my-team-card"><header>${FM.teamLogo(team.code,team.logo)}<h4>${FM.html(FM.teamName(team.code))}</h4><button type="button" data-unfollow="${FM.html(team.code)}" aria-label="${t('取消关注','Unfollow')} ${FM.html(FM.teamName(team.code))}">★</button></header><p class="favorite-standing" data-standing-code="${FM.html(team.code)}">${t('积分暂未读取','Standings not checked yet')}</p><strong>${t('下一场','Next fixture')}</strong>${next?`<p>${FM.html(FM.nameFor(next,'home'))} vs ${FM.html(FM.nameFor(next,'away'))}</p><p>${FM.formatDate(next.date)} · ${FM.html(FM.competitionName(next))}</p><button class="fixture-link" type="button" data-open-match="${FM.html(next.id)}">${t('查看比赛','Match details')} ↗</button>`:`<p>${t('当前已载入赛程暂无下一场','No next fixture in loaded schedule')}</p>`}<div class="favorite-results"><small>${t('近期赛果 · 当前已载入样本','Recent results · loaded fixtures')}</small>${recent.length?recent.map(m=>`<button type="button" data-open-match="${FM.html(m.id)}">${FM.html(FM.nameFor(m,'home'))} ${FM.html(FM.scoreFor(m))} ${FM.html(FM.nameFor(m,'away'))}</button>`).join(''):`<p>${t('暂无近期赛果','No recent results loaded')}</p>`}</div></article>`;
+    }).join('')+(teams.length>6?`<p class="history-note">${t('首页展示前6支，全部关注请到球队数据库查看。','Showing six clubs; see Teams for all favourites.')}</p>`:'');
+    window.FM_FAVORITE_STANDINGS?.render?.();
+  }
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-unfollow]');if(b)FM_FAVORITES.toggle(b.dataset.unfollow);});
+
   document.addEventListener("DOMContentLoaded", renderHome);
+  window.addEventListener("fm:favorites", renderHome);
   window.addEventListener("fm:data-ready", renderHome);
   window.addEventListener("fm:data-updated", renderHome);
   window.addEventListener("fm:data-error", renderHome);

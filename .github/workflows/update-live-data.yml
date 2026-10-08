@@ -35,6 +35,8 @@ jobs:
         run: node scripts/test-analytics.mjs
       - name: Refresh club competition snapshot and prediction archive
         run: node scripts/update-leagues.mjs
+      - name: Verify local model and source quality
+        run: node scripts/test-product.mjs
       - name: Commit changed data
         run: |
           if git diff --quiet -- data/live.json assets/data/leagues-snapshot.json assets/data/prediction-history.json; then

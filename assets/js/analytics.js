@@ -17,9 +17,9 @@
     for(const m of matches){
       const existing=archive.get(String(m.id));
       if(!m.completed&&!m.live&&new Date(m.date)>new Date(now)&&(!existing||new Date(existing.date)>new Date(now))){
-        const record={id:String(m.id),competitionId:m.competitionId,date:m.date,homeCode:m.homeCode,awayCode:m.awayCode,homeName:m.homeNameEn||m.homeName,awayName:m.awayNameEn||m.awayName,predictedScore:m.predictedScore,alternativeScore:m.alternativeScore||'',probabilities:m.probabilities,capturedAt:now,modelVersion:'odds-rule-v1',basis:'public pre-match odds + illustrative score rules',isCup:Boolean(m.isCup)};
+        const record={id:String(m.id),competitionId:m.competitionId,date:m.date,homeCode:m.homeCode,awayCode:m.awayCode,homeName:m.homeNameEn||m.homeName,awayName:m.awayNameEn||m.awayName,predictedScore:m.predictedScore,alternativeScore:m.alternativeScore||'',probabilities:m.probabilities,capturedAt:now,modelVersion:m.predictionSource==='local-poisson'?'local-poisson-v1':'odds-rule-v1',basis:m.predictionSource==='local-poisson'?'completed regulation-time results + independent Poisson baseline':'public pre-match odds + illustrative score rules',isCup:Boolean(m.isCup),htft:m.localPrediction?.htft||null,htftModel:m.localPrediction?.modelVersion||null};
         if(validRecord(record)){
-          const unchanged=existing&&existing.date===record.date&&existing.predictedScore===record.predictedScore&&existing.alternativeScore===record.alternativeScore&&JSON.stringify(existing.probabilities)===JSON.stringify(record.probabilities);
+          const unchanged=existing&&existing.date===record.date&&existing.predictedScore===record.predictedScore&&existing.alternativeScore===record.alternativeScore&&existing.modelVersion===record.modelVersion&&JSON.stringify(existing.probabilities)===JSON.stringify(record.probabilities)&&JSON.stringify(existing.htft||null)===JSON.stringify(record.htft);
           archive.set(record.id,unchanged?existing:record);
         }
       }

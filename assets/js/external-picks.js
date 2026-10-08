@@ -1,12 +1,13 @@
+/* Legacy API name retained for compatibility. This is a LOCAL baseline, not external expert picks. */
 (() => {
   'use strict';
-  const source='https://www.forebet.com/en/football-predictions/predictions-htft/2026-09-18/by-league';
-  const records=[
-    {id:'401879275',homeCode:'eng.1:337',awayCode:'eng.1:363',date:'2026-09-18T19:00:00.000Z',ht:'X',ft:'X',probability:16},
-    {id:'401884790',homeCode:'ger.1:132',awayCode:'ger.1:598',date:'2026-09-18T18:30:00.000Z',ht:'1',ft:'1',probability:53}
-  ];
-  function get(match){return records.find(r=>r.id===String(match?.id)&&r.homeCode===match.homeCode&&r.awayCode===match.awayCode&&new Date(r.date).getTime()===new Date(match.date).getTime()&&!match.completed&&!match.live&&Date.now()<new Date(r.date).getTime())||null;}
-  function label(match,lang='zh'){const r=get(match);if(!r)return lang==='en'?'No verified external pick':'暂无已核验外部预测';const dict=lang==='en'?{'1':'Home','X':'Draw','2':'Away'}:{'1':'胜','X':'平','2':'负'};return `${dict[r.ht]} / ${dict[r.ft]}`;}
-  function markup(match){const r=get(match),en=window.FM?.state.language==='en';return `<p>${label(match,en?'en':'zh')}</p>${r?`<p>${en?'Source estimate':'来源给出的组合概率'}：${r.probability}% · ${en?'not historical accuracy':'非历史命中率'}</p>`:''}<p class="light-note">Forebet · ${r?(en?'Manually checked 2026-09-17; not an automatic subscription.':'人工核验于2026-09-17；非自动订阅。'):(en?'No current match-specific pick verified. Follow the source link; automatic imports are not enabled.':'当前未核验到本场有效预测，可查看原站；尚未接通自动导入。')}</p><a class="fixture-link" href="${r?source:'https://www.forebet.com/en/football-tips-and-predictions-for-today/predictions-ht-ft'}" target="_blank" rel="noopener noreferrer">${en?'Read original HT/FT predictions ↗':'查看半全场原始预测 ↗'}</a>`;}
+  const symbols=['1','X','2'];
+  function get(match){const model=match?.localPrediction;if(!model?.htft||model.htft.length!==9||match.completed||match.live||new Date(match.date)<=new Date())return null;const index=model.htft.indexOf(Math.max(...model.htft));return {ht:symbols[Math.floor(index/3)],ft:symbols[index%3],probability:model.htft[index],matrix:model.htft,model};}
+  function label(match,lang='zh'){const r=get(match);if(!r)return lang==='en'?'Insufficient samples for HT/FT':'半全场样本不足，暂不计算';const dict=lang==='en'?{'1':'Home','X':'Draw','2':'Away'}:{'1':'主胜','X':'平','2':'客胜'};return `${dict[r.ht]} / ${dict[r.ft]}`;}
+  function markup(match){const r=get(match),en=window.FM?.state.language==='en',t=(zh,eng)=>en?eng:zh;
+    if(match?.completed||match?.live)return `<p>${t('比赛已开赛，不补生成赛前半全场预测。','Match started; pre-match HT/FT picks are not backfilled.')}</p>`;
+    const labels=en?['Home','Draw','Away']:['主胜','平','客胜'];
+    return `<p><strong>${label(match,en?'en':'zh')}</strong></p>${r?`<p>${t('该组合统计概率','Estimated joint probability')} ${r.probability}% · ${t('不是历史命中率','not historical accuracy')}</p><p class="history-note">${t('免费本地泊松模型 · 完赛数据来自ESPN','Free local Poisson baseline · completed results from ESPN')} · ${t('主/客队样本','Home/away samples')} ${r.model.homeSample}/${r.model.awaySample} · ${t('赛事基线样本','Competition baseline')} ${r.model.competitionSample}</p><details class="htft-details"><summary>${t('查看全部9种组合','All nine combinations')}</summary><div class="htft-grid">${r.matrix.map((p,i)=>`<span>${labels[Math.floor(i/3)]} / ${labels[i%3]}<b>${p}%</b></span>`).join('')}</div></details><p class="history-note">${t('假设上下半场各50%进球强度且相互独立；强度由真实90分钟赛果估计。未考虑首发、伤停和战术，不是外部专家预测，未经回测校准。','Assumes independent halves with 50/50 goal intensity, estimated from regulation-time results. No lineups, injuries or tactics; not expert picks and not backtest-calibrated.')}</p>`:`<p class="history-note">${t('至少需要两队各3场有效完赛样本和赛事20场基线；目前数据不足，不输出虚构预测。','Requires three completed samples per club and 20 competition samples; no fabricated output when insufficient.')}</p>`}<a class="fixture-link" href="about.html#statistical-model">${t('查看方法、来源与边界','Method, sources and limitations')} ↗</a>`;
+  }
   window.FM_EXTERNAL_PICKS={get,label,markup};
 })();

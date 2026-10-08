@@ -6,16 +6,7 @@
   const state = { competition: ["eng.1", "esp.1", "ger.1", "ita.1", "fra.1", "uefa.champions", "uefa.europa", "uefa.europa.conf", "europe", "fifa.world"].includes(requestedCompetition) ? requestedCompetition : "top5", query: "", favorites: new Set(readFavorites()) };
 
   function readFavorites() {
-    try {
-      const value = JSON.parse(FM.safeGet(FAV_KEY, "[]"));
-      return Array.isArray(value) ? value : [];
-    } catch {
-      return [];
-    }
-  }
-
-  function saveFavorites() {
-    FM.safeSet(FAV_KEY, JSON.stringify(Array.from(state.favorites)));
+    return FM_FAVORITES.read();
   }
 
   function rating(label, value) {
@@ -53,7 +44,7 @@
       } else {
         const teams = filteredTeams();
         root.innerHTML = teams.length ? teams.map((item) => {
-          const active = state.favorites.has(item.code);
+          const active = FM_FAVORITES.has(item.code);
           return `
             <article class="team-card">
               <button class="favorite-button ${active ? "active" : ""}" type="button" data-favorite="${FM.html(item.code)}" aria-label="${active ? "取消关注" : "关注"} ${FM.html(FM.teamName(item.code))}">★</button>
@@ -74,7 +65,7 @@
   }
 
   function renderFavorites() {
-    const codes = Array.from(state.favorites).filter((code) => FM.store().teams.some((item) => item.code === code));
+    const codes = FM_FAVORITES.teams(FM.store()).map(t=>t.code);
     const hint = FM.$("#favoriteHint");
     if (hint) hint.hidden = codes.length > 0;
     const root = FM.$("#favoriteTeams");
@@ -119,8 +110,7 @@
       const fav = event.target.closest("[data-favorite]");
       if (fav) {
         const code = fav.dataset.favorite;
-        state.favorites.has(code) ? state.favorites.delete(code) : state.favorites.add(code);
-        saveFavorites();
+        state.favorites = new Set(FM_FAVORITES.toggle(code));
         renderTeams();
         FM.showToast("关注球队已更新");
       }
@@ -131,6 +121,7 @@
 
   document.addEventListener("DOMContentLoaded", () => { renderTeams(); bind(); });
   window.addEventListener("fm:data-ready", renderTeams);
+  window.addEventListener("fm:favorites", renderTeams);
   window.addEventListener("fm:data-updated", renderTeams);
   window.addEventListener("fm:data-error", renderTeams);
   window.addEventListener("fm:data-loading", renderTeams);

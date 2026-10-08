@@ -117,6 +117,7 @@
   }
 
   function hydratePredictions() {
+    STORE.matches = window.FM_STAT_MODEL?.enrich(STORE.matches) || STORE.matches;
     STORE.predictions = Object.fromEntries(STORE.matches.flatMap((match) => {
       const prediction = window.FM_PREDICTION_SERVICE?.fromMatch(match);
       return prediction ? [[match.id, prediction]] : [];
@@ -179,6 +180,7 @@
   }
 
   async function fetchLeague(meta, months) {
+    const began=performance.now();
     const results = await Promise.allSettled(months.map(month => fetchJson(scoreboardUrl(meta, month))));
     const feeds = results.filter(item => item.status === "fulfilled").map(item => LeagueNormalizer.normalizeFeed(item.value, meta));
     if (!feeds.length) throw new Error(`按月赛程请求失败：${results[0]?.reason?.message || "数据源未响应"}`);
@@ -187,13 +189,14 @@
       teams: uniqueBy(feeds.flatMap(item => item.teams), "code"),
       partialMonths: feeds.length !== months.length,
       checkedAt: new Date().toISOString(),
+      responseTimeMs: Math.round(performance.now()-began),
       sourceUpdatedAt: results.filter(r=>r.status==='fulfilled').flatMap(r=>[r.value.lastUpdated,r.value.updatedAt,...(r.value.events||[]).map(e=>e.lastUpdated)]).filter(t=>t&&Number.isFinite(new Date(t).getTime())).sort((a,b)=>new Date(b)-new Date(a))[0]||null
     };
   }
 
   function recordChecks(results){
     results.forEach((r,i)=>{const id=LEAGUES[i].id,old=STORE.freshness[id]||{};
-      STORE.freshness[id]=r.status==='fulfilled'?{...old,checkedAt:r.value.checkedAt,lastSuccessAt:r.value.checkedAt,sourceUpdatedAt:r.value.sourceUpdatedAt,mode:r.value.partialMonths?'partial':'live',error:null}:{...old,checkedAt:new Date().toISOString(),mode:'snapshot',error:r.reason?.message||'Request failed'};
+      STORE.freshness[id]=r.status==='fulfilled'?{...old,checkedAt:r.value.checkedAt,lastSuccessAt:r.value.checkedAt,sourceUpdatedAt:r.value.sourceUpdatedAt,responseTimeMs:r.value.responseTimeMs,mode:r.value.partialMonths?'partial':'live',error:null}:{...old,checkedAt:new Date().toISOString(),mode:'snapshot',error:r.reason?.message||'Request failed'};
     });
   }
 
@@ -288,6 +291,7 @@
       awayName: incoming.awayName || current.awayName,
       venue: incoming.venue && incoming.venue !== "场地待官方确认" ? incoming.venue : current.venue,
       predictedScore: incoming.predictedScore || current.predictedScore,
+      predictionSource: incoming.predictedScore ? 'public-odds' : current.predictionSource,
       alternativeScore: incoming.alternativeScore || current.alternativeScore,
       probabilities: incoming.probabilities || current.probabilities,
       confidence: incoming.confidence ?? current.confidence,

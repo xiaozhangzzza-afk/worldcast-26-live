@@ -5,6 +5,7 @@
   const t = (zh, english) => en() ? english : zh;
   const modes = ['result', 'score', 'half'];
   const labels = () => [t('胜平负','Match result'), t('比分','Score'), t('半全场','Half / full time')];
+  function revealHash(){try{const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!target)return;for(let p=target.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;requestAnimationFrame(()=>target.scrollIntoView());}catch{}}
   function candidates() {
     const now = Date.now();
     return FM.store().matches.filter(m => !m.completed && !m.live && new Date(m.date).getTime() > now && new Date(m.date).getTime() < now + 72*3600000 && Array.isArray(m.probabilities) && m.probabilities.length === 3 && m.probabilities.every(p => Number.isFinite(p) && p >= 0 && p <= 100))
@@ -18,7 +19,7 @@
       const best = (m.probabilities || []).indexOf(Math.max(...(m.probabilities || [])));
       const value = mode === 'result' ? `${[t('主胜','Home win'),t('平局','Draw'),t('客胜','Away win')][best]} · ${m.probabilities[best]}%` : mode === 'score' ? m.predictedScore || t('比分待更新','Score pending') : window.FM_EXTERNAL_PICKS.label(m,FM.state.language);
       return `<article><span class="pair-eyebrow">0${i+1} · ${FM.html(FM.competitionName(m))}</span><p>${FM.formatFull(m.date)}</p><h3>${FM.teamLogo(m.homeCode,m.homeLogo)} ${FM.html(FM.nameFor(m, "home"))} <small>${t('主队','Home')}</small></h3><h3>${FM.teamLogo(m.awayCode,m.awayLogo)} ${FM.html(FM.nameFor(m, "away"))} <small>${t('客队','Away')}</small></h3><strong class="pair-pick">${FM.html(value)}</strong>${mode === "half" ? window.FM_EXTERNAL_PICKS.markup(m) : ""}<button type="button" data-pair-match="${FM.html(m.id)}">${t('查看比赛详情','Match details')}</button></article>`;
-    }).join('')}</div>${matches.length<2?`<p class="empty-state">${t('当前不足两场有预测数据的未开赛比赛，暂不组成二串一。','Not enough eligible upcoming matches for a pair.')}</p>`:''}${mode==='half'&&!matches.length?window.FM_EXTERNAL_PICKS.markup(null):''}<p class="pair-note">${t('胜平负概率来自公开赛前数据换算，比分为演示推算；半全场为已匹配场次的外部参考。来源概率不等于命中率，不保证准确。模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。','Result probabilities derive from public pre-match data; scores are illustrative; HT/FT references are matched external picks. Source probabilities are not accuracy rates. No accuracy guarantee. Model demonstration, not betting or financial advice.')}</p><button type="button" class="button primary" data-pair-next>${t('切换下一种建议','Next pick type')}</button>`;
+    }).join('')}</div>${matches.length<2?`<p class="empty-state">${t('当前不足两场有预测数据的未开赛比赛，暂不组成二串一。','Not enough eligible upcoming matches for a pair.')}</p>`:''}${mode==='half'&&!matches.length?window.FM_EXTERNAL_PICKS.markup(null):''}<p class="pair-note">${t('胜平负概率来自公开赛前数据换算，比分为演示推算；半全场为真实赛果计算的本地泊松统计参考。来源概率不等于命中率，不保证准确。模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。','Result probabilities derive from public pre-match data; scores are illustrative; HT/FT is a local Poisson baseline from completed results. Source probabilities are not accuracy rates. No accuracy guarantee. Model demonstration, not betting or financial advice.')}</p><button type="button" class="button primary" data-pair-next>${t('切换下一种建议','Next pick type')}</button>`;
   }
   function openPair() { const dialog=document.querySelector('#pairDialog'); returnFocus=document.activeElement; renderPair(); if(!dialog.open) dialog.showModal(); }
   function renderLeagues() {
@@ -51,9 +52,11 @@
     dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();const choice=e.target.closest('[data-pair-mode]');if(choice){mode=choice.dataset.pairMode;renderPair();}if(e.target.closest('[data-pair-next]')){mode=modes[(modes.indexOf(mode)+1)%3];renderPair();}const match=e.target.closest('[data-pair-match]');if(match){dialog.close();FM.openMatch(match.dataset.pairMatch,trigger);}});
     dialog.addEventListener('close',()=>returnFocus?.focus());
     renderLeagues();
+    revealHash();
   }
   function update() {renderLeagues(); if(document.querySelector('#pairDialog')?.open)renderPair(); if(document.body.dataset.page==='home'&&!openedToday&&FM.store().status!=='loading'){openedToday=true;const day=new Date().toLocaleDateString('en-CA');try{if(sessionStorage.getItem('fm-pair-day')===day)return;sessionStorage.setItem('fm-pair-day',day);}catch{}openPair();}}
   document.addEventListener('DOMContentLoaded',init);
+  window.addEventListener('hashchange',revealHash);
   ['fm:data-ready','fm:data-updated','fm:data-error'].forEach(event=>window.addEventListener(event,update));
   window.addEventListener('fm:language',()=>{renderLeagues();renderPair();document.querySelector('.pair-launcher').textContent=t('每日二串一 · 展开','Daily picks · Open');});
 })();

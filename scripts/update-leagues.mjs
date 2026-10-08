@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 await import('../assets/js/analytics.js');
+await import('../assets/js/stat-model.js');
 await import('../assets/js/competitions.js');
 globalThis.window=globalThis;
 await import('../assets/js/data-normalizer.js');
@@ -17,7 +18,7 @@ async function get(url){
   for(let attempt=0;attempt<3;attempt++){try{const response=await fetch(url,{headers:{accept:'application/json'},signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('HTTP '+response.status);return await response.json();}catch(e){error=e;}}
   throw error;
 }
-const matches=[],teamMap=new Map();
+let matches=[];const teamMap=new Map();
 for(const meta of competitions){
   const feeds=await Promise.all(months.map(month=>get(base+'/'+meta.id+'/scoreboard?dates='+month+'&limit=1000')));
   const events=[...new Map(feeds.flatMap(f=>f.events||[]).map(e=>[String(e.id),e])).values()];
@@ -26,6 +27,7 @@ for(const meta of competitions){
   normalized.teams.forEach(t=>teamMap.set(t.code,t));
 }
 const directory=path.join(root,'assets','data');
+matches=globalThis.FM_STAT_MODEL.enrich(matches);
 await fs.mkdir(directory,{recursive:true});
 const historyPath=path.join(directory,'prediction-history.json');
 let history={schemaVersion:1,startedAt:new Date().toISOString(),records:[]};
