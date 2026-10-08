@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-08T08:04:33.776Z",
+  "savedAt": "2026-10-08T11:19:12.444Z",
   "source": "ESPN public soccer data snapshot",
   "months": [
     "202609",
@@ -1064,8 +1064,8 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        70,
-        18,
+        69,
+        19,
         12
       ],
       "confidence": 80,
@@ -1440,8 +1440,8 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        37,
-        25,
+        36,
+        26,
         38
       ],
       "confidence": 70,
