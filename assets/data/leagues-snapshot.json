@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "savedAt": "2026-10-08T16:04:30.842Z",
+  "savedAt": "2026-10-08T17:54:50.115Z",
   "source": "ESPN public club competition snapshot",
   "months": [
     "202609",
@@ -14107,8 +14107,8 @@
       "alternativeScore": "2–1",
       "probabilities": [
         62,
-        22,
-        16
+        21,
+        17
       ],
       "confidence": 78,
       "factors": [
