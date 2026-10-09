@@ -214,7 +214,7 @@
   }
 
   async function loadData(manual = false) {
-    if (syncing) return STORE;
+    if (syncing) {if(manual)window.FM?.showToast?.(window.FM.state.language==='en'?'A source check is already running; please wait.':'已有数据核验正在进行，请稍候。');return STORE;}
     syncing = true;
     const before=STORE.matches.slice();
     markLoading();
