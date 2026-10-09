@@ -19,7 +19,7 @@
   function nextMatch() {
     const now = Date.now();
     return FM.store().matches
-      .filter((item) => item.competitionId !== "fifa.world" && !item.completed && new Date(item.date).getTime() >= now)
+      .filter((item) => item.competitionId !== "fifa.world" && !item.completed && !item.live && new Date(item.date).getTime() >= now)
       .sort((a, b) => new Date(a.date) - new Date(b.date))[0] || null;
   }
 
@@ -28,7 +28,7 @@
     const end = now + 72 * 3600000;
     return matches.filter((item) => {
       const time = new Date(item.date).getTime();
-      return Number.isFinite(time) && time >= now && time <= end && !item.completed;
+      return Number.isFinite(time) && time >= now && time <= end && !item.completed && !item.live;
     }).length;
   }
 
