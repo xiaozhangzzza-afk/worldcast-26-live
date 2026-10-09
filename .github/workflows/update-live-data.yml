@@ -33,6 +33,8 @@ jobs:
         run: node scripts/audit-live.mjs
       - name: Verify prediction accounting
         run: node scripts/test-analytics.mjs
+      - name: Verify match presentation and sync feedback
+        run: node scripts/test-presentation.mjs
       - name: Refresh club competition snapshot and prediction archive
         run: node scripts/update-leagues.mjs
       - name: Verify local model and source quality

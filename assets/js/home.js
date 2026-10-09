@@ -23,12 +23,6 @@
       .sort((a, b) => new Date(a.date) - new Date(b.date))[0] || null;
   }
 
-  function averageConfidence(matches) {
-    const values = matches.map((item) => item.confidence).filter((value) => value !== null && value !== "" && Number.isFinite(Number(value))).map(Number);
-    if (!values.length) return "未提供信心指标";
-    return `${(values.reduce((sum, value) => sum + value, 0) / values.length).toFixed(1)}%`;
-  }
-
   function future72(matches) {
     const now = Date.now();
     const end = now + 72 * 3600000;
@@ -56,7 +50,7 @@
         <article><strong>${s.matches.filter((item) => item.competitionId !== "fifa.world").length}</strong><small>联赛与欧战比赛</small></article>
         <article><strong>${new Set(s.teams.filter(t=>t.competitionId!=='fifa.world').map(t=>t.code.split(':').at(-1))).size}</strong><small>俱乐部 · 去重</small></article>
         <article><strong>${future72(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>未来72小时</small></article>
-        <article><strong>${averageConfidence(s.matches.filter((item) => item.competitionId !== "fifa.world"))}</strong><small>平均模型参考值 · 非命中率</small></article>
+        <article><strong>${s.matches.filter(m=>!m.live&&!m.completed&&new Date(m.date)>new Date()&&m.predictedScore&&m.probabilities).length}</strong><small>${FM.state.language==='en'?'Available pre-match forecasts':'有效赛前预测 · 非准确率'}</small></article>
       </div>
     `;
     if (!next) {
@@ -71,7 +65,8 @@
         </div>
         <div class="next-score"><small class="score-label">${FM.html(FM.scoreKind(next))}</small>${FM.html(FM.scoreFor(next))}</div>
         <p>${FM.html(FM.competitionName(next))} · ${FM.formatDate(next.date)} · ${FM.countdown(next.date)}</p>
-        <p class="muted-line">${FM.html(next.statusText || "未开赛")} ${next.live ? `· <span class="live-clock" data-live-clock="${FM.html(next.id)}">${FM.html(FM.liveClock(next))}</span>` : ""}</p>
+        ${next.alternativeScore?`<p class="card-alternative">${FM.state.language==='en'?'Alternative':'备选比分'} ${FM.html(next.alternativeScore)}</p>`:''}
+        ${FM.freshnessLine(next)}
         ${metrics}
       </article>
     `;

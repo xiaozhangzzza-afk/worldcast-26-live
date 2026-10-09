@@ -11,7 +11,7 @@ await import('../assets/js/data-normalizer.js');
 await import('../assets/js/league-normalizer.js');
 const competitions=globalThis.FM_COMPETITIONS.filter(c=>!c.compact);
 const base='https://site.web.api.espn.com/apis/site/v2/sports/soccer';
-const start=new Date(Date.now()-8*86400000),end=new Date(Date.now()+24*86400000),months=[];
+const start=new Date(Date.now()-60*86400000),end=new Date(Date.now()+24*86400000),months=[];
 for(let date=new Date(Date.UTC(start.getUTCFullYear(),start.getUTCMonth(),1));date<=end;date.setUTCMonth(date.getUTCMonth()+1))months.push(date.toISOString().slice(0,7).replace('-',''));
 async function get(url){
   let error;

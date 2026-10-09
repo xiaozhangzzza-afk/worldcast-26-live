@@ -157,7 +157,7 @@
     const leagueCount = new Set(leagueMatches.map((item) => item.competitionId)).size;
     STORE.sourceLabel = options.snapshot
       ? "实时源暂不可用 · 正在展示最近数据"
-      : `实时连接正常 · ${leagueCount}项赛事 · 20秒核验`;
+      : `公开接口已核验 · ${leagueCount}项赛事 · 非逐秒直播`;
     hydratePredictions();
   }
 
@@ -206,21 +206,22 @@
       const data = await fetchJson(LEAGUE_SNAPSHOT_URL);
       if (!Array.isArray(data.matches) || !data.matches.length) throw new Error("快照为空");
       const published = { matches: data.matches.map(item => ({...item, halfFull: ""})), teams: data.teams || [], savedAt: data.savedAt || data.updatedAt };
-      return recent && new Date(recent.savedAt).getTime() > new Date(published.savedAt).getTime() ? recent : published;
+      const selected=recent && new Date(recent.savedAt).getTime() > new Date(published.savedAt).getTime() ? recent : published;
+      return {...selected,matches:selected.matches.map(m=>({...m,snapshotRecordedAt:selected.savedAt||null}))};
     } catch {
-      return recent;
+      return recent?{...recent,matches:recent.matches.map(m=>({...m,snapshotRecordedAt:recent.savedAt||null}))}:null;
     }
   }
 
   async function loadData(manual = false) {
     if (syncing) return STORE;
     syncing = true;
-    const before=new Map(STORE.matches.map(m=>[String(m.id),JSON.stringify([m.date,m.status,m.homeScore,m.awayScore])]));
+    const before=STORE.matches.slice();
     markLoading();
     STORE.lastLiveAttempt = new Date().toISOString();
     const worldCupPromise = loadWorldCup();
     try {
-      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(8, 24))));
+      const results = await Promise.allSettled(LEAGUES.map((meta) => fetchLeague(meta, monthRange(60, 24))));
       recordChecks(results);
       const leagueParts = results.filter((item) => item.status === "fulfilled").map((item) => item.value);
       const leagueErrors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
@@ -247,7 +248,7 @@
         else if (partialMonths) STORE.sourceLabel = "部分月份已核验 · 缺失赛程使用最近快照";
         saveLastGood();
         markReady();
-        if (manual) {const changed=STORE.matches.filter(m=>before.get(String(m.id))!==JSON.stringify([m.date,m.status,m.homeScore,m.awayScore])).length;window.FM?.showToast?.(`核验完成 · ${changed?changed+'场赛程/赛况有变化':'赛程与赛况无变化'} · ${leagueErrors.length?'部分数据源不可用':LEAGUES.length+'项赛事已响应'}`);}
+        if (manual) {const changed=window.FM_PRESENTATION.changes(before,STORE.matches),en=window.FM?.state.language==='en';window.FM?.showToast?.(en?`Check complete · ${changed?changed+' fixtures or events changed':'source returned no new match facts'}${leagueErrors.length?' · some sources unavailable':''}`:`核验完成 · ${changed?changed+'场赛程或赛况有变化':'源未返回新赛况'}${leagueErrors.length?' · 部分源不可用':''}`);}
       } else {
         const fallback = await loadLeagueSnapshot();
         LEAGUES.forEach(meta=>{STORE.freshness[meta.id]={...STORE.freshness[meta.id],snapshotRecordedAt:fallback?.savedAt||null};});
@@ -313,6 +314,7 @@
         date: competition.date || match.date,
         season:{slug:match.stageSlug},
         status: competition.status,
+        lastUpdated: summary?.header?.lastUpdated||null,
         competitions: [{ ...competition, details: summary?.keyEvents || competition.details || [] }]
       }, meta);
       if (normalized) {
@@ -345,7 +347,7 @@
       STORE.status = "ready";
       STORE.source = "multi-league-live";
       const liveCount = STORE.matches.filter((item) => item.live).length;
-      STORE.sourceLabel = liveCount ? `实时同步中 · ${liveCount}场进行中 · 20秒轮询` : "实时连接正常 · 当前无进行中比赛";
+      STORE.sourceLabel = liveCount ? `公开接口核验 · ${liveCount}场进行中 · 非逐秒直播` : "公开接口已核验 · 当前无进行中比赛";
       STORE.errors = results.flatMap((item, index) => item.status === "rejected" ? [`${LEAGUES[index].shortZh}：${item.reason?.message || "读取失败"}`] : []);
       if (successful.length < LEAGUES.length) STORE.sourceLabel = `部分实时连接 · ${successful.length}/${LEAGUES.length}项赛事在线 · 其余保留最近数据`;
       else if (successful.some(item => item.dailyFallback)) STORE.sourceLabel = "近三日实时核验 · 远期赛程使用最近快照";

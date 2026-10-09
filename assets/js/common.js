@@ -5,7 +5,7 @@
     language: "football-model-language",
     theme: "football-model-theme",
     favorites: "football-model-favorites",
-    cacheMigrated: "football-model-cache-migrated-v560"
+    cacheMigrated: "football-model-cache-migrated-v570"
   };
   const pages = [
     ["home", "index.html", "首页", "Home"],
@@ -96,16 +96,8 @@
   }
 
   function liveClock(match) {
-    if (!match?.live) return match?.displayClock || "";
-    if (/HALFTIME|BREAK|SUSPENDED|DELAY|PENALT/i.test(match.status || "")) return match.displayClock || match.statusText || "中场休息";
-    if (match.clockSeconds == null || match.clockSeconds === "") return match.displayClock || "进行中";
-    const base = Number(match.clockSeconds);
-    const snapshot = new Date(match.clockSnapshotAt || store().liveUpdatedAt || 0).getTime();
-    if (!Number.isFinite(base) || !Number.isFinite(snapshot)) return match.displayClock || "进行中";
-    const elapsed = Math.max(0, Math.floor((Date.now() - snapshot) / 1000));
-    if (elapsed > 60) return `${match.displayClock || Math.floor(base / 60) + "′"} · 等待同步`;
-    const seconds = Math.max(0, base + elapsed);
-    return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+    if(!match)return '';
+    return window.FM_PRESENTATION.status(match,store(),Date.now(),state.language).clock;
   }
 
   function formatDate(value) {
@@ -125,6 +117,7 @@
     const date = value instanceof Date ? value : new Date(value);
     if (Number.isNaN(date.getTime())) return state.language === "en" ? "Pending" : "待更新";
     return new Intl.DateTimeFormat(state.language === "en" ? "en-GB" : "zh-CN", {
+      timeZone: "Asia/Shanghai",
       year: "numeric",
       month: "2-digit",
       day: "2-digit",
@@ -134,6 +127,8 @@
       hour12: false
     }).format(date);
   }
+
+  function formatCheck(value){const date=new Date(value);return Number.isFinite(date.getTime())?new Intl.DateTimeFormat(state.language==='en'?'en-GB':'zh-CN',{timeZone:'Asia/Shanghai',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(date):(state.language==='en'?'Unverified':'待核验');}
 
   function normalize(values) {
     if (!Array.isArray(values) || values.length < 3) return null;
@@ -166,16 +161,17 @@
 
   function scoreKind(match) {
     if (!match) return "比分待更新";
-    if (match.completed) return "最终比分";
-    if (match.live) return "实时比分";
-    if (match.predictedScore) return "预测比分";
+    if (match.completed) return match.extraTime?(state.language==='en'?'After extra time':'加时后比分'):(state.language==='en'?'Final score':'正式比分');
+    if (match.live) return state.language==='en'?'Source score':'源返回比分';
+    if (match.predictedScore) return state.language==='en'?'Predicted score':'预测比分';
     return state.language==='en'?'Prediction unavailable':'未提供预测';
   }
 
   function archivedPrediction(match){return (window.FM_HISTORY?.records||[]).find(r=>String(r.id)===String(match?.id)&&r.homeCode===match.homeCode&&r.awayCode===match.awayCode&&new Date(r.date).getTime()===new Date(match.date).getTime()&&window.FM_ANALYTICS?.validRecord(r))||null;}
   function predictionMissing(match){return state.language==='en'?(match?.completed||match?.live?'No frozen pre-match record; showing actual match data.':'Source has not provided a prediction and statistical samples are insufficient.'):(match?.completed||match?.live?'未留存赛前预测，当前显示实际赛况。':'源未提供预测，且统计样本不足；不是页面加载失败。');}
   function predictionNote(match){const en=state.language==='en',past=match.completed||match.live,r=past?archivedPrediction(match):match;if(!r?.predictedScore)return '';
-    return `<p class="prediction-basis">${past?(en?'Frozen pre-match archive':'开赛前已冻结'):(match.predictionSource==='local-poisson'?(en?'Local Poisson baseline':'本地泊松统计参考'):(en?'Public pre-match probability / illustrative score':'公开赛前概率换算 / 比分规则演示'))} · ${en?'Alternative':'备选'} ${html(r.alternativeScore|| (en?'not supplied':'未提供'))}${!past&&match.localPrediction?` · ${en?'Home/away samples':'两队样本'} ${match.localPrediction.homeSample}/${match.localPrediction.awaySample}`:''}</p>`;
+    const model=window.FM_PRESENTATION.model(match,past?r:null,state.language);
+    return `<p class="prediction-basis"><span class="model-origin" data-model="${model.kind}">${html(model.label)}</span>${past?' · '+(en?'Frozen before kickoff':'开赛前冻结'):''}${!past&&model.kind==='local'&&match.localPrediction?` · ${en?'Home/away samples':'两队样本'} ${match.localPrediction.homeSample}/${match.localPrediction.awaySample}`:''}</p>`;
   }
 
   function probabilityMarkup(match) {
@@ -194,13 +190,19 @@
   }
 
   function confidenceText(match) {
-    return Number.isFinite(match?.confidence) ? `${match.confidence}%` : (state.language==='en'?'No calibrated confidence available':'暂无经校准的信心指标');
+    return state.language==='en'?'No calibrated accuracy available':'尚无经验证的准确率';
   }
 
   function freshnessLine(match){
-    const meta=store().freshness?.[match.competitionId],fresh=window.FM_ANALYTICS?.freshness(meta,match.live),en=state.language==='en';
-    const labels=en?{fresh:'Recently checked',partial:'Partly using snapshot',stale:'Awaiting fresh data',snapshot:'Using snapshot',unknown:'Awaiting verification',archive:'Archived results'}:{fresh:'最近核验',partial:'部分赛程使用快照',stale:'数据核验已超时',snapshot:'当前使用快照',unknown:'等待数据核验',archive:'归档赛果'};
-    return `<p class="freshness-line" data-state="${fresh?.state||'unknown'}">${labels[fresh?.state||'unknown']} ${meta?.lastSuccessAt?formatDate(meta.lastSuccessAt):''}</p>`;
+    const s=window.FM_PRESENTATION.status(match,store(),Date.now(),state.language),en=state.language==='en',t=(zh,eng)=>en?eng:zh;
+    return `<div class="match-data-state" data-state="${s.sourceState}" data-match-state="${html(match.id)}"><div><span class="phase-badge" data-phase="${s.phase}">${html(s.label)}${match.live&&s.clock?` · <span data-live-clock="${html(match.id)}">${html(s.clock)}</span>`:''}</span><span class="source-badge">${html(s.sourceLabel)}</span></div><p>${s.checkedAt?t('核验','Checked')+' '+`<time datetime="${html(s.checkedAt)}" title="${html(formatFull(s.checkedAt))} UTC+8">${formatCheck(s.checkedAt)}</time>`:t('尚无成功核验时间','No successful check time')}${s.sourceUpdatedAt?' · '+t('源更新','Source update')+' '+formatCheck(s.sourceUpdatedAt):' · '+t('源更新时间未提供','Source time unavailable')}${s.snapshotAt?' · '+t('快照','Snapshot')+' '+formatCheck(s.snapshotAt):''}</p>${['stale','snapshot'].includes(s.sourceState)?`<small>${html(s.note)}</small>`:''}</div>`;
+  }
+
+  function comparisonMarkup(match){
+    const r=archivedPrediction(match),en=state.language==='en',t=(zh,eng)=>en?eng:zh;
+    if(!r)return `<p class="card-comparison">${t('未留存赛前记录，未作事后预测。','No pre-match archive; no retrospective prediction.')}</p>`;
+    const result=window.FM_ANALYTICS.evaluationResult(match),pred=String(r.predictedScore).match(/\d+/g)?.slice(0,2).map(Number),same=result&&pred?.[0]===result.homeScore&&pred?.[1]===result.awayScore;
+    return `<p class="card-comparison">${t('赛前','Pre-match')} ${html(r.predictedScore)} · ${match.completed?(result?(same?t('主比分一致','Exact-score match'):t('主比分不一致','Exact score differed')):t('90分钟赛果待确认','90-minute result unconfirmed')):t('开赛前冻结，待结算','Frozen before kickoff; pending')}</p>`;
   }
 
   function cupSummary(match){
@@ -213,21 +215,20 @@
 
   function matchCard(match, options = {}) {
     if (!match) return "";
-    const factors = Array.isArray(match.factors) ? match.factors : [];
+    const past=match.completed||match.live;
     return `
-      <article class="match-card">
+      <article class="match-card" data-match-card="${html(match.id)}">
         <header><span>${html(competitionName(match))} · ${html(stageName(match))}</span><time datetime="${html(match.date)}">${formatDate(match.date)}</time></header>
         <div class="match-teams">
-          <b>${teamLogo(match.homeCode || match.home, match.homeLogo)} ${html(nameFor(match, "home"))}</b>
-          <strong><small class="score-label">${html(scoreKind(match))}</small>${html(scoreFor(match))}</strong>
-          <b>${teamLogo(match.awayCode || match.away, match.awayLogo)} ${html(nameFor(match, "away"))}</b>
+          <b><small class="team-side">${state.language==='en'?'Home':'主队'}</small>${teamLogo(match.homeCode || match.home, match.homeLogo)} <span>${html(nameFor(match, "home"))}</span></b>
+          <strong class="card-score ${!match.predictedScore&&!past?'score-unavailable':''}"><small class="score-label">${html(scoreKind(match))}</small><span>${html(scoreFor(match))}</span></strong>
+          <b><small class="team-side">${state.language==='en'?'Away':'客队'}</small>${teamLogo(match.awayCode || match.away, match.awayLogo)} <span>${html(nameFor(match, "away"))}</span></b>
         </div>
-        ${probabilityMarkup(match)}
-        <p class="match-status-line">${html(match.statusText || "状态待更新")}${match.live ? ` · <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : ""}</p>
+        ${!past&&match.alternativeScore?`<p class="card-alternative">${state.language==='en'?'Alternative score':'备选比分'} <b>${html(match.alternativeScore)}</b></p>`:''}
+        ${past?comparisonMarkup(match):probabilityMarkup(match)}
         ${freshnessLine(match)}
-        ${cupSummary(match)}
         ${predictionNote(match)}
-        ${options.compact ? "" : `<div class="tag-row">${factors.map((item) => `<span class="tag">${html(item)}</span>`).join("")}</div>`}
+        <p class="card-disclaimer">${state.language==='en'?'Model demonstration, not betting or financial advice. Official lineups, announcements and results take priority.':'模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。'}</p>
         ${options.noButton ? "" : `<div class="hero-actions"><button class="button compact" type="button" data-open-match="${html(match.id)}">${state.language === "en" ? "Details" : "查看详情"}</button></div>`}
       </article>
     `;
@@ -256,22 +257,27 @@
     const match = store().matches.find((item) => String(item.id) === String(matchId));
     const modal = $("#matchModal");
     if (!match || !modal) return;
+    const wasOpen=!modal.hidden&&modal.dataset.matchId===String(match.id),content=$('#matchModalContent');
+    const previousDetails=wasOpen?$$('details',content).map(d=>d.open):[];
+    const focusIndex=wasOpen?$$('summary',content).indexOf(document.activeElement):-1;
+    const previousScroll=modal.scrollTop;
     modal.dataset.matchId = String(match.id);
     const pm=match.completed||match.live?archivedPrediction(match):match;
     const probabilities = normalize(pm?.probabilities || pm?.probs);
-    const probabilityText = probabilities ? `主胜 ${probabilities[0]}% · 平局 ${probabilities[1]}% · 客胜 ${probabilities[2]}%${match.completed||match.live?' · 赛前冻结记录':''}` : predictionMissing(match);
+    const en=state.language==='en',t=(zh,eng)=>en?eng:zh;
+    const probabilityText = probabilities ? `${t('主胜','Home')} ${probabilities[0]}% · ${t('平局','Draw')} ${probabilities[1]}% · ${t('客胜','Away')} ${probabilities[2]}%${match.completed||match.live?' · '+t('赛前冻结记录','Frozen pre-match record'):''}` : predictionMissing(match);
     $("#matchModalContent").innerHTML = `
       <p class="eyebrow">${html(competitionName(match))} · ${html(stageName(match))} · MATCH ${html(match.matchNo || match.id)}</p>
       <h2 id="matchModalTitle">${teamLogo(match.homeCode, match.homeLogo)} ${html(nameFor(match, "home"))} vs ${teamLogo(match.awayCode, match.awayLogo)} ${html(nameFor(match, "away"))}</h2>
       <div class="detail-grid">
         ${match.isCup?`<article class="detail-card"><h3>${state.language==='en'?'Cup result scope':'杯赛比分口径'}</h3>${cupSummary(match)}<p>${state.language==='en'?'Advancement':'晋级说明'}：${html(match.advancementText||(state.language==='en'?'Awaiting explicit source confirmation':'等待数据源明确确认，不按单场胜负推断'))}</p>${match.aggregateHomeScore!=null&&match.aggregateAwayScore!=null?`<p>总比分 ${html(`${match.aggregateHomeScore}-${match.aggregateAwayScore}`)}</p>`:''}</article>`:''}
-        <article class="detail-card"><h3>${html(scoreKind(match))}</h3><p>${html(scoreFor(match))}</p>${predictionNote(match)}</article>
-        <article class="detail-card"><h3>胜平负概率</h3><p>${html(probabilityText)}</p></article>
+        <article class="detail-card"><h3>${html(scoreKind(match))}</h3><p class="detail-score">${html(scoreFor(match))}</p>${match.completed||match.live?comparisonMarkup(match):''}${pm?.alternativeScore?`<p>${t('备选比分','Alternative score')} ${html(pm.alternativeScore)}</p>`:''}${predictionNote(match)}</article>
+        <article class="detail-card"><h3>${t('胜平负概率','Result probabilities')}</h3><p>${html(probabilityText)}</p><small>${t('概率不是准确率，尚无经验证的模型命中率。','Probabilities are not accuracy; no validated model accuracy is available.')}</small></article>
         <article class="detail-card"><h3>${state.language === 'en' ? 'HT/FT · Local statistical baseline' : '半全场 · 本地统计参考'}</h3>${window.FM_EXTERNAL_PICKS?.markup(match) || '<p>统计模块尚未载入</p>'}</article>
-        <article class="detail-card"><h3>模型参考值（非命中率）</h3><p>${html(confidenceText(match))}</p></article>
-        <article class="detail-card"><h3>比赛状态</h3><p>${html(match.statusText || "待更新")} ${match.live ? `· <span class="live-clock" data-live-clock="${html(match.id)}">${html(liveClock(match))}</span>` : match.displayClock ? `· ${html(match.displayClock)}` : ""}</p></article>
-        <article class="detail-card"><h3>场地</h3><p>${html(match.venue || "待官方确认")}</p></article>
+        <article class="detail-card"><h3>${t('比赛状态与数据来源','Match status and source')}</h3>${freshnessLine(match)}<small>${t('北京时间 UTC+8；分钟仅显示数据源返回值，不自行模拟走时。','Times use UTC+8; match clocks show source values, not simulated elapsed time.')}</small></article>
+        <article class="detail-card"><h3>${t('场地','Venue')}</h3><p>${html(match.venue || t('待官方确认','Awaiting official confirmation'))}</p></article>
       </div>
+      <details class="prediction-analysis"><summary>${t('分析依据与模型边界','Analysis and model limitations')}</summary>${predictionNote(match)}<p>${t('尚无经验证的准确率；公开概率与本地统计模型分开标注，比分为模型参考，不保证结果。','No validated accuracy is available. Public probabilities and local statistical models are labelled separately; predicted scores are references, not guarantees.')}</p>${Array.isArray(match.factors)&&match.factors.length?`<ul>${match.factors.map(f=>`<li>${html(f)}</li>`).join('')}</ul>`:`<p>${t('该场暂无额外分析因素。','No additional factors supplied for this match.')}</p>`}<a href="about.html#statistical-model">${t('查看模型说明','Read model documentation')} ↗</a></details>
       <section class="detail-card timeline-card">
         <h3>实时/赛后时间轴</h3>
         ${timelineMarkup(match)}
@@ -279,7 +285,8 @@
       </section>
       <p class="compliance-note modal-note">模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p>
     `;
-    openModal(modal, trigger);
+    if(wasOpen){$$('details',content).forEach((d,i)=>{if(previousDetails[i]!==undefined)d.open=previousDetails[i];});if(focusIndex>=0)$$('summary',content)[focusIndex]?.focus({preventScroll:true});modal.scrollTop=previousScroll;}
+    else openModal(modal, trigger);
     window.FM_DATA_SERVICE?.setActiveDetail?.(match.id);
     if (!skipFetch && match.competitionId !== "fifa.world") {
       const fresh = await window.FM_DATA_SERVICE?.loadMatchDetails?.(match.id, false);
@@ -318,8 +325,9 @@
     if (s.status === "loading" && !s.matches.length) return state.language === "en" ? "Loading data" : "正在加载数据";
     if (s.status === "error") return state.language === "en" ? "Data unavailable" : "数据暂不可用";
     if (s.status === "snapshot" || s.isSnapshot) return state.language === "en" ? "Latest snapshot" : "最近数据快照";
-    if (s.liveConnected) return state.language === "en" ? "Live connection active" : "实时连接正常";
-    if (s.status === "ready") return state.language === "en" ? "Remote data updated" : "远程数据已更新";
+    const quality=window.FM_QUALITY?.assess(s);
+    if(quality?.warnings)return state.language==='en'?'Some data overdue / cached':'部分过旧或快照';
+    if (s.status === "ready") return state.language === "en" ? "Sources checked" : "接口已核验";
     return state.language === "en" ? "Preparing" : "准备中";
   }
 
@@ -327,9 +335,10 @@
     const el = $("#dataStatus");
     if (el) el.textContent = dataStatusText();
     const hero = $("#heroStatus");
-    if (hero) hero.textContent = store().sourceLabel || dataStatusText();
+    if (hero) hero.textContent = dataStatusText();
     const footerTime = $("#footerUpdated");
-    if (footerTime) footerTime.textContent = store().liveUpdatedAt || store().lastUpdated ? formatFull(store().liveUpdatedAt || store().lastUpdated) : "待更新";
+    const latest=(Object.values(store().freshness||{}).filter(m=>m.mode!=='archive').map(m=>m.lastSuccessAt).filter(Boolean).sort().at(-1));
+    if (footerTime) footerTime.textContent = latest?formatFull(latest):state.language==='en'?'No successful check; source time unavailable':'尚无成功核验；不代表源更新时间';
     const header=$("[data-site-header]");
     if(header){let panel=$('#dataFreshness');if(!panel){panel=document.createElement('details');panel.id='dataFreshness';panel.className='data-freshness section-shell';header.after(panel);}const open=panel.open,en=state.language==='en',t=(zh,eng)=>en?eng:zh;
       panel.innerHTML=`<summary>${t('数据新鲜度 · 查看核验与来源时间','Data freshness · View checks and source times')}</summary>${(store().competitions||[]).map(c=>{const meta=store().freshness?.[c.id],f=window.FM_ANALYTICS?.freshness(meta);return `<p><strong>${html(en?c.nameEn:c.shortZh)}</strong> · ${t('最近请求','Latest request')}：${meta?.checkedAt?formatFull(meta.checkedAt):t('待请求','Pending')}<br>${t('数据源更新时间','Source updated')}：${meta?.sourceUpdatedAt?formatFull(meta.sourceUpdatedAt):t('源未提供，核验时间不等于源更新时间','Not supplied; request time is not source update time')}<br>${t('状态','Status')}：${({fresh:t('最近核验成功','Recently verified'),partial:t('部分数据使用快照','Partly cached'),stale:t('核验超时，请同步','Verification overdue; sync'),snapshot:t('请求失败，保留最近数据','Request failed; keeping snapshot'),archive:t('归档数据','Archive'),unknown:t('等待核验','Pending')})[f?.state||'unknown']}${meta?.snapshotRecordedAt?' · '+t('快照保存于','Snapshot saved')+' '+formatFull(meta.snapshotRecordedAt):''}</p>`;}).join('')}`;panel.open=open;
@@ -361,7 +370,7 @@
       <div class="section-shell footer-grid">
         <div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><img src="assets/img/football.svg" alt=""></span><span><strong>足球预测大模型</strong><small>联赛 · 欧战 · 世界杯</small></span></a><p>用清晰的数据表达，帮助球迷理解赛程、球队和比赛变量。</p><div class="footer-links">${pages.map(([, href, zh]) => `<a href="${href}">${zh}</a>`).join("")}</div></div>
         <div><h2>合规说明</h2><p>模型演示，不构成投注或财务建议。临场阵容、官方公告与实际赛果优先。</p></div>
-        <div><h2>实时核验时间</h2><p><time id="footerUpdated">${store().liveUpdatedAt || store().lastUpdated ? formatFull(store().liveUpdatedAt || store().lastUpdated) : "待更新"}</time></p><button class="back-top" id="backTop" type="button" aria-label="返回顶部">返回顶部</button></div>
+        <div><h2>${state.language==='en'?'Last successful source check':'最近成功核验 · 非源更新时间'}</h2><p><time id="footerUpdated">${state.language==='en'?'Awaiting check':'等待核验'}</time></p><button class="back-top" id="backTop" type="button" aria-label="返回顶部">返回顶部</button></div>
       </div>
     `;
   }
@@ -376,7 +385,7 @@
 
   async function migrateCacheOnce() {
     if (safeGet(STORAGE.cacheMigrated)) {
-      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.6.0").catch(() => {});
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("service-worker.js?v=5.7.0").catch(() => {});
       return;
     }
     try {
@@ -389,7 +398,7 @@
         await Promise.all(keys.filter((key) => key.startsWith("football-model")).map((key) => caches.delete(key)));
       }
       safeSet(STORAGE.cacheMigrated, "1");
-      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.6.0");
+      if ("serviceWorker" in navigator) await navigator.serviceWorker.register("service-worker.js?v=5.7.0");
     } catch (error) {
       console.warn("Cache migration skipped:", error.message);
     }
@@ -435,19 +444,21 @@
       const button = $("#refreshData");
       if (button) {
         button.disabled = true;
-        button.textContent = "同步中";
+        button.textContent = state.language==='en'?'Checking…':'核验中…';
       }
       try { await Promise.allSettled([window.FM_DATA_SERVICE?.loadData(true),window.FM_HISTORY?.load?.()]); }
       finally {
         if (button) {
           button.disabled = false;
-          button.textContent = "同步";
+          button.textContent = state.language==='en'?'Check':'同步';
         }
         updateDataStatus();
       }
     });
     $("#backTop")?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
     document.onkeydown = (event) => {
+      const modal=$('.modal:not([hidden])');
+      if(event.key==='Tab'&&modal){const controls=$$('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),summary,[tabindex="0"]',modal).filter(e=>e.getClientRects().length),first=controls[0],last=controls.at(-1);if(event.shiftKey&&(document.activeElement===first||document.activeElement=== $('.modal-panel',modal))){event.preventDefault();last?.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first?.focus();}}
       if (event.key === "Escape") {
         closeModal($(".modal:not([hidden])"));
         $("#navMenu")?.classList.remove("open");
@@ -465,12 +476,7 @@
     updateDataStatus();
     migrateCacheOnce();
     setInterval(updateDataStatus, 60000);
-    setInterval(() => {
-      $$("[data-live-clock]").forEach((element) => {
-        const match = store().matches.find((item) => String(item.id) === String(element.dataset.liveClock));
-        if (match) element.textContent = liveClock(match);
-      });
-    }, 1000);
+    setInterval(() => {if(document.hidden)return;$$('[data-match-state]').forEach(element=>{const match=store().matches.find(m=>String(m.id)===element.dataset.matchState);if(match)element.outerHTML=freshnessLine(match);});updateDataStatus();},15000);
   }
 
   window.addEventListener("fm:language", () => {const m=$("#matchModal");if(m && !m.hidden && m.dataset.matchId)openMatch(m.dataset.matchId, state.lastFocus, true);});
@@ -485,7 +491,7 @@
   window.FM = {
     $, $$, html, state, STORAGE, safeGet, safeSet, store, team, teamName, teamLogo, stageName,
     formatDate, formatFull, countdown, normalize, matchCard, openMatch, showToast, scoreFor,
-    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus, nameFor, inCompetition
+    confidenceText, scoreKind, competitionName, liveClock, updateDataStatus, nameFor, inCompetition, freshnessLine, comparisonMarkup
   };
   document.addEventListener("DOMContentLoaded", initCommon);
 })();
