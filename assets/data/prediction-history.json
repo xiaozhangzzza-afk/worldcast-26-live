@@ -511,11 +511,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        23,
-        25,
+        22,
+        26,
         52
       ],
-      "capturedAt": "2026-10-09T21:20:34.652Z",
+      "capturedAt": "2026-10-10T01:02:12.631Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -640,10 +640,10 @@
       "alternativeScore": "2–1",
       "probabilities": [
         88,
-        7,
-        5
+        8,
+        4
       ],
-      "capturedAt": "2026-10-09T21:20:34.652Z",
+      "capturedAt": "2026-10-10T01:02:12.631Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -799,11 +799,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        29,
         28,
+        29,
         43
       ],
-      "capturedAt": "2026-10-09T21:20:34.652Z",
+      "capturedAt": "2026-10-10T01:02:12.631Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -895,11 +895,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        36,
+        37,
         27,
-        37
+        36
       ],
-      "capturedAt": "2026-10-09T09:52:58.629Z",
+      "capturedAt": "2026-10-10T01:02:12.631Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -1911,14 +1911,16 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        12,
+        11,
         16,
-        72
+        73
       ],
-      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "capturedAt": "2026-10-10T01:02:12.631Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
-      "isCup": true
+      "isCup": true,
+      "htft": null,
+      "htftModel": null
     },
     {
       "id": "401915573",
@@ -12201,5 +12203,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-09T21:20:34.656Z"
+  "updatedAt": "2026-10-10T01:02:12.635Z"
 }
