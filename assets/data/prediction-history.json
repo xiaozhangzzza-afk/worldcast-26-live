@@ -1071,11 +1071,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        34,
+        33,
         29,
-        37
+        38
       ],
-      "capturedAt": "2026-10-10T21:31:43.294Z",
+      "capturedAt": "2026-10-11T00:25:30.439Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -1753,14 +1753,16 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        75,
+        76,
         16,
-        9
+        8
       ],
-      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "capturedAt": "2026-10-11T00:25:30.439Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
-      "isCup": true
+      "isCup": true,
+      "htft": null,
+      "htftModel": null
     },
     {
       "id": "401915412",
@@ -1839,11 +1841,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        51,
+        52,
         22,
-        27
+        26
       ],
-      "capturedAt": "2026-10-10T21:31:43.294Z",
+      "capturedAt": "2026-10-11T00:25:30.439Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -2455,14 +2457,16 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        75,
+        74,
         16,
-        9
+        10
       ],
-      "capturedAt": "2026-10-08T15:38:01.193Z",
+      "capturedAt": "2026-10-11T00:25:30.439Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
-      "isCup": true
+      "isCup": true,
+      "htft": null,
+      "htftModel": null
     },
     {
       "id": "401915560",
@@ -3998,10 +4002,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         16,
-        25,
-        59
+        24,
+        60
       ],
-      "capturedAt": "2026-10-10T21:31:43.294Z",
+      "capturedAt": "2026-10-11T00:25:30.439Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12371,5 +12375,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-10T21:31:43.300Z"
+  "updatedAt": "2026-10-11T00:25:30.445Z"
 }
