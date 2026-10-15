@@ -2402,14 +2402,14 @@
       "awayCode": "uefa.europa:384",
       "homeName": "Lyon",
       "awayName": "Crystal Palace",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        43,
-        25,
+        42,
+        26,
         32
       ],
-      "capturedAt": "2026-10-14T15:58:58.040Z",
+      "capturedAt": "2026-10-15T01:30:50.548Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -2581,11 +2581,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        36,
+        37,
         26,
-        38
+        37
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-15T01:30:50.548Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -13297,5 +13297,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-14T23:12:38.179Z"
+  "updatedAt": "2026-10-15T01:30:50.554Z"
 }
