@@ -4874,14 +4874,14 @@
       "awayCode": "uefa.champions:494",
       "homeName": "Fenerbahce",
       "awayName": "Slavia Prague",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        58,
+        57,
         23,
-        19
+        20
       ],
-      "capturedAt": "2026-10-15T06:21:52.991Z",
+      "capturedAt": "2026-10-16T00:45:37.455Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -14005,5 +14005,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-15T22:38:39.049Z"
+  "updatedAt": "2026-10-16T00:45:37.458Z"
 }
