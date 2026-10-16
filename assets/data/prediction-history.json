@@ -3360,7 +3360,13 @@
         5.38,
         18.58
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 1,
+        "awayScore": 0
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-16T21:17:12.238Z"
     },
     {
       "id": "401874959",
@@ -3392,7 +3398,13 @@
         5.23,
         17.74
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 4,
+        "awayScore": 2
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-16T21:17:12.238Z"
     },
     {
       "id": "401876437",
@@ -3424,7 +3436,13 @@
         5.33,
         17.78
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 0,
+        "awayScore": 3
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-16T21:17:12.238Z"
     },
     {
       "id": "401882844",
@@ -3456,7 +3474,13 @@
         4.94,
         13.69
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 1,
+        "awayScore": 1
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-16T21:17:12.238Z"
     },
     {
       "id": "401878771",
@@ -3505,20 +3529,20 @@
         24,
         56
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        20.34,
+        20.28,
         5.28,
-        2.32,
-        10.6,
-        14.39,
-        12.95,
+        2.33,
+        10.57,
+        14.37,
+        12.97,
         1.93,
         5.28,
-        26.91
+        26.99
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3537,20 +3561,20 @@
         24,
         55
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        14.04,
-        4.92,
-        2.76,
-        7.82,
-        12.98,
-        15.22,
-        1.5,
-        4.92,
-        35.84
+        14.42,
+        4.95,
+        2.73,
+        8,
+        13.11,
+        15.09,
+        1.53,
+        4.95,
+        35.22
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3569,20 +3593,20 @@
         22,
         59
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        15.77,
+        15.8,
         5.16,
-        3.2,
-        8.03,
-        11.09,
+        3.18,
+        8.06,
+        11.13,
         14.18,
         1.91,
         5.16,
-        35.5
+        35.42
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3601,20 +3625,20 @@
         26,
         42
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.96,
-        5.36,
-        2.1,
-        13.17,
-        12.39,
-        9.64,
-        2.79,
-        5.36,
-        19.23
+        30.11,
+        5.35,
+        2.08,
+        13.24,
+        12.44,
+        9.59,
+        2.78,
+        5.35,
+        19.06
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3633,20 +3657,20 @@
         26,
         36
       ],
-      "capturedAt": "2026-10-13T17:49:32.752Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        31.94,
-        5.41,
-        2.35,
-        12.94,
-        10.62,
-        9.03,
+        32.12,
+        5.4,
+        2.33,
+        13,
+        10.64,
+        8.98,
         3.24,
-        5.41,
-        19.06
+        5.4,
+        18.89
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3665,20 +3689,20 @@
         23,
         25
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        42.85,
-        4.44,
-        1.2,
-        16.35,
-        11.36,
-        6,
-        2.99,
-        4.44,
-        10.37
+        43.09,
+        4.41,
+        1.18,
+        16.42,
+        11.37,
+        5.93,
+        2.98,
+        4.41,
+        10.21
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3693,24 +3717,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        32.84,
-        22.09,
-        45.07
+        32.96,
+        22.12,
+        44.92
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.68,
+        20.76,
         5.47,
-        3.03,
-        9.74,
-        11.15,
-        12.5,
+        3.02,
+        9.78,
+        11.18,
+        12.48,
         2.42,
         5.47,
-        29.54
+        29.42
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3789,11 +3813,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        77,
-        14,
+        76,
+        15,
         9
       ],
-      "capturedAt": "2026-10-15T11:50:00.561Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -3825,20 +3849,20 @@
         19,
         15
       ],
-      "capturedAt": "2026-10-14T15:58:58.040Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        41.58,
-        4.78,
+        41.54,
+        4.79,
         1.63,
-        15.07,
-        9.86,
-        6.47,
-        3.48,
-        4.78,
-        12.35
+        15.05,
+        9.85,
+        6.48,
+        3.49,
+        4.79,
+        12.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3857,20 +3881,20 @@
         17,
         68
       ],
-      "capturedAt": "2026-10-15T15:48:01.450Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        21.32,
-        5.52,
-        3.48,
-        9.34,
-        9.49,
-        11.98,
-        2.79,
-        5.52,
-        30.56
+        20.22,
+        5.47,
+        3.57,
+        8.96,
+        9.38,
+        12.28,
+        2.69,
+        5.47,
+        31.96
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3889,20 +3913,20 @@
         23,
         60
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.05,
-        5.3,
-        2.86,
-        9.17,
-        12.24,
-        13.57,
-        2.01,
-        5.3,
-        31.5
+        18.47,
+        5.32,
+        2.83,
+        9.35,
+        12.33,
+        13.44,
+        2.04,
+        5.32,
+        30.9
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3921,20 +3945,20 @@
         17,
         67
       ],
-      "capturedAt": "2026-10-15T15:48:01.450Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        14.97,
-        4.99,
-        4.51,
-        6.53,
-        7.12,
-        13.03,
-        2.45,
-        4.99,
-        41.41
+        14.89,
+        4.98,
+        4.52,
+        6.5,
+        7.1,
+        13.04,
+        2.44,
+        4.98,
+        41.55
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -3985,20 +4009,20 @@
         13,
         11
       ],
-      "capturedAt": "2026-10-14T15:58:58.040Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        50,
-        4.13,
-        1.32,
-        15.39,
-        7.71,
-        4.66,
+        50.37,
+        4.1,
+        1.3,
+        15.41,
+        7.64,
+        4.59,
         3.85,
-        4.13,
-        8.81
+        4.1,
+        8.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4013,24 +4037,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        61,
+        60,
         23,
-        16
+        17
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        50.18,
-        3.71,
-        0.82,
-        17.33,
-        10.04,
-        4.31,
-        2.92,
-        3.71,
-        6.98
+        50.44,
+        3.68,
+        0.81,
+        17.36,
+        9.98,
+        4.26,
+        2.91,
+        3.68,
+        6.88
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4049,20 +4073,20 @@
         25,
         24
       ],
-      "capturedAt": "2026-10-15T11:50:00.561Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        28.54,
-        5.32,
-        2,
-        13.13,
-        13.41,
-        10.08,
-        2.55,
-        5.32,
-        19.65
+        27.46,
+        5.35,
+        2.08,
+        12.79,
+        13.44,
+        10.43,
+        2.5,
+        5.35,
+        20.6
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4081,20 +4105,20 @@
         24,
         51
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.72,
-        5.31,
-        2.69,
-        9.59,
-        12.89,
-        13.42,
-        1.99,
-        5.31,
-        30.08
+        17.83,
+        5.26,
+        2.76,
+        9.23,
+        12.73,
+        13.73,
+        1.92,
+        5.26,
+        31.28
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4113,20 +4137,20 @@
         29,
         41
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        16.97,
+        16.91,
         4.67,
         1.63,
-        10.36,
-        19.81,
-        14.34,
+        10.33,
+        19.8,
+        14.37,
         1.2,
         4.67,
-        26.35
+        26.42
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4145,20 +4169,20 @@
         27,
         23
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        32.54,
-        5.29,
-        2.03,
-        13.65,
-        11.73,
-        8.87,
-        3,
-        5.29,
-        17.6
+        32.96,
+        5.27,
+        2,
+        13.77,
+        11.71,
+        8.74,
+        3.01,
+        5.27,
+        17.27
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4177,20 +4201,20 @@
         25,
         27
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        30.95,
+        30.88,
         5.49,
-        2.63,
-        12.29,
+        2.64,
+        12.27,
         9.9,
-        9.27,
+        9.29,
         3.39,
         5.49,
-        20.59
+        20.65
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4305,20 +4329,20 @@
         26,
         45
       ],
-      "capturedAt": "2026-10-14T20:08:37.329Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        14.78,
-        5.06,
-        3.15,
-        7.72,
-        11.27,
-        14.58,
-        1.77,
-        5.06,
-        36.61
+        15.19,
+        5.1,
+        3.12,
+        7.9,
+        11.4,
+        14.46,
+        1.81,
+        5.1,
+        35.92
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4337,20 +4361,20 @@
         25,
         47
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.85,
-        5.17,
-        1.74,
-        13.89,
-        14.29,
-        9.62,
-        2.44,
-        5.17,
-        17.83
+        28.77,
+        5.22,
+        1.81,
+        13.56,
+        14.35,
+        9.97,
+        2.4,
+        5.22,
+        18.7
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4369,20 +4393,20 @@
         22,
         23
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        38.72,
-        5.04,
-        1.92,
-        14.3,
-        9.8,
-        7.21,
-        3.55,
-        5.04,
-        14.42
+        38.98,
+        5.02,
+        1.9,
+        14.35,
+        9.78,
+        7.14,
+        3.56,
+        5.02,
+        14.25
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4401,20 +4425,20 @@
         29,
         27
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        23.61,
+        23.57,
         4.69,
         1.28,
-        13.38,
+        13.36,
         20.45,
-        11.39,
-        1.49,
+        11.41,
+        1.48,
         4.69,
-        19.02
+        19.07
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4433,20 +4457,20 @@
         28,
         30
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        33.53,
-        5,
-        1.54,
-        14.89,
-        13.8,
-        8.46,
-        2.59,
-        5,
-        15.19
+        32.43,
+        5.06,
+        1.61,
+        14.59,
+        13.92,
+        8.8,
+        2.55,
+        5.06,
+        15.98
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4465,20 +4489,20 @@
         28,
         46
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        20.89,
-        4.87,
-        1.58,
-        11.93,
-        19.04,
-        12.67,
-        1.49,
-        4.87,
-        22.66
+        20.1,
+        4.86,
+        1.62,
+        11.57,
+        18.95,
+        13.01,
+        1.46,
+        4.86,
+        23.57
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4497,20 +4521,20 @@
         28,
         30
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        32.28,
-        4.82,
-        1.32,
-        15.29,
-        15.85,
-        8.67,
-        2.22,
-        4.82,
-        14.73
+        31.25,
+        4.88,
+        1.37,
+        14.99,
+        15.97,
+        9,
+        2.2,
+        4.88,
+        15.46
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4561,20 +4585,20 @@
         23,
         46
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        34.94,
-        5.36,
-        2.7,
-        12.49,
-        8.44,
-        8.12,
-        3.96,
-        5.36,
-        18.63
+        35.18,
+        5.35,
+        2.68,
+        12.54,
+        8.42,
+        8.06,
+        3.97,
+        5.35,
+        18.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4593,20 +4617,20 @@
         25,
         23
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        34.59,
-        4.88,
-        1.42,
-        15.34,
-        14.07,
-        8.1,
+        34.96,
+        4.85,
+        1.39,
+        15.44,
+        14.04,
+        7.99,
         2.54,
-        4.88,
-        14.18
+        4.85,
+        13.94
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4625,20 +4649,20 @@
         27,
         45
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        17.84,
+        17.78,
         5.01,
-        2.06,
-        10.1,
-        16.44,
-        14,
+        2.07,
+        10.07,
+        16.42,
+        14.03,
         1.53,
         5.01,
-        28.01
+        28.08
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4657,20 +4681,20 @@
         25,
         19
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        27.76,
-        4.98,
-        1.5,
-        14.02,
-        16.77,
-        10.16,
-        2.01,
-        4.98,
-        17.82
+        28.14,
+        4.97,
+        1.48,
+        14.15,
+        16.72,
+        10.03,
+        2.03,
+        4.97,
+        17.51
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4689,20 +4713,20 @@
         23,
         21
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        42.64,
-        3.94,
-        0.78,
-        17.94,
-        14.34,
-        5.59,
-        2.28,
-        3.94,
-        8.55
+        41.6,
+        4.03,
+        0.82,
+        17.75,
+        14.61,
+        5.86,
+        2.27,
+        4.03,
+        9.03
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4721,20 +4745,20 @@
         15,
         8
       ],
-      "capturedAt": "2026-10-16T09:47:47.920Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        42.03,
+        42.01,
         4.7,
         1.52,
-        15.37,
-        10.15,
-        6.34,
+        15.36,
+        10.14,
+        6.35,
         3.38,
         4.7,
-        11.81
+        11.84
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4749,24 +4773,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        40,
-        29,
+        39,
+        30,
         31
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        15.9,
-        4.94,
-        2.24,
-        9.13,
-        15.65,
-        14.78,
-        1.44,
-        4.94,
-        30.98
+        16.28,
+        4.97,
+        2.22,
+        9.3,
+        15.71,
+        14.62,
+        1.47,
+        4.97,
+        30.46
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4785,20 +4809,20 @@
         31,
         39
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        20.35,
+        20.74,
         5.05,
-        1.86,
-        11.29,
+        1.84,
+        11.44,
         17.14,
-        12.98,
-        1.64,
+        12.82,
+        1.66,
         5.05,
-        24.64
+        24.26
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -4845,24 +4869,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–0",
       "probabilities": [
+        33,
         32,
-        32,
-        36
+        35
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        28.45,
+        28.39,
         4.82,
-        1.31,
-        14.59,
-        17.8,
-        9.8,
+        1.32,
+        14.57,
+        17.81,
+        9.82,
         1.9,
         4.82,
-        16.51
+        16.55
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5163,20 +5187,20 @@
         30,
         44
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        23.72,
-        5.21,
+        23.58,
+        5.16,
+        1.84,
+        12.31,
+        16.21,
+        11.74,
         1.92,
-        12.2,
-        15.65,
-        11.71,
-        1.99,
-        5.21,
-        22.39
+        5.16,
+        22.08
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5443,20 +5467,20 @@
         17,
         16
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        61.3,
-        3.02,
-        0.83,
-        15.04,
-        5.33,
-        2.72,
-        3.81,
-        3.02,
-        4.93
+        61.74,
+        2.97,
+        0.81,
+        15.02,
+        5.25,
+        2.65,
+        3.79,
+        2.97,
+        4.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5475,20 +5499,20 @@
         27,
         29
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        33.47,
-        5.24,
-        1.97,
-        13.88,
-        11.65,
-        8.6,
-        3.04,
-        5.24,
-        16.91
+        33.89,
+        5.22,
+        1.94,
+        14,
+        11.62,
+        8.47,
+        3.05,
+        5.22,
+        16.59
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5507,20 +5531,20 @@
         29,
         29
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        37.33,
-        4.65,
-        1.23,
-        16.11,
-        13.9,
-        7.27,
-        2.55,
-        4.65,
-        12.31
+        36.22,
+        4.73,
+        1.29,
+        15.85,
+        14.08,
+        7.59,
+        2.53,
+        4.73,
+        12.98
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5571,20 +5595,20 @@
         27,
         22
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        43.88,
+        43.86,
         3.61,
         0.61,
         18.69,
-        15.1,
+        15.11,
         5.07,
         2.05,
         3.61,
-        7.38
+        7.39
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5635,20 +5659,20 @@
         25,
         21
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        33.46,
+        33.42,
         5.3,
-        2.11,
-        13.57,
+        2.12,
+        13.55,
         11.01,
-        8.61,
+        8.62,
         3.19,
         5.3,
-        17.45
+        17.49
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5667,20 +5691,20 @@
         31,
         39
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.9,
+        30.22,
         4.06,
         0.76,
-        16.43,
-        22.39,
-        8.5,
-        1.41,
+        16.51,
+        22.22,
+        8.4,
+        1.43,
         4.06,
-        12.49
+        12.34
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5699,20 +5723,20 @@
         21,
         15
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        35.2,
-        5.13,
-        1.83,
-        14.35,
-        11.58,
-        8.1,
-        3.07,
-        5.13,
-        15.61
+        39.33,
+        4.95,
+        1.76,
+        14.72,
+        10.22,
+        7.03,
+        3.42,
+        4.95,
+        13.62
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5731,20 +5755,20 @@
         24,
         27
       ],
-      "capturedAt": "2026-10-12T16:03:42.364Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        66.25,
-        2.51,
-        0.65,
-        14.4,
-        4.3,
-        2.04,
-        3.68,
-        2.51,
-        3.66
+        66.71,
+        2.46,
+        0.63,
+        14.35,
+        4.23,
+        1.98,
+        3.64,
+        2.46,
+        3.54
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5763,20 +5787,20 @@
         24,
         30
       ],
-      "capturedAt": "2026-10-12T16:03:42.364Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        35.92,
-        4.87,
-        1.44,
-        15.39,
-        13.29,
-        7.77,
-        2.69,
-        4.87,
-        13.76
+        33.91,
+        4.85,
+        1.37,
+        15.38,
+        14.69,
+        8.26,
+        2.42,
+        4.85,
+        14.27
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5795,20 +5819,20 @@
         23,
         21
       ],
-      "capturedAt": "2026-10-12T16:03:42.364Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        45.62,
-        4.62,
-        1.83,
-        14.3,
-        7.55,
-        5.62,
+        45.94,
+        4.59,
+        1.8,
+        14.35,
+        7.52,
+        5.55,
         4.2,
-        4.62,
-        11.64
+        4.59,
+        11.46
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5827,20 +5851,20 @@
         17,
         14
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        47.97,
-        4.19,
-        1.21,
-        16.01,
-        9,
-        4.99,
+        48.29,
+        4.16,
+        1.19,
+        16.05,
+        8.95,
+        4.92,
         3.47,
-        4.19,
-        8.97
+        4.16,
+        8.81
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5852,27 +5876,27 @@
       "awayCode": "ger.1:127",
       "homeName": "SC Paderborn 07",
       "awayName": "Hamburg SV",
-      "predictedScore": "2–1",
-      "alternativeScore": "2–0",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        61.21,
-        20.82,
-        17.97
+        61.47,
+        20.79,
+        17.74
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        41.92,
-        4.46,
-        1.19,
-        16.41,
-        11.9,
-        6.19,
-        2.88,
-        4.46,
-        10.59
+        42.12,
+        4.43,
+        1.17,
+        16.48,
+        11.92,
+        6.13,
+        2.87,
+        4.43,
+        10.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5955,20 +5979,20 @@
         26,
         35
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        22.6,
+        22.53,
         5.53,
-        2.99,
-        10.28,
-        10.9,
-        11.84,
-        2.64,
+        3,
+        10.25,
+        10.89,
+        11.86,
+        2.63,
         5.53,
-        27.69
+        27.78
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -5983,24 +6007,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        56,
+        57,
         23,
-        21
+        20
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        42.91,
-        4.42,
-        1.19,
-        16.39,
-        11.41,
-        5.98,
-        2.98,
-        4.42,
-        10.3
+        46.2,
+        4.14,
+        1.04,
+        16.78,
+        10.66,
+        5.21,
+        3.02,
+        4.14,
+        8.81
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6019,20 +6043,20 @@
         27,
         40
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.14,
-        5.21,
-        2.47,
-        9.68,
-        14.05,
-        13.75,
-        1.8,
-        5.21,
-        29.69
+        18.53,
+        5.22,
+        2.44,
+        9.85,
+        14.15,
+        13.61,
+        1.82,
+        5.22,
+        29.16
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6083,20 +6107,20 @@
         25,
         45
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.59,
-        5.24,
+        18.53,
+        5.23,
         2.48,
-        9.83,
-        13.96,
-        13.57,
+        9.8,
+        13.94,
+        13.6,
         1.84,
-        5.24,
-        29.25
+        5.23,
+        29.35
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6115,20 +6139,20 @@
         19,
         17
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        59.1,
-        3.19,
-        0.85,
-        15.56,
-        6.08,
-        3.01,
-        3.67,
-        3.19,
-        5.35
+        56.44,
+        3.39,
+        0.87,
+        16.09,
+        7.03,
+        3.39,
+        3.51,
+        3.39,
+        5.89
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6144,23 +6168,23 @@
       "alternativeScore": "2–1",
       "probabilities": [
         61,
-        23,
-        16
+        24,
+        15
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        45.32,
-        3.69,
-        0.68,
-        18.35,
-        13.65,
-        4.94,
-        2.27,
-        3.69,
-        7.41
+        45.6,
+        3.67,
+        0.67,
+        18.37,
+        13.54,
+        4.88,
+        2.28,
+        3.67,
+        7.32
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6179,20 +6203,20 @@
         25,
         29
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        23.62,
-        5.23,
-        1.96,
-        12.1,
-        15.43,
-        11.75,
-        2.02,
-        5.23,
-        22.66
+        22.68,
+        5.24,
+        2.03,
+        11.74,
+        15.37,
+        12.09,
+        1.97,
+        5.24,
+        23.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6211,20 +6235,20 @@
         14,
         9
       ],
-      "capturedAt": "2026-10-15T11:50:00.561Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        40.53,
+        40.5,
         4.59,
-        1.27,
-        16.12,
+        1.28,
+        16.11,
         12.07,
-        6.55,
+        6.56,
         2.89,
         4.59,
-        11.39
+        11.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6243,20 +6267,20 @@
         18,
         14
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        53.36,
-        3.89,
-        1.32,
-        14.88,
-        6.45,
-        4.07,
-        4.18,
-        3.89,
-        7.96
+        53.71,
+        3.85,
+        1.29,
+        14.91,
+        6.42,
+        4.01,
+        4.16,
+        3.85,
+        7.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6275,20 +6299,20 @@
         24,
         19
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.13,
+        29.09,
         3.93,
         0.7,
-        16.44,
-        23.7,
-        8.55,
+        16.42,
+        23.73,
+        8.56,
         1.29,
         3.93,
-        12.33
+        12.35
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6435,20 +6459,20 @@
         23,
         20
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        26.73,
-        5.23,
-        1.85,
-        13.06,
-        14.92,
-        10.65,
-        2.23,
-        5.23,
-        20.1
+        25.87,
+        5.37,
+        2.15,
+        12.32,
+        13.61,
+        10.97,
+        2.39,
+        5.37,
+        21.95
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6467,20 +6491,20 @@
         29,
         27
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        33.35,
-        5.06,
-        1.63,
-        14.65,
-        13.4,
-        8.55,
-        2.66,
-        5.06,
-        15.64
+        33.74,
+        5.04,
+        1.61,
+        14.76,
+        13.34,
+        8.43,
+        2.68,
+        5.04,
+        15.36
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6499,20 +6523,20 @@
         28,
         27
       ],
-      "capturedAt": "2026-10-16T14:21:34.569Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        36.27,
-        4.59,
-        1.15,
-        16.27,
-        15.01,
-        7.46,
-        2.35,
-        4.59,
-        12.31
+        35.21,
+        4.66,
+        1.2,
+        16.01,
+        15.19,
+        7.78,
+        2.33,
+        4.66,
+        12.96
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6531,20 +6555,20 @@
         24,
         41
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.47,
-        5.38,
+        18.56,
+        5.39,
         3.55,
-        8.51,
-        9.65,
-        12.9,
-        2.45,
-        5.38,
-        33.71
+        8.54,
+        9.66,
+        12.88,
+        2.46,
+        5.39,
+        33.57
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6563,20 +6587,20 @@
         27,
         38
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        26.17,
+        26.11,
         5.22,
-        1.84,
-        12.95,
+        1.85,
+        12.93,
         15.2,
-        10.83,
+        10.85,
         2.17,
         5.22,
-        20.4
+        20.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6595,20 +6619,20 @@
         26,
         29
       ],
-      "capturedAt": "2026-10-14T15:58:58.040Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        25.6,
-        5.58,
-        3,
-        10.91,
-        10.18,
-        10.82,
-        3.02,
-        5.58,
-        25.31
+        28.11,
+        5.55,
+        2.78,
+        11.67,
+        10.25,
+        10.1,
+        3.16,
+        5.55,
+        22.83
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6627,20 +6651,20 @@
         29,
         34
       ],
-      "capturedAt": "2026-10-14T06:06:18.305Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        24.72,
-        4.99,
-        1.56,
-        13.14,
-        17.66,
-        11.22,
-        1.81,
-        4.99,
-        19.91
+        23.83,
+        5.01,
+        1.61,
+        12.79,
+        17.64,
+        11.57,
+        1.77,
+        5.01,
+        20.77
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6659,20 +6683,20 @@
         21,
         20
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        31.4,
-        4.75,
-        1.24,
-        15.36,
-        16.86,
-        8.84,
-        2.07,
-        4.75,
-        14.73
+        30.43,
+        4.8,
+        1.29,
+        15.05,
+        16.97,
+        9.18,
+        2.04,
+        4.8,
+        15.44
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6687,24 +6711,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        56.77,
-        20.21,
-        23.02
+        55.18,
+        20.53,
+        24.29
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.76,
-        5,
-        1.81,
-        14.57,
-        10.22,
-        7.18,
-        3.43,
-        5,
-        14.03
+        37.46,
+        5.09,
+        1.9,
+        14.31,
+        10.36,
+        7.52,
+        3.4,
+        5.09,
+        14.87
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6755,20 +6779,20 @@
         16,
         63
       ],
-      "capturedAt": "2026-10-16T18:13:36.721Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        34.34,
-        5.33,
-        2.31,
-        13.23,
-        9.93,
-        8.35,
-        3.49,
-        5.33,
-        17.69
+        34.57,
+        5.32,
+        2.29,
+        13.29,
+        9.92,
+        8.29,
+        3.5,
+        5.32,
+        17.5
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6787,20 +6811,20 @@
         23,
         64
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        10.65,
-        4.44,
-        2.7,
-        6.37,
-        12.82,
-        16.62,
-        1.12,
-        4.44,
-        40.84
+        10.99,
+        4.49,
+        2.68,
+        6.54,
+        12.99,
+        16.51,
+        1.15,
+        4.49,
+        40.16
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6819,20 +6843,20 @@
         23,
         23
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        37.96,
-        5.06,
-        1.88,
-        14.38,
-        10.26,
-        7.39,
-        3.42,
-        5.06,
-        14.59
+        37.24,
+        5.07,
+        1.85,
+        14.44,
+        10.69,
+        7.57,
+        3.3,
+        5.07,
+        14.77
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6851,20 +6875,20 @@
         26,
         51
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        14.56,
-        5.02,
-        2.98,
-        7.81,
-        11.98,
-        14.83,
-        1.66,
-        5.02,
-        36.14
+        14.95,
+        5.05,
+        2.95,
+        7.99,
+        12.11,
+        14.7,
+        1.7,
+        5.05,
+        35.5
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6883,20 +6907,20 @@
         18,
         14
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        31.31,
-        5.36,
-        2.15,
-        13.25,
-        11.65,
-        9.23,
-        2.99,
-        5.36,
-        18.7
+        30.13,
+        5.41,
+        2.24,
+        12.93,
+        11.7,
+        9.58,
+        2.93,
+        5.41,
+        19.67
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6915,20 +6939,20 @@
         19,
         18
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        53.76,
-        3.9,
-        1.44,
-        14.38,
+        53.71,
+        3.91,
+        1.45,
+        14.37,
         5.92,
-        4.03,
+        4.04,
         4.45,
-        3.9,
-        8.22
+        3.91,
+        8.24
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6947,20 +6971,20 @@
         28,
         24
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        45.66,
+        45.65,
         4.28,
         1.17,
-        16.35,
+        16.34,
         10.23,
         5.41,
         3.19,
         4.28,
-        9.43
+        9.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -6973,26 +6997,26 @@
       "homeName": "Sassuolo",
       "awayName": "Lazio",
       "predictedScore": "1–1",
-      "alternativeScore": "0–1",
+      "alternativeScore": "1–2",
       "probabilities": [
-        28.94,
-        24.48,
-        46.58
+        27.02,
+        23.12,
+        49.86
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.67,
-        5.17,
-        2.47,
-        9.52,
-        14.14,
-        13.94,
-        1.74,
-        5.17,
-        30.18
+        16.5,
+        5.16,
+        2.78,
+        8.74,
+        12.8,
+        14.23,
+        1.78,
+        5.16,
+        32.85
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7007,24 +7031,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        47.59,
-        27.34,
-        25.07
+        48.1,
+        27.22,
+        24.68
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.34,
-        4.67,
-        1.17,
-        15.35,
-        18,
-        9.08,
-        1.9,
-        4.67,
-        14.82
+        30.72,
+        4.65,
+        1.16,
+        15.46,
+        17.91,
+        8.95,
+        1.92,
+        4.65,
+        14.58
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7039,24 +7063,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        31.44,
-        24.56,
-        44
+        32.04,
+        24.66,
+        43.3
       ],
-      "capturedAt": "2026-10-14T20:08:37.329Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        19.39,
-        5.27,
-        2.43,
-        10.15,
-        14.03,
-        13.28,
-        1.9,
-        5.27,
-        28.28
+        19.79,
+        5.28,
+        2.4,
+        10.32,
+        14.1,
+        13.13,
+        1.93,
+        5.28,
+        27.77
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7071,24 +7095,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–0",
       "probabilities": [
-        57.45,
-        24.35,
-        18.2
+        57.83,
+        24.22,
+        17.95
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.07,
-        4.26,
-        0.91,
-        17.21,
-        15.84,
-        6.75,
-        2.16,
-        4.26,
-        10.54
+        38.41,
+        4.23,
+        0.9,
+        17.27,
+        15.75,
+        6.66,
+        2.17,
+        4.23,
+        10.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7103,24 +7127,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        36.88,
-        24.86,
-        38.26
+        37.5,
+        24.87,
+        37.63
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        23.16,
+        23.59,
         5.35,
-        2.22,
-        11.56,
+        2.19,
+        11.72,
         14.17,
-        11.91,
-        2.16,
+        11.75,
+        2.18,
         5.35,
-        24.12
+        23.7
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7135,24 +7159,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–3",
       "probabilities": [
-        15.93,
-        15.84,
-        68.23
+        16.55,
+        16.17,
+        67.28
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        9.58,
-        4.27,
-        4.1,
-        4.85,
-        7.3,
-        14.87,
-        1.51,
-        4.27,
-        49.25
+        9.96,
+        4.35,
+        4.08,
+        5.03,
+        7.48,
+        14.84,
+        1.55,
+        4.35,
+        48.36
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7167,24 +7191,24 @@
       "predictedScore": "0–1",
       "alternativeScore": "0–2",
       "probabilities": [
-        17.83,
-        22.47,
-        59.7
+        18.35,
+        22.74,
+        58.91
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        10.4,
-        4.35,
-        2.5,
-        6.4,
-        13.77,
-        16.94,
-        1.02,
-        4.35,
-        40.27
+        10.73,
+        4.4,
+        2.49,
+        6.58,
+        13.94,
+        16.82,
+        1.05,
+        4.4,
+        39.59
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7199,24 +7223,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        32.25,
-        23.03,
-        44.72
+        32.87,
+        23.13,
+        44
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.14,
-        5.41,
-        2.79,
-        9.9,
-        12.22,
-        12.83,
-        2.21,
-        5.41,
-        29.09
+        20.57,
+        5.42,
+        2.75,
+        10.08,
+        12.29,
+        12.69,
+        2.23,
+        5.42,
+        28.55
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7228,27 +7252,27 @@
       "awayCode": "ita.1:113",
       "homeName": "Frosinone",
       "awayName": "Lecce",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "2–1",
+      "alternativeScore": "2–0",
       "probabilities": [
-        58.06,
-        22.14,
-        19.8
+        62.78,
+        19.86,
+        17.36
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        39.17,
-        4.61,
-        1.24,
-        16.18,
-        12.92,
-        6.84,
-        2.72,
-        4.61,
-        11.71
+        43.43,
+        4.43,
+        1.22,
+        16.28,
+        11.01,
+        5.89,
+        3.06,
+        4.43,
+        10.25
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7263,24 +7287,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        28.05,
-        22.91,
-        49.04
+        28.68,
+        23.05,
+        48.27
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.23,
-        5.24,
-        2.84,
-        8.92,
-        12.44,
-        13.9,
-        1.9,
-        5.24,
-        32.29
+        17.65,
+        5.26,
+        2.81,
+        9.1,
+        12.53,
+        13.76,
+        1.93,
+        5.26,
+        31.7
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7295,24 +7319,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        25.87,
-        23.65,
-        50.48
+        24.69,
+        23.31,
+        52
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.66,
-        5.05,
-        2.63,
-        8.59,
-        13.55,
-        14.67,
-        1.62,
-        5.05,
-        33.18
+        14.89,
+        4.99,
+        2.69,
+        8.24,
+        13.32,
+        14.94,
+        1.56,
+        4.99,
+        34.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7327,24 +7351,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        52.45,
-        20.28,
-        27.27
+        52.73,
+        20.26,
+        27.01
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        35.46,
-        5.28,
-        2.26,
-        13.41,
+        35.71,
+        5.26,
+        2.23,
+        13.47,
         9.73,
-        8.05,
-        3.56,
-        5.28,
-        16.97
+        7.99,
+        3.57,
+        5.26,
+        16.78
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7359,24 +7383,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        48.85,
+        48.78,
         23.27,
-        27.88
+        27.95
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.08,
-        5.2,
-        1.83,
-        14.03,
+        32.01,
+        5.21,
+        1.84,
+        14.01,
         12.86,
-        8.98,
+        8.99,
         2.75,
-        5.2,
-        17.07
+        5.21,
+        17.12
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7391,24 +7415,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        49.84,
-        23.07,
-        27.09
+        48.35,
+        23.28,
+        28.37
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.83,
-        5.17,
-        1.8,
-        14.21,
-        12.73,
-        8.75,
-        2.79,
-        5.17,
-        16.55
+        31.7,
+        5.23,
+        1.87,
+        13.89,
+        12.83,
+        9.09,
+        2.75,
+        5.23,
+        17.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7455,24 +7479,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        27.76,
-        21.89,
-        50.35
+        27.87,
+        22.3,
+        49.83
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.13,
-        5.27,
-        3.11,
-        8.59,
-        11.35,
-        13.75,
-        2.03,
-        5.27,
-        33.5
+        17.17,
+        5.26,
+        3,
+        8.73,
+        11.79,
+        13.82,
+        1.98,
+        5.26,
+        32.99
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7487,24 +7511,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        48.15,
-        24.04,
-        27.81
+        48.71,
+        23.95,
+        27.34
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        31.39,
-        5.15,
-        1.72,
-        14.19,
-        13.75,
-        9.14,
-        2.57,
-        5.15,
-        16.94
+        31.81,
+        5.13,
+        1.7,
+        14.3,
+        13.7,
+        9.01,
+        2.58,
+        5.13,
+        16.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7519,24 +7543,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        67.53,
-        17.04,
-        15.43
+        67.92,
+        16.91,
+        15.17
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        48.18,
-        4.23,
-        1.29,
-        15.73,
-        8.58,
-        4.98,
+        48.54,
+        4.19,
+        1.27,
+        15.76,
+        8.52,
+        4.91,
         3.62,
-        4.23,
-        9.16
+        4.19,
+        9
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7551,24 +7575,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        47.11,
-        22.81,
-        30.08
+        47.36,
+        22.84,
+        29.8
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.89,
-        5.34,
-        2.08,
-        13.35,
-        12.14,
-        9.35,
-        2.87,
-        5.34,
-        18.64
+        31.09,
+        5.32,
+        2.05,
+        13.42,
+        12.19,
+        9.3,
+        2.86,
+        5.32,
+        18.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7583,24 +7607,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        47.44,
+        47.69,
         20.98,
-        31.58
+        31.33
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        31.52,
-        5.46,
-        2.53,
-        12.54,
-        10.07,
-        9.12,
-        3.37,
-        5.46,
-        19.93
+        31.71,
+        5.45,
+        2.51,
+        12.6,
+        10.08,
+        9.07,
+        3.38,
+        5.45,
+        19.75
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7615,24 +7639,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        38.14,
-        25.15,
-        36.71
+        38.28,
+        25.21,
+        36.51
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24,
-        5.32,
-        2.1,
-        11.97,
-        14.52,
-        11.61,
-        2.16,
-        5.32,
-        23
+        24.1,
+        5.31,
+        2.08,
+        12.03,
+        14.59,
+        11.58,
+        2.15,
+        5.31,
+        22.85
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7647,24 +7671,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        68.44,
-        15.86,
-        15.7
+        68.84,
+        15.73,
+        15.43
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        49.42,
-        4.24,
-        1.47,
-        14.97,
-        7.38,
-        4.81,
+        49.77,
+        4.21,
+        1.45,
+        15,
+        7.32,
+        4.74,
         4.05,
-        4.24,
-        9.42
+        4.21,
+        9.25
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7839,24 +7863,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        36.26,
+        36.18,
         27.11,
-        36.63
+        36.71
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.43,
+        22.37,
         5.09,
         1.79,
-        12.06,
-        16.93,
-        12.16,
+        12.04,
+        16.92,
+        12.18,
         1.78,
         5.09,
-        22.67
+        22.74
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7869,26 +7893,26 @@
       "homeName": "Nice",
       "awayName": "Stade Rennais",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "0–1",
       "probabilities": [
-        37.08,
-        26.88,
-        36.04
+        35.8,
+        26.83,
+        37.37
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        23.01,
+        22.14,
         5.12,
+        1.86,
+        11.86,
+        16.59,
+        12.28,
         1.8,
-        12.22,
-        16.65,
-        11.94,
-        1.84,
         5.12,
-        22.3
+        23.23
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7903,24 +7927,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        22.31,
-        20.27,
-        57.42
+        22.94,
+        20.5,
+        56.56
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        13.54,
-        4.94,
-        3.37,
-        7.04,
-        10.4,
-        14.8,
-        1.72,
-        4.94,
-        39.25
+        13.95,
+        4.98,
+        3.34,
+        7.23,
+        10.54,
+        14.7,
+        1.76,
+        4.98,
+        38.52
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7967,24 +7991,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "1–0",
       "probabilities": [
-        69.95,
+        69.94,
         17.83,
-        12.22
+        12.23
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        49.64,
+        49.62,
         3.71,
         0.81,
         17.47,
         10.41,
-        4.38,
+        4.39,
         2.84,
         3.71,
-        7.03
+        7.04
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -7999,24 +8023,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "2–0",
       "probabilities": [
-        67.49,
-        17.37,
-        15.14
+        67.85,
+        17.25,
+        14.9
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        47.99,
-        4.19,
-        1.21,
-        16.02,
-        9,
-        4.98,
+        48.32,
+        4.16,
+        1.19,
+        16.05,
+        8.94,
+        4.91,
         3.47,
-        4.19,
-        8.95
+        4.16,
+        8.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8031,24 +8055,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        49.23,
-        21.27,
-        29.5
+        49.77,
+        21.24,
+        28.99
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.81,
-        5.37,
-        2.29,
-        13.13,
-        10.53,
-        8.79,
-        3.29,
-        5.37,
-        18.42
+        33.23,
+        5.35,
+        2.25,
+        13.25,
+        10.54,
+        8.67,
+        3.3,
+        5.35,
+        18.06
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8063,24 +8087,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        41.36,
-        25.84,
-        32.8
+        40,
+        25.88,
+        34.12
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.17,
-        5.19,
-        1.8,
-        13.04,
+        25.22,
+        5.21,
+        1.86,
+        12.69,
         15.46,
-        10.82,
-        2.14,
-        5.19,
-        20.19
+        11.17,
+        2.09,
+        5.21,
+        21.09
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8095,24 +8119,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "1–0",
       "probabilities": [
-        67.3,
-        19.03,
-        13.67
+        65.99,
+        19.52,
+        14.49
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        47.14,
-        3.92,
-        0.88,
-        17.37,
-        11.19,
-        4.89,
-        2.79,
-        3.92,
-        7.9
+        45.95,
+        4.03,
+        0.93,
+        17.24,
+        11.46,
+        5.16,
+        2.8,
+        4.03,
+        8.4
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8127,24 +8151,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        33.52,
-        23.7,
-        42.78
+        36.44,
+        23.98,
+        39.58
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.95,
-        5.4,
-        2.6,
-        10.4,
-        12.91,
-        12.62,
-        2.18,
-        5.4,
-        27.54
+        22.97,
+        5.42,
+        2.43,
+        11.18,
+        13.14,
+        11.93,
+        2.29,
+        5.42,
+        25.22
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8191,24 +8215,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        74.66,
+        74.64,
         14.1,
-        11.24
+        11.26
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        55.22,
-        3.58,
-        1,
-        15.75,
+        55.18,
+        3.59,
+        1.01,
+        15.74,
         6.93,
-        3.65,
+        3.66,
         3.71,
-        3.58,
-        6.58
+        3.59,
+        6.59
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8223,24 +8247,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        72.55,
-        15.78,
-        11.67
+        72.82,
+        15.68,
+        11.5
       ],
-      "capturedAt": "2026-10-14T20:08:37.329Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        52.64,
-        3.66,
-        0.9,
-        16.63,
-        8.46,
-        3.99,
-        3.28,
-        3.66,
-        6.78
+        52.89,
+        3.63,
+        0.89,
+        16.66,
+        8.42,
+        3.94,
+        3.27,
+        3.63,
+        6.67
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8255,24 +8279,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        36.61,
+        36.53,
         28.85,
-        34.54
+        34.62
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.45,
+        22.4,
         4.86,
         1.49,
-        12.6,
+        12.58,
         19.13,
-        12.01,
+        12.03,
         1.56,
         4.86,
-        21.04
+        21.09
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8285,26 +8309,26 @@
       "homeName": "Frosinone",
       "awayName": "Torino",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        49.92,
-        24.71,
-        25.37
+        54.46,
+        22.72,
+        22.82
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.54,
-        4.94,
-        1.45,
-        14.99,
-        14.83,
-        8.69,
-        2.39,
-        4.94,
-        15.23
+        36.33,
+        4.88,
+        1.46,
+        15.37,
+        12.96,
+        7.68,
+        2.76,
+        4.88,
+        13.68
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8319,24 +8343,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "0–0",
       "probabilities": [
-        44.66,
-        30.02,
-        25.32
+        45.15,
+        29.87,
+        24.98
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.86,
-        4.39,
+        28.21,
+        4.38,
         0.97,
-        15.3,
-        21.24,
-        9.54,
-        1.51,
-        4.39,
-        14.8
+        15.41,
+        21.1,
+        9.42,
+        1.53,
+        4.38,
+        14.6
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8351,24 +8375,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        64.24,
-        17.25,
-        18.51
+        62.63,
+        17.68,
+        19.69
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        45.53,
-        4.58,
-        1.68,
-        14.73,
-        8.09,
-        5.62,
-        3.98,
-        4.58,
-        11.21
+        44.13,
+        4.7,
+        1.78,
+        14.55,
+        8.27,
+        5.94,
+        3.96,
+        4.7,
+        11.97
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8383,24 +8407,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        40.13,
-        21.53,
-        38.34
+        41.56,
+        22.29,
+        36.15
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.03,
-        5.57,
-        2.91,
-        11.11,
-        10.38,
-        10.72,
-        3,
-        5.57,
-        24.71
+        26.92,
+        5.53,
+        2.61,
+        11.75,
+        11.24,
+        10.53,
+        2.88,
+        5.53,
+        23.01
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8415,24 +8439,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–3",
       "probabilities": [
-        22.72,
-        18.1,
-        59.18
+        22.61,
+        18.05,
+        59.34
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        14.02,
-        4.96,
-        4.08,
-        6.59,
-        8.18,
-        13.83,
-        2.11,
-        4.96,
-        41.27
+        13.95,
+        4.95,
+        4.09,
+        6.56,
+        8.15,
+        13.84,
+        2.1,
+        4.95,
+        41.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8444,27 +8468,27 @@
       "awayCode": "fra.1:174",
       "homeName": "Paris FC",
       "awayName": "AS Monaco",
-      "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        42.02,
-        28.54,
-        29.44
+        40.78,
+        28.63,
+        30.59
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.22,
-        4.78,
-        1.3,
-        14.08,
-        18.99,
-        10.51,
-        1.71,
-        4.78,
-        17.63
+        25.35,
+        4.81,
+        1.35,
+        13.74,
+        19.02,
+        10.85,
+        1.68,
+        4.81,
+        18.39
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8511,24 +8535,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        66.11,
-        16.18,
-        17.71
+        67.17,
+        16.32,
+        16.51
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        47.43,
-        4.47,
-        1.72,
-        14.43,
-        7.24,
-        5.24,
-        4.25,
-        4.47,
-        10.75
+        48.2,
+        4.35,
+        1.53,
+        14.94,
+        7.63,
+        5.05,
+        4.02,
+        4.35,
+        9.93
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8543,24 +8567,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        43.09,
-        25.33,
-        31.58
+        43.63,
+        25.28,
+        31.09
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.49,
-        5.21,
-        1.8,
-        13.33,
-        14.92,
-        10.38,
-        2.26,
-        5.21,
-        19.4
+        27.9,
+        5.19,
+        1.78,
+        13.46,
+        14.89,
+        10.24,
+        2.28,
+        5.19,
+        19.07
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8575,24 +8599,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        53.9,
+        53.85,
         22.72,
-        23.38
+        23.43
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        35.92,
-        4.92,
+        35.88,
+        4.93,
         1.52,
-        15.2,
+        15.18,
         12.87,
-        7.81,
+        7.82,
         2.78,
-        4.92,
-        14.06
+        4.93,
+        14.09
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8607,24 +8631,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        56.82,
-        23.36,
-        19.82
+        57.22,
+        23.26,
+        19.52
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        37.89,
-        4.53,
-        1.13,
-        16.47,
-        14.3,
-        7.05,
+        38.2,
+        4.5,
+        1.11,
+        16.55,
+        14.26,
+        6.96,
         2.46,
-        4.53,
-        11.64
+        4.5,
+        11.46
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8639,24 +8663,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        46.65,
-        23.47,
-        29.88
+        39.77,
+        24.01,
+        36.22
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.41,
-        5.29,
-        1.96,
-        13.53,
-        12.89,
-        9.49,
-        2.71,
-        5.29,
-        18.43
+        25.33,
+        5.42,
+        2.28,
+        11.99,
+        13.18,
+        11.13,
+        2.44,
+        5.42,
+        22.81
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8671,24 +8695,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        46.85,
-        26.22,
-        26.93
+        46.79,
+        26.23,
+        26.98
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.02,
-        4.9,
+        29.97,
+        4.91,
         1.4,
-        14.72,
+        14.7,
         16.42,
-        9.38,
+        9.4,
         2.11,
-        4.9,
-        16.15
+        4.91,
+        16.18
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8703,24 +8727,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        58.08,
-        20.16,
-        21.76
+        56.2,
+        19.97,
+        23.83
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        39.78,
-        4.89,
-        1.68,
-        14.93,
-        10.38,
-        6.9,
-        3.37,
-        4.89,
-        13.18
+        38.42,
+        5.06,
+        1.94,
+        14.25,
+        9.84,
+        7.28,
+        3.54,
+        5.06,
+        14.61
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8735,24 +8759,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        57.48,
-        23.3,
-        19.22
+        57.87,
+        23.18,
+        18.95
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.4,
-        4.46,
-        1.08,
-        16.66,
-        14.37,
-        6.88,
-        2.43,
-        4.46,
-        11.26
+        38.71,
+        4.44,
+        1.07,
+        16.72,
+        14.3,
+        6.79,
+        2.44,
+        4.44,
+        11.09
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -8799,24 +8823,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        64.36,
+        64.33,
         19.5,
-        16.14
+        16.17
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        44.74,
+        44.73,
         4.28,
         1.12,
-        16.59,
+        16.58,
         10.94,
-        5.55,
+        5.56,
         3.02,
         4.28,
-        9.48
+        9.49
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9151,24 +9175,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        58.52,
-        18.27,
-        23.21
+        58.84,
+        18.22,
+        22.94
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        40.71,
-        5,
-        2.14,
-        13.76,
-        8.27,
-        6.73,
+        40.98,
+        4.98,
+        2.12,
+        13.81,
+        8.26,
+        6.66,
         4.05,
-        5,
-        14.34
+        4.98,
+        14.16
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9183,24 +9207,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        31.05,
-        22,
-        46.95
+        31.73,
+        22.1,
+        46.17
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        19.43,
-        5.41,
-        3.08,
-        9.33,
-        11.17,
-        12.92,
-        2.3,
-        5.41,
-        30.95
+        19.89,
+        5.43,
+        3.05,
+        9.51,
+        11.24,
+        12.78,
+        2.33,
+        5.43,
+        30.34
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9215,24 +9239,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        47.82,
-        21.48,
-        30.7
+        52.1,
+        20.84,
+        27.06
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        31.7,
-        5.42,
-        2.36,
-        12.88,
-        10.65,
-        9.1,
-        3.23,
-        5.42,
-        19.24
+        35.07,
+        5.26,
+        2.14,
+        13.64,
+        10.32,
+        8.16,
+        3.39,
+        5.26,
+        16.76
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9279,24 +9303,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        40.74,
+        40.66,
         25.53,
-        33.73
+        33.81
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.8,
+        25.74,
         5.24,
-        1.89,
-        12.77,
-        15.05,
-        10.97,
+        1.9,
+        12.75,
+        15.04,
+        10.99,
         2.18,
         5.24,
-        20.86
+        20.92
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9343,24 +9367,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        42.15,
+        42.06,
         24.07,
-        33.78
+        33.87
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.05,
-        5.37,
-        2.13,
-        12.61,
-        13.32,
-        10.57,
+        26.97,
+        5.38,
+        2.14,
+        12.58,
+        13.31,
+        10.59,
         2.5,
-        5.37,
-        21.08
+        5.38,
+        21.15
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9372,27 +9396,27 @@
       "awayCode": "ita.1:4057",
       "homeName": "Cagliari",
       "awayName": "Frosinone",
-      "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        42.51,
-        29.53,
-        27.96
+        41.59,
+        28.29,
+        30.12
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.42,
-        4.6,
-        1.14,
-        14.51,
-        20.34,
-        10.25,
-        1.58,
-        4.6,
-        16.56
+        25.98,
+        4.83,
+        1.36,
+        13.88,
+        18.63,
+        10.65,
+        1.74,
+        4.83,
+        18.1
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9407,24 +9431,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        49.99,
-        24.12,
-        25.89
+        50.5,
+        24.02,
+        25.48
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.71,
-        5.02,
-        1.56,
-        14.75,
-        14.08,
-        8.7,
-        2.53,
-        5.02,
-        15.63
+        33.11,
+        5,
+        1.54,
+        14.85,
+        14.02,
+        8.58,
+        2.54,
+        5,
+        15.36
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9439,24 +9463,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "2–0",
       "probabilities": [
-        65.09,
-        19.09,
-        15.82
+        65.43,
+        18.99,
+        15.58
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        45.47,
-        4.25,
-        1.12,
-        16.54,
-        10.59,
-        5.41,
+        45.76,
+        4.21,
+        1.1,
+        16.6,
+        10.56,
+        5.34,
         3.08,
-        4.25,
-        9.29
+        4.21,
+        9.14
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9471,24 +9495,24 @@
       "predictedScore": "2–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        38,
-        20.2,
-        41.8
+        38.22,
+        20.21,
+        41.57
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.68,
+        24.83,
         5.59,
-        3.42,
-        10.12,
-        9.03,
-        10.9,
-        3.21,
+        3.41,
+        10.17,
+        9.04,
+        10.85,
+        3.22,
         5.59,
-        27.46
+        27.3
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9503,24 +9527,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        61.33,
-        18.35,
-        20.32
+        61.69,
+        18.26,
+        20.05
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        42.87,
-        4.77,
-        1.76,
-        14.66,
-        8.81,
-        6.21,
-        3.8,
-        4.77,
-        12.35
+        43.16,
+        4.75,
+        1.74,
+        14.71,
+        8.77,
+        6.14,
+        3.81,
+        4.75,
+        12.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9532,27 +9556,27 @@
       "awayCode": "ger.1:125",
       "homeName": "SC Paderborn 07",
       "awayName": "Eintracht Frankfurt",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "2–1",
       "probabilities": [
-        57.18,
-        20.72,
-        22.1
+        54.74,
+        22.01,
+        23.25
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.92,
-        4.91,
-        1.64,
-        15.02,
-        10.91,
-        7.1,
-        3.23,
-        4.91,
-        13.36
+        36.74,
+        4.95,
+        1.59,
+        15.06,
+        12.1,
+        7.63,
+        2.95,
+        4.95,
+        14.03
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9631,24 +9655,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        44.58,
+        44.51,
         25.06,
-        30.36
+        30.43
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        28.61,
+        28.56,
         5.19,
-        1.76,
-        13.63,
+        1.77,
+        13.61,
         14.68,
-        10.01,
+        10.02,
         2.34,
         5.19,
-        18.59
+        18.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9663,24 +9687,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        26.38,
-        24.08,
-        49.54
+        25.2,
+        23.75,
+        51.05
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.97,
-        5.06,
-        2.54,
-        8.81,
-        13.97,
-        14.6,
-        1.6,
-        5.06,
-        32.39
+        15.2,
+        5,
+        2.6,
+        8.45,
+        13.75,
+        14.88,
+        1.55,
+        5,
+        33.57
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9695,24 +9719,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        32.84,
-        29.44,
-        37.72
+        33.38,
+        29.43,
+        37.19
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        19.83,
-        4.76,
-        1.52,
-        11.65,
-        19.92,
-        13.06,
-        1.36,
-        4.76,
-        23.14
+        20.19,
+        4.77,
+        1.5,
+        11.8,
+        19.89,
+        12.9,
+        1.38,
+        4.77,
+        22.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9759,24 +9783,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        63.08,
-        18.27,
-        18.65
+        63.45,
+        18.17,
+        18.38
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        44.25,
-        4.61,
-        1.56,
-        15.17,
-        9.05,
-        5.87,
+        44.57,
+        4.58,
+        1.54,
+        15.22,
+        9.01,
+        5.79,
         3.66,
-        4.61,
-        11.22
+        4.58,
+        11.05
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9791,24 +9815,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        29.26,
-        27.09,
-        43.65
+        29.17,
+        27.08,
+        43.75
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.64,
-        4.94,
+        17.58,
+        4.93,
         1.95,
-        10.18,
-        17.22,
-        14.1,
-        1.45,
-        4.94,
-        27.58
+        10.15,
+        17.21,
+        14.12,
+        1.44,
+        4.93,
+        27.69
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9821,26 +9845,26 @@
       "homeName": "AS Roma",
       "awayName": "Sassuolo",
       "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "alternativeScore": "2–0",
       "probabilities": [
-        61,
-        19.75,
-        19.25
+        65.86,
+        17.68,
+        16.46
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        42.13,
-        4.65,
-        1.44,
-        15.59,
-        10.45,
-        6.29,
-        3.28,
-        4.65,
-        11.52
+        46.62,
+        4.36,
+        1.35,
+        15.67,
+        8.96,
+        5.31,
+        3.57,
+        4.36,
+        9.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9852,27 +9876,27 @@
       "awayCode": "fra.1:170",
       "homeName": "Paris Saint-Germain",
       "awayName": "Troyes",
-      "predictedScore": "3–0",
-      "alternativeScore": "2–0",
+      "predictedScore": "2–0",
+      "alternativeScore": "3–0",
       "probabilities": [
-        80.22,
-        12.13,
-        7.65
+        79.09,
+        12.67,
+        8.24
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        60.76,
-        2.87,
-        0.63,
-        16.24,
-        6.39,
-        2.65,
-        3.22,
-        2.87,
-        4.37
+        59.5,
+        3.01,
+        0.68,
+        16.3,
+        6.66,
+        2.84,
+        3.27,
+        3.01,
+        4.73
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9887,24 +9911,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        20.95,
-        21.72,
-        57.33
+        20.85,
+        21.68,
+        57.47
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        12.5,
+        12.44,
         4.75,
         2.9,
-        7.04,
-        12.22,
-        15.69,
-        1.4,
+        7.01,
+        12.19,
+        15.71,
+        1.39,
         4.75,
-        38.75
+        38.86
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9919,24 +9943,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        29.97,
-        26.68,
-        43.35
+        30.55,
+        26.76,
+        42.69
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        18.16,
-        5.01,
-        2.02,
-        10.28,
-        16.66,
-        13.88,
-        1.53,
-        5.01,
-        27.45
+        18.54,
+        5.02,
+        2,
+        10.45,
+        16.71,
+        13.72,
+        1.56,
+        5.02,
+        26.98
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9951,24 +9975,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        32.45,
-        21.15,
-        46.4
+        32.35,
+        21.13,
+        46.52
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.52,
+        20.45,
         5.48,
-        3.31,
-        9.36,
-        10.19,
-        12.37,
+        3.32,
+        9.33,
+        10.17,
+        12.39,
         2.57,
         5.48,
-        30.72
+        30.81
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10111,24 +10135,24 @@
       "predictedScore": "0–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        20.17,
-        23.35,
-        56.48
+        20.72,
+        23.58,
+        55.7
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        11.88,
-        4.57,
-        2.48,
-        7.13,
-        14.21,
-        16.35,
-        1.16,
-        4.57,
-        37.65
+        12.22,
+        4.61,
+        2.46,
+        7.31,
+        14.36,
+        16.22,
+        1.19,
+        4.61,
+        37.02
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10143,24 +10167,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        30.59,
-        22.2,
-        47.21
+        31.23,
+        22.32,
+        46.45
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        19.07,
-        5.39,
-        3.03,
-        9.29,
-        11.43,
-        13.08,
-        2.22,
-        5.39,
-        31.1
+        19.51,
+        5.41,
+        2.99,
+        9.47,
+        11.51,
+        12.95,
+        2.25,
+        5.41,
+        30.5
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10173,26 +10197,26 @@
       "homeName": "Stade Rennais",
       "awayName": "Lille",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        50.17,
-        23.87,
-        25.96
+        48.72,
+        24.1,
+        27.18
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.89,
-        5.05,
-        1.6,
-        14.68,
-        13.78,
-        8.66,
-        2.59,
-        5.05,
-        15.7
+        31.8,
+        5.11,
+        1.66,
+        14.37,
+        13.89,
+        9,
+        2.55,
+        5.11,
+        16.51
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10207,24 +10231,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        35.29,
-        21.82,
-        42.89
+        33.63,
+        22.55,
+        43.82
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.46,
-        5.53,
-        3.04,
-        10.18,
-        10.76,
-        11.86,
-        2.65,
-        5.53,
-        27.99
+        21.18,
+        5.47,
+        2.89,
+        10.06,
+        11.61,
+        12.4,
+        2.39,
+        5.47,
+        28.53
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10239,24 +10263,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        56.44,
+        56.39,
         20.76,
-        22.8
+        22.85
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.37,
-        4.96,
+        38.31,
+        4.97,
         1.71,
-        14.82,
+        14.81,
         10.83,
-        7.26,
+        7.27,
         3.26,
-        4.96,
-        13.83
+        4.97,
+        13.87
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10271,24 +10295,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        43.77,
-        27.25,
-        28.98
+        42.47,
+        27.37,
+        30.16
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.66,
-        4.91,
-        1.41,
-        14.19,
-        17.43,
-        10.13,
-        1.93,
-        4.91,
-        17.43
+        26.73,
+        4.94,
+        1.46,
+        13.85,
+        17.48,
+        10.48,
+        1.9,
+        4.94,
+        18.22
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10303,24 +10327,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        37.95,
-        24.02,
-        38.03
+        36.52,
+        23.97,
+        39.51
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.04,
+        23.03,
         5.42,
-        2.36,
-        11.55,
-        13.18,
-        11.57,
-        2.36,
+        2.44,
+        11.19,
+        13.12,
+        11.91,
+        2.3,
         5.42,
-        24.1
+        25.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10333,26 +10357,26 @@
       "homeName": "Le Havre AC",
       "awayName": "Lorient",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "0–1",
       "probabilities": [
-        35.28,
-        30.58,
-        34.14
+        34.16,
+        30.52,
+        35.32
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        21.35,
-        4.62,
-        1.29,
-        12.6,
-        21.34,
-        12.26,
+        20.61,
+        4.63,
         1.33,
-        4.62,
-        20.59
+        12.25,
+        21.27,
+        12.6,
+        1.3,
+        4.63,
+        21.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10367,24 +10391,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        33.07,
-        24.09,
-        42.84
+        27.64,
+        23.47,
+        48.89
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.58,
-        5.36,
-        2.51,
-        10.41,
-        13.38,
-        12.79,
-        2.08,
-        5.36,
-        27.53
+        16.89,
+        5.18,
+        2.7,
+        8.97,
+        13.12,
+        14.13,
+        1.79,
+        5.18,
+        32.04
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10431,24 +10455,24 @@
       "predictedScore": "3–0",
       "alternativeScore": "4–0",
       "probabilities": [
-        88.98,
-        7.09,
-        3.93
+        89.31,
+        6.91,
+        3.78
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        72.15,
-        1.83,
-        0.39,
-        13.74,
-        3.42,
-        1.32,
-        3.1,
-        1.83,
-        2.22
+        72.57,
+        1.79,
+        0.37,
+        13.66,
+        3.34,
+        1.28,
+        3.06,
+        1.79,
+        2.14
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10463,24 +10487,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        48.42,
-        20.43,
-        31.15
+        49.04,
+        20.41,
+        30.55
       ],
-      "capturedAt": "2026-10-14T20:08:37.329Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.37,
-        5.45,
-        2.61,
-        12.49,
-        9.54,
-        8.86,
-        3.54,
-        5.45,
-        19.69
+        32.85,
+        5.43,
+        2.55,
+        12.63,
+        9.56,
+        8.73,
+        3.55,
+        5.43,
+        19.27
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10492,27 +10516,27 @@
       "awayCode": "esp.1:1538",
       "homeName": "Celta Vigo",
       "awayName": "Levante",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "1–1",
       "probabilities": [
-        53.42,
-        24.06,
-        22.52
+        52.63,
+        24.61,
+        22.76
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        35.22,
-        4.76,
-        1.29,
-        15.74,
-        14.55,
-        7.85,
-        2.45,
-        4.76,
-        13.38
+        34.52,
+        4.73,
+        1.26,
+        15.77,
+        15.15,
+        8.01,
+        2.34,
+        4.73,
+        13.49
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10527,24 +10551,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        51.4,
-        26.01,
-        22.59
+        51.35,
+        26.02,
+        22.63
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        33.29,
+        33.28,
         4.6,
         1.12,
-        16.01,
+        15.99,
         16.82,
-        8.19,
+        8.2,
         2.08,
         4.6,
-        13.29
+        13.31
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10559,24 +10583,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        48.94,
+        49.2,
         23.31,
-        27.75
+        27.49
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.15,
-        5.19,
-        1.82,
-        14.07,
-        12.92,
-        8.95,
+        32.32,
+        5.18,
+        1.8,
+        14.14,
+        12.95,
+        8.89,
         2.74,
-        5.19,
-        16.97
+        5.18,
+        16.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10591,24 +10615,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–2",
       "probabilities": [
-        17.33,
-        20.14,
-        62.53
+        17.88,
+        20.44,
+        61.68
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        10.22,
-        4.41,
-        2.99,
-        5.93,
-        11.32,
-        16.4,
-        1.19,
-        4.41,
-        43.13
+        10.56,
+        4.47,
+        2.97,
+        6.11,
+        11.5,
+        16.31,
+        1.22,
+        4.47,
+        42.39
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10623,24 +10647,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        53.93,
-        21.73,
-        24.34
+        52.41,
+        22.01,
+        25.58
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        36.22,
-        5.05,
-        1.73,
-        14.66,
-        11.62,
-        7.81,
-        3.07,
-        5.05,
-        14.79
+        35,
+        5.13,
+        1.81,
+        14.38,
+        11.75,
+        8.15,
+        3.03,
+        5.13,
+        15.62
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10655,24 +10679,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "2–2",
       "probabilities": [
-        31.7,
-        20.18,
-        48.12
+        31.6,
+        20.16,
+        48.24
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.11,
+        20.04,
         5.46,
-        3.62,
-        8.88,
-        9.25,
-        12.29,
-        2.71,
+        3.63,
+        8.85,
+        9.23,
+        12.3,
+        2.7,
         5.46,
-        32.22
+        32.33
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10684,27 +10708,27 @@
       "awayCode": "ger.1:122",
       "homeName": "Bayern Munich",
       "awayName": "FC Cologne",
-      "predictedScore": "3–1",
-      "alternativeScore": "3–0",
+      "predictedScore": "3–0",
+      "alternativeScore": "3–1",
       "probabilities": [
-        82.44,
-        10.48,
-        7.08
+        82.73,
+        10.6,
+        6.67
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        63.78,
-        2.71,
-        0.67,
-        15.1,
-        5.05,
-        2.33,
-        3.57,
-        2.71,
-        4.08
+        63.88,
+        2.63,
+        0.6,
+        15.5,
+        5.34,
+        2.26,
+        3.34,
+        2.63,
+        3.82
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10717,26 +10741,26 @@
       "homeName": "Troyes",
       "awayName": "Le Havre AC",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "0–1",
       "probabilities": [
-        36.74,
-        28.42,
-        34.84
+        35.52,
+        28.38,
+        36.1
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.58,
-        4.92,
-        1.55,
-        12.53,
-        18.59,
-        12,
-        1.62,
-        4.92,
-        21.29
+        21.76,
+        4.93,
+        1.6,
+        12.18,
+        18.53,
+        12.34,
+        1.58,
+        4.93,
+        22.15
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10783,24 +10807,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        40.58,
-        28.45,
-        30.97
+        41.11,
+        28.39,
+        30.5
       ],
-      "capturedAt": "2026-10-14T20:08:37.329Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.25,
+        25.61,
         4.84,
-        1.39,
-        13.63,
-        18.77,
-        10.92,
-        1.7,
+        1.37,
+        13.77,
+        18.72,
+        10.78,
+        1.72,
         4.84,
-        18.66
+        18.35
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10815,24 +10839,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "1–0",
       "probabilities": [
-        67.28,
-        19.37,
-        13.35
+        67.59,
+        19.24,
+        13.17
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        46.98,
-        3.84,
-        0.82,
-        17.65,
-        11.68,
-        4.85,
-        2.66,
-        3.84,
-        7.68
+        47.25,
+        3.82,
+        0.81,
+        17.67,
+        11.6,
+        4.79,
+        2.67,
+        3.82,
+        7.57
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10847,24 +10871,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        25.36,
-        19.97,
-        54.67
+        25.43,
+        20,
+        54.57
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.67,
+        15.71,
         5.17,
-        3.61,
-        7.59,
-        9.63,
-        13.82,
+        3.6,
+        7.61,
+        9.66,
+        13.81,
         2.11,
         5.17,
-        37.23
+        37.16
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10879,24 +10903,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "3–0",
       "probabilities": [
-        76.47,
-        14.61,
-        8.92
+        76.82,
+        14.46,
+        8.72
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        56.24,
-        3.14,
-        0.63,
-        17.32,
-        8.33,
-        3.21,
-        2.91,
-        3.14,
-        5.08
+        56.58,
+        3.1,
+        0.61,
+        17.34,
+        8.27,
+        3.15,
+        2.89,
+        3.1,
+        4.96
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10911,24 +10935,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        28.18,
-        20.97,
-        50.85
+        28.27,
+        21.01,
+        50.72
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.53,
+        17.59,
         5.32,
-        3.37,
-        8.43,
-        10.34,
-        13.39,
-        2.22,
+        3.36,
+        8.46,
+        10.37,
+        13.37,
+        2.23,
         5.32,
-        34.08
+        33.98
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10943,24 +10967,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        58.74,
-        17.72,
-        23.54
+        60.09,
+        17.95,
+        21.96
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        41.05,
-        5,
-        2.28,
-        13.43,
-        7.72,
-        6.64,
-        4.26,
-        5,
-        14.62
+        42.03,
+        4.9,
+        2.04,
+        13.98,
+        8.15,
+        6.42,
+        4.07,
+        4.9,
+        13.51
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10975,24 +10999,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        38.07,
-        22.84,
-        39.09
+        38.23,
+        22.88,
+        38.89
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.3,
+        24.42,
         5.51,
-        2.65,
-        11.16,
-        11.82,
-        11.4,
+        2.63,
+        11.21,
+        11.86,
+        11.37,
         2.6,
         5.51,
-        25.05
+        24.89
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11167,24 +11191,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        29.79,
-        24.31,
-        45.9
+        28.53,
+        24.06,
+        47.41
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        18.28,
-        5.23,
-        2.51,
-        9.68,
-        13.86,
-        13.68,
-        1.83,
-        5.23,
-        29.7
+        17.44,
+        5.18,
+        2.57,
+        9.32,
+        13.69,
+        13.99,
+        1.77,
+        5.18,
+        30.86
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11197,26 +11221,26 @@
       "homeName": "Parma",
       "awayName": "AS Roma",
       "predictedScore": "0–1",
-      "alternativeScore": "0–2",
+      "alternativeScore": "1–1",
       "probabilities": [
-        18.3,
-        22.09,
-        59.61
+        18.84,
+        22.36,
+        58.8
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        10.73,
-        4.43,
-        2.62,
-        6.47,
-        13.23,
-        16.67,
-        1.1,
-        4.43,
-        40.32
+        11.07,
+        4.48,
+        2.6,
+        6.65,
+        13.4,
+        16.56,
+        1.13,
+        4.48,
+        39.63
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11263,24 +11287,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        42.99,
-        25.34,
-        31.67
+        43.17,
+        25.38,
+        31.45
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.43,
-        5.21,
-        1.81,
-        13.3,
-        14.92,
-        10.4,
+        27.53,
+        5.2,
+        1.79,
+        13.37,
+        14.98,
+        10.36,
         2.26,
-        5.21,
-        19.46
+        5.2,
+        19.31
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11295,24 +11319,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47.52,
-        25.32,
-        27.16
+        48.01,
+        25.25,
+        26.74
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.68,
-        5,
-        1.51,
-        14.56,
-        15.32,
-        9.26,
-        2.29,
-        5,
-        16.38
+        31.05,
+        4.98,
+        1.49,
+        14.67,
+        15.29,
+        9.14,
+        2.3,
+        4.98,
+        16.1
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11327,24 +11351,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        73.1,
-        15.7,
-        11.2
+        71.81,
+        16.23,
+        11.96
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        53.08,
-        3.58,
-        0.85,
-        16.81,
-        8.55,
-        3.87,
-        3.2,
-        3.58,
-        6.48
+        51.84,
+        3.71,
+        0.9,
+        16.76,
+        8.81,
+        4.12,
+        3.21,
+        3.71,
+        6.94
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11356,27 +11380,27 @@
       "awayCode": "fra.1:179",
       "homeName": "Lens",
       "awayName": "Toulouse",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "2–1",
       "probabilities": [
-        53.53,
-        20.98,
-        25.49
+        46.1,
+        22.09,
+        31.81
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        36.11,
-        5.16,
-        1.96,
-        14.11,
-        10.66,
-        7.88,
-        3.31,
-        5.16,
-        15.65
+        30.3,
+        5.44,
+        2.34,
+        12.75,
+        11.21,
+        9.52,
+        3.05,
+        5.44,
+        19.95
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11391,24 +11415,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        33.71,
-        26.12,
-        40.17
+        32.44,
+        25.98,
+        41.58
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.78,
-        5.18,
-        2.06,
-        11.12,
-        15.75,
-        12.82,
-        1.81,
-        5.18,
-        25.3
+        19.92,
+        5.17,
+        2.12,
+        10.76,
+        15.64,
+        13.15,
+        1.76,
+        5.17,
+        26.31
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11423,24 +11447,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        42.46,
-        21.65,
-        35.89
+        40.84,
+        21.67,
+        37.49
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.68,
-        5.55,
-        2.73,
-        11.69,
-        10.56,
-        10.25,
-        3.07,
-        5.55,
-        22.92
+        26.51,
+        5.56,
+        2.82,
+        11.33,
+        10.55,
+        10.6,
+        3,
+        5.56,
+        24.07
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11455,24 +11479,24 @@
       "predictedScore": "2–0",
       "alternativeScore": "3–0",
       "probabilities": [
-        78.54,
-        13.6,
-        7.86
+        78.71,
+        13.52,
+        7.77
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        58.43,
-        2.91,
-        0.56,
+        58.61,
+        2.89,
+        0.55,
         17.26,
-        7.77,
+        7.73,
+        2.82,
         2.85,
-        2.86,
-        2.91,
-        4.45
+        2.89,
+        4.4
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11519,24 +11543,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        44.65,
-        25.12,
-        30.23
+        45.21,
+        25.05,
+        29.74
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        28.63,
-        5.18,
-        1.75,
-        13.67,
-        14.77,
-        9.99,
-        2.33,
-        5.18,
-        18.5
+        29.07,
+        5.16,
+        1.72,
+        13.8,
+        14.73,
+        9.85,
+        2.34,
+        5.16,
+        18.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11551,24 +11575,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        55.65,
-        22.21,
-        22.14
+        53.95,
+        21.88,
+        24.17
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        37.35,
-        4.84,
-        1.46,
-        15.45,
-        12.52,
-        7.42,
-        2.85,
-        4.84,
-        13.27
+        36.18,
+        5.03,
+        1.7,
+        14.75,
+        11.82,
+        7.81,
+        3.02,
+        5.03,
+        14.66
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11583,24 +11607,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–0",
       "probabilities": [
-        58.76,
-        23.66,
-        17.58
+        57.46,
+        24.06,
+        18.48
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        39.22,
-        4.23,
-        0.91,
-        17.29,
-        15.2,
-        6.49,
-        2.25,
-        4.23,
-        10.18
+        38.17,
+        4.31,
+        0.96,
+        17.06,
+        15.43,
+        6.79,
+        2.24,
+        4.31,
+        10.73
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11615,24 +11639,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        63.09,
-        16.94,
-        19.97
+        63.47,
+        16.85,
+        19.68
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        44.76,
-        4.7,
-        1.93,
-        14.1,
-        7.53,
-        5.81,
+        45.07,
+        4.68,
+        1.9,
+        14.15,
+        7.5,
+        5.74,
         4.25,
-        4.7,
-        12.22
+        4.68,
+        12.03
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11647,24 +11671,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        41.27,
-        26.65,
-        32.08
+        39.94,
+        26.7,
+        33.36
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.99,
-        5.09,
-        1.65,
-        13.28,
+        25.04,
+        5.11,
+        1.71,
+        12.94,
         16.48,
-        10.83,
-        1.99,
-        5.09,
-        19.6
+        11.18,
+        1.96,
+        5.11,
+        20.47
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11711,24 +11735,24 @@
       "predictedScore": "3–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        74.58,
-        13.89,
-        11.53
+        74.96,
+        13.75,
+        11.29
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        55.28,
-        3.62,
-        1.07,
-        15.45,
-        6.64,
-        3.68,
-        3.86,
-        3.62,
-        6.78
+        55.64,
+        3.58,
+        1.05,
+        15.47,
+        6.59,
+        3.61,
+        3.85,
+        3.58,
+        6.63
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11741,26 +11765,26 @@
       "homeName": "AC Milan",
       "awayName": "Frosinone",
       "predictedScore": "1–1",
-      "alternativeScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        51.52,
-        24.46,
-        24.02
+        50.4,
+        23.71,
+        25.89
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        33.77,
-        4.85,
-        1.37,
-        15.36,
-        14.75,
-        8.3,
-        2.41,
-        4.85,
-        14.34
+        33.12,
+        5.05,
+        1.61,
+        14.67,
+        13.6,
+        8.61,
+        2.62,
+        5.05,
+        15.67
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11775,24 +11799,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        38.06,
-        21.49,
-        40.45
+        38.7,
+        21.55,
+        39.75
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.51,
+        24.96,
         5.57,
-        3.03,
-        10.65,
-        10.35,
-        11.17,
-        2.9,
+        2.98,
+        10.81,
+        10.4,
+        11.04,
+        2.92,
         5.57,
-        26.25
+        25.75
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11807,24 +11831,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        47.06,
-        22.78,
-        30.16
+        50.22,
+        22.42,
+        27.36
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.85,
-        5.34,
-        2.09,
-        13.32,
-        12.1,
-        9.37,
-        2.88,
-        5.34,
-        18.71
+        33.27,
+        5.22,
+        1.91,
+        13.99,
+        11.98,
+        8.65,
+        2.96,
+        5.22,
+        16.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11839,24 +11863,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        50.73,
-        24.76,
-        24.51
+        50.67,
+        24.77,
+        24.56
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        33.12,
+        33.08,
         4.87,
         1.38,
-        15.25,
+        15.24,
         15.02,
-        8.48,
+        8.5,
         2.36,
         4.87,
-        14.65
+        14.68
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11871,24 +11895,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        45.53,
-        27.83,
-        26.64
+        45.47,
+        27.84,
+        26.69
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        28.8,
+        28.77,
         4.72,
         1.22,
-        14.9,
+        14.88,
         18.39,
-        9.6,
+        9.61,
         1.83,
         4.72,
-        15.82
+        15.86
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11907,20 +11931,20 @@
         9.69,
         7.36
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        64.86,
+        64.85,
         2.72,
         0.8,
         14.09,
-        4.25,
+        4.24,
         2.27,
-        4.01,
+        4.02,
         2.72,
-        4.28
+        4.29
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11935,24 +11959,24 @@
       "predictedScore": "0–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        26.57,
-        28.33,
-        45.1
+        26.48,
+        28.32,
+        45.2
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.74,
+        15.68,
         4.66,
-        1.75,
-        9.66,
-        19.02,
-        14.93,
+        1.76,
+        9.63,
+        19,
+        14.96,
         1.17,
         4.66,
-        28.41
+        28.48
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11967,24 +11991,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        52.43,
-        20.67,
-        26.9
+        52.27,
+        21,
+        26.73
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        35.37,
-        5.25,
-        2.15,
-        13.63,
-        10.17,
-        8.08,
-        3.44,
-        5.25,
-        16.66
+        35.15,
+        5.24,
+        2.08,
+        13.78,
+        10.52,
+        8.14,
+        3.34,
+        5.24,
+        16.51
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11999,24 +12023,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        46.61,
-        26.45,
-        26.94
+        46.55,
+        26.46,
+        26.99
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        29.82,
+        29.76,
         4.88,
-        1.37,
-        14.73,
-        16.68,
-        9.43,
+        1.38,
+        14.72,
+        16.69,
+        9.45,
         2.07,
         4.88,
-        16.14
+        16.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12031,24 +12055,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        35.89,
-        20.84,
-        43.27
+        35.78,
+        20.82,
+        43.4
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        23.03,
+        22.96,
         5.56,
-        3.31,
-        9.95,
-        9.72,
-        11.51,
-        2.91,
+        3.32,
+        9.92,
+        9.7,
+        11.53,
+        2.9,
         5.56,
-        28.45
+        28.55
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12063,24 +12087,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        54.92,
-        22.69,
-        22.39
+        54.87,
+        22.7,
+        22.43
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        36.69,
+        36.66,
         4.84,
         1.43,
-        15.49,
+        15.48,
         13.01,
-        7.57,
+        7.58,
         2.74,
         4.84,
-        13.39
+        13.42
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12095,24 +12119,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        55.76,
-        23.7,
-        20.54
+        55.71,
+        23.71,
+        20.58
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        37.03,
-        4.58,
+        36.99,
+        4.59,
         1.16,
-        16.3,
+        16.29,
         14.53,
-        7.29,
+        7.3,
         2.43,
-        4.58,
-        12.1
+        4.59,
+        12.12
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12127,24 +12151,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        43.21,
-        22.08,
-        34.71
+        43.13,
+        22.07,
+        34.8
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        28.17,
+        28.11,
         5.51,
-        2.56,
-        12.05,
-        11.06,
-        10.14,
+        2.57,
+        12.03,
+        11.04,
+        10.16,
         2.99,
         5.51,
-        22.01
+        22.08
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12159,24 +12183,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        48.3,
-        21.05,
-        30.65
+        48.9,
+        21,
+        30.1
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.16,
-        5.42,
-        2.44,
-        12.78,
-        10.2,
-        8.96,
-        3.36,
-        5.42,
-        19.26
+        32.63,
+        5.4,
+        2.4,
+        12.91,
+        10.19,
+        8.83,
+        3.37,
+        5.4,
+        18.87
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12479,24 +12503,24 @@
       "predictedScore": "3–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        76.51,
-        12.52,
-        10.97
+        76.9,
+        12.37,
+        10.73
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        57.6,
-        3.48,
-        1.14,
+        58.03,
+        3.43,
+        1.11,
         14.68,
-        5.56,
-        3.35,
-        4.22,
-        3.48,
-        6.49
+        5.5,
+        3.28,
+        4.2,
+        3.43,
+        6.34
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12511,24 +12535,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        28.3,
-        25.83,
-        45.87
+        28.86,
+        25.92,
+        45.22
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.1,
-        5.02,
-        2.19,
-        9.66,
-        15.79,
-        14.28,
-        1.53,
-        5.02,
-        29.41
+        17.48,
+        5.04,
+        2.17,
+        9.83,
+        15.84,
+        14.13,
+        1.56,
+        5.04,
+        28.91
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12543,24 +12567,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        42.53,
-        25.87,
-        31.6
+        41.15,
+        25.95,
+        32.9
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27,
-        5.15,
-        1.73,
-        13.37,
-        15.57,
-        10.52,
-        2.15,
-        5.15,
-        19.36
+        26.03,
+        5.18,
+        1.79,
+        13.02,
+        15.58,
+        10.87,
+        2.11,
+        5.18,
+        20.24
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12605,26 +12629,26 @@
       "homeName": "Frosinone",
       "awayName": "Parma",
       "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "alternativeScore": "2–0",
       "probabilities": [
-        57.26,
-        23.76,
-        18.98
+        61.87,
+        21.34,
+        16.79
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        38.11,
-        4.4,
+        42.22,
+        4.28,
         1.02,
-        16.83,
-        14.95,
-        6.88,
-        2.33,
-        4.4,
-        11.08
+        16.99,
+        12.79,
+        5.98,
+        2.65,
+        4.28,
+        9.79
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12636,27 +12660,27 @@
       "awayCode": "ger.1:10388",
       "homeName": "FC Cologne",
       "awayName": "SV Elversberg",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "2–1",
       "probabilities": [
-        52.19,
-        21.53,
-        26.28
+        49.95,
+        22.68,
+        27.37
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        34.97,
-        5.19,
-        1.95,
-        14.05,
-        11.14,
-        8.18,
-        3.18,
-        5.19,
-        16.15
+        33.01,
+        5.21,
+        1.88,
+        14.04,
+        12.27,
+        8.71,
+        2.89,
+        5.21,
+        16.78
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12671,11 +12695,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–3",
       "probabilities": [
-        18.16,
-        17.34,
-        64.5
+        18.18,
+        17.37,
+        64.45
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
@@ -12684,11 +12708,11 @@
         4.55,
         3.9,
         5.58,
-        8.25,
-        14.89,
+        8.27,
+        14.9,
         1.62,
         4.55,
-        45.69
+        45.66
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12703,24 +12727,24 @@
       "predictedScore": "3–1",
       "alternativeScore": "4–1",
       "probabilities": [
-        82.67,
-        9.93,
-        7.4
+        83.05,
+        9.76,
+        7.19
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        64.44,
-        2.74,
-        0.78,
-        14.31,
-        4.44,
-        2.31,
-        3.94,
-        2.74,
-        4.3
+        64.85,
+        2.7,
+        0.76,
+        14.28,
+        4.37,
+        2.25,
+        3.91,
+        2.7,
+        4.18
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12735,24 +12759,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        45.95,
-        27.68,
-        26.37
+        46.08,
+        27.77,
+        26.15
       ],
-      "capturedAt": "2026-10-11T17:53:24.986Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        29.12,
-        4.72,
-        1.22,
-        14.97,
-        18.25,
-        9.49,
-        1.86,
-        4.72,
-        15.65
+        29.21,
+        4.69,
+        1.2,
+        15.04,
+        18.38,
+        9.45,
+        1.84,
+        4.69,
+        15.5
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12831,24 +12855,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        42.35,
-        23.47,
-        34.18
+        40.85,
+        23.51,
+        35.64
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.28,
-        5.43,
-        2.26,
-        12.42,
+        26.2,
+        5.45,
+        2.34,
+        12.07,
         12.61,
-        10.48,
-        2.64,
-        5.43,
-        21.45
+        10.83,
+        2.58,
+        5.45,
+        22.47
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12863,24 +12887,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        25.42,
-        25.59,
-        48.99
+        26,
+        25.72,
+        48.28
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.19,
-        4.86,
-        2.22,
-        8.87,
-        15.86,
-        15.09,
-        1.36,
-        4.86,
-        31.69
+        15.57,
+        4.89,
+        2.2,
+        9.05,
+        15.93,
+        14.94,
+        1.39,
+        4.89,
+        31.14
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12924,27 +12948,27 @@
       "awayCode": "ger.1:125",
       "homeName": "VfB Stuttgart",
       "awayName": "Eintracht Frankfurt",
-      "predictedScore": "3–1",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "3–1",
       "probabilities": [
-        75.17,
-        13.39,
-        11.44
+        72.78,
+        14.7,
+        12.52
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        56.02,
-        3.59,
-        1.11,
-        15.14,
-        6.21,
-        3.58,
-        4.01,
-        3.59,
-        6.75
+        53.41,
+        3.79,
+        1.13,
+        15.56,
+        7.12,
+        4,
+        3.82,
+        3.79,
+        7.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12959,24 +12983,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        69.57,
-        16.17,
-        14.26
+        69.91,
+        16.07,
+        14.02
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        50.16,
-        4.07,
-        1.22,
-        15.72,
-        8.04,
-        4.59,
-        3.69,
-        4.07,
-        8.44
+        50.47,
+        4.03,
+        1.2,
+        15.76,
+        8.01,
+        4.53,
+        3.68,
+        4.03,
+        8.29
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12991,24 +13015,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        39.61,
+        38.22,
         25.3,
-        35.09
+        36.48
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.02,
-        5.29,
-        2,
-        12.4,
-        14.73,
-        11.25,
-        2.18,
-        5.29,
-        21.84
+        24.04,
+        5.3,
+        2.06,
+        12.04,
+        14.7,
+        11.6,
+        2.14,
+        5.3,
+        22.82
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13021,26 +13045,26 @@
       "homeName": "Le Mans",
       "awayName": "Lille",
       "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "alternativeScore": "1–2",
       "probabilities": [
-        42.81,
-        23.82,
-        33.37
+        36.7,
+        24.12,
+        39.18
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        27.56,
-        5.38,
-        2.15,
-        12.68,
-        13.05,
-        10.4,
-        2.57,
-        5.38,
-        20.83
+        23.14,
+        5.41,
+        2.39,
+        11.28,
+        13.29,
+        11.89,
+        2.28,
+        5.41,
+        24.91
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13053,26 +13077,26 @@
       "homeName": "Nice",
       "awayName": "Troyes",
       "predictedScore": "1–0",
-      "alternativeScore": "2–0",
+      "alternativeScore": "1–1",
       "probabilities": [
-        56.77,
-        24.61,
-        18.62
+        55.49,
+        24.98,
+        19.53
       ],
-      "capturedAt": "2026-10-11T21:24:40.131Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        37.51,
-        4.29,
-        0.93,
-        17.11,
-        16.03,
-        6.9,
-        2.15,
-        4.29,
-        10.79
+        36.49,
+        4.37,
+        0.97,
+        16.86,
+        16.25,
+        7.2,
+        2.13,
+        4.37,
+        11.36
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13085,26 +13109,26 @@
       "homeName": "Paris Saint-Germain",
       "awayName": "Lorient",
       "predictedScore": "2–1",
-      "alternativeScore": "2–0",
+      "alternativeScore": "1–1",
       "probabilities": [
-        61.35,
-        20.72,
-        17.93
+        59.95,
+        21.13,
+        18.92
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        42.07,
-        4.46,
-        1.19,
-        16.39,
-        11.79,
-        6.16,
-        2.91,
-        4.46,
-        10.57
+        40.87,
+        4.56,
+        1.26,
+        16.18,
+        12.01,
+        6.47,
+        2.89,
+        4.56,
+        11.2
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13119,24 +13143,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–1",
       "probabilities": [
-        38.64,
-        20.7,
-        40.66
+        38.85,
+        20.71,
+        40.44
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.06,
+        25.21,
         5.59,
-        3.23,
-        10.46,
-        9.52,
-        10.88,
-        3.12,
+        3.22,
+        10.51,
+        9.53,
+        10.84,
+        3.13,
         5.59,
-        26.55
+        26.38
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13151,24 +13175,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        51.16,
-        21.12,
-        27.72
+        51.72,
+        21.05,
+        27.23
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        34.28,
-        5.29,
-        2.16,
-        13.55,
-        10.54,
-        8.38,
-        3.32,
-        5.29,
-        17.19
+        34.72,
+        5.26,
+        2.12,
+        13.66,
+        10.52,
+        8.26,
+        3.34,
+        5.26,
+        16.86
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13215,24 +13239,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        41.38,
-        24.47,
-        34.15
+        39.39,
+        23.68,
+        36.93
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.42,
-        5.35,
-        2.08,
-        12.56,
-        13.77,
-        10.78,
-        2.4,
-        5.35,
-        21.29
+        25.11,
+        5.45,
+        2.38,
+        11.78,
+        12.78,
+        11.19,
+        2.49,
+        5.45,
+        23.37
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13247,24 +13271,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        40.39,
-        22.91,
-        36.7
+        38.87,
+        22.9,
+        38.23
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.97,
-        5.5,
-        2.51,
-        11.73,
-        11.92,
-        10.87,
-        2.69,
-        5.5,
-        23.31
+        24.86,
+        5.51,
+        2.6,
+        11.37,
+        11.89,
+        11.22,
+        2.63,
+        5.51,
+        24.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13407,24 +13431,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        62.34,
-        18.63,
-        19.03
+        62.71,
+        18.53,
+        18.76
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        43.54,
-        4.65,
-        1.56,
-        15.2,
-        9.34,
-        6.02,
+        43.86,
+        4.62,
+        1.54,
+        15.25,
+        9.3,
+        5.94,
         3.59,
-        4.65,
-        11.45
+        4.62,
+        11.28
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13439,24 +13463,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        39.9,
-        23.38,
-        36.72
+        43.86,
+        23.15,
+        32.99
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.55,
-        5.47,
-        2.42,
-        11.79,
-        12.44,
-        11.04,
-        2.57,
-        5.47,
-        23.25
+        28.45,
+        5.42,
+        2.24,
+        12.67,
+        12.31,
+        10.11,
+        2.74,
+        5.42,
+        20.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13503,24 +13527,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        72.71,
-        15,
-        12.29
+        73.02,
+        14.9,
+        12.08
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        53.19,
-        3.76,
-        1.07,
-        15.86,
-        7.47,
-        4,
-        3.67,
-        3.76,
-        7.22
+        53.47,
+        3.73,
+        1.05,
+        15.89,
+        7.44,
+        3.95,
+        3.65,
+        3.73,
+        7.09
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13535,24 +13559,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        49.51,
-        22.38,
-        28.11
+        49.81,
+        22.34,
+        27.85
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.75,
-        5.27,
-        1.99,
-        13.77,
-        11.85,
-        8.8,
-        2.98,
-        5.27,
-        17.32
+        33,
+        5.25,
+        1.97,
+        13.83,
+        11.84,
+        8.73,
+        2.99,
+        5.25,
+        17.14
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13567,24 +13591,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        33.64,
-        25.06,
-        41.3
+        34.22,
+        25.14,
+        40.64
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.86,
+        21.26,
         5.29,
-        2.28,
-        10.82,
-        14.49,
-        12.76,
-        1.96,
+        2.25,
+        10.99,
+        14.56,
+        12.61,
+        1.98,
         5.29,
-        26.25
+        25.77
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13599,24 +13623,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        49.54,
-        25.17,
-        25.29
+        48.17,
+        25.39,
+        26.44
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        32.16,
-        4.89,
-        1.4,
-        15.08,
-        15.38,
-        8.76,
-        2.3,
-        4.89,
-        15.14
+        31.13,
+        4.95,
+        1.45,
+        14.77,
+        15.49,
+        9.1,
+        2.27,
+        4.95,
+        15.89
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13631,24 +13655,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        45.47,
+        45.4,
         26.31,
-        28.22
+        28.29
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        29.02,
+        28.98,
         4.97,
         1.47,
-        14.35,
+        14.33,
         16.37,
-        9.74,
+        9.76,
         2.1,
         4.97,
-        17.01
+        17.05
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13663,24 +13687,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "1–3",
       "probabilities": [
-        19.82,
-        17.66,
-        62.52
+        19.71,
+        17.62,
+        62.67
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        12.06,
-        4.71,
-        3.98,
-        5.96,
-        8.24,
+        12,
+        4.7,
+        3.99,
+        5.93,
+        8.21,
         14.51,
-        1.8,
-        4.71,
-        44.03
+        1.79,
+        4.7,
+        44.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13695,24 +13719,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        25.38,
-        21.83,
-        52.79
+        25.28,
+        21.79,
+        52.93
       ],
-      "capturedAt": "2026-10-13T21:59:35.351Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.5,
+        15.43,
         5.12,
-        3.07,
-        8.06,
-        11.58,
-        14.39,
+        3.08,
+        8.03,
+        11.55,
+        14.4,
         1.82,
         5.12,
-        35.34
+        35.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13727,24 +13751,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "1–1",
       "probabilities": [
-        48.14,
-        28.45,
-        23.41
+        48.09,
+        28.46,
+        23.45
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.54,
+        30.49,
         4.42,
         0.98,
-        15.91,
-        19.6,
-        8.76,
+        15.9,
+        19.61,
+        8.78,
         1.71,
         4.42,
-        13.66
+        13.69
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13759,24 +13783,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        58.92,
-        17.96,
-        23.12
+        58.73,
+        18.25,
+        23.02
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        41.13,
-        4.98,
-        2.18,
-        13.65,
-        7.99,
-        6.63,
-        4.15,
-        4.98,
-        14.31
+        40.87,
+        4.99,
+        2.12,
+        13.8,
+        8.28,
+        6.69,
+        4.05,
+        4.99,
+        14.21
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13791,24 +13815,24 @@
       "predictedScore": "0–1",
       "alternativeScore": "0–0",
       "probabilities": [
-        26.64,
-        31.05,
-        42.31
+        26.55,
+        31.04,
+        42.41
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        15.59,
-        4.35,
-        1.38,
-        10.08,
+        15.54,
+        4.34,
+        1.39,
+        10.05,
         22.36,
-        14.85,
+        14.87,
         0.96,
-        4.35,
-        26.08
+        4.34,
+        26.15
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13823,24 +13847,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        65.53,
+        65.5,
         17.33,
-        17.14
+        17.17
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        46.51,
+        46.49,
         4.44,
-        1.48,
-        15.24,
+        1.49,
+        15.23,
         8.45,
         5.38,
         3.78,
         4.44,
-        10.28
+        10.3
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13855,24 +13879,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        52.97,
+        52.92,
         22.85,
-        24.18
+        24.23
       ],
-      "capturedAt": "2026-10-14T23:12:38.173Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        35.21,
-        4.98,
-        1.57,
-        14.99,
-        12.89,
-        8.02,
+        35.15,
+        4.99,
+        1.58,
+        14.98,
+        12.88,
+        8.03,
         2.78,
-        4.98,
-        14.58
+        4.99,
+        14.62
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13887,24 +13911,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        46.25,
+        46.18,
         23.03,
-        30.72
+        30.79
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        30.22,
+        30.17,
         5.35,
-        2.09,
-        13.22,
-        12.33,
-        9.56,
+        2.1,
+        13.2,
+        12.32,
+        9.58,
         2.81,
         5.35,
-        19.07
+        19.12
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13919,24 +13943,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        45.86,
+        45.79,
         25,
-        29.14
+        29.21
       ],
-      "capturedAt": "2026-10-12T22:54:21.210Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        29.54,
+        29.5,
         5.14,
         1.69,
-        13.96,
+        13.94,
         14.72,
-        9.69,
+        9.71,
         2.36,
         5.14,
-        17.76
+        17.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13951,24 +13975,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        28.69,
-        24.18,
-        47.13
+        29.3,
+        24.3,
+        46.4
       ],
-      "capturedAt": "2026-10-15T22:38:39.043Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        17.53,
-        5.18,
-        2.54,
-        9.39,
-        13.81,
-        13.97,
-        1.77,
-        5.18,
-        30.63
+        17.94,
+        5.2,
+        2.51,
+        9.56,
+        13.89,
+        13.82,
+        1.8,
+        5.2,
+        30.08
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13983,27 +14007,27 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        34.32,
-        30.24,
-        35.44
+        34.81,
+        30.21,
+        34.98
       ],
-      "capturedAt": "2026-10-15T19:28:40.506Z",
+      "capturedAt": "2026-10-16T21:17:12.238Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        20.75,
+        21.08,
         4.67,
-        1.37,
-        12.24,
-        20.91,
-        12.57,
-        1.33,
+        1.35,
+        12.38,
+        20.88,
+        12.43,
+        1.35,
         4.67,
-        21.49
+        21.19
       ],
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-16T18:13:36.730Z"
+  "updatedAt": "2026-10-16T21:17:12.244Z"
 }
