@@ -6787,11 +6787,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        69,
-        17,
+        68,
+        18,
         14
       ],
-      "capturedAt": "2026-10-23T05:17:49.400Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -6819,11 +6819,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        44,
+        45,
         28,
-        28
+        27
       ],
-      "capturedAt": "2026-10-21T18:01:32.603Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -6848,14 +6848,14 @@
       "awayCode": "fra.1:2502",
       "homeName": "Brest",
       "awayName": "Nice",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        42,
-        28,
+        43,
+        27,
         30
       ],
-      "capturedAt": "2026-10-20T20:55:05.858Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -6880,14 +6880,14 @@
       "awayCode": "eng.1:393",
       "homeName": "Ipswich Town",
       "awayName": "Nottingham Forest",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        30,
-        27,
-        43
+        31,
+        28,
+        41
       ],
-      "capturedAt": "2026-10-21T18:01:32.603Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -6912,14 +6912,14 @@
       "awayCode": "esp.1:99",
       "homeName": "Alavés",
       "awayName": "Málaga",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        57,
+        59,
         25,
-        18
+        16
       ],
-      "capturedAt": "2026-10-22T21:59:45.226Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7043,11 +7043,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        61,
+        62,
         21,
-        18
+        17
       ],
-      "capturedAt": "2026-10-21T21:34:26.144Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7331,11 +7331,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        34,
-        27,
-        39
+        35,
+        28,
+        37
       ],
-      "capturedAt": "2026-10-21T18:01:32.603Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7363,11 +7363,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        56,
+        55,
         23,
-        21
+        22
       ],
-      "capturedAt": "2026-10-22T14:41:39.771Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7715,11 +7715,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        46,
+        45,
         26,
-        28
+        29
       ],
-      "capturedAt": "2026-10-22T21:59:45.226Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10019,11 +10019,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        48,
-        26,
-        26
+        46,
+        27,
+        27
       ],
-      "capturedAt": "2026-10-22T21:59:45.226Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10659,11 +10659,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        10,
+        12,
         16,
-        74
+        72
       ],
-      "capturedAt": "2026-10-23T00:33:22.737Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -10688,14 +10688,14 @@
       "awayCode": "uefa.champions:570",
       "homeName": "PSV Eindhoven",
       "awayName": "Club Brugge",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        42,
+        43,
         23,
-        35
+        34
       ],
-      "capturedAt": "2026-10-23T00:33:22.737Z",
+      "capturedAt": "2026-10-23T10:14:02.114Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -17113,5 +17113,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-23T05:17:49.405Z"
+  "updatedAt": "2026-10-23T10:14:02.121Z"
 }
