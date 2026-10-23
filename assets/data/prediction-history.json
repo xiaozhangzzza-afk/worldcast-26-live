@@ -6787,11 +6787,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        67,
+        69,
         17,
-        16
+        14
       ],
-      "capturedAt": "2026-10-20T20:55:05.858Z",
+      "capturedAt": "2026-10-23T05:17:49.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -6944,14 +6944,14 @@
       "awayCode": "eng.1:382",
       "homeName": "Aston Villa",
       "awayName": "Manchester City",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
       "probabilities": [
-        21,
+        20,
         22,
-        57
+        58
       ],
-      "capturedAt": "2026-10-21T21:34:26.144Z",
+      "capturedAt": "2026-10-23T05:17:49.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7171,11 +7171,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        65,
+        66,
         19,
-        16
+        15
       ],
-      "capturedAt": "2026-10-21T21:34:26.144Z",
+      "capturedAt": "2026-10-23T05:17:49.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7907,11 +7907,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        60,
+        59,
         22,
-        18
+        19
       ],
-      "capturedAt": "2026-10-23T00:33:22.737Z",
+      "capturedAt": "2026-10-23T05:17:49.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17113,5 +17113,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-23T00:33:22.743Z"
+  "updatedAt": "2026-10-23T05:17:49.405Z"
 }
