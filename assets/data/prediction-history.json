@@ -7795,11 +7795,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        21,
-        24,
-        55
+        20,
+        23,
+        57
       ],
-      "capturedAt": "2026-10-24T19:15:48.379Z",
+      "capturedAt": "2026-10-24T23:44:50.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -7955,11 +7955,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47,
-        28,
+        48,
+        27,
         25
       ],
-      "capturedAt": "2026-10-24T21:40:18.926Z",
+      "capturedAt": "2026-10-24T23:44:50.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8016,14 +8016,14 @@
       "awayCode": "esp.1:244",
       "homeName": "Celta Vigo",
       "awayName": "Real Betis",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
       "probabilities": [
-        31,
+        30,
         27,
-        42
+        43
       ],
-      "capturedAt": "2026-10-24T21:40:18.926Z",
+      "capturedAt": "2026-10-24T23:44:50.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8691,11 +8691,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        23,
+        22,
         24,
-        53
+        54
       ],
-      "capturedAt": "2026-10-24T21:40:18.926Z",
+      "capturedAt": "2026-10-24T23:44:50.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9651,11 +9651,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47,
-        26,
-        27
+        49,
+        25,
+        26
       ],
-      "capturedAt": "2026-10-24T19:15:48.379Z",
+      "capturedAt": "2026-10-24T23:44:50.400Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17257,5 +17257,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-24T21:40:18.933Z"
+  "updatedAt": "2026-10-24T23:44:50.407Z"
 }
