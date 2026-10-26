@@ -8568,10 +8568,10 @@
       "alternativeScore": "1–0",
       "probabilities": [
         50,
-        28,
-        22
+        27,
+        23
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8600,10 +8600,10 @@
       "alternativeScore": "0–1",
       "probabilities": [
         29,
-        27,
-        44
+        26,
+        45
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8856,10 +8856,10 @@
       "alternativeScore": "1–0",
       "probabilities": [
         55,
-        23,
-        22
+        24,
+        21
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9367,11 +9367,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
+        32,
         28,
-        39
+        40
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9524,14 +9524,14 @@
       "awayCode": "ita.1:104",
       "homeName": "Udinese",
       "awayName": "AS Roma",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
       "probabilities": [
-        20,
-        23,
-        57
+        18,
+        22,
+        60
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9687,11 +9687,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        38,
+        39,
         28,
-        34
+        33
       ],
-      "capturedAt": "2026-10-26T01:50:07.592Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9847,11 +9847,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        74,
-        15,
-        11
+        70,
+        17,
+        13
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9943,11 +9943,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        58,
-        25,
+        60,
+        23,
         17
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10100,14 +10100,14 @@
       "awayCode": "eng.1:359",
       "homeName": "Liverpool",
       "awayName": "Arsenal",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
         31,
-        26,
-        43
+        27,
+        42
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10167,11 +10167,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
+        35,
         31,
-        36
+        34
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10231,11 +10231,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        51,
-        27,
+        52,
+        26,
         22
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10580,14 +10580,14 @@
       "awayCode": "uefa.champions:104",
       "homeName": "Manchester United",
       "awayName": "AS Roma",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        43,
+        41,
         25,
-        32
+        34
       ],
-      "capturedAt": "2026-10-25T16:43:25.034Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -11543,11 +11543,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        74,
-        16,
+        75,
+        15,
         10
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -11735,11 +11735,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        57,
-        23,
-        20
+        55,
+        24,
+        21
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -11959,11 +11959,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        15,
         16,
-        69
+        17,
+        67
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12212,14 +12212,14 @@
       "awayCode": "eng.1:382",
       "homeName": "Nottingham Forest",
       "awayName": "Manchester City",
-      "predictedScore": "0–2",
-      "alternativeScore": "1–2",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
       "probabilities": [
-        19,
+        20,
         23,
-        58
+        57
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12471,11 +12471,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47,
-        26,
-        27
+        51,
+        24,
+        25
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12567,11 +12567,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        28,
-        28,
+        29,
+        27,
         44
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -13044,14 +13044,14 @@
       "awayCode": "ger.1:133",
       "homeName": "TSG Hoffenheim",
       "awayName": "Schalke 04",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        61,
-        21,
-        18
+        57,
+        22,
+        21
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-26T07:07:57.245Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17389,5 +17389,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-26T01:50:07.596Z"
+  "updatedAt": "2026-10-26T07:07:57.250Z"
 }
