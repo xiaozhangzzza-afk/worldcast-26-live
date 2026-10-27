@@ -8611,11 +8611,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        28,
-        26,
+        27,
+        27,
         46
       ],
-      "capturedAt": "2026-10-27T08:17:59.617Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8643,11 +8643,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        71,
-        19,
+        72,
+        18,
         10
       ],
-      "capturedAt": "2026-10-27T08:17:59.617Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8675,11 +8675,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        19,
-        24,
-        57
+        22,
+        25,
+        53
       ],
-      "capturedAt": "2026-10-27T08:17:59.617Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8704,14 +8704,14 @@
       "awayCode": "ita.1:107",
       "homeName": "AC Milan",
       "awayName": "Bologna",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        58,
+        57,
         24,
-        18
+        19
       ],
-      "capturedAt": "2026-10-25T23:48:05.028Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -8953,6 +8953,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401876416",
+      "competitionId": "fra.1",
+      "date": "2026-10-30T18:00:00.000Z",
+      "homeCode": "fra.1:2502",
+      "awayCode": "fra.1:169",
+      "homeName": "Nice",
+      "awayName": "Stade Rennais",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        34,
+        26,
+        40
+      ],
+      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false,
+      "htft": [
+        22,
+        5.26,
+        2.11,
+        11.41,
+        15.07,
+        12.35,
+        1.97,
+        5.26,
+        24.57
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401884746",
       "competitionId": "ger.1",
       "date": "2026-10-30T19:30:00.000Z",
@@ -8995,11 +9027,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        65,
-        20,
+        66,
+        19,
         15
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9027,11 +9059,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        40,
+        39,
         27,
-        33
+        34
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9059,11 +9091,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        52,
+        53,
         24,
-        24
+        23
       ],
-      "capturedAt": "2026-10-26T19:58:31.013Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9219,11 +9251,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        32,
+        31,
         25,
-        43
+        44
       ],
-      "capturedAt": "2026-10-26T01:50:07.592Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9315,11 +9347,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        44,
-        28,
-        28
+        46,
+        27,
+        27
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9497,38 +9529,6 @@
       "htftModel": "local-poisson-v1"
     },
     {
-      "id": "401876416",
-      "competitionId": "fra.1",
-      "date": "2026-10-31T16:15:00.000Z",
-      "homeCode": "fra.1:2502",
-      "awayCode": "fra.1:169",
-      "homeName": "Nice",
-      "awayName": "Stade Rennais",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        34,
-        26,
-        40
-      ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
-      "modelVersion": "odds-rule-v1",
-      "basis": "public pre-match odds + illustrative score rules",
-      "isCup": false,
-      "htft": [
-        22,
-        5.26,
-        2.11,
-        11.41,
-        15.07,
-        12.35,
-        1.97,
-        5.26,
-        24.57
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
       "id": "401874990",
       "competitionId": "ita.1",
       "date": "2026-10-31T17:00:00.000Z",
@@ -9539,11 +9539,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        19,
+        18,
         22,
-        59
+        60
       ],
-      "capturedAt": "2026-10-26T14:13:51.274Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9689,70 +9689,6 @@
       "htftModel": "local-poisson-v1"
     },
     {
-      "id": "401876419",
-      "competitionId": "fra.1",
-      "date": "2026-10-31T19:45:00.000Z",
-      "homeCode": "fra.1:273",
-      "awayCode": "fra.1:6997",
-      "homeName": "Lorient",
-      "awayName": "Brest",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        39,
-        28,
-        33
-      ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
-      "modelVersion": "odds-rule-v1",
-      "basis": "public pre-match odds + illustrative score rules",
-      "isCup": false,
-      "htft": [
-        25.24,
-        4.9,
-        1.44,
-        13.52,
-        18.32,
-        10.96,
-        1.75,
-        4.9,
-        18.97
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401876418",
-      "competitionId": "fra.1",
-      "date": "2026-10-31T19:45:00.000Z",
-      "homeCode": "fra.1:167",
-      "awayCode": "fra.1:7868",
-      "homeName": "Lyon",
-      "awayName": "Angers",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        68,
-        19,
-        13
-      ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
-      "modelVersion": "odds-rule-v1",
-      "basis": "public pre-match odds + illustrative score rules",
-      "isCup": false,
-      "htft": [
-        37.01,
-        4.84,
-        1.44,
-        15.48,
-        12.79,
-        7.49,
-        2.79,
-        4.84,
-        13.32
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
       "id": "401876413",
       "competitionId": "fra.1",
       "date": "2026-10-31T19:45:00.000Z",
@@ -9827,11 +9763,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        84,
-        12,
+        85,
+        11,
         4
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9987,11 +9923,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        53,
+        52,
         24,
-        23
+        24
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10073,6 +10009,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401876418",
+      "competitionId": "fra.1",
+      "date": "2026-11-01T16:15:00.000Z",
+      "homeCode": "fra.1:167",
+      "awayCode": "fra.1:7868",
+      "homeName": "Lyon",
+      "awayName": "Angers",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        68,
+        19,
+        13
+      ],
+      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false,
+      "htft": [
+        37.01,
+        4.84,
+        1.44,
+        15.48,
+        12.79,
+        7.49,
+        2.79,
+        4.84,
+        13.32
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401876415",
       "competitionId": "fra.1",
       "date": "2026-11-01T16:15:00.000Z",
@@ -10083,11 +10051,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        42,
-        26,
+        41,
+        27,
         32
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10211,11 +10179,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        39,
+        40,
         28,
-        33
+        32
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10243,11 +10211,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        52,
+        51,
         26,
-        22
+        23
       ],
-      "capturedAt": "2026-10-26T07:07:57.245Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10357,6 +10325,38 @@
         3.32,
         5.24,
         16.56
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
+      "id": "401876419",
+      "competitionId": "fra.1",
+      "date": "2026-11-02T19:45:00.000Z",
+      "homeCode": "fra.1:273",
+      "awayCode": "fra.1:6997",
+      "homeName": "Lorient",
+      "awayName": "Brest",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        39,
+        28,
+        33
+      ],
+      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": false,
+      "htft": [
+        25.24,
+        4.9,
+        1.44,
+        13.52,
+        18.32,
+        10.96,
+        1.75,
+        4.9,
+        18.97
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10627,11 +10627,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
+        20,
         21,
-        21,
-        58
+        59
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -10784,14 +10784,14 @@
       "awayCode": "uefa.champions:364",
       "homeName": "Fenerbahce",
       "awayName": "Liverpool",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
       "probabilities": [
-        21,
+        20,
         22,
-        57
+        58
       ],
-      "capturedAt": "2026-10-23T00:33:22.737Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -10819,11 +10819,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        54,
+        53,
         23,
-        23
+        24
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -11971,11 +11971,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        16,
         17,
-        67
+        18,
+        65
       ],
-      "capturedAt": "2026-10-26T07:07:57.245Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12483,11 +12483,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        51,
-        24,
+        50,
+        25,
         25
       ],
-      "capturedAt": "2026-10-26T07:07:57.245Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12896,14 +12896,14 @@
       "awayCode": "eng.1:362",
       "homeName": "Manchester United",
       "awayName": "Aston Villa",
-      "predictedScore": "1–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        42,
-        26,
+        43,
+        25,
         32
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-27T14:40:41.986Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17401,5 +17401,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-27T08:17:59.624Z"
+  "updatedAt": "2026-10-27T14:40:41.993Z"
 }
