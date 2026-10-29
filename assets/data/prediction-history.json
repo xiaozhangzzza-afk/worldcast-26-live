@@ -9172,10 +9172,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         19,
-        21,
-        60
+        20,
+        61
       ],
-      "capturedAt": "2026-10-28T15:30:03.152Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9331,11 +9331,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        24,
+        23,
         25,
-        51
+        52
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9619,11 +9619,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        62,
+        61,
         21,
-        17
+        18
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9844,10 +9844,10 @@
       "alternativeScore": "2–1",
       "probabilities": [
         72,
-        17,
-        11
+        16,
+        12
       ],
-      "capturedAt": "2026-10-29T00:20:01.158Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9904,14 +9904,14 @@
       "awayCode": "ita.1:239",
       "homeName": "Frosinone",
       "awayName": "Torino",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        43,
+        41,
         25,
-        32
+        34
       ],
-      "capturedAt": "2026-10-29T00:20:01.158Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9939,11 +9939,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        66,
+        65,
         21,
-        13
+        14
       ],
-      "capturedAt": "2026-10-29T00:20:01.158Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10227,11 +10227,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        40,
+        41,
         28,
-        32
+        31
       ],
-      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10256,14 +10256,14 @@
       "awayCode": "ita.1:114",
       "homeName": "Juventus",
       "awayName": "Napoli",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        43,
+        42,
         29,
-        28
+        29
       ],
-      "capturedAt": "2026-10-29T00:20:01.158Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12115,11 +12115,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        81,
-        12,
+        80,
+        13,
         7
       ],
-      "capturedAt": "2026-10-28T15:30:03.152Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -13204,10 +13204,10 @@
       "alternativeScore": "0–1",
       "probabilities": [
         26,
-        23,
-        51
+        22,
+        52
       ],
-      "capturedAt": "2026-10-28T15:30:03.152Z",
+      "capturedAt": "2026-10-29T12:52:07.296Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17449,5 +17449,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-29T06:03:13.684Z"
+  "updatedAt": "2026-10-29T12:52:07.303Z"
 }
