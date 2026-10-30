@@ -9010,7 +9010,13 @@
         4.05,
         49.23
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 1,
+        "awayScore": 5
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-30T20:09:06.493Z"
     },
     {
       "id": "401876416",
@@ -9042,7 +9048,13 @@
         5.26,
         24.57
       ],
-      "htftModel": "local-poisson-v1"
+      "htftModel": "local-poisson-v1",
+      "result": {
+        "homeScore": 5,
+        "awayScore": 2
+      },
+      "excludedReason": null,
+      "settledAt": "2026-10-30T20:09:06.493Z"
     },
     {
       "id": "401884746",
@@ -9151,11 +9163,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        52,
-        24,
-        24
+        49,
+        25,
+        26
       ],
-      "capturedAt": "2026-10-29T00:20:01.158Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9375,11 +9387,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        34,
-        24,
-        42
+        35,
+        25,
+        40
       ],
-      "capturedAt": "2026-10-28T15:30:03.152Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9532,14 +9544,14 @@
       "awayCode": "eng.1:331",
       "homeName": "Manchester City",
       "awayName": "Brighton & Hove Albion",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        59,
-        21,
-        20
+        56,
+        22,
+        22
       ],
-      "capturedAt": "2026-10-29T18:44:48.358Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9567,11 +9579,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        39,
+        38,
         30,
-        31
+        32
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9600,10 +9612,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         18,
-        21,
-        61
+        22,
+        60
       ],
-      "capturedAt": "2026-10-29T23:00:24.905Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9763,20 +9775,20 @@
         27,
         32
       ],
-      "capturedAt": "2026-10-27T19:40:04.513Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        19.84,
-        5.27,
-        2.36,
-        10.39,
-        14.3,
-        13.13,
-        1.91,
-        5.27,
-        27.53
+        19.55,
+        5.26,
+        2.37,
+        10.28,
+        14.31,
+        13.24,
+        1.88,
+        5.26,
+        27.85
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -9791,11 +9803,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        50,
-        25,
-        25
+        48,
+        26,
+        26
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9823,11 +9835,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        87,
+        86,
         9,
-        4
+        5
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -9987,20 +9999,20 @@
         24,
         24
       ],
-      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        30.99,
-        5.49,
-        2.66,
-        12.25,
-        9.8,
-        9.25,
-        3.42,
-        5.49,
-        20.65
+        30.34,
+        5.51,
+        2.68,
+        12.13,
+        9.92,
+        9.44,
+        3.36,
+        5.51,
+        21.11
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10015,11 +10027,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        37,
+        36,
         26,
-        37
+        38
       ],
-      "capturedAt": "2026-10-28T15:30:03.152Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10083,20 +10095,20 @@
         19,
         14
       ],
-      "capturedAt": "2026-10-30T08:56:24.216Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        37.01,
-        4.84,
-        1.44,
-        15.48,
-        12.79,
-        7.49,
-        2.79,
-        4.84,
-        13.32
+        36.3,
+        4.88,
+        1.47,
+        15.35,
+        12.95,
+        7.69,
+        2.76,
+        4.88,
+        13.72
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10115,20 +10127,20 @@
         27,
         32
       ],
-      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        25.77,
+        25.33,
         5.16,
-        1.76,
-        13.03,
-        15.88,
-        10.94,
-        2.06,
+        1.78,
+        12.88,
+        15.94,
+        11.1,
+        2.04,
         5.16,
-        20.24
+        20.61
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10271,11 +10283,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        41,
+        42,
         29,
-        30
+        29
       ],
-      "capturedAt": "2026-10-29T23:00:24.905Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10307,20 +10319,20 @@
         24,
         27
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        26.54,
+        26.05,
         5.43,
-        2.28,
-        12.24,
-        12.79,
-        10.73,
-        2.56,
+        2.29,
+        12.11,
+        12.87,
+        10.89,
+        2.52,
         5.43,
-        22
+        22.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10399,24 +10411,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        39,
+        38,
         29,
-        32
+        33
       ],
-      "capturedAt": "2026-10-28T08:46:00.603Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        25.24,
-        4.9,
-        1.44,
-        13.52,
-        18.32,
-        10.96,
-        1.75,
-        4.9,
-        18.97
+        24.83,
+        4.91,
+        1.46,
+        13.37,
+        18.34,
+        11.12,
+        1.73,
+        4.91,
+        19.33
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10431,11 +10443,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        63,
+        62,
         21,
-        16
+        17
       ],
-      "capturedAt": "2026-10-29T23:00:24.905Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10496,10 +10508,10 @@
       "alternativeScore": "1–0",
       "probabilities": [
         44,
-        30,
-        26
+        29,
+        27
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -10691,20 +10703,20 @@
         21,
         59
       ],
-      "capturedAt": "2026-10-27T14:40:41.986Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
       "htft": [
-        24.72,
-        5.52,
+        25.33,
+        5.5,
+        2.56,
+        11.53,
+        11.92,
+        11.08,
         2.65,
-        11.26,
-        11.73,
-        11.25,
-        2.65,
-        5.52,
-        24.7
+        5.5,
+        23.93
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -10819,20 +10831,20 @@
         26,
         29
       ],
-      "capturedAt": "2026-10-28T20:30:30.354Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
       "htft": [
-        19.59,
-        5.2,
-        2.24,
-        10.48,
-        15.03,
-        13.26,
-        1.8,
-        5.2,
-        27.2
+        16.64,
+        5.19,
+        2.85,
+        8.71,
+        12.46,
+        14.13,
+        1.84,
+        5.19,
+        32.99
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -11943,6 +11955,28 @@
       "htftModel": null
     },
     {
+      "id": "401915819",
+      "competitionId": "uefa.europa.conf",
+      "date": "2026-11-05T20:00:00.000Z",
+      "homeCode": "uefa.europa.conf:443",
+      "awayCode": "uefa.europa.conf:10834",
+      "homeName": "Panathinaikos",
+      "awayName": "CSKA Sofia",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        62,
+        22,
+        16
+      ],
+      "capturedAt": "2026-10-30T20:09:06.493Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
+      "isCup": true,
+      "htft": null,
+      "htftModel": null
+    },
+    {
       "id": "401884739",
       "competitionId": "ger.1",
       "date": "2026-11-06T19:30:00.000Z",
@@ -12021,20 +12055,20 @@
         26,
         28
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        38.13,
-        4.98,
-        1.73,
-        14.77,
-        10.84,
-        7.32,
-        3.26,
-        4.98,
-        13.99
+        37.36,
+        5.03,
+        1.76,
+        14.65,
+        11.01,
+        7.52,
+        3.22,
+        5.03,
+        14.42
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12241,11 +12275,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        72,
-        16,
+        73,
+        15,
         12
       ],
-      "capturedAt": "2026-10-28T20:30:30.354Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12273,11 +12307,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        19,
-        17,
+        20,
+        16,
         64
       ],
-      "capturedAt": "2026-10-29T06:03:13.677Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12469,20 +12503,20 @@
         25,
         49
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        18.32,
-        5.32,
+        18.02,
+        5.3,
         2.9,
-        9.22,
-        12.07,
-        13.45,
-        2.06,
-        5.32,
-        31.34
+        9.12,
+        12.09,
+        13.56,
+        2.02,
+        5.3,
+        31.69
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12526,14 +12560,14 @@
       "awayCode": "eng.1:382",
       "homeName": "Nottingham Forest",
       "awayName": "Manchester City",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
       "probabilities": [
-        20,
+        19,
         23,
-        57
+        58
       ],
-      "capturedAt": "2026-10-26T19:58:31.013Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12562,10 +12596,10 @@
       "alternativeScore": "2–1",
       "probabilities": [
         63,
-        19,
-        18
+        20,
+        17
       ],
-      "capturedAt": "2026-10-25T21:54:42.124Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12590,14 +12624,14 @@
       "awayCode": "esp.1:93",
       "homeName": "Osasuna",
       "awayName": "Athletic Club",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
         29,
-        28,
-        43
+        29,
+        42
       ],
-      "capturedAt": "2026-10-30T15:42:33.977Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -12661,20 +12695,20 @@
         10,
         7
       ],
-      "capturedAt": "2026-10-29T06:03:13.677Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        65.4,
-        2.3,
-        0.42,
-        16.16,
-        5.62,
-        1.94,
-        2.84,
-        2.3,
-        3.02
+        63.05,
+        2.52,
+        0.47,
+        16.57,
+        6.3,
+        2.22,
+        2.87,
+        2.52,
+        3.48
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -12981,20 +13015,20 @@
         25,
         28
       ],
-      "capturedAt": "2026-10-29T06:03:13.677Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        38.24,
-        4.92,
-        1.62,
-        15.06,
-        11.3,
-        7.26,
-        3.13,
-        4.92,
-        13.55
+        34.17,
+        5.31,
+        2.22,
+        13.41,
+        10.35,
+        8.41,
+        3.37,
+        5.31,
+        17.45
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13073,24 +13107,24 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        29,
         27,
-        44
+        26,
+        47
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        22.91,
-        5.13,
-        1.82,
-        12.15,
-        16.55,
-        11.98,
-        1.85,
-        5.13,
-        22.48
+        20.29,
+        5.35,
+        2.55,
+        10.27,
+        13.26,
+        12.89,
+        2.07,
+        5.35,
+        27.97
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13109,20 +13143,20 @@
         26,
         41
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.81,
-        5.31,
-        2,
-        13.35,
-        12.94,
-        9.68,
-        2.68,
-        5.31,
-        18.92
+        29.23,
+        5.33,
+        2.02,
+        13.21,
+        13.05,
+        9.86,
+        2.64,
+        5.33,
+        19.33
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13137,24 +13171,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        35,
-        29,
-        36
+        34,
+        28,
+        38
       ],
-      "capturedAt": "2026-10-28T08:46:00.603Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        17.43,
-        4.67,
-        1.58,
-        10.61,
-        20.07,
-        14.12,
-        1.21,
-        4.67,
-        25.64
+        16.08,
+        4.82,
+        1.96,
+        9.54,
+        17.41,
+        14.77,
+        1.31,
+        4.82,
+        29.29
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13173,20 +13207,20 @@
         23,
         54
       ],
-      "capturedAt": "2026-10-29T06:03:13.677Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        17.46,
-        5.2,
+        17.2,
+        5.18,
         2.62,
-        9.27,
-        13.44,
-        13.95,
-        1.8,
-        5.2,
-        31.06
+        9.17,
+        13.45,
+        14.05,
+        1.78,
+        5.18,
+        31.37
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13429,20 +13463,20 @@
         24,
         30
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
-        29.85,
-        5.45,
-        2.36,
-        12.66,
-        11.29,
-        9.65,
-        3.02,
-        5.45,
-        20.27
+        29.28,
+        5.46,
+        2.38,
+        12.53,
+        11.39,
+        9.83,
+        2.97,
+        5.46,
+        20.7
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -13519,26 +13553,26 @@
       "homeName": "Troyes",
       "awayName": "Le Havre AC",
       "predictedScore": "1–1",
-      "alternativeScore": "0–1",
+      "alternativeScore": "2–1",
       "probabilities": [
-        35.23,
-        26.61,
-        38.16
+        38.5,
+        25.06,
+        36.44
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        21.77,
-        5.15,
-        1.92,
-        11.65,
-        16.32,
-        12.43,
-        1.81,
-        5.15,
-        23.8
+        24.29,
+        5.32,
+        2.1,
+        12.03,
+        14.41,
+        11.52,
+        2.19,
+        5.32,
+        22.82
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14062,27 +14096,27 @@
       "awayCode": "fra.1:160",
       "homeName": "Nice",
       "awayName": "Paris Saint-Germain",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–2",
+      "predictedScore": "1–2",
+      "alternativeScore": "1–1",
       "probabilities": [
-        19.88,
-        21.38,
-        58.74
+        24.26,
+        20.67,
+        55.07
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        11.82,
-        4.66,
-        2.91,
-        6.73,
-        12.06,
-        15.93,
-        1.33,
-        4.66,
-        39.9
+        14.84,
+        5.08,
+        3.35,
+        7.55,
+        10.51,
+        14.36,
+        1.88,
+        5.08,
+        37.35
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14255,26 +14289,26 @@
       "homeName": "AS Monaco",
       "awayName": "AJ Auxerre",
       "predictedScore": "2–1",
-      "alternativeScore": "2–0",
+      "alternativeScore": "1–1",
       "probabilities": [
-        62.58,
-        19.59,
-        17.83
+        61.61,
+        19.93,
+        18.46
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        43.38,
-        4.49,
-        1.3,
-        16.01,
-        10.61,
-        5.95,
-        3.19,
-        4.49,
-        10.58
+        42.52,
+        4.56,
+        1.33,
+        15.92,
+        10.82,
+        6.15,
+        3.16,
+        4.56,
+        10.98
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14289,24 +14323,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        41.34,
-        23.65,
-        35.01
+        40.67,
+        23.74,
+        35.59
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.54,
+        26.05,
         5.43,
-        2.28,
-        12.24,
-        12.79,
-        10.73,
-        2.56,
+        2.29,
+        12.11,
+        12.87,
+        10.89,
+        2.52,
         5.43,
-        22
+        22.41
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14321,24 +14355,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        35.91,
-        24.72,
-        39.37
+        35.37,
+        24.75,
+        39.88
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.49,
-        5.35,
-        2.28,
-        11.28,
-        14.02,
-        12.14,
-        2.13,
-        5.35,
-        24.96
+        22.11,
+        5.34,
+        2.3,
+        11.16,
+        14.06,
+        12.28,
+        2.1,
+        5.34,
+        25.31
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14353,24 +14387,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        33.44,
-        21.86,
-        44.7
+        32.89,
+        21.88,
+        45.23
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        21.13,
-        5.49,
-        3.08,
-        9.8,
-        10.88,
-        12.31,
-        2.51,
-        5.49,
-        29.31
+        20.74,
+        5.48,
+        3.09,
+        9.69,
+        10.93,
+        12.44,
+        2.46,
+        5.48,
+        29.69
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14574,27 +14608,27 @@
       "awayCode": "fra.1:7868",
       "homeName": "Paris FC",
       "awayName": "Angers",
-      "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        59.9,
-        21.47,
-        18.63
+        58.98,
+        21.78,
+        19.24
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        40.74,
-        4.51,
-        1.19,
-        16.38,
-        12.45,
-        6.45,
-        2.79,
-        4.51,
-        10.98
+        39.94,
+        4.57,
+        1.22,
+        16.27,
+        12.65,
+        6.65,
+        2.76,
+        4.57,
+        11.37
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14673,24 +14707,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        39.48,
-        27.85,
-        32.67
+        45.64,
+        25.34,
+        29.02
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.57,
-        4.96,
-        1.53,
-        13.15,
-        17.93,
-        11.26,
-        1.77,
-        4.96,
-        19.87
+        29.33,
+        5.1,
+        1.64,
+        14.03,
+        15.13,
+        9.74,
+        2.29,
+        5.1,
+        17.64
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -14865,24 +14899,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–1",
       "probabilities": [
-        52.12,
-        21.33,
-        26.55
+        51.24,
+        21.54,
+        27.22
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        34.94,
-        5.22,
-        2.01,
-        13.92,
-        10.9,
-        8.19,
-        3.24,
-        5.22,
-        16.36
+        34.24,
+        5.25,
+        2.04,
+        13.8,
+        11.04,
+        8.39,
+        3.19,
+        5.25,
+        16.8
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -15441,24 +15475,24 @@
       "predictedScore": "2–1",
       "alternativeScore": "3–1",
       "probabilities": [
-        66.71,
-        16.94,
-        16.35
+        65.5,
+        17.43,
+        17.07
       ],
-      "capturedAt": "2026-10-27T23:13:26.961Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": true,
       "htft": [
-        47.6,
-        4.34,
-        1.42,
-        15.33,
-        8.25,
-        5.15,
-        3.79,
-        4.34,
-        9.78
+        46.45,
+        4.43,
+        1.46,
+        15.32,
+        8.57,
+        5.38,
+        3.73,
+        4.43,
+        10.23
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -15887,26 +15921,26 @@
       "homeName": "NEC Nijmegen",
       "awayName": "Stade Rennais",
       "predictedScore": "1–2",
-      "alternativeScore": "1–1",
+      "alternativeScore": "2–2",
       "probabilities": [
-        26.37,
-        20.39,
-        53.24
+        32.22,
+        19.85,
+        47.93
       ],
-      "capturedAt": "2026-10-25T19:17:39.627Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": true,
       "htft": [
-        16.33,
-        5.23,
-        3.51,
-        7.9,
-        9.94,
-        13.69,
-        2.14,
-        5.23,
-        36.03
+        20.53,
+        5.48,
+        3.72,
+        8.87,
+        8.9,
+        12.07,
+        2.83,
+        5.48,
+        32.12
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16241,24 +16275,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        40.32,
-        24.41,
-        35.27
+        39.71,
+        24.47,
+        35.82
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        25.68,
+        25.23,
         5.37,
-        2.16,
-        12.27,
-        13.66,
-        11.03,
-        2.38,
+        2.17,
+        12.14,
+        13.73,
+        11.18,
+        2.34,
         5.37,
-        22.08
+        22.47
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16529,24 +16563,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        36.31,
-        23.52,
-        40.17
+        35.75,
+        23.55,
+        40.7
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.95,
-        5.46,
-        2.55,
-        10.99,
-        12.6,
-        11.91,
-        2.37,
-        5.46,
-        25.71
+        22.54,
+        5.45,
+        2.57,
+        10.87,
+        12.66,
+        12.05,
+        2.34,
+        5.45,
+        26.07
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16687,26 +16721,26 @@
       "homeName": "Le Havre AC",
       "awayName": "Strasbourg",
       "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "alternativeScore": "1–2",
       "probabilities": [
-        41.68,
-        23.09,
-        35.23
+        38.29,
+        21.91,
+        39.8
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.87,
-        5.47,
-        2.39,
-        12.11,
-        12.15,
-        10.6,
-        2.7,
-        5.47,
-        22.24
+        24.61,
+        5.56,
+        2.9,
+        10.86,
+        10.79,
+        11.2,
+        2.82,
+        5.56,
+        25.7
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16721,24 +16755,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "2–1",
       "probabilities": [
-        43.61,
-        23.32,
-        33.07
+        42.89,
+        23.43,
+        33.68
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        28.23,
-        5.41,
-        2.21,
-        12.68,
-        12.5,
-        10.18,
-        2.7,
-        5.41,
-        20.68
+        27.69,
+        5.42,
+        2.23,
+        12.54,
+        12.59,
+        10.35,
+        2.66,
+        5.42,
+        21.1
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16750,27 +16784,27 @@
       "awayCode": "fra.1:170",
       "homeName": "Nice",
       "awayName": "Troyes",
-      "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "predictedScore": "2–0",
+      "alternativeScore": "1–0",
       "probabilities": [
-        55.43,
-        25.2,
-        19.37
+        62.9,
+        20.76,
+        16.34
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        36.39,
-        4.33,
-        0.94,
-        16.95,
-        16.54,
-        7.18,
-        2.09,
-        4.33,
-        11.25
+        43.21,
+        4.25,
+        1.02,
+        16.97,
+        12.26,
+        5.78,
+        2.73,
+        4.25,
+        9.53
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16785,24 +16819,24 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–0",
       "probabilities": [
-        62.37,
-        21.68,
-        15.95
+        60.32,
+        22.57,
+        17.11
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        42.49,
-        4.13,
-        0.91,
-        17.4,
-        13.41,
-        5.81,
-        2.49,
-        4.13,
-        9.23
+        40.69,
+        4.24,
+        0.95,
+        17.22,
+        14.08,
+        6.23,
+        2.42,
+        4.24,
+        9.93
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -16913,24 +16947,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "1–2",
       "probabilities": [
-        38.36,
-        21.81,
-        39.83
+        37.7,
+        21.87,
+        40.43
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        24.68,
+        24.19,
         5.56,
-        2.92,
-        10.84,
-        10.69,
-        11.16,
-        2.84,
+        2.93,
+        10.72,
+        10.76,
+        11.32,
+        2.79,
         5.56,
-        25.75
+        26.17
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -17102,27 +17136,27 @@
       "awayCode": "fra.1:169",
       "homeName": "Toulouse",
       "awayName": "Stade Rennais",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–1",
       "probabilities": [
-        41.62,
-        23.66,
-        34.72
+        48.34,
+        21.56,
+        30.1
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        26.72,
-        5.42,
-        2.26,
-        12.32,
-        12.82,
-        10.67,
-        2.57,
-        5.42,
-        21.8
+        32.07,
+        5.39,
+        2.3,
+        13.05,
+        10.78,
+        9,
+        3.21,
+        5.39,
+        18.81
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -17297,24 +17331,24 @@
       "predictedScore": "1–1",
       "alternativeScore": "0–1",
       "probabilities": [
-        36.36,
-        25.89,
-        37.75
+        35.84,
+        25.91,
+        38.25
       ],
-      "capturedAt": "2026-10-26T23:44:10.915Z",
+      "capturedAt": "2026-10-30T20:09:06.493Z",
       "modelVersion": "local-poisson-v1",
       "basis": "completed regulation-time results + independent Poisson baseline",
       "isCup": false,
       "htft": [
-        22.65,
-        5.24,
-        2.02,
-        11.74,
-        15.42,
-        12.1,
-        1.96,
-        5.24,
-        23.63
+        22.28,
+        5.23,
+        2.03,
+        11.61,
+        15.45,
+        12.24,
+        1.94,
+        5.23,
+        23.99
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -17703,5 +17737,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-10-30T15:42:33.984Z"
+  "updatedAt": "2026-10-30T20:09:06.498Z"
 }
