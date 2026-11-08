@@ -13614,10 +13614,10 @@
       "alternativeScore": "0–1",
       "probabilities": [
         28,
-        25,
-        47
+        26,
+        46
       ],
-      "capturedAt": "2026-11-07T23:35:47.209Z",
+      "capturedAt": "2026-11-08T02:41:21.429Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -13709,11 +13709,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        25,
-        25,
+        24,
+        26,
         50
       ],
-      "capturedAt": "2026-11-07T19:59:49.939Z",
+      "capturedAt": "2026-11-08T02:41:21.429Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -13741,11 +13741,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
+        25,
         26,
-        26,
-        48
+        49
       ],
-      "capturedAt": "2026-11-07T19:59:49.939Z",
+      "capturedAt": "2026-11-08T02:41:21.429Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -13869,11 +13869,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        26,
+        25,
         24,
-        50
+        51
       ],
-      "capturedAt": "2026-11-07T19:59:49.939Z",
+      "capturedAt": "2026-11-08T02:41:21.429Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -14317,11 +14317,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        26,
-        22,
-        52
+        28,
+        23,
+        49
       ],
-      "capturedAt": "2026-11-07T23:35:47.209Z",
+      "capturedAt": "2026-11-08T02:41:21.429Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26787,5 +26787,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-07T23:35:47.215Z"
+  "updatedAt": "2026-11-08T02:41:21.438Z"
 }
