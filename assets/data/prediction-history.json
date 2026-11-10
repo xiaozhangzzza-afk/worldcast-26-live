@@ -15453,11 +15453,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        75,
-        15,
+        76,
+        14,
         10
       ],
-      "capturedAt": "2026-11-10T00:10:43.315Z",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -16189,11 +16189,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        70,
+        71,
         16,
-        14
+        13
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -16318,10 +16318,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         6,
-        7,
-        87
+        8,
+        86
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -16349,11 +16349,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        32,
-        25,
-        43
+        31,
+        24,
+        45
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -16573,11 +16573,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        38,
+        37,
         26,
-        36
+        37
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -17850,16 +17850,16 @@
       "awayCode": "eng.1:363",
       "homeName": "Nottingham Forest",
       "awayName": "Chelsea",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        35.28,
-        27.37,
-        37.35
+        35,
+        27,
+        38
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         21.72,
@@ -18106,16 +18106,16 @@
       "awayCode": "eng.1:388",
       "homeName": "Leeds United",
       "awayName": "Coventry City",
-      "predictedScore": "1–0",
-      "alternativeScore": "1–1",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        51.81,
-        25.55,
-        22.64
+        60,
+        23,
+        17
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         33.72,
@@ -18138,16 +18138,16 @@
       "awayCode": "eng.1:337",
       "homeName": "Manchester United",
       "awayName": "Brentford",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–2",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        28.14,
-        22.55,
-        49.31
+        47,
+        25,
+        28
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         17.33,
@@ -18267,15 +18267,15 @@
       "homeName": "Ipswich Town",
       "awayName": "Aston Villa",
       "predictedScore": "1–2",
-      "alternativeScore": "1–1",
+      "alternativeScore": "0–1",
       "probabilities": [
-        30.35,
-        21.23,
-        48.42
+        28,
+        25,
+        47
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         19.02,
@@ -18586,16 +18586,16 @@
       "awayCode": "eng.1:364",
       "homeName": "Everton",
       "awayName": "Liverpool",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
       "probabilities": [
-        39.69,
-        23.28,
-        37.03
+        28,
+        26,
+        46
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         25.4,
@@ -18715,15 +18715,15 @@
       "homeName": "Brighton & Hove Albion",
       "awayName": "Newcastle United",
       "predictedScore": "2–0",
-      "alternativeScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        73.44,
-        17.75,
-        8.81
+        61,
+        22,
+        17
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         52.18,
@@ -18746,16 +18746,16 @@
       "awayCode": "eng.1:306",
       "homeName": "Crystal Palace",
       "awayName": "Hull City",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–2",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        34.57,
-        24.95,
-        40.48
+        52,
+        25,
+        23
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         21.53,
@@ -18778,16 +18778,16 @@
       "awayCode": "eng.1:349",
       "homeName": "Fulham",
       "awayName": "AFC Bournemouth",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        25.6,
-        26.05,
-        48.35
+        36,
+        27,
+        37
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         15.27,
@@ -18810,16 +18810,16 @@
       "awayCode": "eng.1:367",
       "homeName": "Sunderland",
       "awayName": "Tottenham Hotspur",
-      "predictedScore": "0–1",
-      "alternativeScore": "0–0",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        23.86,
-        30.43,
-        45.71
+        29,
+        29,
+        42
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         13.84,
@@ -18971,15 +18971,15 @@
       "homeName": "Arsenal",
       "awayName": "Manchester City",
       "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        61.6,
-        20.18,
-        18.22
+        46,
+        25,
+        29
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         42.43,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-10T07:19:15.237Z"
+  "updatedAt": "2026-11-10T15:40:25.282Z"
 }
