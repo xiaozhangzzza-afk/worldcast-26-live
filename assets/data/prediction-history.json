@@ -14589,11 +14589,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        65,
+        66,
         19,
-        16
+        15
       ],
-      "capturedAt": "2026-11-09T06:01:55.939Z",
+      "capturedAt": "2026-11-10T07:19:15.229Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -14941,11 +14941,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        51,
-        25,
+        50,
+        26,
         24
       ],
-      "capturedAt": "2026-11-09T16:01:54.309Z",
+      "capturedAt": "2026-11-10T07:19:15.229Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -15834,14 +15834,14 @@
       "awayCode": "ita.1:110",
       "homeName": "Atalanta",
       "awayName": "Internazionale",
-      "predictedScore": "1–2",
-      "alternativeScore": "0–1",
+      "predictedScore": "0–2",
+      "alternativeScore": "1–2",
       "probabilities": [
-        21,
+        20,
         22,
-        57
+        58
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-10T07:19:15.229Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-10T00:10:43.325Z"
+  "updatedAt": "2026-11-10T07:19:15.237Z"
 }
