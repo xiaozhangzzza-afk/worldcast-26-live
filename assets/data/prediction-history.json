@@ -15197,11 +15197,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
+        31,
         27,
-        40
+        42
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-11T07:58:42.360Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-10T21:25:58.091Z"
+  "updatedAt": "2026-11-11T07:58:42.367Z"
 }
