@@ -15101,11 +15101,11 @@
       "predictedScore": "0–2",
       "alternativeScore": "1–2",
       "probabilities": [
-        12,
+        11,
         18,
-        70
+        71
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-11T16:03:12.751Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -17402,16 +17402,16 @@
       "awayCode": "uefa.europa:140",
       "homeName": "Sparta Prague",
       "awayName": "AZ Alkmaar",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–2",
+      "predictedScore": "1–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        28.84,
-        24.18,
-        46.98
+        35,
+        27,
+        38
       ],
-      "capturedAt": "2026-11-05T23:35:19.647Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-11T16:03:12.751Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
       "htft": [
         17.64,
@@ -17434,16 +17434,16 @@
       "awayCode": "uefa.europa:11505",
       "homeName": "Sunderland",
       "awayName": "Jagiellonia Bialystok",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        29.65,
-        28.01,
-        42.34
+        74,
+        16,
+        10
       ],
-      "capturedAt": "2026-11-08T16:15:41.958Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-11T16:03:12.751Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
       "htft": [
         17.82,
@@ -17466,16 +17466,16 @@
       "awayCode": "uefa.europa:256",
       "homeName": "Torreense",
       "awayName": "Celtic",
-      "predictedScore": "2–1",
-      "alternativeScore": "1–1",
+      "predictedScore": "1–2",
+      "alternativeScore": "0–1",
       "probabilities": [
-        43.23,
-        20.85,
-        35.92
+        22,
+        23,
+        55
       ],
-      "capturedAt": "2026-11-05T23:35:19.647Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-11T16:03:12.751Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
       "htft": [
         28.41,
@@ -18589,11 +18589,11 @@
       "predictedScore": "1–2",
       "alternativeScore": "0–1",
       "probabilities": [
-        28,
+        27,
         26,
-        46
+        47
       ],
-      "capturedAt": "2026-11-10T15:40:25.272Z",
+      "capturedAt": "2026-11-11T16:03:12.751Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-11T07:58:42.367Z"
+  "updatedAt": "2026-11-11T16:03:12.756Z"
 }
