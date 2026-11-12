@@ -17755,15 +17755,15 @@
       "homeName": "Werder Bremen",
       "awayName": "Borussia Mönchengladbach",
       "predictedScore": "2–1",
-      "alternativeScore": "3–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        74.34,
-        14.07,
-        11.59
+        54,
+        23,
+        23
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         54.96,
@@ -17978,16 +17978,16 @@
       "awayCode": "ger.1:10388",
       "homeName": "FC Cologne",
       "awayName": "SV Elversberg",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        44.03,
-        24.43,
-        31.54
+        47,
+        25,
+        28
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         28.35,
@@ -18042,16 +18042,16 @@
       "awayCode": "ger.1:598",
       "homeName": "Mainz",
       "awayName": "1. FC Union Berlin",
-      "predictedScore": "2–1",
-      "alternativeScore": "2–0",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        74.58,
-        14.52,
-        10.9
+        62,
+        21,
+        17
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         54.91,
@@ -18075,15 +18075,15 @@
       "homeName": "SC Paderborn 07",
       "awayName": "Schalke 04",
       "predictedScore": "1–0",
-      "alternativeScore": "0–0",
+      "alternativeScore": "2–1",
       "probabilities": [
-        44.89,
-        30.34,
-        24.77
+        39,
+        28,
+        33
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         27.95,
@@ -18299,15 +18299,15 @@
       "homeName": "VfB Stuttgart",
       "awayName": "Eintracht Frankfurt",
       "predictedScore": "2–1",
-      "alternativeScore": "2–0",
+      "alternativeScore": "1–0",
       "probabilities": [
-        64.24,
-        19.23,
-        16.53
+        56,
+        21,
+        23
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         44.76,
@@ -18842,16 +18842,16 @@
       "awayCode": "ger.1:11420",
       "homeName": "SC Freiburg",
       "awayName": "RB Leipzig",
-      "predictedScore": "1–1",
+      "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        43.91,
-        21.37,
-        34.72
+        37,
+        24,
+        39
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         28.83,
@@ -18939,15 +18939,15 @@
       "homeName": "TSG Hoffenheim",
       "awayName": "FC Augsburg",
       "predictedScore": "2–1",
-      "alternativeScore": "3–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        64.63,
-        17.1,
-        18.27
+        56,
+        21,
+        23
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         45.91,
@@ -19066,16 +19066,16 @@
       "awayCode": "ger.1:131",
       "homeName": "Borussia Dortmund",
       "awayName": "Bayer Leverkusen",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
+      "predictedScore": "2–1",
+      "alternativeScore": "1–0",
       "probabilities": [
-        50.82,
-        23.6,
-        25.58
+        44,
+        24,
+        32
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
+      "capturedAt": "2026-11-12T11:35:12.777Z",
+      "modelVersion": "odds-rule-v1",
+      "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
       "htft": [
         33.43,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-12T03:21:50.649Z"
+  "updatedAt": "2026-11-12T11:35:12.787Z"
 }
