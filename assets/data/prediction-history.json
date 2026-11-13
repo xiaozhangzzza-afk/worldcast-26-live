@@ -15102,10 +15102,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         11,
-        18,
-        71
+        17,
+        72
       ],
-      "capturedAt": "2026-11-11T16:03:12.751Z",
+      "capturedAt": "2026-11-13T21:26:37.292Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -15134,10 +15134,10 @@
       "alternativeScore": "1–2",
       "probabilities": [
         18,
-        23,
-        59
+        22,
+        60
       ],
-      "capturedAt": "2026-11-08T20:35:54.656Z",
+      "capturedAt": "2026-11-13T21:26:37.292Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -15166,10 +15166,10 @@
       "alternativeScore": "0–1",
       "probabilities": [
         25,
-        24,
-        51
+        23,
+        52
       ],
-      "capturedAt": "2026-11-09T16:01:54.309Z",
+      "capturedAt": "2026-11-13T21:26:37.292Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -15230,10 +15230,10 @@
       "alternativeScore": "2–1",
       "probabilities": [
         63,
-        22,
-        15
+        21,
+        16
       ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
+      "capturedAt": "2026-11-13T21:26:37.292Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -15389,11 +15389,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        78,
-        14,
+        79,
+        13,
         8
       ],
-      "capturedAt": "2026-11-13T15:13:20.670Z",
+      "capturedAt": "2026-11-13T21:26:37.292Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-13T15:13:20.677Z"
+  "updatedAt": "2026-11-13T21:26:37.302Z"
 }
