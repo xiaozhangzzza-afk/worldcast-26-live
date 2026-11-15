@@ -15549,11 +15549,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        37,
+        34,
         28,
-        35
+        38
       ],
-      "capturedAt": "2026-11-14T14:57:32.233Z",
+      "capturedAt": "2026-11-15T17:25:08.562Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -16285,11 +16285,11 @@
       "predictedScore": "1–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        33,
+        35,
         26,
-        41
+        39
       ],
-      "capturedAt": "2026-11-06T23:20:24.820Z",
+      "capturedAt": "2026-11-15T17:25:08.562Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -16445,11 +16445,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        70,
-        17,
+        71,
+        16,
         13
       ],
-      "capturedAt": "2026-11-07T23:35:47.209Z",
+      "capturedAt": "2026-11-15T17:25:08.562Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": true,
@@ -18525,11 +18525,11 @@
       "predictedScore": "2–0",
       "alternativeScore": "2–1",
       "probabilities": [
-        82,
-        11,
+        81,
+        12,
         7
       ],
-      "capturedAt": "2026-11-12T03:21:50.640Z",
+      "capturedAt": "2026-11-15T17:25:08.562Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-15T10:40:41.944Z"
+  "updatedAt": "2026-11-15T17:25:08.571Z"
 }
