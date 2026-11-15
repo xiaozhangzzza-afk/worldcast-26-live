@@ -14525,11 +14525,11 @@
       "predictedScore": "2–1",
       "alternativeScore": "1–0",
       "probabilities": [
-        47,
+        46,
         27,
-        26
+        27
       ],
-      "capturedAt": "2026-11-09T16:01:54.309Z",
+      "capturedAt": "2026-11-15T21:58:49.768Z",
       "modelVersion": "odds-rule-v1",
       "basis": "public pre-match odds + illustrative score rules",
       "isCup": false,
@@ -19763,6 +19763,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401882786",
+      "competitionId": "esp.1",
+      "date": "2026-12-04T20:00:00.000Z",
+      "homeCode": "esp.1:96",
+      "awayCode": "esp.1:88",
+      "homeName": "Alavés",
+      "awayName": "Espanyol",
+      "predictedScore": "0–1",
+      "alternativeScore": "1–1",
+      "probabilities": [
+        29.33,
+        29.94,
+        40.73
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        17.44,
+        4.6,
+        1.51,
+        10.72,
+        20.74,
+        14.08,
+        1.17,
+        4.6,
+        25.14
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401879213",
       "competitionId": "eng.1",
       "date": "2026-12-05T12:30:00.000Z",
@@ -19791,6 +19823,38 @@
         3.12,
         5.55,
         22.96
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
+      "id": "401882780",
+      "competitionId": "esp.1",
+      "date": "2026-12-05T13:00:00.000Z",
+      "homeCode": "esp.1:87",
+      "awayCode": "esp.1:90",
+      "homeName": "Racing Santander",
+      "awayName": "Deportivo",
+      "predictedScore": "1–1",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        31.08,
+        24.9,
+        44.02
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        19.1,
+        5.23,
+        2.36,
+        10.15,
+        14.44,
+        13.42,
+        1.83,
+        5.23,
+        28.24
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -20115,6 +20179,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401882779",
+      "competitionId": "esp.1",
+      "date": "2026-12-05T15:15:00.000Z",
+      "homeCode": "esp.1:101",
+      "awayCode": "esp.1:1538",
+      "homeName": "Rayo Vallecano",
+      "awayName": "Levante",
+      "predictedScore": "1–1",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        48.95,
+        22.57,
+        28.48
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        32.29,
+        5.28,
+        1.99,
+        13.72,
+        12.02,
+        8.93,
+        2.93,
+        5.28,
+        17.56
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401876384",
       "competitionId": "fra.1",
       "date": "2026-12-05T16:15:00.000Z",
@@ -20239,6 +20335,38 @@
         2.61,
         5.52,
         25.96
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
+      "id": "401882777",
+      "competitionId": "esp.1",
+      "date": "2026-12-05T17:30:00.000Z",
+      "homeCode": "esp.1:102",
+      "awayCode": "esp.1:89",
+      "homeName": "Villarreal",
+      "awayName": "Real Sociedad",
+      "predictedScore": "1–2",
+      "alternativeScore": "1–1",
+      "probabilities": [
+        22.56,
+        20.86,
+        56.58
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        13.66,
+        4.94,
+        3.22,
+        7.23,
+        10.98,
+        14.93,
+        1.67,
+        4.94,
+        38.43
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -20435,6 +20563,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401882783",
+      "competitionId": "esp.1",
+      "date": "2026-12-05T20:00:00.000Z",
+      "homeCode": "esp.1:83",
+      "awayCode": "esp.1:85",
+      "homeName": "Barcelona",
+      "awayName": "Celta Vigo",
+      "predictedScore": "2–0",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        69.02,
+        17.72,
+        13.26
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        48.99,
+        3.9,
+        0.94,
+        16.97,
+        9.93,
+        4.62,
+        3.05,
+        3.9,
+        7.7
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401875017",
       "competitionId": "ita.1",
       "date": "2026-12-06T11:30:00.000Z",
@@ -20463,6 +20623,38 @@
         2.07,
         5.1,
         19.03
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
+      "id": "401882781",
+      "competitionId": "esp.1",
+      "date": "2026-12-06T13:00:00.000Z",
+      "homeCode": "esp.1:97",
+      "awayCode": "esp.1:3751",
+      "homeName": "Osasuna",
+      "awayName": "Elche",
+      "predictedScore": "1–1",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        25.82,
+        26.33,
+        47.85
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        15.4,
+        4.82,
+        2.08,
+        9.11,
+        16.68,
+        15.05,
+        1.31,
+        4.82,
+        30.73
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -20627,6 +20819,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401882785",
+      "competitionId": "esp.1",
+      "date": "2026-12-06T15:15:00.000Z",
+      "homeCode": "esp.1:93",
+      "awayCode": "esp.1:86",
+      "homeName": "Athletic Club",
+      "awayName": "Real Madrid",
+      "predictedScore": "1–1",
+      "alternativeScore": "1–2",
+      "probabilities": [
+        32.56,
+        24.75,
+        42.69
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        20.15,
+        5.29,
+        2.37,
+        10.47,
+        14.17,
+        13.01,
+        1.95,
+        5.29,
+        27.3
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401876380",
       "competitionId": "fra.1",
       "date": "2026-12-06T16:15:00.000Z",
@@ -20755,6 +20979,38 @@
       "htftModel": "local-poisson-v1"
     },
     {
+      "id": "401882782",
+      "competitionId": "esp.1",
+      "date": "2026-12-06T17:30:00.000Z",
+      "homeCode": "esp.1:2922",
+      "awayCode": "esp.1:94",
+      "homeName": "Getafe",
+      "awayName": "Valencia",
+      "predictedScore": "1–1",
+      "alternativeScore": "0–1",
+      "probabilities": [
+        32.68,
+        26.69,
+        40.63
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        20.01,
+        5.1,
+        1.97,
+        11,
+        16.5,
+        13.12,
+        1.68,
+        5.1,
+        25.52
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
       "id": "401874995",
       "competitionId": "ita.1",
       "date": "2026-12-06T19:45:00.000Z",
@@ -20819,70 +21075,6 @@
       "htftModel": "local-poisson-v1"
     },
     {
-      "id": "401882786",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:96",
-      "awayCode": "esp.1:88",
-      "homeName": "Alavés",
-      "awayName": "Espanyol",
-      "predictedScore": "0–1",
-      "alternativeScore": "1–1",
-      "probabilities": [
-        29.33,
-        29.94,
-        40.73
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        17.44,
-        4.6,
-        1.51,
-        10.72,
-        20.74,
-        14.08,
-        1.17,
-        4.6,
-        25.14
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882785",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:93",
-      "awayCode": "esp.1:86",
-      "homeName": "Athletic Club",
-      "awayName": "Real Madrid",
-      "predictedScore": "1–1",
-      "alternativeScore": "1–2",
-      "probabilities": [
-        32.56,
-        24.75,
-        42.69
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        20.15,
-        5.29,
-        2.37,
-        10.47,
-        14.17,
-        13.01,
-        1.95,
-        5.29,
-        27.3
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
       "id": "401882784",
       "competitionId": "esp.1",
       "date": "2026-12-06T20:00:00.000Z",
@@ -20911,230 +21103,6 @@
         2.2,
         5.1,
         18.21
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882783",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:83",
-      "awayCode": "esp.1:85",
-      "homeName": "Barcelona",
-      "awayName": "Celta Vigo",
-      "predictedScore": "2–0",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        69.02,
-        17.72,
-        13.26
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        48.99,
-        3.9,
-        0.94,
-        16.97,
-        9.93,
-        4.62,
-        3.05,
-        3.9,
-        7.7
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882782",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:2922",
-      "awayCode": "esp.1:94",
-      "homeName": "Getafe",
-      "awayName": "Valencia",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
-      "probabilities": [
-        32.68,
-        26.69,
-        40.63
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        20.01,
-        5.1,
-        1.97,
-        11,
-        16.5,
-        13.12,
-        1.68,
-        5.1,
-        25.52
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882781",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:97",
-      "awayCode": "esp.1:3751",
-      "homeName": "Osasuna",
-      "awayName": "Elche",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
-      "probabilities": [
-        25.82,
-        26.33,
-        47.85
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        15.4,
-        4.82,
-        2.08,
-        9.11,
-        16.68,
-        15.05,
-        1.31,
-        4.82,
-        30.73
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882780",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:87",
-      "awayCode": "esp.1:90",
-      "homeName": "Racing Santander",
-      "awayName": "Deportivo",
-      "predictedScore": "1–1",
-      "alternativeScore": "0–1",
-      "probabilities": [
-        31.08,
-        24.9,
-        44.02
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        19.1,
-        5.23,
-        2.36,
-        10.15,
-        14.44,
-        13.42,
-        1.83,
-        5.23,
-        28.24
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882779",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:101",
-      "awayCode": "esp.1:1538",
-      "homeName": "Rayo Vallecano",
-      "awayName": "Levante",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        48.95,
-        22.57,
-        28.48
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        32.29,
-        5.28,
-        1.99,
-        13.72,
-        12.02,
-        8.93,
-        2.93,
-        5.28,
-        17.56
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882778",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:243",
-      "awayCode": "esp.1:99",
-      "homeName": "Sevilla",
-      "awayName": "Málaga",
-      "predictedScore": "1–1",
-      "alternativeScore": "2–1",
-      "probabilities": [
-        51.46,
-        23.41,
-        25.13
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        33.97,
-        5.02,
-        1.58,
-        14.83,
-        13.37,
-        8.36,
-        2.67,
-        5.02,
-        15.18
-      ],
-      "htftModel": "local-poisson-v1"
-    },
-    {
-      "id": "401882777",
-      "competitionId": "esp.1",
-      "date": "2026-12-06T20:00:00.000Z",
-      "homeCode": "esp.1:102",
-      "awayCode": "esp.1:89",
-      "homeName": "Villarreal",
-      "awayName": "Real Sociedad",
-      "predictedScore": "1–2",
-      "alternativeScore": "1–1",
-      "probabilities": [
-        22.56,
-        20.86,
-        56.58
-      ],
-      "capturedAt": "2026-11-09T00:00:02.308Z",
-      "modelVersion": "local-poisson-v1",
-      "basis": "completed regulation-time results + independent Poisson baseline",
-      "isCup": false,
-      "htft": [
-        13.66,
-        4.94,
-        3.22,
-        7.23,
-        10.98,
-        14.93,
-        1.67,
-        4.94,
-        38.43
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -21199,6 +21167,38 @@
         3.15,
         5.18,
         16.06
+      ],
+      "htftModel": "local-poisson-v1"
+    },
+    {
+      "id": "401882778",
+      "competitionId": "esp.1",
+      "date": "2026-12-07T20:00:00.000Z",
+      "homeCode": "esp.1:243",
+      "awayCode": "esp.1:99",
+      "homeName": "Sevilla",
+      "awayName": "Málaga",
+      "predictedScore": "1–1",
+      "alternativeScore": "2–1",
+      "probabilities": [
+        51.46,
+        23.41,
+        25.13
+      ],
+      "capturedAt": "2026-11-15T21:58:49.768Z",
+      "modelVersion": "local-poisson-v1",
+      "basis": "completed regulation-time results + independent Poisson baseline",
+      "isCup": false,
+      "htft": [
+        33.97,
+        5.02,
+        1.58,
+        14.83,
+        13.37,
+        8.36,
+        2.67,
+        5.02,
+        15.18
       ],
       "htftModel": "local-poisson-v1"
     },
@@ -26931,5 +26931,5 @@
       "htftModel": "local-poisson-v1"
     }
   ],
-  "updatedAt": "2026-11-15T17:25:08.571Z"
+  "updatedAt": "2026-11-15T21:58:49.775Z"
 }
